@@ -1,0 +1,10 @@
+{{ infobox_object({
+	"id": 60,
+	"name": "Sticky note",
+	"category": "Basic",
+	"sublayer_width": 15,
+}) }}
+
+Sticky note with custom text, place them on the wall to add hints to other players. Click the configuration button to modify the text on the sticky note.
+
+Sticky notes are limited to 7 sticky notes in a level. Adding any more through level hacking will crash the game.
