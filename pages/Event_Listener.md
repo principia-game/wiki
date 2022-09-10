@@ -1,0 +1,17 @@
+{{ infobox_object({
+	"id": 156,
+	"name": "Event Listener",
+	"category": "Signal-misc",
+	"sublayer_width": 14,
+}) }}
+
+Listens to the event specified with the config menu and outputs a 1 to **`OUT0`** whenever the event occured.
+
+Available events:
+* (0) **Player die** - The adventure robot is killed.
+* (1) **Enemy die** - Any robot other than the adventure robot is killed.
+* (2) **Interactive object destroyed** - Any interactive object is destroyed.
+* (3) **Player respawn** - The adventure robot respawns.
+* (4) **Touch/Mouse click** - The player clicks somewhere on the screen.
+* (5) **Touch/Mouse release** - The player releases that click.
+* (6) **Any absorber activated** - As specified, when any absorber on the level is activated.
