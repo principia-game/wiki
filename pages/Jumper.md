@@ -5,4 +5,4 @@
 	"sublayer_width": 15,
 }) }}
 
-Plug this into a signal socket to set the signal to a constant value.
+Plug this into a signal socket to set the signal to a constant value. The higher the signal, the brighter green it is coloured.
