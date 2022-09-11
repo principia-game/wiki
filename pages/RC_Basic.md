@@ -13,6 +13,7 @@ Click the configuration button to open up the control panel configuration screen
 
 TIP: Connect your control panel to a set of Debugger objects to visualize how the widgets work.
 
+## RC Control panels
 When the game is played, the control panel can be activated. When any of the widgets are touched or modified, it responds by outputing a value through its output socket.
 
 There are three kinds of widgets.
