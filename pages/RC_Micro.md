@@ -7,4 +7,4 @@
 
 A tiny control panel with support for 1 output signal.
 
-See RC Basic for a detailed description of what control panels are capable of.
+See [[RC Basic]] for a detailed description of what control panels are capable of.
