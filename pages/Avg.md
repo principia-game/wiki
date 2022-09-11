@@ -10,4 +10,4 @@ Outputs the average value of the two inputs.
 ## Socket information:
 - **`IN0`**: Value A
 - **`IN1`**: Value B
-- **`OUT0`**: (A + B) / 2.0
+- **`OUT0`**: `(A + B) / 2.0`
