@@ -5,6 +5,6 @@
 	"sublayer_width": 6,
 }) }}
 
-Same properties as the plank, but slightly thicker.
+Same properties as the [[Plank]], but slightly thicker.
 
 Sublayer depth: 2
