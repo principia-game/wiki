@@ -7,9 +7,9 @@
 
 Output the product of its two inputs.
 
-Note: All values are clamped between 0 and 1.
+**Note:** All values are clamped between 0 and 1.
 
 ## Socket information:
 - **`IN0`**: Value A
 - **`IN1`**: Value B
-- **`OUT0`**: A * B
+- **`OUT0`**: `A * B`
