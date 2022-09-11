@@ -7,7 +7,6 @@
 
 A plastic beam with customizable color.
 
-Material:
-Plastic, slightly bouncy, low friction.
+**Material:** Plastic, slightly bouncy, low friction.
 
 Sublayer depth: 2
