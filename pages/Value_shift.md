@@ -5,4 +5,8 @@
 	"sublayer_width": 14,
 }) }}
 
-Add a constant value to **`IN0`** and wrap around. This essentially "shifts" where 0 and 1 is.
+Adds a constant value to **`IN0`**, wrapping around above 1.0. This essentially "shifts" where 0 and 1 is.
+
+## Socket information:
+- **`IN0`**: Input signal
+- **`OUT0`**: Shifted value
