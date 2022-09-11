@@ -5,17 +5,10 @@
 	"sublayer_width": 14,
 }) }}
 
-Works like a Y-splitter but with more outputs.
+Like the [[Y-splitter]] but with 8 outputs.
 
 Forwards the value from its input port to all its output ports.
 
 ## Socket information:
 - **`IN0`**: Value
-- **`OUT0`**: Unmodified value of IN0
-- **`OUT1`**: Unmodified value of IN0
-- **`OUT2`**: Unmodified value of IN0
-- **`OUT3`**: Unmodified value of IN0
-- **`OUT4`**: Unmodified value of IN0
-- **`OUT5`**: Unmodified value of IN0
-- **`OUT6`**: Unmodified value of IN0
-- **`OUT7`**: Unmodified value of IN0
+- **`OUT0-7`**: Unmodified value of IN0
