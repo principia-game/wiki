@@ -7,5 +7,4 @@
 
 A plastic box with customizable color.
 
-Material:
-Plastic, slightly bouncy, low friction.
+**Material:** Plastic, slightly bouncy, low friction.
