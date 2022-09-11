@@ -5,7 +5,7 @@
 	"sublayer_width": 15,
 }) }}
 
-The Magnetic Socket is an object that can attract Magnetic Plugs. When two magnetic objects are connected, the plug can transfer signals to the socket.
+The Magnetic Socket is an object that can attract [[Magnetic Plug]] objects. When two magnetic objects are connected, the plug can also transfer signals to the socket.
 
 ## Socket information:
 - **`OUT0`**: Status (is plug connected to socket?)
