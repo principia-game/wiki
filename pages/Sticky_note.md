@@ -3,6 +3,7 @@
 	"name": "Sticky note",
 	"category": "Basic",
 	"sublayer_width": 15,
+	"stationary": "Yes"
 }) }}
 
 Sticky note with custom text, place them on the wall to add hints to other players. Click the configuration button to modify the text on the sticky note.
