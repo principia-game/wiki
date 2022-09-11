@@ -3,6 +3,7 @@
 	"name": "Trampoline",
 	"category": "Mechanics",
 	"sublayer_width": 15,
+	"stationary": "Yes"
 }) }}
 
 Trampoline fixed to the wall. Can optionally be wired to a power source for extra feedback.
