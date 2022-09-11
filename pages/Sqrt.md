@@ -6,3 +6,7 @@
 }) }}
 
 Outputs the square root of **`IN0`**. Does not affect binary signals.
+
+## Socket information:
+- **`IN0`**: Input signal
+- **`OUT0`**: sqrt(**`IN0`**)
