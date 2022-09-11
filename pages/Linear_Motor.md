@@ -5,9 +5,9 @@
 	"sublayer_width": 15,
 }) }}
 
-A linear motor attempts to move its pivot to the target end of the motor. Power the motor by connecting it to a controller (CT) using an interface cable (blue cable).
+A linear motor attempts to move its pivot to the target end of the motor. Power the motor by connecting it to a controller (CT) using an [[Interface Cable]] (blue cable).
 
-Properties: Speed/force tradeoff, size
+**Properties:** Speed/force tradeoff, size
 
 Speed/force (internal gearing) allows you to control the tradeoff between the speed of the motor and the force of the motor.
 
