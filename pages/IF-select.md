@@ -5,10 +5,10 @@
 	"sublayer_width": 14,
 }) }}
 
-Outputs the value of **`IN0`**if **`IN2`** is less than 0.5, otherwise output the value of IN1.
+Like a ternary operator, outputs the value of **`IN1`** if `IN2 >= 0.5`, else output the value of **`IN0`**
 
 ## Socket information:
 - **`IN0`**: Value
 - **`IN1`**: Value
 - **`IN2`**: Conditional
-- **`OUT0`**: `Conditional ? IN1 : IN1`
+- **`OUT0`**: `Conditional ? IN1 : IN0`
