@@ -10,3 +10,7 @@ Combined multiply and add. Useful for scaling the signal window to a specific fl
 `OUT0 = IN0 * a + b`
 
 Set **`a`** and **`b`** using the on-screen sliders.
+
+## Socket information:
+- **`IN0`**: Input signal
+- **`OUT0`**: Resulting output value
