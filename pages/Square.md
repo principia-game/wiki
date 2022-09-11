@@ -9,4 +9,4 @@ Outputs **`IN0`** * **`IN0`**. Does not affect binary signals.
 
 ## Socket information:
 - **`IN0`**: Input signal
-- **`OUT0`**: **`IN0`** * **`OUT0`**
+- **`OUT0`**: **`IN0`** * **`IN0`**
