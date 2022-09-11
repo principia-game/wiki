@@ -5,7 +5,7 @@
 	"sublayer_width": 7,
 }) }}
 
-A motor that is good for precise angle control or abrupt speed control. Power this motor by connecting it to a controller (CT) using an interface cable (blue cable).
+A motor that is good for precise angle control or abrupt speed control. Power this motor by connecting it to a controller (CT) using an [[Interface Cable]] (blue cable).
 
 Characteristics:
 * Low maximum speed
