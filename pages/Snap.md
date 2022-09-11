@@ -6,3 +6,7 @@
 }) }}
 
 Outputs a snapped value of the input value. The amount of steps is specified by the on-screen slider.
+
+## Socket information:
+- **`IN0`**: Input signal
+- **`OUT0`**: Snappet output signal
