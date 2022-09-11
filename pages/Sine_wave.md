@@ -5,11 +5,11 @@
 	"sublayer_width": 14,
 }) }}
 
-An electronic device that outputs a smooth repetitive oscillation.
+An electronic device that outputs a smooth repetitive oscillation, forming sine waves.
 
-Properties:
-Frequency Hz: Determines how fast the signal oscillates.
-Phase: Determines where in the sine wave it begins.
+## Properties:
+- **Frequency Hz**: Determines how fast the signal oscillates.
+- **Phase**: Determines where in the sine wave it begins.
 
 ## Socket information:
 - **`OUT0`**: Outputs the current value of the oscillation
