@@ -5,6 +5,6 @@
 	"sublayer_width": 15,
 }) }}
 
-Robot animals.
+Robot animals. Possible animal types are Cow, Pig and Ostrich.
 
-Click the configuration button to change animal type and adjust the slider to change age.
+Adjust the slider to change age, which changes the size of the animal.
