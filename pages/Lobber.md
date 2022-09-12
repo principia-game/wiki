@@ -5,6 +5,9 @@
 	"sublayer_width": 15,
 }) }}
 
-Bot that lob bombs toward enemies. Watch out!
+Enemy bot that throws [[Bomb]] objects which explode after some seconds. Watch out!
 
-Can be configured with the configuration button.
+Can be configured with the configuration button, but cannot wield weapons.
+
+- **Weapon:** Shoot a [[Bomb]].
+- **Special Ability:** None
