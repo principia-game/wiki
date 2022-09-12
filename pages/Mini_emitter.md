@@ -8,9 +8,8 @@
 Small emitter that can be attached to objects.
 
 Objects that can be emitted:
-Ball, metal ball, corner, land mine, bomb, interactive ball.
-
-The mini emitter can also emit Interactive Box and the wooden Box, but only if the box's size is set to the smallest.
+- [[Ball]], [[Metal ball]], [[Corner]], [[Land mine]], [[Bomb]] and [[Interactive Ball]]
+- [[Interactive Box]] and [[Box]] (only at smallest box size)
 
 ## Socket information:
 - **`IN0`**: Emit signal
