@@ -5,4 +5,6 @@
 	"sublayer_width": 15,
 }) }}
 
-Makes all interactive objects within the given field moveable by the player.
+Used to make interactive objects within the specified radius moveable by the player. It glows if there is an interactive object within the radius. 
+
+This object is useless when the "Do not require dragfield" level property is enabled, as players are able to move any interactive objects without the need for a dragfield object nearby.
