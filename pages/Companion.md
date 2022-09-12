@@ -5,4 +5,4 @@
 	"sublayer_width": 15,
 }) }}
 
-Friendly robot that follows you around to keep you company.
+Friendly but useless robot that follows you around to keep you company.
