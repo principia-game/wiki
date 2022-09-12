@@ -7,4 +7,7 @@
 
 Enemy bot with dangerous spikes as weapon.
 
-Can be configured with the configuration button.
+Can be configured with the configuration button, but cannot wield weapons.
+
+- **Weapon:** None
+- **Special Ability:** Speed up its spikes causing more damage.
