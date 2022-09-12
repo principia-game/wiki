@@ -3,6 +3,7 @@
 	"name": "Artificial Gravity",
 	"category": "Tools/effects",
 	"sublayer_width": 14,
+	"stationary": "Configurable"
 }) }}
 
 **NOTE: This is a beta object, please be careful when using it as it can have unintended behavior.**
