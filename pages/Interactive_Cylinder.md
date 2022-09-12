@@ -5,7 +5,7 @@
 	"sublayer_width": 6,
 }) }}
 
-An interactive version of the Cylinder.
+An interactive version of the [[Cylinder]].
 
 Interactive objects can be interacted with using the mouse/finger if any of these criteria are met:
 1. It is within the range of a [[Dragfield]].
