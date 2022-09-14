@@ -2,6 +2,13 @@ Welcome to the new Principia wiki. This aims to be a complete resource for all t
 
 We're currently still working on getting things in place, including importing object and item descriptions and bringing over relevant content from the old wiki. If you would like to contribute, feel free to drop by the `#wiki` channel on Discord.
 
-## Contents
+## Playing
+- [[PC Controls]]
+- [[Adventure]]
+
+## Creating
+- **[[Tutorials]]**
+- [[User Interface]]
 - [[Objects]]
+- [[Learning Lua Scripting with Principia]]
 - [[Level Properties]]
