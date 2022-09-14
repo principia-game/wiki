@@ -7,7 +7,7 @@ Note: This lesson is written for Principia users but beginner Lua users may find
 ## Lesson #1: Getting started
 
 ### Part I: Don't Panic!
-Looking at a complex code can be quite intimidating for those who have never even considered programming anything... but I assure you it's not nearly as bad as you think. Many of the Principia users are very young and many do not use english as their first language so I will keep thse lessons free of most programming terms and write as if the reader has never seen a code before. Also these lessons will focus on some of the basic commands and format of the code and will not be covering most Principia specific things like 'controlling the adventure robot' with luascript.
+Looking at a complex code can be quite intimidating for those who have never even considered programming anything... but I assure you it's not nearly as bad as you think. Many of the Principia users are very young and many do not use english as their first language so I will keep thse lessons free of most programming terms and write as if the reader has never seen a code before. Also these lessons will focus on some of the basic commands and format of the code and will not be covering most Principia specific things like 'controlling the adventure robot' with LuaScript.
 
 ### Part II: What you need to know before you begin.
 While most of the online examples use text in the majority of thier examples, coding = 90% math stuff, plain and simple. Good news is 90% of the math stuff is pretty basic. It will help you greatly if you have an understanding of basic algebra, geometry and a healthy respect for the equation `a^2 + b^2 = c^2`. Anything you will want to do with curves and circles, which is more than you might think, will require Pythagrius' help. Knowledge of the X/Y grid system and negative values will be needed and this lesson will also assume that you have a basic understanding of the 0.0-1.0 signaling system used in Principia or something similar.
@@ -15,21 +15,21 @@ While most of the online examples use text in the majority of thier examples, co
 ### Part III: Gotta start somewhere!
 Pick a very simple idea and try to discover a coding solution... Most of the commands you will learn one at a time looking at other examples, help levels and tutorials or by reading the wiki. Through repetition and patience you can create great works with only a few techniques. As you improve your skills with these few techniques you will find yourself able to figure out each of your coding puzzles more easily and might even find yourself able to create things from scratch simply by thinking about it for awhile... The singular most important thing you need to master is the 'if then' command, but first you will need to know about how to format your codebox so it will run on Principia.
 
-If you open a luascript box you will find some strange words and symbols called functions, a function is simply a part of a code that is pre-made and runs in a section by itself, like a tool to a carpenter. The first section is,
+If you open a LuaScript box you will find some strange words and symbols called functions, a function is simply a part of a code that is pre-made and runs in a section by itself, like a tool to a carpenter. The first section is,
 
 ```lua
 function init(is_sandbox)
 end
 ```
 
-You will not need the 'is_sandbox' for this lesson but it wont hurt anything, you will notice there are no capital letters in the 'function init' command, all codes are case sensitive.
+You will not need the 'is_sandbox' for this lesson but it won't hurt anything. You will notice there are no capital letters in the 'function init' command, all codes are case sensitive.
 
 ```lua
 function init()
 end
 ```
 
-**init()** is the section where we put all of our codes that only need to run once at the beginning of the program. There might be nothing at all, in which case you can erase it entirely... or it might be very, very long depending on what you are making. Everything from your pixel map(graphic images) to variables get set here. Not running commands constantly is very important to good code management. There will be much more on that later.
+`init()` is the section where we put all of our codes that only need to run once at the beginning of the program. There might be nothing at all, in which case you can erase it entirely... or it might be very, very long depending on what you are making. Everything from your pixel map(graphic images) to variables get set here. Not running commands constantly is very important to good code management. There will be much more on that later.
 
 ### Part IV: Variables and numbers
 
@@ -41,8 +41,8 @@ math.pi is the permanent placeholder for the number 'pi', math.min is equal to t
 
 ```lua
 function init()
-	A=5
-	B=10
+	A = 5
+	B = 10
 end
 ```
 
@@ -50,9 +50,9 @@ If we put these lines outside the init() in the step() portion of the code, it w
 
 ```lua
 function init()
-	A=5
-	B=10
-	C=math.sqrt((A*A)+(B*B))
+	A = 5
+	B = 10
+	C = math.sqrt((A * A) + (B * B))
 end
 ```
 
@@ -70,9 +70,9 @@ You may have already noticed that each person will write their codes a little bi
 
 ```lua
 function init()
-	A=5
-	B=10
-	C=math.sqrt((A*A)+(B*B))
+	A = 5
+	B = 10
+	C = math.sqrt((A * A) + (B * B))
 end
 ```
 
@@ -92,7 +92,7 @@ The ';' symbol is ignored by the program and is very popular among coders, it is
 
 ### Part VI: Running a program, --if/then #1, find remainder, debugging with game:show_numfeed(), game:set_score(), and
 
-If you only put codes inside the **init()** function, it will do exactly nothing, principia runs at 125 hertz or "bits" per second. That means your step() code is being read through 125 times per second. If your creation produces a lot of lag it may mean that you have written something wrong or extremely memory intensive and the code cannot figure out what to do or can't keep up. All of the codes we will be using go inside the second function found in the default luascript box,
+If you only put codes inside the `init()` function, it will do exactly nothing, principia runs at 125 hertz or "bits" per second. That means your step() code is being read through 125 times per second. If your creation produces a lot of lag it may mean that you have written something wrong or extremely memory intensive and the code cannot figure out what to do or can't keep up. All of the codes we will be using go inside the second function found in the default LuaScript box,
 
 ```lua
 function step(count)
@@ -103,12 +103,14 @@ There are some special functions which run outside of the step() function but th
 
 ```lua
 function step(count)
-	game:show_numfeed(count,0)
+	game:show_numfeed(count, 0)
 	game:set_score(count)
 end
 ```
 
-Our Devs were kind enough to impliment a variable into the step() function called 'count'. You can use count a great deal as it is a very helpful number, count is equal to the number of bits the program has been running. If you leave your program running for a long time this number can get very big indeed but it is still helpful. **game:show_numfeed(number)** is used to show a number at the top of the screen when running a program, while useful as a display number it should be used during play testing to find errors in your calculations and make sure your numbers are behaving as intended, a.k.a debugging. The number after the comma is how many decimal places you wish to show, the example above will show the total bit count. **game:set_score(value)** will display the value minus the decimal in the score position, if you have display score enabled.
+Our devs were kind enough to impliment a variable into the step() function called 'count'. You can use count a great deal as it is a very helpful number, count is equal to the number of bits the program has been running. If you leave your program running for a long time this number can get very big indeed but it is still helpful.
+
+`game:show_numfeed(number)` is used to show a number at the top of the screen when running a program, while useful as a display number it should be used during play testing to find errors in your calculations and make sure your numbers are behaving as intended, a.k.a debugging. The number after the comma is how many decimal places you wish to show, the example above will show the total bit count. `game:set_score(value)` will display the value minus the decimal in the score position, if you have display score enabled.
 
 Our first programs will use the count variable to make a few simple timers, turn on the score display to test it. You can rename the count variable to whatever you wish, I prefer "bit" but will use the default name for the lessons. Every line you write in the step() function will run constantly unless you tell it not to,
 
@@ -120,17 +122,17 @@ end
 
 First we set a variable for one our timers, some people like to use long variable names that explain exactly what they represent. The underscore '_' is used as any other letter and is a common way to create an artifical space in the variable name. This timer is set to begin counting from zero.
 
-*The lua "find remainder" quick command is an extremely useful tool for managing numbers, learn it well. It is used by putting '%value' behind any number, the result is the number divided by the "value"... so 25%10 will divide 25 /10 = 2 +5r... it discards the 2 and return the remainder number.. 5*
+*The Lua "find remainder" (Modulo) quick command is an extremely useful tool for managing numbers, learn it well. It is used by putting '%value' behind any number, the result is the number divided by the "value"... so 25 % 10 will divide `25 /10 = 2 +5r`... it discards the 2 and return the remainder number.. 5*
 
 ```lua
 function step(count)
-	EveryBitTimer = count/125
+	EveryBitTimer = count / 125
 
 	if count % 1250 == 0 then
-		Ten_Second_Timer = Ten_Second_Timer+10
+		Ten_Second_Timer = Ten_Second_Timer + 10
 	end
 
-	game:show_numfeed(EveryBitTimer,3)
+	game:show_numfeed(EveryBitTimer, 3)
 	game:set_score(Ten_Second_Timer)
 end
 ```
@@ -167,7 +169,7 @@ The if/then command can be used to accomplish almost anything you want to do... 
 
 ```lua
 function init()
-	MyNumber=500
+	MyNumber = 500
 end
 
 function step(count)
@@ -195,7 +197,7 @@ function step(count)
 end
 ```
 
-Now it is as small as can be, this simple code will only be read on bit#1 and bit#500. The game already tracks a score on every bit, so you can skip that part. Like the count variable you can treat the score as a second in game variable already provided and initialized at 0. You can use this variable even if the score isnt being displayed by using **game:get_score**... If the **game:add_score(1)** was outside the if/then command it would add 1 to the score 125 times per second. It can also be used to add negative numbers to the score. The 'or' in the code above is another of the basic tools you will use... It is important to remember that all of the conditions must be spelled out,
+Now it is as small as can be, this simple code will only be read on bit#1 and bit#500. The game already tracks a score on every bit, so you can skip that part. Like the count variable you can treat the score as a second in game variable already provided and initialized at 0. You can use this variable even if the score isn't being displayed by using `game:get_score`... If the `game:add_score(1)` was outside the if/then command it would add 1 to the score 125 times per second. It can also be used to add negative numbers to the score. The 'or' in the code above is another of the basic tools you will use... It is important to remember that all of the conditions must be spelled out,
 
 ```lua
 if count == 1 or 500 then
@@ -205,7 +207,7 @@ The above code will not work and will create an error.
 
 ### Part II: Nesting, this:read(0), elseif, and
 
-Nesting is when you put one code inside of another, the code on the inside will only be run if the parent code is happy. this:read(0) is how you read the 0-1 signal number from the IN0 socket of the luascript object, if nothing is plugged in then it will be 0.0
+Nesting is when you put one code inside of another, the code on the inside will only be run if the parent code is happy. this:read(0) is how you read the 0-1 signal number from the IN0 socket of the LuaScript object, if nothing is plugged in then it will be 0.0
 
 ```lua
 function step()
@@ -221,7 +223,7 @@ end
 
 The code above will add +1 to the score every bit where the signal from IN0 equals 1 and the signal from IN1 does not equal ~=1. It will add +2 if both inputs equal =1. The following codes are identical to the one above,
 
-(SETUP:Make two RC buttons and send the wires to the luascript IN0 and IN1, try it with and without Sparsifiers.)
+(SETUP:Make two RC buttons and send the wires to the LuaScript IN0 and IN1, try it with and without Sparsifiers.)
 ```lua
 function step()
 	if this:read(0) == 1 and this:read(1) < 1 then
@@ -242,7 +244,7 @@ function step()
 end
 ```
 
-Since the TotalSignal variable is reading the inputs it needs to be set outside of the **init()** so it can read every bit. 'elseif' can be used to add more specific conditions without needing a huge string of 'end's to close it, the stuff inside the 'elseif' wont run if the parent condition is satisfied. 'and' is another of the basic tools in your arsenal, it's pretty much what is sounds like and it works much like the Principia object.
+Since the TotalSignal variable is reading the inputs it needs to be set outside of the `init()` so it can read every bit. 'elseif' can be used to add more specific conditions without needing a huge string of 'end's to close it, the stuff inside the 'elseif' wont run if the parent condition is satisfied. 'and' is another of the basic tools in your arsenal, it's pretty much what is sounds like and it works much like the Principia object.
 
 ### Part III: is between?, this:write(0), ~= (not equal to)
 
@@ -268,11 +270,11 @@ function step()
 end
 ```
 
-Here we begin by shortening the name of the in0 input.. The ~= sign is used for "not equal to", another useful tool for your belt. If the in0 signal is anything but 0.0 then it checks the in0 signal and does the list of actions. There is no shortcut for "Is between" but you may need it often, use the >= or < method above... If the in0 signal is 0.25 or less then send a .25 signal to out0 on the luascript and set the score at 25. If it isn't 0.25 or less(elseif) see if it is more than 0.25 and less than or equal to 0.5, if it is then send 0.5 to out0 and set the score to 50... and so on.
+Here we begin by shortening the name of the in0 input.. The ~= sign is used for "not equal to", another useful tool for your belt. If the in0 signal is anything but 0.0 then it checks the in0 signal and does the list of actions. There is no shortcut for "Is between" but you may need it often, use the >= or < method above... If the in0 signal is 0.25 or less then send a .25 signal to out0 on the LuaScript and set the score at 25. If it isn't 0.25 or less(elseif) see if it is more than 0.25 and less than or equal to 0.5, if it is then send 0.5 to out0 and set the score to 50... and so on.
 
 ### Part IV: nil , Formatting 102
 
-If you call for a variable or table or other item that is not defined you will get an error which tells you the thing you are looking for is 'nil', this means it does not exist...yet. You can use nil in a multitude of ways to improve your codes. Normally you might define your variable in the **init()**, but this isnt always needed,
+If you call for a variable or table or other item that is not defined you will get an error which tells you the thing you are looking for is 'nil', this means it does not exist...yet. You can use nil in a multitude of ways to improve your codes. Normally you might define your variable in the `init()`, but this isn't always needed,
 
 (SETUP: RC with a sparsified button sent to in0... RC--sparsifier--luaIN0)
 ```lua
@@ -297,7 +299,7 @@ function step()
 end
 ```
 
-The order in which you write things can be critical to the operation of you code. Since we did not initialize 'A' in the **init()**, 'A' = nil to begin with. if we were to write the code in this order,
+The order in which you write things can be critical to the operation of you code. Since we did not initialize 'A' in the `init()`, 'A' = nil to begin with. if we were to write the code in this order,
 
 ```lua
 if A < 10 then
@@ -389,13 +391,13 @@ By adding a third number to the loop variable you can change the amount the loop
 
 ```lua
 function init()
-	for LoopV=1,99,2 do
+	for LoopV = 1, 99, 2 do
 		this:listen_on_frequency(LoopV)
 	end
 end
 
 function step()
-	for LoopV=1,99,2 do
+	for LoopV = 1, 99, 2 do
 		if this:read_frequency(LoopV)==1 then
 			this:write_frequency(LoopV+1, 1)
 		end
@@ -487,9 +489,9 @@ function step()
 end
 ```
 
-Now we've created a variable on the fly called MyVar, it uses true/false instead of numbers. Like the numbers it needs to be initialized unless you give it special instructions. With the code above MyVar will always be either true or false if the first two table positions are numbers, so it does not need to be initialized. The MyVar will always equal true unless the signal to in0 equals 1.0. then we use the true/false state to activate the number feed showing tableA[3]... 100.
+Now we've created a variable on the fly called MyVar, it uses true/false instead of numbers. Like the numbers it needs to be initialized unless you give it special instructions. With the code above MyVar will always be either true or false if the first two table positions are numbers, so it does not need to be initialized. The MyVar will always equal true unless the signal to in0 equals 1.0. then we use the true/false state to activate the number feed showing `tableA[3]`... 100.
 
-If your code changes one of the initial values of either tableA[1] or tableA[2] to something that isnt a number, an error will occur. An error will also occur if you ask for the true/false state of MyVar, before it is defined. Here are some codes which will produce errors,
+If your code changes one of the initial values of either `tableA[1]` or `tableA[2]` to something that isn't a number, an error will occur. An error will also occur if you ask for the true/false state of MyVar, before it is defined. Here are some codes which will produce errors,
 
 ```lua
 function step()
@@ -512,7 +514,7 @@ end
 
 ### Part II: Random is life
 
-As a maker of games I use random numbers like they are going out of style, even if you dont want to make games, knowing how to customize random numbers is a must. There are two methods, math.random() and math.random(lowvalue, highvalue). The first method is generic and creates a number from 0.0-1.0 by .01, the second method is custom and will only make values in increments of one.
+As a maker of games I use random numbers like they are going out of style, even if you don't want to make games, knowing how to customize random numbers is a must. There are two methods, `math.random()` and `math.random(lowvalue, highvalue)`. The first method is generic and creates a number from 0.0-1.0 by .01, the second method is custom and will only make values in increments of one.
 
 ```lua
 -- a random value from 0.00-1.00 by increments of .01
@@ -548,9 +550,9 @@ To move things randomly right/left or up/down you will need a number that is ran
 
 ```lua
 -- a random value from -1.00 to 1.00 by increments of .01
-math.random(-100,100)/100
+math.random(-100, 100) / 100
 -- a random value either -1.0 or 1.0
-(math.random(0,1)*2)-1
+(math.random(0, 1) * 2) - 1
 ```
 
 The last example above is a great multi-purpose tool you can multiply it by a second random number or this:read(0) to create a positive to negative scale.
@@ -585,10 +587,10 @@ T = {1, math.sqrt(1), 2, math.sqrt(2), 3,...}
 
 ```lua
 function init()
-	T={}
-	for value=1,100 do
-		T[{value*2}-1]=value
-		T[value*2]=math.sqrt(value)
+	T = {}
+	for value = 1, 100 do
+		T[{value * 2} - 1] = value
+		T[value * 2] = math.sqrt(value)
 		this:listen_on_frequency(value)
 	end
 end
@@ -602,13 +604,13 @@ Let's now make use of the data in the program.
 function step()
 	for v = 1, 100 do
 		if this:read_frequency(v) >= 0.5 then
-			this:write_frequency(v * 2, T[value * 2]/100)
+			this:write_frequency(v * 2, T[value * 2] / 100)
 		end
 	end
 end
 ```
 
-Now we have 100 luascript if-gates that will send a square root value/100 to frequencies 101-200 if the corresponding 1-100 frequency is greater than or equal to 0.5.
+Now we have 100 LuaScript if-gates that will send a square root value/100 to frequencies 101-200 if the corresponding 1-100 frequency is greater than or equal to 0.5.
 
 ### Part IV: Table length, merging tables, count timers
 
@@ -636,16 +638,16 @@ function step(count)
 end
 ```
 
-The length of tableB is 7 so we tell it to make 7 new table entries to the end of tableA. The length of tableA is 5 so we need it to number the new entries at #tableA+v or 5+(1-7) and each is assigned the value of tableB[entries 1-7] or (6-12). Last we clear all entries from tableB, we could make tableB 'nil' but we plan on using it again.
+The length of `tableB` is 7 so we tell it to make 7 new table entries to the end of `tableA`. The length of tableA is 5 so we need it to number the new entries at `#tableA + v` or `5 + (1 - 7)` and each is assigned the value of tableB[entries 1-7] or (6-12). Last we clear all entries from tableB, we could make tableB 'nil' but we plan on using it again.
 
 Now I'm going to change up the previous code so that it can accept new entries to tableB, wait 8 more seconds and then again add them to the end of tableA.
 
-(SETUP: RC(button)--sparsifier--luaIN0)
+(SETUP: `RC(button) -> sparsifier -> lua IN0`)
 ```lua
 function init()
-	tableA={10,20,30,40,50}
-	tableB={60,70,80,90,100,110,120}
-	bitNumber=0
+	tableA = {10,20,30,40,50}
+	tableB = {60,70,80,90,100,110,120}
+	bitNumber = 0
 end
 
 function step(count)
@@ -683,7 +685,7 @@ This can also be written as,
 ```lua
 function init()
 	Sprites = {}
-	Sprites { {0,0,2,0.3}, {4,0,1,1}, {2,5,10,0.5} }
+	Sprites{ {0,0,2,0.3}, {4,0,1,1}, {2,5,10,0.5} }
 end
 ```
 
@@ -699,9 +701,9 @@ function step()
 end
 ```
 
-### Part VI: Making a pattern sprite, set_sprite_texel, sprite_filtering **\*NEW\***
+### Part VI: Making a pattern sprite, set_sprite_texel, sprite_filtering
 
-Each lua box has a sprite sheet which defaults to 128x128 pixels(texels) You can set the individual texels in the **init()** or do many all at the same time with equations or patterns... The following method is the easiest for managing a picture since it can easily be modified if a texel is out of place or needs a color change. We start by defining some colors we want to use in a new type of table set-up.
+Each LuaScript has a sprite sheet which defaults to 128x128 pixels(texels) You can set the individual texels in the `init()` or do many all at the same time with equations or patterns... The following method is the easiest for managing a picture since it can easily be modified if a texel is out of place or needs a color change. We start by defining some colors we want to use in a new type of table set-up.
 
 ```lua
 function init()
@@ -735,9 +737,9 @@ This is pretty complex and you do not need to understand the following code comp
 end --{end of init()}
 ```
 
-**this:set_sprite_texel()** is used to set each individually colored texel by it's x/y coordinate location. The first two numbers are the x and y location of the texel you want to set. The sprite sheet begins at location 0x,0y in the lower left corner upto 127x/127y in the top right. This double for/do loop begins at y=0 and then cycles through the inner loop for all x values. After completing this first row, y becomes 1 and the x loop begins again for the row 2 texels. Since we begin the loop at 0 the loop must end at our desired resolution minus 1.
+`this:set_sprite_texel()` is used to set each individually colored texel by it's x/y coordinate location. The first two numbers are the x and y location of the texel you want to set. The sprite sheet begins at location 0x,0y in the lower left corner upto 127x/127y in the top right. This double for/do loop begins at y=0 and then cycles through the inner loop for all x values. After completing this first row, y becomes 1 and the x loop begins again for the row 2 texels. Since we begin the loop at 0 the loop must end at our desired resolution minus 1.
 
-b={R=1,G=0,B=0,A=2}, this is the second method for calling for data from a table... the first table position is no longer a plain number but the variable 'R', to retrieve this data point you can use the shortcut b.R.
+`b = {R=1,G=0,B=0,A=2}`, this is the second method for calling for data from a table... the first table position is no longer a plain number but the variable 'R', to retrieve this data point you can use the shortcut b.R.
 
 Above the for/do loop creates a special type of temporary table, since the 'color' line will produce one result for every table position it can be used as a table for the remainder of the loop. So instead of calling for b.R we call for color.R.
 
@@ -760,7 +762,7 @@ this:set_sprite_texel(x,ResolutionY-y-1...
 
 So x will match the current loop x value as it cycles through, y is more special it begins at 13 since 13 is the top row in our pattern and the first position in the table is the top right texel of the pattern, 12y 0x.
 
-You will notice Ive left a single layer of transparent texels surrounding each image. this is so I can use the **sprite_filtering()** function.
+You will notice Ive left a single layer of transparent texels surrounding each image. this is so I can use the `sprite_filtering()` function.
 
 ```lua
 this:set_sprite_filtering(0) --this will draw all texels as solid squares, very 8-bit. No transparent edges are needed if you are using this.
@@ -787,7 +789,7 @@ function init()
 end
 ```
 
-Now its drawing from 40x and 20y instead of 0x and 0y. to display only the two letters and not the rest of the blank sprite sheet we have to isolate a section of the sheet with the last four numbers in the **draw_sprite()**.
+Now its drawing from 40x and 20y instead of 0x and 0y. to display only the two letters and not the rest of the blank sprite sheet we have to isolate a section of the sheet with the last four numbers in the `draw_sprite()`.
 
 ```lua
 function step()
@@ -840,13 +842,13 @@ function step()
 end
 ```
 
-Conclusion,
+## Conclusion
 
 With the information in these four lessons you can create almost anything, you will even be able to look at other programming languages and not be completely lost. I do plan on adding more info for the while/do loop and repeat/until, however they are so rarely actually needed you can get by without them for now.
 
-I would reccomend moving on to my 20 part Lua Sprite Mega Tutorial level or Lua School Basics on Principia. They cover almost everything you need to know about drawing sprites, angles, creating graphics and the codes for the existing parts. I also have a Lua Line Draw Mega Tutorial and a Lua 101 series of levels with lots of stuff on it... #7 has most of the math shortcuts like math.min(), but I made that when I didnt know so much. I also reccomend "SinCos and you!" for understanding circles better...I also have 100+ other lua based levels you can look over.
+I would reccomend moving on to my 20 part Lua Sprite Mega Tutorial level or Lua School Basics on Principia. They cover almost everything you need to know about drawing sprites, angles, creating graphics and the codes for the existing parts. I also have a Lua Line Draw Mega Tutorial and a Lua 101 series of levels with lots of stuff on it... #7 has most of the math shortcuts like math.min(), but I made that when I didn't know so much. I also reccomend "SinCos and you!" for understanding circles better...I also have 100+ other Lua based levels you can look over.
 
-I may add more lessons with stuff on circles/curves, grid mastery, text strings and other tricks of the trade if Im feeling up to it. I wanted to keep this lesson mostly number based since it is the universal language and Principia doesnt use a lot of text... if you understand how to use these techniques with numbers using them to manipulate words will be easier.
+I may add more lessons with stuff on circles/curves, grid mastery, text strings and other tricks of the trade if Im feeling up to it. I wanted to keep this lesson mostly number based since it is the universal language and Principia doesn't use a lot of text... if you understand how to use these techniques with numbers using them to manipulate words will be easier.
 
 Good Luck, be patient, determine where to start and take it one step at a time, playtest other levels, ask questions, keep at it, learn 100's of ways not to do things, change a number, press play, see what happens... you shall prevail!
 
