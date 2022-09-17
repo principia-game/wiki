@@ -6,3 +6,5 @@
 }) }}
 
 A deadly beam with spikes that damages any living entity.
+
+Its damage can be configured or even disabled by turning the damage down to 0.
