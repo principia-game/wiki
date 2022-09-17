@@ -5,7 +5,7 @@
 	"sublayer_width": 14,
 }) }}
 
-Outputs 1 if the two inputs are equal, otherwise output 0.
+Short for "Compare equal". Outputs 1 if the two inputs are equal, otherwise output 0.
 
 ## Socket information:
 - **`IN0`**: Value A
