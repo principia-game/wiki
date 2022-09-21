@@ -10,5 +10,5 @@ We're currently still working on getting things in place, including importing ob
 - **[[Tutorials]]**
 - [[User Interface]]
 - [[Objects]]
-- [[Learning Lua Scripting with Principia]]
+- [[Principia Lua Scripting]]
 - [[Level Properties]]
