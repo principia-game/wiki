@@ -6,3 +6,5 @@ Not much here at the moment... Old tutorials from [the old Wiki](https://princip
 - [[Creating an Adventure Boss]]
 
 - [[Physics Performance and Stability]]
+
+- [[Principia Lua Scripting]]
