@@ -3,6 +3,7 @@
 	"name": "Pixel",
 	"category": "Basic",
 	"sublayer_width": 15,
+	"stationary": "Yes"
 }) }}
 
 A plastic box with customizable color fixed to the background wall.
