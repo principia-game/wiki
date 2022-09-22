@@ -11,4 +11,4 @@ The number of steps is calculated by the number of zeroes and ones in the "Seque
 
 ## Socket information:
 - **`IN0`**: Activate (on by default)
-- **`OU0`**: The current signal to output, whether its current step in the sequence is a 1 or a 0
+- **`OUT0`**: The current signal to output, whether its current step in the sequence is a 1 or a 0
