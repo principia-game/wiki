@@ -20,9 +20,28 @@ This page documents all the settings in the Principia settings menu.
 - **Gamma correction** - HDR-like lighting improvements.
 
 ## Audio
+- **Volume** - Control the volume level for Principia.
 
+- **Mute all sounds** - Mute the game, overriding the volume slider.
 
 ## Controls
-
+TODO
 
 ## Interface
+- **UI scale** - Controls the game's UI scale. Requires a restart to take effect.
+
+- **Autosave screen size** - Automatically save the current resized window size. ^(Added in 1.5.1.1)^
+
+- **Display object ID** - Display the unique ID and object ID of the selected object in the sandbox.
+
+- **Display grapher value** - Display the current exact value of [[Grapher]] objects.
+
+- **Display wireless frequency** - Display the frequency of [[Receiver]] and [[Mini transmitter]] when zoomed in in the sandbox.
+
+- **Hide tips** - Hide the tips that show up when starting up the sandbox.
+
+- **Do not confirm quitting sandbox adventure** - Do not show a confirmation dialog when attempting to quit a sandbox adventure level.
+
+- **Automatically submit highscores** - Always submit highscores for levels that have it enabled.
+
+- **Ask before submitting highscore** - Always ask before submitting highscores in levels.
