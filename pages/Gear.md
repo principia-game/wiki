@@ -5,4 +5,4 @@
 	"sublayer_width": 15,
 }) }}
 
-Gears with broken collision. It has 4 different configurable sizes.
+Some gears with broken collision. It has 4 different configurable sizes.
