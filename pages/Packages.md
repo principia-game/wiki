@@ -11,3 +11,8 @@ With the release of the Principia source code, a previously inaccessible Package
 
 ## Distributing packages
 principia-web has preliminary support for packages ([see package list](/packages.php)) but does not currently support uploading packages or display the packages publicly. Right now there only exists some testing packages made by ROllerozxa but if you would like to work with packages and upload one, please contact him and it can be solved.
+
+## Technical package info
+Packages consist of one .ppkg file which contain package metadata and a list of level IDs. The game will pick levels from the current level namespace, so if a package is launched from the built-in `pkg/main/` namespace it will look for levels in `lvl/main/`, and vice versa. When launching a package from a community site, it will download all package levels in bulk from a special endpoint that should not check for a level's locked status.
+
+In the built-in package level selector, the level previews are pre-rendered and loaded from a 256x256 uncompressed grayscale bitmap inside of the level file. It is generated on each save from the current camera position when saving. This can theoretically be edited to adjust or improve the level previews, although there does not exist a tool right now to do so automatically.
