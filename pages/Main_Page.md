@@ -5,6 +5,7 @@ We're currently still working on getting things in place, including importing ob
 ## Playing
 - [[PC Controls]]
 - [[Adventure]]
+- [[Settings]]
 
 ## Creating
 - **[[Tutorials]]**
@@ -12,3 +13,6 @@ We're currently still working on getting things in place, including importing ob
 - [[Objects]]
 - [[Principia Lua Scripting]]
 - [[Level Properties]]
+
+## Technical
+- [[Level Format]]
