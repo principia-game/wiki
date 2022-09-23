@@ -202,7 +202,7 @@ Objects with focus on player interaction.
 * [[Player Activator]]
 * [[Interactive Cylinder]]
 * [[Interactive Box]]
-* [[Interactive Ball]]
+* [[Interactive ball]]
 * [[Dragfield]]
 * [[Vendor]]
 * [[Treasure Chest]]
