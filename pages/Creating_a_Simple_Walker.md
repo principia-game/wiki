@@ -1,4 +1,3 @@
-# Creating a Simple Walker
 There are many ways to create a walker. In this tutorial you will learn how to create one using sine waves and linear servo motors for moving the legs. If this is your first time using the sandbox, we recommend that you take a look at the Vehicle tutorials first.
 
 ## Creating the Walker
