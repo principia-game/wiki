@@ -10,7 +10,7 @@ The package format has been documented ([Kaitai](https://github.com/principia-pr
 With the release of the Principia source code, a previously inaccessible Package Manager dialog now exists if you build the PC version in Debug mode. It can create and manage packages, but has some bugs as it assumedly was written for a much older version of Principia.
 
 ## Distributing packages
-principia-web has preliminary support for packages ([see package list](/packages.php)) but does not currently support uploading packages or display the packages publicly. Right now there only exists some testing packages made by ROllerozxa but if you would like to work with packages and upload one, please contact him and it can be solved.
+principia-web has preliminary support for packages ([see package list](/listpackages)) but does not currently support uploading packages or display the packages publicly. Right now there only exists some testing packages made by ROllerozxa but if you would like to work with packages and upload one, please contact him and it can be solved.
 
 ## Technical package info
 Packages consist of one .ppkg file which contain package metadata and a list of level IDs. The game will pick levels from the current level namespace, so if a package is launched from the built-in `pkg/main/` namespace it will look for levels in `lvl/main/`, and vice versa. When launching a package from a community site, it will download all package levels in bulk from a special endpoint that should not check for a level's locked status.
