@@ -21,6 +21,9 @@
 
 - [[Creating a Bee Smasher Minigame]]
 
+## Misc.
+- [[ZardOz's Tutorials]]
+
 ## Specific topics and advice
 - [[Creating a Mini-game]]
 
