@@ -390,7 +390,7 @@ local wx, wy = game:get_cursor(layer)
 ## `game:poll_event()`
 Added in **1.4**
 
-Returns true if the given event just occured. See [[Event Manager]] for event IDs.
+Returns true if the given event just occured. See [[Event Listener]] for event IDs.
 
 **NOTE:** This function should not be used any longer, and will be deprecated soon. Instead, use the on_event function.
 
