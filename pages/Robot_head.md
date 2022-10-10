@@ -1,0 +1,9 @@
+{{ infobox_item({
+	"id": 16,
+	"name": "Robot head",
+	"type": "",
+}) }}
+
+Regular robot head all robots have by default, unless it breaks off!
+
+Bring this item to a repair station to equip it.
