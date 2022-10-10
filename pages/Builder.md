@@ -1,0 +1,12 @@
+{{ infobox_item({
+	"id": 1,
+	"name": "Builder",
+	"type": "",
+}) }}
+
+This tool allows you to move and attach objects. The adventure robot has this item by default.
+
+Can be used to:
+* Drag an object
+* Connect and attach objects
+* Build ladder steps to jump up from e.g deep caves (click on robot to build)
