@@ -1,0 +1,9 @@
+{{ infobox_item({
+	"id": 11,
+	"name": "Somersault Circuit",
+	"type": "",
+}) }}
+
+Do somersaults while jumping by immediately boxing/unboxing in the air after a jump.
+
+Bring this item to a repair station to equip it.
