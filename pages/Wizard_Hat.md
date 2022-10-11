@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 37,
 	"name": "Wizard Hat",
-	"type": "",
+	"type": "Head equipment",
 }) }}
 
 Unleash your inner magician!
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
