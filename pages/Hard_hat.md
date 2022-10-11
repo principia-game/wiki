@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 66,
 	"name": "Hard hat",
-	"type": "",
+	"type": "Head equipment",
 }) }}
 
 Protect your head while down mining.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
