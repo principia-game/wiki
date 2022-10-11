@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 16,
 	"name": "Robot head",
-	"type": "",
+	"type": "Head",
 }) }}
 
 Regular robot head all robots have by default, unless it breaks off!
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
