@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 52,
 	"name": "King's crown",
-	"type": "",
+	"type": "Head equipment",
 }) }}
 
 Pretty snazzy crown.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
