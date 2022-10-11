@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 61,
 	"name": "Steel Sword",
-	"type": "",
+	"type": "Weapon",
 }) }}
 
 Sharp and elegant steel sword.
