@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 8,
 	"name": "Zapper",
-	"type": "",
+	"type": "Tool",
 }) }}
 
 Useful tool used for mining and various other things. The adventure robot has this item by default.
