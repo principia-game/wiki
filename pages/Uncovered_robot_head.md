@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 39,
 	"name": "Uncovered robot head",
-	"type": "",
+	"type": "Head",
 }) }}
 
 Naked robot head. Don't laugh.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
