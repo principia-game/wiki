@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 54,
 	"name": "Jester hat",
-	"type": "",
+	"type": "Head equipment",
 }) }}
 
 Ooh, Jester hat!
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
