@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 26,
 	"name": "Heisenberg's Hat",
-	"type": "",
+	"type": "Head equipment",
 }) }}
 
 Stylish top hat.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
