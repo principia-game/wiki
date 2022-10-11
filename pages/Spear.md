@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 63,
 	"name": "Spear",
-	"type": "",
+	"type": "Weapon",
 }) }}
 
 A melee spear.
