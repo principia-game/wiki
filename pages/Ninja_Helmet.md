@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 33,
 	"name": "Ninja Helmet",
-	"type": "",
+	"type": "Head equipment",
 }) }}
 
-Become the ninja you've always wanted to be. Combine with black robot parts and somersault circuit for pure ninja mode.
+Become the ninja you've always wanted to be. Combine with black robot parts and a [[Somersault Circuit]] for pure ninja mode.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
