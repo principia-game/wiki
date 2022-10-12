@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 69,
 	"name": "Pioneer back",
-	"type": "",
+	"type": "Back equipment",
 }) }}
 
 Decked out and sturdy robot back.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
