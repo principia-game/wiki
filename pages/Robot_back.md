@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 38,
 	"name": "Robot back",
-	"type": "",
+	"type": "Back equipment",
 }) }}
 
 Normal robot back.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
