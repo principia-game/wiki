@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 41,
 	"name": "Steel Bolt Set",
-	"type": "",
+	"type": "Bolt set",
 }) }}
 
 Normal/strong bolt set.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
