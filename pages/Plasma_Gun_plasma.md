@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 24,
 	"name": "Plasma Gun plasma",
-	"type": "",
+	"type": "Misc",
 }) }}
 
-Plasma bullet used by the Plasma Gun.
+Plasma bullet used by the [[Plasma Gun]].
