@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 34,
 	"name": "Black robot front",
-	"type": "",
+	"type": "Front equipment",
 }) }}
 
 Weights less than normal robot front.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
