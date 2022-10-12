@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 35,
 	"name": "Riding Circuit",
-	"type": "",
+	"type": "Upgrades",
 }) }}
 
 Circuit used for riding animals.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
