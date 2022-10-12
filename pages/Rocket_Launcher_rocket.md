@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 25,
 	"name": "Rocket Launcher rocket",
-	"type": "",
+	"type": "Misc",
 }) }}
 
-Rocket used by the Rocket Launcher.
+Rocket used by the [[Rocket Launcher]].
