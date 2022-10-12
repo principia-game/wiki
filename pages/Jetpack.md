@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 12,
 	"name": "Jetpack",
-	"type": "",
+	"type": "Back equipment",
 }) }}
 
 Normal jetpack. Low fuel.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
