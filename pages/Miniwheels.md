@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 30,
 	"name": "Miniwheels",
-	"type": "",
+	"type": "Feet",
 }) }}
 
 Four small wheels.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
