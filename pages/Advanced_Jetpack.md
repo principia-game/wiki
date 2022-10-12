@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 14,
 	"name": "Advanced Jetpack",
-	"type": "",
+	"type": "Back equipment",
 }) }}
 
-Advanced jetpack even more fuel.
+Advanced jetpack with even more fuel.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
