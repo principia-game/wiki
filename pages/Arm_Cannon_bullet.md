@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 22,
 	"name": "Arm Cannon bullet",
-	"type": "",
+	"type": "Misc",
 }) }}
 
-Bullet used by the Arm Cannon.
+Bullet used by the [[Arm Cannon]].
