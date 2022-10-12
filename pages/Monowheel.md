@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 31,
 	"name": "Monowheel",
-	"type": "",
+	"type": "Feet",
 }) }}
 
 One wheel.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
