@@ -1,9 +1,9 @@
 {{ infobox_item({
 	"id": 19,
 	"name": "Robot front",
-	"type": "",
+	"type": "Front equipment",
 }) }}
 
 Normal robot front.
 
-Bring this item to a repair station to equip it.
+In-game, bring this item to a [[Repair Station]] to equip it.
