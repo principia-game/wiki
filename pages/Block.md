@@ -12,7 +12,7 @@ The material slider controls the type of material or ore. The following types ex
 - Grass
 - Dirt
 - Stone
-- Hard Stone
+- Hard Stone/Granite
 - Diamond Ore
 - Ruby Ore
 - Emerald Ore
