@@ -24,7 +24,7 @@ Principia is the spiritual successor to Apparatus. There are a lot of similariti
 
 ### Interactive/Game
 - Interactive red cylinder: can be recreated with interactive Principia objects, but keep in mind they have different behaviour.
-- Marble goal: Can be recreated with the [[Plastic Cup]] or [[Plastic Beam]]s, with an [[Object finder]] connected to a [[Game Manager]]'s IN0 socket to make 
+- Marble goal: Can be recreated with the [[Plastic Cup]] or [[Plastic Beam]]s, with an [[Object finder]] connected to a [[Game Manager]]'s IN0 socket to make it win the level when a ball rolls into it.
 - Marble: Any kind of ball object, see Marble goal.
 
 ### Misc.
@@ -47,4 +47,4 @@ Cables cannot be ripped out of their sockets in Principia, and there is no way t
 In Principia, you can customise RC widgets as compared to in Apparatus where they are hardcoded depending on the amount of panel sockets. You can choose to recreate the setup of the Apparatus panels, but you might want to create a more unique control scheme anyways.
 
 ### Interactive objects
-Interactive objects in Principia behave differently to how they do in Apparatus. The red cylinder in Apparatus is able to apply seemingly infinite force to follow the finger, while inter
+Interactive objects in Principia behave differently to how they do in Apparatus. The red cylinder in Apparatus is able to apply seemingly infinite force to follow the finger, while interactive objects in Principia may be dropped if it can't follow the cursor. By default interactive objects need be within range of a [[Dragfield]] or the unlimited interactive level property enabled.
