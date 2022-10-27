@@ -14,8 +14,10 @@ We're currently still working on getting things in place, including importing ob
 - [[Items]]
 - [[Principia Lua Scripting]]
 - [[Level Properties]]
+- [[Principia for Apparatus Players]]
 
 ## Technical
+- [[Changelog]]
 - [[User Data Directory]]
 - [[Level Format]]
 - [[Packages]]
