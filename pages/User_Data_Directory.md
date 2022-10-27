@@ -7,9 +7,9 @@ Principia uses a directory to store settings and levels. Sometimes you would wan
 
 - **Android**:
 
-    - **-1.5.1**: `/sdcard/Principia/`
+    - **1.5.1 and prior**: `/sdcard/Principia/`
 
-    - **1.5.1.1+**: `/storage/emulated/0/Android/data/com.bithack.principia/files/` (see [[Accessing Android Data Directory]])
+    - **1.5.2+**: `/storage/emulated/0/Android/data/com.bithack.principia/files/` (see [[Accessing Android Data Directory]])
 
 ## User data files
 - **`c`**: cURL cookie file. ***NOTE:* Do not share this with anyone, as this will allow them to grab your principia-web login token!**
