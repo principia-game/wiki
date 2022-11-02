@@ -30,7 +30,7 @@ TODO
 ## Interface
 - **UI scale** - Controls the game's UI scale. Requires a restart to take effect.
 
-- **Autosave screen size** - Automatically save the current resized window size. ^(Added in 1.5.1.1)^
+- **Autosave screen size** - Automatically save the current resized window size. ^(Added in 1.5.2)^
 
 - **Display object ID** - Display the unique ID and object ID of the selected object in the sandbox.
 
