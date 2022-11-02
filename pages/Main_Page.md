@@ -1,6 +1,6 @@
-Welcome to the new Principia wiki. This aims to be a complete resource for all things Principia, including descriptions for all objects and items in the game and tutorials to get started.
+Welcome to the new Principia wiki. This aims to be a complete resource for all things Principia, including descriptions for all objects and items in the game and tutorials to get started. All relevant content from the old wiki has been incorporated and is still available here.
 
-We're currently still working on getting things in place, including importing object and item descriptions and bringing over relevant content from the old wiki. If you would like to contribute, feel free to drop by the `#wiki` channel on Discord or post in the [Wiki thread](/forum/thread?id=20) on the forums.
+The wiki is free for anyone with a principia-web account to contribute to. For more info see [[Contributing]].
 
 ## Playing
 - [[PC Controls]]
