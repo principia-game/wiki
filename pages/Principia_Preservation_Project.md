@@ -1,4 +1,4 @@
-The [Principia Preservation Project](https://github.com/principia-preservation-project) is a Github organisation, mostly for ROllerozxa to store various Principia related repositories. It originates from before the source code release
+The [Principia Preservation Project](https://github.com/principia-preservation-project) is a Github organisation, mostly for ROllerozxa to store various Principia related repositories. It originates from before the source code release, hence the name.
 
 ## Repositories
 ### principia-web and related
