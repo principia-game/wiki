@@ -554,7 +554,7 @@ World functions. world is a **global** object.
 ## `world:get_entity()`
 Added in **1.3**, Latest update **1.5**.
 
-Returns an entity (object) reference or `nil` if the object does not exist.
+Returns an entity (object) reference or `nil` if the object does not exist. `entity_id` refers to the object's unique ID, **not** the g_id which is the same for each type of object.
 
 Renamed from `world:get_entity_by_id()` in 1.5.
 
