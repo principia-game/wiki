@@ -32,7 +32,7 @@ principia.exe principia://play/lvl/db/11
 ```
 
 ### Windows
-Principia's installer writes an URL handler to the Windows registry. This will use the current location Principia is installed in, this will break. An example of the registry export can be seen here:
+Principia's installer writes an URL handler to the Windows registry. This will use the current location Principia is installed in, this will break if you move the game afterwards. An example of the registry export can be seen here:
 
 ```
 [HKEY_CLASSES_ROOT\principia]
