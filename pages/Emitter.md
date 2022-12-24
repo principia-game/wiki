@@ -17,5 +17,5 @@ Objects that can be emitted:
 Ball, metal ball, cylinder, interactive cylinder, interactive box, interactive ball, any type of robot, corner, dummy, land mine, bomb, wooden box, weight.
 
 ## Socket information:
-- **`IN0`**: Emit signal
+- **`IN0`**: Active (by default 1.0)
 - **`OUT0`**: 1.0 when an object was emitted
