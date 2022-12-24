@@ -11,5 +11,5 @@ Use the crosshair button to select what object can be absorbed. If no object is 
 Ball, metal ball, cylinder, interactive cylinder, interactive box, interactive ball, any type of robot, corner, dummy, land mine, bomb, wooden box, weight.
 
 ## Socket information:
-- **`IN0`**: Absorb signal
+- **`IN0`**: Active (default 1.0)
 - **`OUT0`**: 1.0 when an object was absorbed
