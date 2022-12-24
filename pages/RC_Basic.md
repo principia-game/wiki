@@ -26,3 +26,6 @@ The left end of the slider is 0, the right end 1. Any intermediary position is a
 
 **Rotary widgets**:
 Reports a value from 0 to 1 depending on the angular position of the knob. The right-most position (0 degrees) is 0, if the knob is facing UP the reported value is 0.25. If the knob is facing down the reported value is 0.75. The default output value (initial position) of the rotary widget can be set by moving the knob in the control panel configuration screen.
+
+## Socket information:
+- **`OUT0-4`**: Raw signal from the configured widget
