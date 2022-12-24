@@ -11,6 +11,6 @@ Send a single value of 1.0 to **`IN1`** to reset the timer, or a continuous stre
 
 ## Socket information:
 - **`IN0`**: Start (default = on)
-- **`IN1`**: Reset
+- **`IN1`**: Stop/Reset
 - **`OUT0`**: Timer tick
 - **`OUT1`**: Timer status (1.0 if the timer is stopped or was reset)
