@@ -13,3 +13,6 @@ Characteristics:
 * No engine braking
 
 **NOTE:** Since this motor is not capable of keeping its idle position or slowing down, it might oscillate if interfacing with a [[CT Servo]]. For precise angle control, the [[Servo Motor]] should be used instead.
+
+## Socket information
+- **`IN0`**: Interface socket
