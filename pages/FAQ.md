@@ -5,6 +5,9 @@ This page contains various frequently asked questions...
 ## What is principia-web?
 Back in late 2020, ROllerozxa launched a new unofficial community site called principia-web, making it possible to easily share your levels again. It's later expanded into including a forum and this wiki. With the open sourcing principia-web is considered to be the primary community site, with the old community site being provided as an archive playable for those with a recent version of open source Principia.
 
+## What is Principia Discord?
+It's the "official" Principia Discord server, an invite can be found in the footer of this site. It was originally started sometime 2017 as an unofficial server, but quickly turned into the main community hub after the official community site shut down. It was originally run by uni(valence) but has been taken over by ROllerozxa after a while of administering it. It is now the primary place for Principia-related chit chat, with even sdac joining it alongside the source code release.
+
 ## So Principia is open source now?
 Yes, sdac came back and released the source code in August 2022. It is available on GitHub, and is continuing development as an open source project. The next version is going to be 1.5.2, you can find beta builds on the [download page](/download).
 
