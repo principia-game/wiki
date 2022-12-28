@@ -2,6 +2,9 @@ Welcome to the new Principia wiki. This aims to be a complete resource for all t
 
 The wiki is free for anyone with a principia-web account to contribute to. For more info see [[Contributing]].
 
+## General
+- [[FAQ]]
+
 ## Playing
 - [[PC Controls]]
 - [[Adventure]]
@@ -17,7 +20,9 @@ The wiki is free for anyone with a principia-web account to contribute to. For m
 - [[Principia for Apparatus Players]]
 
 ## Technical
+- [[Compiling Principia]]
 - [[Changelog]]
 - [[User Data Directory]]
 - [[Level Format]]
 - [[Packages]]
+- [[Principia Protocol]]
