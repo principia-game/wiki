@@ -1,6 +1,8 @@
-This page contains the changelog for Principia. For versions prior to the open sourcing, please see [the source tree](https://github.com/Bithack/principia/tree/master/changes).
+This page contains the changelog for Principia. For versions prior to the open sourcing, please see [the source tree](https://github.com/Bithack/principia/tree/master/doc/changes).
 
 ## 1.5.2 (unreleased)
+*This is the changelog for an upcoming version. The list of changes is subject to change during development. See the [1.5.2 roadmap](https://github.com/Bithack/principia/issues/64) for more information.*
+
 - First open source release!
   - Removed DEMO mode, LITE mode and license verification, now completely free and open source.
 - New default community site! (principia-web)
@@ -12,8 +14,13 @@ This page contains the changelog for Principia. For versions prior to the open s
 - Separator colour can now be configured through config menu
 - Items no longer need to be unlocked through the adventure mode
 - Object and item help text updates
-- Desktop: Window can now be resized
-- Windows: Installer improvements
-- Android: Dialog UI update (Holo -> Material)
-- Android: Removed Facebook analytics (yuck)
-- Android: App data now stored in scoped app storage (new API/Google Play requirement)
+- 64-bit builds available
+- **Desktop:**
+  - Window can now be resized
+- **Windows:**
+  - Installer improvements
+- **Android:**
+  - Dialog UI update (Holo -> Material)
+  - Removed Facebook analytics (yuck)
+  - App data now stored in scoped app storage (new API/Google Play requirement)
+  - Fixed SFX Emitter dialog
