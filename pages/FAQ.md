@@ -13,6 +13,15 @@ It's the "official" Principia Discord server, an invite can be found in the foot
 ## So Principia is open source now?
 Yes, sdac came back and released the source code in August 2022. It is available on GitHub, and is continuing development as an open source project. The next version is going to be 1.5.2, you can find beta builds on the [download page](/download).
 
+## When is Principia coming onto Google Play?
+Principia will be republished onto Google Play by Bithack when 1.5.2 officially releases.
+
+## What about Steam?
+Potentially... ;)
+
+## What about [Insert platform/Linux distro here]?
+Pull requests welcome!
+
 ## Where are my old levels?
 They are available in the [Community Site Archive](https://archive.principia-web.se). Keep in mind in order to play levels you need a recent build of open source Principia.
 
