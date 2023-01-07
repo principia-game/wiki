@@ -6,7 +6,7 @@ In addition, if you have old saves you will need to move it manually from `Princ
 
 [toc]
 
-## Total Commander Workaround (Android <=12)
+## Total Commander Workaround (Android 12 and below)
 [Total Commander](https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander) (and possibly other file managers) has a method to workaround the restrictions put in place by Google, by taking advantage of a bug in Android 12 and below that allows file managers to be given permission to `Android/data/`.
 
 Navigate to `Internal shared storage > Android > data`. Press on the folder named `-> Installed apps`.
