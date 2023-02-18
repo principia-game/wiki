@@ -54,7 +54,7 @@ The robot is controlled using typical WASD controls. To bring up an info window 
 - **F,G,H,J,K** - Connect two objects as highlighted
 - **`<Shift>`-Q** or **T** - Disconnect all connections of selected object
 - **`<Shift>`-H** - Open socket selector on selected object
-- **N** - Make object larger (LOL)
+- **N** - Toggle object lock ^(Added in 1.5.2)^
 
 ## Further Reading
 - [[Adventure]] - General information on how to play in Adventure mode
