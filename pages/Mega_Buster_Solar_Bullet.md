@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 28,
 	"name": "Mega Buster Solar Bullet",
-	"type": "",
+	"type": "Misc",
 }) }}
 
-Solar bullet used by the Mega Buster.
+Solar bullet used by the [[Mega Buster]].
