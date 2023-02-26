@@ -92,3 +92,4 @@ This is a list of items categorised by their types.
 - [[Shotgun pellet]]
 - [[Plasma Gun plasma]]
 - [[Rocket Launcher rocket]]
+- [[Mega Buster Solar Bullet]]
