@@ -5,7 +5,11 @@
 	"sublayer_width": 14,
 }) }}
 
-Get a value associated with the specified name. The value is persistant between playthroughs. Use the config dialog to set the variable name.
+Retrieve a value associated with the specified name. These variables are persistent between playthroughs and stored in a cache file associated with the level. Use the config dialog to set the variable name, or to reset the variable's value.
+
+You can also retrieve Principia variables using the `game:get_variable(varname)` method in Lua.
+
+To set a value, see the [[Var setter]].
 
 ## Socket information:
 - **`OUT0`**: Value
