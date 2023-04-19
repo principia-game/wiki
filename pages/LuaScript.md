@@ -9,6 +9,13 @@ Lua Script object, write Lua programs that can interact with and control the lev
 
 For more information about Lua scripting in Principia, see [[Principia Lua Scripting]]
 
+# Libraries
+The following built-in libraries are available in the Principia Lua environment:
+- `math`
+- `string` (older versions require a flag to be enabled)
+- `table` (older versions require a flag to be enabled)
+- `bitop32` ^(1.5.2+)^
+
 # Classes
 The API is divided up into several classes:
 
