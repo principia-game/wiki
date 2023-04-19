@@ -175,6 +175,15 @@ Hides the entity if it was previously visible. It will still interact with the w
 entity:hide()
 ```
 
+## `entity:is_hidden()`
+Added in **1.5.2** (2023-04-19)
+
+Returns whether the entity is currently hidden or not.
+
+```lua
+local is_hidden = entity:is_hidden()
+```
+
 ## `entity:get_name()`
 Added in **1.5**
 
