@@ -38,6 +38,15 @@ Returns the current X and Y gravity of the world.
 local x, y = world:get_gravity()
 ```
 
+## `world:set_gravity()`
+Added in **1.5.2** (2023-04-19)
+
+Set the gravity of the world.
+
+```lua
+world:set_gravity(x, y)
+```
+
 ## `world:get_adventure_id()`
 Added in **1.5**
 
