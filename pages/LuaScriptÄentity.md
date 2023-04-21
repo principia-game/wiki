@@ -30,10 +30,19 @@ local x, y = entity:get_position()
 ## `entity:get_angle()`
 Added in **1.3**
 
-Returns the angle of the current entity.
+Returns the angle of the current entity, in radians.
 
 ```lua
 local angle = entity:get_angle()
+```
+
+## `entity:set_angle()`
+Added in **1.5.2** (2023-04-21)
+
+Sets the angle of the entity, in radians. Only works on entities that are either completely free or attached to a hinge.
+
+```lua
+entity:set_angle(angle)
 ```
 
 ## `entity:get_velocity()`
