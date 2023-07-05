@@ -49,7 +49,7 @@ The [[Multi-emitter]] requires you to save objects to the list before they can b
 When an object is selected it's rotate pad icon will appear, grab ahold and drag it in a circle to rotate the object in place. The further you move your mouse or finger from center the slower it will rotate. Rotating groups of objects can become messy very quickly and they will rarely cooperate(see: The Builders Helper section above)
 
 ### Object Info Button
-Tap this icon when you have an object selected and the object description for that particular part will pop up in a prompt. Check this wiki page or search principiagame.com for the object type to find more information about a component and what it's capable of.
+This button brings up the Wiki page for the selected object.
 
 ### Change Layer Button
 All but a few parts in the game can be set on one of three different layers, when you have an object selected tapping this icon will change its layer orientation. Switching from layer three back to one will break some wiring connections as the two ends of any wire cannot be connected to objects two layers apart.
