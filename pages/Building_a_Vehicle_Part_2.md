@@ -45,7 +45,7 @@ Then double click the **RC Basic** to drag a signal cable to the **CT Mini**, ch
 
 The part 2 of this vehicle is now finished! Click play and then activate the RC to try it out.
 
-## [Example Level](http://archive.principiagame.com/level/5383)
+## [Example Level](https://archive.principia-web.se/level/5383)
 
 ## Part 3
 In part 3 of this tutorial you will learn how to build a cannon for your vehicle.
