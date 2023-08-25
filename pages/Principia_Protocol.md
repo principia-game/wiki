@@ -24,6 +24,16 @@ Open level for editing in sandbox. This is intended for players' own levels, as 
 ### Sandbox (`sandbox`)
 Open level for editing in sandbox. This is intended for other players', as it puts the community ID into parent ID, making a level uploaded a derivative of the edited level.
 
+### Comparison: Edit vs. Sandbox
+This table shows a comparison of what values get set in the level file by the client, depending on the action.
+
+|                   | Edit   | Sandbox   | Notes                                              |
+|-------------------|:------:|:---------:|----------------------------------------------------|
+| `community_id`    | `0x1`  | `0x0`     | ID of the level in the community site              |
+| `revision`        | `0xB`  | `0x0`     | Internal level revision                            |
+| `parent_id`       | `0x0`  | `0x1`     | Community ID of the parent level (for derivatives) |
+| `parent_revision` | `0x0`  | `0xB`     | Internal level revision of the parent level        |
+
 ## Platform implementation
 For desktop platforms, you can always send a Principia protocol link directly to the game executable. This is useful if you are building from source and haven't installed the game. Right click on a play button on principia-web and paste it into a command prompt or terminal when calling the game.
 
