@@ -9,5 +9,5 @@ Measures the distance to the closest object. The value sent to **`OUT0`** is equ
 
 The Proximity Sensor will activate if ANYTHING is in its detection range including immovable objects and world walls.
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Inverted distance according to `1.0-D/L`

@@ -20,11 +20,11 @@ Before we begin, let's look at an overview of the objects we will use in this tu
 * [[Prompt]] to display a message if the game is lost
 
 ## Creating the Game
-First, create a new custom level, then go to level properties in the top right corner. Click the World tab, and remove all borders by changing the background to space, then set Gravity X and Y to 0 to prevent the land mines from falling back down midair after using the shooter. Click the Gameplay tab, set the Final score to 10000 and add a checkmark to Disable Zoom and Disable Cam Movement since moving the camera isn't a part of this mini game.
+First, create a new custom level, then go to level properties in the top right corner. Click the World tab, and remove all borders by changing the background to space, then set Gravity X and Y to 0 to prevent the land mines from falling back down midair after using the shooter. Click the Gameplay tab, set the Final score to 10000 and check the Disable Zoom and Disable Cam Movement checkboxes since moving the camera isn't a part of this mini game.
 
 We'll begin by creating a frame for our mini game. We will use colored **pixel** objects for this. Press quickadd ('space' button on PC) and type in **pixel** to add the object to the sandbox. Open up the configuration window for the pixel object to change the color. I'll use red (#FF0000) for this example.
 
-Duplicate the **pixels** and build the bottom frame of the mini game like on the screenshow below. The object at the bottom is a **Linear Servo** which the player will be able to control and where the shooter will be placed. After you've added the **Linear Servo**, adjust the size slider to maximum and attach it between the **pixels**.
+Duplicate the **pixels** and build the bottom frame of the mini game like on the screenshot below. The object at the bottom is a **Linear Servo** which the player will be able to control and where the shooter will be placed. After you've added the **Linear Servo**, adjust the size slider to maximum and attach it between the **pixels**.
 
 ![](https://i.imgur.com/K4bJpeE.png)
 
@@ -71,7 +71,7 @@ If you click the play button you can see that they now move back and forth.
 
 In order to set a different score for each target we need a way to know when the target has been hit. We can use an **impact sensor** for that, just attach one below each **plastic beam**. The **impact sensor** must have the same size as the **plastic beam**. When an object (the **land mine**) collides with the **impact sensor**, a value is sent through OUT0 which will be connected to a **Game Manager** object that adds a specific score from that target.
 
-After you've attached an **impact sensor** to the **plastic beams**, add 3x **SFX Emitters** to the level, one for each target. Open up the configuration window for the **SFX emitters** and change the sound to "Ding" and add a checkmark to "Global sound". These objects will now make a Ding sound every time a target is hit and the score is increased.
+After you've attached an **impact sensor** to the **plastic beams**, add 3x **SFX Emitters** to the level, one for each target. Open up the configuration window for the **SFX emitters** and change the sound to "Ding" and check the "Global sound" checkbox. These objects will now make a Ding sound every time a target is hit and the score is increased.
 
 ![](https://i.imgur.com/pqm5wrw.png)
 
@@ -95,7 +95,7 @@ To do that, add a **Cam Targeter** and a **Cam Zoomer**. Click the crosshair but
 When the player reaches 10000 score points the level is completed.
 We can add some difficulty by adding a timer that will end the game if that score isn't reached within X seconds.
 
-Add a **timer** object and click its configuration button. choose a number you prefer for your level (mine is 60 seconds), leave the tick at 0 and click ok.
+Add a **timer** object and click its configuration button. choose a number you prefer for your level (mine is 60 seconds), leave the tick at 0 and click OK.
 
 To have a popup message after the game has ended we can use a **prompt** object. Just connect it to a **Y-splitter** before it's connected to the **Game Manager**. Also, make sure to use **IN1** on the **Game Manager** (which is the socket for ending the game). Open up the configuration window of the **prompt** object and set whatever message you like.
 

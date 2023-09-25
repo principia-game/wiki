@@ -4,7 +4,7 @@ There are many ways to create a walker. In this tutorial you will learn how to c
 
 First, create a new custom level.
 
-We will begin by creating two legs made of a [[Plank]] and [[Damper]] attached to feets made of [[Rubber Beam]]s. One leg should be on layer 1 and the other on layer 2. Click the configuration button for the [[Rubber Beam]] and set the restitution to 0 and friction to 10, this will make the foot grip better when walking.
+We will begin by creating two legs made of a [[Plank]] and [[Damper]] attached to feet made of [[Rubber Beam]]s. One leg should be on layer 1 and the other on layer 2. Click the configuration button for the [[Rubber Beam]] and set the restitution to 0 and friction to 10, this will make the foot grip better when walking.
 
 ![](https://i.imgur.com/ZfubrZ0.png)
 
@@ -20,7 +20,7 @@ Now add [[Power Supply]] in the middle and four [[CT Servo]] objects, one for ea
 
 ![](https://i.imgur.com/sxkgz1d.png)
 
-Connect the [[CT Servo]]s to the [[Linear Servo]]s and to the [[Power Supply]]. When working with different layers, change the layer visiblity for a better view. Also, you might have to increase the lenght of some of the [[Interface Cable]]s. Just detach them to adjust the slider.
+Connect the [[CT Servo]]s to the [[Linear Servo]]s and to the [[Power Supply]]. When working with different layers, change the layer visibility for a better view. Also, you might have to increase the length of some of the [[Interface Cable]]s. Just detach them to adjust the slider.
 
 ![](https://i.imgur.com/OGMHGoT.png)
 
@@ -54,7 +54,7 @@ First, click the two vertical [[Linear Servo]]s and change the Speed - Force to 
 
 Click the two horizontal [[Linear Servo]]s and increase the Force slightly (0.10).
 
-Click the [[Power Supply]] and decrase the voltage to 5.00
+Click the [[Power Supply]] and decrease the voltage to 5.00
 
 Click the [[Tiltmeter]] and increase the sensitivity to 17.00. Set the thrust of the [[Thruster]]s to 14.00.
 
@@ -62,7 +62,7 @@ The walker should now walk properly and not tip over but to make it even more st
 
 ![](https://i.imgur.com/3rnRIBs.png)
 
-If the walking still is unstable you can try changing the frequency hz and/or phase slider of the [[Sine wave]] objects. See if something is out of sync. The legs should have a half-circle motion and not move too fast.
+If the walking still is unstable you can try changing the frequency Hz and/or phase slider of the [[Sine wave]] objects. See if something is out of sync. The legs should have a half-circle motion and not move too fast.
 
 Feel free to make any additional upgrades to your walker. For example an upper body, a cannon or add two more legs to make it a four legged walker! If you're happy with it you can publish it and share it with the community!
 

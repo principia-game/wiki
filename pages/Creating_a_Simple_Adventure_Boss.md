@@ -1,6 +1,6 @@
 In this tutorial you will learn how to create a simple adventure boss.
 
-You will find an example level of a boss fight with similiar mechanics at the bottom of this page.
+You will find an example level of a boss fight with similar mechanics at the bottom of this page.
 
 ## Simple Adventure Boss
 The boss we're creating in this tutorial will have a very basic design and move towards the player robot on two wheels and attempt to kill him with bombs. Feel free to change the design however you like.
@@ -24,7 +24,7 @@ Now add an **Object Finder** in the middle under the **Linear Servo**. This obje
 The **sincos** is used to convert an angle via IN0 to one positive y-value, one positive x-value,
 one negative y-value, and one negative x-value. That will make it easy to check if the player robot is on the left or right side of the boss.
 
-The reason why we put some objects on the side and use a wireless connectons for them is so that we don't have too many objects attached to the boss. This is especially useful in more advanced creations where we don't want to weight down or clutter the boss with too many objects.
+The reason why we put some objects on the side and use a wireless connections for them is so that we don't have too many objects attached to the boss. This is especially useful in more advanced creations where we don't want to weight down or clutter the boss with too many objects.
 
 ![](https://i.imgur.com/UspJJPY.png)
 

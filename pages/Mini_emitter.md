@@ -11,6 +11,6 @@ Objects that can be emitted:
 - [[Ball]], [[Metal ball]], [[Corner]], [[Land mine]], [[Bomb]] and [[Interactive ball]]
 - [[Interactive Box]] and [[Box]] (only at smallest box size)
 
-## Socket information:
+## Socket information
 - **`IN0`**: Emit signal
 - **`OUT0`**: 1.0 when an object was emitted

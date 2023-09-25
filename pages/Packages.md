@@ -5,7 +5,7 @@ Packages are, as can probably be figured out, a series of levels packaged togeth
 Initially during Principia's development it was intended for players to create their own packages and upload them to the community site using the game's Package Manager dialog ^(PC only)^. However this was seemingly scrapped around the game's release and users' package listings were quietly commented out from the community site.
 
 ## Creating packages
-The package format has been documented ([Kaitai](https://github.com/principia-preservation-project/kaitai/blob/master/kaitai/ppkg.ksy)) and there exists a tool called [package-creator](https://github.com/principia-preservation-project/package-creator) which can generate a .ppkg file from a JSON file with data for the package.
+The package format has been documented ([Kaitai](https://github.com/principia-game/kaitai/blob/master/kaitai/ppkg.ksy)) and there exists a tool called [package-creator](https://github.com/principia-game/package-creator) which can generate a .ppkg file from a JSON file with data for the package.
 
 With the release of the Principia source code, a previously inaccessible Package Manager dialog now exists if you build the PC version in Debug mode. It can create and manage packages, but has some bugs as it assumedly was written for a much older version of Principia.
 
@@ -15,4 +15,4 @@ principia-web has preliminary support for packages ([see package list](/listpack
 ## Technical package info
 Packages consist of one .ppkg file which contain package metadata and a list of level IDs. The game will pick levels from the current level namespace, so if a package is launched from the built-in `pkg/main/` namespace it will look for levels in `lvl/main/`, and vice versa. When launching a package from a community site, it will download all package levels in bulk from a special endpoint that should not check for a level's locked status.
 
-In the built-in package level selector, the level previews are pre-rendered and loaded from a 256x256 uncompressed grayscale bitmap inside of the level file. It is generated on each save from the current camera position when saving. This can theoretically be edited to adjust or improve the level previews, although there does not exist a tool right now to do so automatically.
+In the built-in package level selector, the level previews are pre-rendered and loaded from a 256x256 uncompressed greyscale bitmap inside of the level file. It is generated on each save from the current camera position when saving. This can theoretically be edited to adjust or improve the level previews, although there does not exist a tool right now to do so automatically.

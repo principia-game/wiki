@@ -7,7 +7,7 @@ Note: This lesson is written for Principia users but beginner Lua users may find
 ## Lesson #1: Getting started
 
 ### Part I: Don't Panic!
-Looking at complex code can be quite intimidating for those who have never even considered programming anything... But I assure you it's not nearly as bad as you think. Many of the Principia users are very young and many do not use English as their first language so I will keep thse lessons free of most programming terms and write as if the reader has never seen code before. These lessons will focus on some of the basic commands and format of the code and will not be covering most Principia specific things like 'controlling the adventure robot' with LuaScript.
+Looking at complex code can be quite intimidating for those who have never even considered programming anything... But I assure you it's not nearly as bad as you think. Many of the Principia users are very young and many do not use English as their first language so I will keep these lessons free of most programming terms and write as if the reader has never seen code before. These lessons will focus on some of the basic commands and format of the code and will not be covering most Principia specific things like 'controlling the adventure robot' with LuaScript.
 
 ### Part II: What you need to know before you begin.
 While most of the online examples use text in the majority of their examples, coding = 90% math stuff, plain and simple. Good news is 90% of the math stuff is pretty basic. It will help you greatly if you have an understanding of basic algebra, geometry and a healthy respect for the equation `a^2 + b^2 = c^2`. Anything you will want to do with curves and circles, which is more than you might think, will require Pythagoras' help. Knowledge of the X/Y grid system and negative values will be needed and this lesson will also assume that you have a basic understanding of the 0.0-1.0 signaling system used in Principia or something similar.
@@ -36,7 +36,7 @@ Variables are placeholders for numbers or words. This is so things can be shorte
 
 Example Numbers: `0`, `-50.12`, `1 / 7`, `1 + 1`, `(23 / 52 * (0.012 - 2))`, `math.pi`, `math.min(math.pi, 370)`, `math.sqrt((A * A) + (B * B))`, `100 % 25` (see part VI)
 
-`math.pi` is the permanent placeholder for the number 'pi', math.min is equal to the lowest of the values separated by commas inside the brackets(Arguments) and math.sqrt is the square root of the value inside the brackets in this case the value of 'C' in the equation `A^2 + B^2 = C^2`. 'A' and 'B' are examples of variables. If you were to use the 'sqrt' example it would cause an error because the value of 'A' and 'B' are undefined, So we begin our first actual code by defining some values for 'A' and 'B',
+`math.pi` is the permanent placeholder for the number 'pi', `math.min` is equal to the lowest of the values separated by commas inside the brackets(Arguments) and math.sqrt is the square root of the value inside the brackets in this case the value of 'C' in the equation `A^2 + B^2 = C^2`. 'A' and 'B' are examples of variables. If you were to use the 'sqrt' example it would cause an error because the value of 'A' and 'B' are undefined, So we begin our first actual code by defining some values for 'A' and 'B',
 
 ```lua
 function init()
@@ -45,7 +45,7 @@ function init()
 end
 ```
 
-If we instead put these lines in the `step()` portion of the code, it will tell the computer `a=5 B=10, a=5 B=10, a=5 B=10...` 125 times per second, but since it only needs to be told once it goes into the `init()` section. Our first goal is to determine the value of 'C' based on the two variables. Since we do not plan on changing the values of 'A' and 'B' we also put our pythagrian equation inside the init() function,
+If we instead put these lines in the `step()` portion of the code, it will tell the computer `a=5 B=10, a=5 B=10, a=5 B=10...` 125 times per second, but since it only needs to be told once it goes into the `init()` section. Our first goal is to determine the value of 'C' based on the two variables. Since we do not plan on changing the values of 'A' and 'B' we also put our Pythagorean equation inside the init() function,
 
 ```lua
 function init()
@@ -113,7 +113,7 @@ Our developers were kind enough to implement a variable into the `step()` functi
 
 `game:show_numfeed(number)` is used to show a number at the top of the screen when running a program, while useful as a display number it should be used during play testing to find errors in your calculations and make sure your numbers are behaving as intended, a.k.a debugging. The number after the comma is how many decimal places you wish to show, the example above will show the total step count. `game:set_score(value)` will display the value minus the decimal in the score position, if you have display score enabled.
 
-Our first programs will use the count variable to make a few simple timers, turn on the score display to test it. Every line you write in the step() function will run constantly unless you tell it not to,
+Our first programs will use the count variable to make a few simple timers, turn on the score display to test it. Every line you write in the `step()` function will run constantly unless you tell it not to,
 
 ```lua
 function init()
@@ -121,9 +121,9 @@ function init()
 end
 ```
 
-First we set a variable for one our timers, some people like to use long variable names that explain exactly what they represent. The underscore '_' is used as any other letter and is a common way to create an artifical space in the variable name. This timer is set to begin counting from zero.
+First we set a variable for one our timers, some people like to use long variable names that explain exactly what they represent. The underscore '_' is used as any other letter and is a common way to create an artificial space in the variable name. This timer is set to begin counting from zero.
 
-*The Lua "find remainder" (Modulo) operator is an extremely useful tool figuring out the divisability of a number, learn it well. It is used by putting `% value` behind any number, the result is the number divided by the "value"... so 25 % 10 will divide `25 /10 = 2 +5r`... it discards the 2 and return the remainder number.. 5*
+*The Lua "find remainder" (Modulo) operator is an extremely useful tool figuring out the divisibility of a number, learn it well. It is used by putting `% value` behind any number, the result is the number divided by the "value"... so 25 % 10 will divide `25 /10 = 2 +5r`... it discards the 2 and return the remainder number.. 5*
 
 ```lua
 function step(count)
@@ -148,7 +148,7 @@ IF (the remainder of current step count / 1250 equals zero) THEN
 
 You will note that the if "condition" uses a double '='... This is because a single '=' is used for assigning a value to a variable, and '==' is for comparing the equality of two values.
 
-Lastly we can skip a few steps, get rid of the extra variable and put one of the timers dierctly into the set score position... As your coding gets better you will be able to shrink your codes into shorter versions, the minimum needed for a simple timer is this:
+Lastly we can skip a few steps, get rid of the extra variable and put one of the timers directly into the set score position... As your coding gets better you will be able to shrink your codes into shorter versions, the minimum needed for a simple timer is this:
 
 ```lua
 function step(t)
@@ -157,14 +157,14 @@ end
 ```
 
 ### Part VII: No substitute for testing
-I can only speak from my own experience so I would highly recommend learning by constant playtesting and repetition. Reading about it is nice but without actually putting the codes into the box and pressing play, you wont learn much. Find a simple code made by someone else and playtest it thouroughly until you have a better grasp on that particular code. Maybe you'll even improve it!
+I can only speak from my own experience so I would highly recommend learning by constant playtesting and repetition. Reading about it is nice but without actually putting the codes into the box and pressing play, you wont learn much. Find a simple code made by someone else and playtest it thoroughly until you have a better grasp on that particular code. Maybe you'll even improve it!
 
 Find a code, change a number and press play to see what happens, keep changing things until you can try to write it from scratch. A good place to start is with my Lua School Basics level, it has codes which behave the same as many of the parts in Principia. If you know how the part works it will help you understand the associated code. Many of the old examples use `if this:first_run() then` in place of the new `function init()` you will have to change this to use the older codes. Also new is the step function... to use old codes you will have to place everything that is listed outside of the `first run` into a `function step() (insert old code here) end` command.
 
-Everything I know about programming comes from making levels and testing things on Principia over the last 9 months, my knowledge is still quite limited but I feel confident that I could make most super-nintendo quality games at this point... While it may take you longer than me it IS possible for you to learn a great deal in a short time and be on your way to making wonders! Hell I cant even look at my microwave without thinking "I could make that!"
+Everything I know about programming comes from making levels and testing things on Principia over the last 9 months, my knowledge is still quite limited but I feel confident that I could make most super-Nintendo quality games at this point... While it may take you longer than me it IS possible for you to learn a great deal in a short time and be on your way to making wonders! Hell I cant even look at my microwave without thinking "I could make that!"
 
 ## Lesson #2: Loving the if
-The if/then command can be used to accomplish almost anything you want to do... most of the other commands are used to make the codes shorter so you don't have to do so much work, but a good knowledge of if/then alone can open up infinite possibilties to you.
+The if/then command can be used to accomplish almost anything you want to do... most of the other commands are used to make the codes shorter so you don't have to do so much work, but a good knowledge of if/then alone can open up infinite possibilities to you.
 
 ### Part I: if/then/else, memory basics, game:add_score, or
 
@@ -190,7 +190,7 @@ IF (the current step count is less than or equal to 500) THEN
 
 This code will make the score equal one for the first four seconds and then switch it to two permanently after that. While it will work perfectly, it is poorly written and uses more memory than it should, I will try to give you some good habits before you learn the bad ones.
 
-Currently it is checking to see if the condition is met on every step the program runs, but this is unnessesary. Here is a better code and since we are not using the variable more than once I will eliminate the `init()` part of the code...
+Currently it is checking to see if the condition is met on every step the program runs, but this is unnecessary. Here is a better code and since we are not using the variable more than once I will eliminate the `init()` part of the code...
 
 ```lua
 function step(count)
@@ -249,10 +249,10 @@ function step()
 end
 ```
 
-Since the `total_signal` variable is reading the inputs it needs to be set outside of the `init()` so it can read every step. 'elseif' can be used to add more specific conditions without needing a huge string of 'end's to close it, the stuff inside the 'elseif' wont run if the parent condition is satisfied. 'and' is another of the basic tools in your arsenal, it's pretty much what is sounds like and it works much like the Principia object.
+Since the `total_signal` variable is reading the inputs it needs to be set outside of the `init()` so it can read every step. `elseif` can be used to add more specific conditions without needing a huge string of 'end's to close it, the stuff inside the `elseif` wont run if the parent condition is satisfied. 'and' is another of the basic tools in your arsenal, it's pretty much what is sounds like and it works much like the Principia object.
 
 ### Part III: is between?, this:write(0), ~= (not equal to)
-(SETUP: Wire a grapher to luaout0, RC(slider OUT0)--luaIN0)
+(SETUP: Wire a grapher to lua OUT0, RC(slider OUT0)--luaIN0)
 
 ```lua
 function step()
@@ -366,7 +366,7 @@ function step()
 end
 ```
 
-As you can see this method is vastly preferrable to writing out the three lines of code 100 times each. This simple code just sends any frequency from 1-100 that is reading 1.0 to the corresponding frequency +100 higher(1,101...99,199).
+As you can see this method is vastly preferable to writing out the three lines of code 100 times each. This simple code just sends any frequency from 1-100 that is reading 1.0 to the corresponding frequency +100 higher(1,101...99,199).
 
 Below we begin to make a more sophisticated loop, starting by only listening to every other frequency from 1-99, we do this by multiplying every number from 1-50 by two and subtracting one.
 
@@ -528,7 +528,7 @@ math.random(1.25, 10)
 math.random(1, 6) + math.random(1, 6)
 ```
 
-As you can see this is somewhat restrictive, to make your randoms more versitile you need to modify the result.
+As you can see this is somewhat restrictive, to make your randoms more versatile you need to modify the result.
 
 ```lua
 -- a random value from 0.0 to 10.0 by .1
@@ -844,7 +844,7 @@ With the information in these four lessons you can create almost anything, you w
 
 I would recommend moving on to my 20 part Lua Sprite Mega Tutorial level or Lua School Basics on Principia. They cover almost everything you need to know about drawing sprites, angles, creating graphics and the codes for the existing parts. I also have a Lua Line Draw Mega Tutorial and a Lua 101 series of levels with lots of stuff on it... #7 has most of the math shortcuts like math.min(), but I made that when I didn't know so much. I also recommend "SinCos and you!" for understanding circles better...I also have 100+ other Lua based levels you can look over.
 
-I may add more lessons with stuff on circles/curves, grid mastery, text strings and other tricks of the trade if Im feeling up to it. I wanted to keep this lesson mostly number based since it is the universal language and Principia doesn't use a lot of text... if you understand how to use these techniques with numbers using them to manipulate words will be easier.
+I may add more lessons with stuff on circles/curves, grid mastery, text strings and other tricks of the trade if I'm feeling up to it. I wanted to keep this lesson mostly number based since it is the universal language and Principia doesn't use a lot of text... if you understand how to use these techniques with numbers using them to manipulate words will be easier.
 
 Good Luck, be patient, determine where to start and take it one step at a time, playtest other levels, ask questions, keep at it, learn 100's of ways not to do things, change a number, press play, see what happens... you shall prevail!
 

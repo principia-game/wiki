@@ -7,7 +7,7 @@
 
 Output the unmodified smallest value of **`IN0`** or **`IN1`** to **`OUT0`**.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Value A
 - **`IN1`**: Value B
 - **`OUT0`**: IF (A < B) THEN A ELSE B

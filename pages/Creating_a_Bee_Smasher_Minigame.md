@@ -20,7 +20,7 @@ Before we begin, let's look at an overview of the objects we will use in this tu
 * [[Stabilizer]] to add some stabilization to the bee
 
 ## Creating the game
-First create a new custom level. Go to level properties, change the background to outdoor, and set gravity Y either to 0 or a bit below 0 to add some weight to the bees. For this tutorial we'll set it to -5 but you can fine tune these settings later. Go to the gameplay tab and add checkmarks to Display Score, Disable Zoom, Disable cam movement and Hide beam connections.
+First create a new custom level. Go to level properties, change the background to outdoor, and set gravity Y either to 0 or a bit below 0 to add some weight to the bees. For this tutorial we'll set it to -5 but you can fine tune these settings later. Go to the gameplay tab and check Display Score, Disable Zoom, Disable cam movement and Hide beam connections.
 
 We will begin by designing the layout for the mini game. On layer 3, build a frame with maximum sized **pixels**. Click the configuration button on the **pixels** to choose any color you like. The walls should be made of two large pixels so that the bees can spawn under them. The layout frame used in this tutorial has a size of 19x12 pixels.
 
@@ -30,7 +30,7 @@ Click the Layer visibility button to see behind the pixels, then add **platforms
 
 ![](https://i.imgur.com/GOSp9kF.png)
 
-Add **Multi-emitters**. This object will emitt copies of the bees. Add 3 on the bottom, 3 at the top and 1 on each side.
+Add **Multi-emitters**. This object will emit copies of the bees. Add 3 on the bottom, 3 at the top and 1 on each side.
 
 ![](https://i.imgur.com/KPBG9Nf.png)
 
@@ -49,13 +49,13 @@ For maximum sized field, use these values:
 ![](https://i.imgur.com/2zpPBL1.png)
 
 Now click the Visibility Mode button so that we can attach the necessary objects under the bee.
-The first object we will add is a **Thruster**. This is a small rocket that will make the bee fly by itself. You can attach it to a small **plastic beam** and then attach the beam somewhere under the bee (change visiblity again to attach). You might have to increase the Thrust slider a bit depending on the size and weight of your bee. Since this is a yellow bee it should not be set too high. You can fine tune the speed of all the bees later.
+The first object we will add is a **Thruster**. This is a small rocket that will make the bee fly by itself. You can attach it to a small **plastic beam** and then attach the beam somewhere under the bee (change visibility again to attach). You might have to increase the Thrust slider a bit depending on the size and weight of your bee. Since this is a yellow bee it should not be set too high. You can fine tune the speed of all the bees later.
 
 ![](https://i.imgur.com/ujlPZve.png)
 
 Now add a **Proximity sensor** at the front of the bee. This object will sense when the bee is about to hit a wall or another bee, then a signal will be sent to an **Auto Absorber** which will remove the bee. This is to prevent having too many bees up on the screen at the same time. Add the **Auto Absorber** under the proximity sensor but don't connect them yet.
 
-Adjust the Proximity sensor's Lenght slider to about 3.00 and the range to 0.30
+Adjust the Proximity sensor's length slider to about 3.00 and the range to 0.30
 
 ![](https://i.imgur.com/uW01eCN.png)
 
@@ -73,7 +73,7 @@ Add a **Game Manager** somewhere behind the pixel wall of the mini game layout.
 To play a sound when a bee is smashed, add a **SFX emitter** and connect it to a **Y-splitter**.
 Add a **receiver** to receive the signal from the **mini transmitter** and attach the **receiver** to the **Y-splitter**, then connect the **Y-splitter** to the correct input socket of the **Game Manager** (IN3 in this case). Click the info button to see what they do. IN3 gives +50 score.
 
-Add two more **SFX emitters** and two **Y-splitters**. These will be used for the blue and red bees later. Click the configuration button to change to the prefered sound. For this tutorial we'll use the "Absorb" sound for the yellow and blue bee and the "Weird" sound for the red bee. Also, click the checkmark for Global sound.
+Add two more **SFX emitters** and two **Y-splitters**. These will be used for the blue and red bees later. Click the configuration button to change to the preferred sound. For this tutorial we'll use the "Absorb" sound for the yellow and blue bee and the "Weird" sound for the red bee. Also, click the checkmark for Global sound.
 
 ![](https://i.imgur.com/VIv4bTD.png)
 
@@ -95,7 +95,7 @@ To make this a blue bee, click the configuration button on one of the yellow **P
 
 Make sure to change the frequency of the **mini transmitter** to 2 since this bee will give a different score. And also increase the thrust a bit on the thruster to make it fly faster.
 
-Export it by using Multi-select again. Name it Bluebee1 and then import a new copy of it. Replace the blue boxes with red color this time, change the frequency of the **mini transmitter** to 3 and increase the thrust even higher for this bee. And then export the bee (Redbee1).
+Export it by using Multi-select again. Name it Bluebee1 and then import a new copy of it. Replace the blue boxes with red color this time, change the frequency of the **mini transmitter** to 3 and increase the thrust even higher for this bee. And then export the bee (`Redbee1`).
 
 You should now have three different colored bees.
 
@@ -117,7 +117,7 @@ Make sure to rotate the multi-emitters if needed or the bees might get stuck.
 
 Now lets make them spawn from the top of the game. First we need to rotate the bees and then make a new copy of them so that they fly downwards.
 
-Import two blue and one red bee and rotate them to something like on the screenshot. You might need to decrease the thrust a bit for each bee depending on what gravity you're uing. When done, export/save them with new names and configure the **multi-emitters** to emit the bees.
+Import two blue and one red bee and rotate them to something like on the screenshot. You might need to decrease the thrust a bit for each bee depending on what gravity you're using. When done, export/save them with new names and configure the **multi-emitters** to emit the bees.
 
 ![](https://i.imgur.com/JE9J99b.png)
 

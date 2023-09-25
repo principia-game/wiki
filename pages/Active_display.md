@@ -11,7 +11,7 @@ This display is active and updates its current symbol every tick according to th
 
 Symbols can be customized by clicking the configuration button.
 
-## Socket information:
+## Socket information
 - **`IN0`**: ON/OFF (default ON)
 - **`IN1`**: Set symbol
 - **`OUT0`**: Current symbol

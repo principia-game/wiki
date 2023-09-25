@@ -5,11 +5,11 @@
 	"sublayer_width": 15,
 }) }}
 
-**NOTE: This is a beta object, please be careful when using it as it can have unintended behavior.**
+**NOTE: This is a beta object, please be careful when using it as it can have unintended behaviour.**
 
 Works like factory. Click to build weapons and tools.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Add to queue
 - **`IN1`**: What to build
 - **`IN2`**: Absorb items without interaction

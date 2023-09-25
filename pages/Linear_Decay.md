@@ -11,6 +11,6 @@ If **`IN0`** is non-zero, add it to its internal value (`cur_value` += **`IN0`**
 
 The Linear Decay object does not clamp its value, a glitch which leads to it being able to output negative values when IN0 is 0, the value being negative of whatever decay value is set ([Example level](/level/551)). For more information about signals outside the regular range see [[Hacked Signals]].
 
-## Socket information:
+## Socket information
 - **`IN0`**: Set value
 - **`OUT0`**: `cur_value`

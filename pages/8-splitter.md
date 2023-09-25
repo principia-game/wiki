@@ -9,6 +9,6 @@ Like the [[Y-splitter]] but with 8 outputs.
 
 Forwards the value from its input port to all its output ports.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Value
 - **`OUT0-7`**: Unmodified value of IN0

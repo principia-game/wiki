@@ -5,4 +5,4 @@
 	"sublayer_width": 15,
 }) }}
 
-A magnet that can attract or repell metal objects.
+A magnet that can attract or repel metal objects.

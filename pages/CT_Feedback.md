@@ -13,11 +13,11 @@ The force or torque being applied by the motor is reported in a similar manner t
 
 The error feedback (**`OUT3`**) outputs exactly 1 when an "error" is detected. Errors are due to external forces that prevent the motor from moving or causes the motor to move in the wrong direction. Note that this signal can be very noisy when the motor is stuck. It is a constant 1 if the motor is moving in the wrong direction.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Power
 - **`IN1`**: Speed control (optional, default = 1)
 - **`IN2`**: Reverse (optional, default = 0)
-- **`IN3`**: Speed/force tradeoff control (optional, default = as defined by slider)
+- **`IN3`**: Speed/force trade-off control (optional, default = as defined by slider)
 - **`OUT0`**: Motor interface, blue cable
 - **`OUT1`**: Speed feedback (optional)
 - **`OUT2`**: Force/torque feedback (optional)

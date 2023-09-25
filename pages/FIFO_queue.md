@@ -7,6 +7,6 @@
 
 First-in-first-out queue with an initial buffer of 8 extra 0-signals.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Input signal
 - **`OUT0`**: Signal that's currently at the end of the FIFO buffer.

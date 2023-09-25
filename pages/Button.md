@@ -9,5 +9,5 @@ Mechanical one-time button, as compared to the [[Toggle Button]] which toggles a
 
 You can use a [[Sparsifier]] device to convert the button click to a single "tick".
 
-## Socket information:
+## Socket information
 - **`IN0`**: Button state output

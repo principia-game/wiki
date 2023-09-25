@@ -9,5 +9,5 @@ Connect the fan to a power source (battery or power supply) using a white power 
 
 The more voltage from a power source the fan receives, the more powerful it will be.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Power source

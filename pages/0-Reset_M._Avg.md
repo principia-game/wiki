@@ -14,6 +14,6 @@ I: = / x > 0 : xa + I(1-a)
 
 Where `x` is the input signal, `I` is the internal value and `a` is a weight factor.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Input signal
 - **`OUT0`**: Resulting output value

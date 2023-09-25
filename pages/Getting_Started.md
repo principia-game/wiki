@@ -1,6 +1,6 @@
 This page will help you get started in the sandbox. For more tutorials and help resources, check out the rest of the [Principia Wiki](/wiki/).
 
-**(TODO: This thing should preferrably be rewritten or repurposed)**
+**(TODO: This thing should preferably be rewritten or repurposed)**
 
 ## Power cable system (white cables)
 The white cables are used to send electric power to devices requiring it. Examples of objects that need power include the Fan, Trampoline (optional), and all the CT (controller) objects. Currently you can choose from two power sources: Battery (3V) and Power Supply (custom voltage). The power supply is voltage and current regulating so each output is independent of the others - a selected voltage of 24 will output 24 V to all connected cables.

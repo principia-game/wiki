@@ -10,7 +10,7 @@ Trampoline fixed to the wall. Can optionally be wired to a power source for extr
 
 Sublayer depth: 4
 
-## Socket information:
+## Socket information
 - **`IN0`**: Voltage
 - **`IN1`**: On/off control (if voltage connected)
 - **`OUT0`**: Displacement feedback

@@ -1,4 +1,4 @@
-The default behavior of the physics engine is not always optimal. That's why there are several options available to fine-tune the physics simulation. This page will give you an overview of how each option affects the performance and stability of the simulation.
+The default behaviour of the physics engine is not always optimal. That's why there are several options available to fine-tune the physics simulation. This page will give you an overview of how each option affects the performance and stability of the simulation.
 
 The options can be found under the World tab in the Level Properties dialog. These settings are level-specific.
 

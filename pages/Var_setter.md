@@ -9,8 +9,8 @@ Store a value and associate it with a name. These variables are persistent betwe
 
 You can also set Principia variables using the `game:set_variable(varname, value)` method in Lua.
 
-To retrieve the value, see the [[Var getter]]. 
+To retrieve the value, see the [[Var getter]].
 
-## Socket information:
+## Socket information
 - **`IN0`**: Set
 - **`IN1`**: Value

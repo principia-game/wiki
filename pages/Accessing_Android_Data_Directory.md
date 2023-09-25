@@ -34,15 +34,15 @@ Now, you may copy over your old data and levels to this location if you want.
 ## Through ADB (Needs computer)
 You can access the scoped storage through ADB, a debugging tool part of the [Android platform tools](https://developer.android.com/studio/releases/platform-tools). In order to use ADB, you will need to enable USB debugging from the Android developer settings and connect your phone to a computer. On Linux, it should work out of the box. However on Windows you will need to find so called "ADB drivers" from your phone's manufacturer.
 
-ADB is primarily a command-line tool, and you usually would want to use the `adb pull` and `adb push` commands similar to working with something like SCP. ADB also supports tab autocompletion on the remote side, so you can look at the directory structure on your phone while typing out a command. Some example commands:
+ADB is primarily a command-line tool, and you usually would want to use the `adb pull` and `adb push` commands similar to working with something like SCP. ADB also supports tab auto-completion on the remote side, so you can look at the directory structure on your phone while typing out a command. Some example commands:
 
-* **Backing up your entire Principia user data to your computer:**  
+* **Backing up your entire Principia user data to your computer:**
   `adb pull /storage/emulated/0/Android/data/com.bithack.principia/files/ principia_backup/`
 
-* *Alternatively if you're migrating from the old location:*  
+* *Alternatively if you're migrating from the old location:*
   `adb pull /storage/emulated/0/Principia/ principia_backup`
 
-* **Restore from a backup:**  
+* **Restore from a backup:**
   `adb push principia_backup/* /storage/emulated/0/Android/data/com.bithack.principia/files/`
 
 The adb shell command is also available allowing you to launch a shell on your phone, use `cd /storage/emulated/0/Android/data/com.bithack.principia/files/Principia` to navigate into the user data and manage it with regular Linux terminal commands.

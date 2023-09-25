@@ -12,6 +12,6 @@ Characteristics:
 * Low torque
 * No engine braking
 
-## Socket information:
+## Socket information
 - **`IN0`**: Voltage
 - **`OUT0`**: Speed control

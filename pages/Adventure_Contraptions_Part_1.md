@@ -121,7 +121,7 @@ Attach the **laser** to a small sized **cylinder**, then attach the cylinder to 
 
 Add the **RC Micro** somewhere that the player can use. Click the configuration button and drag out a round button. Connect the **RC micro** to the **CT Servo**.
 
-Now place a **laser bouncer** and a **laser sensor** somewhere. The laser beam from the controlled laser should be pointed by the player toward the **laser bouncer** and then bonunced to the **laser sensor**, see screenshot for example. You might need to change the layer.
+Now place a **laser bouncer** and a **laser sensor** somewhere. The laser beam from the controlled laser should be pointed by the player toward the **laser bouncer** and then bounced to the **laser sensor**, see screenshot for example. You might need to change the layer.
 
 Now connect the **laser sensor** to an **inverter**. The **inverter** is then connected to the **mini emitters** so that they shoot by default and are inactivated when the **laser sensor** detects a laser beam, but since the **inverter** only have one output socket and we're using two **mini emitters** we will have to first connect it to a **Y-splitter**. An **y-splitter** is an object that forwards the value from its input port to both its output ports.
 

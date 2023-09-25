@@ -9,6 +9,6 @@ Transmit a signal over a frequency.
 
 If **`IN1`** is used, the used frequency is shifted by + **`IN1`** * 10 rounded to the nearest whole value.
 
-## Socket information:
+## Socket information
 - **`IN0`**: The signal to transmit
 - **`IN1`**: Frequency shift

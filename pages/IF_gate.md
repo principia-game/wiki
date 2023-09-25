@@ -19,7 +19,7 @@ else
 end
 ```
 
-## Socket information:
+## Socket information
 - **`IN0`**: Value
 - **`IN1`**: Condition
 - **`OUT0`**: `IF IN1 THEN IN0 ELSE 0`

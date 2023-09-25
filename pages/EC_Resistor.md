@@ -7,7 +7,7 @@
 
 Electronically controlled resistor. Use **`IN1`** to control the resistance.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Incoming power
 - **`IN1`**: Amount of resistance
 - **`OUT0`**: Outgoing power

@@ -12,7 +12,7 @@
 
 	- **Background colour** - Colour of background if a coloured background has been used.
 
-- **Left/Right/Bottom/Top border** - Expand the playfield by increasing these values.
+- **Left/Right/Bottom/Top border** - Expand the level size by increasing these values.
 
 - **Gravity X/Y** - Modify the gravity of your level. Default X=0 Y=-20
 
@@ -110,7 +110,7 @@
 - **Automatically submit score on finish** - Automatically submit score for the user when the level finishes.
 
 - **Disable end-screens** - Disable any end-game sound or messages. Works well when Pause on WIN is disabled. Note that this also disabled the score submission button.
-To submit highscore without the button you can use the luascript function game:submit_score().
+To submit highscore without the button you can use the [[LuaScript]] function game:submit_score().
 
 - **Allow quicksaving** - If enabled, the player can save his progress at any time.
 

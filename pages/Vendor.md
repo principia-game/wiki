@@ -9,7 +9,7 @@ Click the target button to set what resource the vendor accepts.
 
 The builder tool can be used to drag a resource to the blue antenna.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Activate
 - **`IN1`**: Reset
 - **`OUT0`**: Bought one item

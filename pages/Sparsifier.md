@@ -14,6 +14,6 @@ Outputs 1 if **`IN0`** is 1 and the preceding value of **`IN0`** was not 1.
 
 Use this gate to, for example, convert control panel button presses to button "clicks".
 
-## Socket information:
+## Socket information
 - **`IN0`**: Input signal
 - **`OUT0`**: Sparsified output signal

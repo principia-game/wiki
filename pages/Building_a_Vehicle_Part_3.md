@@ -4,7 +4,7 @@ In this tutorial we will continue to build on our vehicle from the previous tuto
 First, let's open up the vehicle from part 2. If you didn't save yours, use [this](https://archive.principia-web.se/level/5383) example level. You can also find the finished example level for this part of the tutorial at the bottom of the page.
 
 ## Adding a cannon on the Vehicle
-We will begin by creating a small "turret" with two planks where the cannon can be placed, then attach a **Servo Motor** to it. A **Servo Motor** has low maxium speed, high torque and is good for precis angle control or abrupt speed control.
+We will begin by creating a small "turret" with two planks where the cannon can be placed, then attach a **Servo Motor** to it. A **Servo Motor** has low maximum speed, high torque and is good for precis angle control or abrupt speed control.
 
 ![](https://i.imgur.com/Br5vo26.png)
 

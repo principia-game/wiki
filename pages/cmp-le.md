@@ -9,7 +9,7 @@ Short for "Compare lesser or equal". Outputs 1 if the **`IN0`** input value is l
 
 For a non-inclusive comparison, use [[cmp-l]].
 
-## Socket information:
+## Socket information
 - **`IN0`**: Value A
 - **`IN1`**: Value B
 - **`OUT0`**: IF (A <= B) THEN 1 ELSE 0

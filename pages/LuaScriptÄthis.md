@@ -266,7 +266,7 @@ this:clear_static_texels(r, g, b, a)
 ## `this:add_static_sprite()`
 Added in **1.5**
 
-Adds a sprite to be rendered with the given paramters. This only needs to be called once per sprite, because it will persist until this:clear_static_sprites() is called.
+Adds a sprite to be rendered with the given parameters. This only needs to be called once per sprite, because it will persist until this:clear_static_sprites() is called.
 
 ```lua
 this:add_static_sprite(x, y, rotation, width, height, texel_from_x, texel_from_y, texel_to_x, texel_to_y)

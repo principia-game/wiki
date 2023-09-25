@@ -17,7 +17,7 @@ When you click the motors its important that the purple line with a square is al
 
 ![](https://i.imgur.com/mydaF7c.png)
 
-To keep the hovercraft above the ground we will add a **Proximity Sensor** and two **thrusters** below the **plastic beam**. The **proximity sensor** meassures the distance to the closest object and activates the **thrusters** when its near the ground. You can increase the Lenght slider a bit to make it hover higher above the ground.
+To keep the hovercraft above the ground we will add a **Proximity Sensor** and two **thrusters** below the **plastic beam**. The **proximity sensor** measures the distance to the closest object and activates the **thrusters** when its near the ground. You can increase the length slider a bit to make it hover higher above the ground.
 
 Instead of cables we will use a wireless connection by adding a **mini transmitter** on the **proximity sensor** and two **receivers**, one on each **thruster**. You can leave the frequency as default.
 

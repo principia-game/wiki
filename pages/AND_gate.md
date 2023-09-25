@@ -20,7 +20,7 @@ else
 end
 ```
 
-## Socket information:
+## Socket information
 - **`IN0`**: Value A
 - **`IN1`**: Value B
 - **`OUT0`**: A AND B

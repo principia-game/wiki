@@ -13,6 +13,6 @@ Output 1 if **`IN0`** is not equal to the last value of **`IN0`**. Essentially, 
 
 Use this gate to do, for example, nothing. :(
 
-## Socket information:
+## Socket information
 - **`IN0`**: Input signal
 - **`OUT0`**: Sparsified output signal

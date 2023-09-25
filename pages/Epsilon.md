@@ -9,6 +9,6 @@ Add a very small value (`1e-5`) to the input signal before passing it on. Use th
 
 Note that raw signals will never go above 1.0 or below 0.0, and does not wrap around.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Input signal
 - **`OUT0`**: Output with `1e-5` added to the signal

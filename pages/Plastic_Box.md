@@ -5,6 +5,6 @@
 	"sublayer_width": 15,
 }) }}
 
-A plastic box with customizable color.
+A plastic box with customisable colour.
 
 **Material:** Plastic, slightly bouncy, low friction.

@@ -9,5 +9,5 @@ Reports when a specific object is inside the field.  Will report 1.0 when the ta
 
 Use the crosshair button to select an object which object the field detects.
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Detection status

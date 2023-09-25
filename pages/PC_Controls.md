@@ -43,12 +43,12 @@ The robot is controlled using typical WASD controls. To bring up an info window 
 - **Space** - Quickadd object (write name or part of name and click enter)
 - **P** - Play/Pause current level
 - **U** - Quick save current level
-- **`<Shift>`-F** - Toggle architect/ortographic view
+- **`<Shift>`-F** - Toggle architect/orthographic view
 
 ### On selected object
 - **`<Shift>`-Mouse drag** - Drag object and snap to grid
 - **`<Shift>`-Mouse drag rotation icon** - Rotate object and snap to fixed angles
-- **R** - Activate/Deactive rotation mode
+- **R** - Activate/Deactivate rotation mode
 - **`<Shift>`-E** - Connect all highlighted potential connections
 - **F,G,H,J,K** - Connect two objects as highlighted
 - **`<Shift>`-Q** or **T** - Disconnect all connections of selected object

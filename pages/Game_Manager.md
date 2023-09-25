@@ -13,7 +13,7 @@ The game may also end automatically if the final score specified in the level pr
 
 **NOTE:** **`OUT0`** can be used to check whether the final score has been reached. You may want to use a [[Floor]] component to filter this value before you pass it on to binary devices, otherwise a value of 0.5 (half final score reached) will be rounded up to 1.
 
-## Socket information:
+## Socket information
 - **`IN0`**:  Player wins the game
 - **`IN1`**:  Player loses the game
 - **`IN2`**:  Score +1

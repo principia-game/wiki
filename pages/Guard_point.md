@@ -7,5 +7,5 @@
 
 Intended to make roaming robots of the specified faction guard the object.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Activate guard point (Defaults to disabled when no cable is inserted)

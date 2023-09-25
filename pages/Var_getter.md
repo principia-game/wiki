@@ -11,5 +11,5 @@ You can also retrieve Principia variables using the `game:get_variable(varname)`
 
 To set a value, see the [[Var setter]].
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Value

@@ -11,6 +11,6 @@ Only works in adventure mode, and if the player previously already controls a ro
 
 This object works with any kind of robot, allowing the player to control enemy robots and animals, with their own different behaviours.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Activate (Default 0.0)
 - **`OUT0`**: Output status

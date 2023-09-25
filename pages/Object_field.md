@@ -9,5 +9,5 @@ Detects an object of a specific type. All objects of the target type will be det
 
 Use the crosshair button to select an object. For example, select a metal ball and all metal balls will trigger the object field. The object field ignores properties such as the size of cylinders.
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Detection status

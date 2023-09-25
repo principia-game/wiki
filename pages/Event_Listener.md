@@ -5,7 +5,7 @@
 	"sublayer_width": 14,
 }) }}
 
-Listens to the event specified with the config menu and outputs a 1 to **`OUT0`** whenever the event occured.
+Listens to the event specified with the config menu and outputs a 1 to **`OUT0`** whenever the event occurred.
 
 Available events:
 * (0) **Player die** - The adventure robot is killed.

@@ -9,5 +9,5 @@ Detects laser beams.
 
 Outputs 1 to **`OUT0`** if a laser with the correct wavelength hit the sensor.
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Laser status

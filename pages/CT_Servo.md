@@ -25,7 +25,7 @@ The current position is reported through **`OUT1`**.
 
 The amount of force being applied to move the pivot is reported through **`OUT2`**. A value of 1 means maximum force is being applied and may mean that the motor is stuck.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Power
 - **`IN1`**: Servo control
 - **`OUT0`**: Motor interface, blue cable

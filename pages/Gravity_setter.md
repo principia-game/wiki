@@ -11,5 +11,5 @@ A cable needs to be plugged into the gravity setter and output a non-zero value 
 
 Sending a signal of 0.5 to the Gravity setter will set the gravity to the values set with the on-screen sliders, and halve them. (0, -20 with 0.5 multiplier would result in 0, -10 gravity)
 
-## Socket information:
+## Socket information
 - **`IN0`**: Gravity multiplier

@@ -170,7 +170,7 @@ Miscellaneous signaling components.
 * [[Var setter]]
 
 ## Tools/effects
-Various tools and eyecandy.
+Various tools and eye candy.
 * [[FX Emitter]]
 * [[SFX Emitter]]
 * [[Synthesizer]]
@@ -245,7 +245,7 @@ Various game related objects, including objects commonly found in the Adventure 
 * [[Decoration]]
 
 ## Other (Unused)
-These are unused objects that have been found inside of the game. Most are usable, but have weird quirks and behavior.
+These are unused objects that have been found inside of the game. Most are usable, but have weird quirks and behaviour.
 * [[Angular Damper]]
 * [[Background]]
 * [[Electromagnet]]

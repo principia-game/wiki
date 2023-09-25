@@ -9,7 +9,7 @@ Converts one positive y-value, one positive x-value, one negative y-value, and o
 
 An angle signal is a value between 0 and 1 where 0.5 corresponds to 180 degrees.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Positive Y
 - **`IN1`**: Positive X
 - **`IN2`**: Negative Y

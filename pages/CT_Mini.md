@@ -13,7 +13,7 @@ To drive a motor you will need 3 objects in total: The motor, a controller (CT),
 
 **`IN2`** reverses the motor as long as a rounded value of 1 is read from the input.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Power
 - **`IN1`**: Speed control (optional)
 - **`IN2`**: Reverse (optional)

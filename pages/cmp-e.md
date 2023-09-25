@@ -7,7 +7,7 @@
 
 Short for "Compare equal". Outputs 1 if the two inputs are equal, otherwise output 0.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Value A
 - **`IN1`**: Value B
 - **`OUT0`**: IF (A == B) THEN 1 ELSE 0

@@ -7,6 +7,6 @@
 
 Uses suction force to attach itself to objects.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Activate
 - **`OUT0`**: Outputs 1 if the suction cup is currently attached to an object

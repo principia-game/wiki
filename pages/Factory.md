@@ -9,7 +9,7 @@ This is where the adventure robot can create things in game. When the Factory is
 
 Most objects require oil, see the Oil Rig.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Add to queue
 - **`IN1`**: What to build
 - **`IN2`**: Absorb items without interaction

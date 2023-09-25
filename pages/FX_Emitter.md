@@ -15,6 +15,6 @@ Display special effects depending on the values specified in its configuration m
 - Break - A very subtle breaking effect.
 - Destroy connections - Destroys any destructible connections connected to the FX emitter, subject to the Radius and Count values.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Activate
 - **`OUT0`**: 1.0 when the effects have finished

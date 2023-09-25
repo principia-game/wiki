@@ -5,7 +5,7 @@
 	"sublayer_width": 15,
 }) }}
 
-**NOTE: This is a beta object, please be careful when using it as it can have unintended behavior.**
+**NOTE: This is a beta object, please be careful when using it as it can have unintended behaviour.**
 
 Used to repair or reconfigure robots with different components.
 

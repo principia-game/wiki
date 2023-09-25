@@ -6,6 +6,6 @@
 	"stationary": "Yes"
 }) }}
 
-A plastic box with customizable color fixed to the background wall.
+A plastic box with customisable colour fixed to the background wall.
 
 The Pixel's alpha channel is the frequency it listens on, and it changes its size after the value that is transmitted.

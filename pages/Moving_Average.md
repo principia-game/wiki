@@ -15,6 +15,6 @@ The output value is calculated according to `I := xa + I(1-a)`, where `x` is the
 
 * Set up an RC with a circle widget, and wire it up to a [[Cam Rotator]] with a Moving Average in the middle. The camera rotation will "lag behind", leading to a smoother rotation than without.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Input signal
 - **`OUT0`**: Resulting output value

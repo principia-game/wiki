@@ -23,7 +23,7 @@ The Oil Rig has two status LED's. The LED to the left will light up when the Oil
 When the Oil Rig has collected enough oil it will emit an oil barrel. Barrels can be taken to a Factory to create objects that require oil. Barrels can also be used to create power-up oils by mixing them with different gem stones.
 
 ### Mining
-To be able to mine terrain you need the Zapper tool. Stand close to terrain and click on it, the robot will begin mining and stop when you release. Different types of terrain will drop different materials, and in the procedually generated adventure worlds will also contain random ore veins.
+To be able to mine terrain you need the Zapper tool. Stand close to terrain and click on it, the robot will begin mining and stop when you release. Different types of terrain will drop different materials, and in the procedurally generated adventure worlds will also contain random ore veins.
 
 ## Using the Factory
 The factory is used to create objects. Each object costs a specific amount of each material. The most essential material is oil. Most electronic objects have a plastic casing and copper inside for the electronics. The second most essential material is wood. By collecting wood you can create cheap planks and other wooden objects.

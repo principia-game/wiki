@@ -5,4 +5,4 @@
 	"sublayer_width": 15,
 }) }}
 
-A non-attachable trapezoid with a customizable weight. Great for weighing down objects.
+A non-attachable trapezoid with a customisable weight. Great for weighing down objects.

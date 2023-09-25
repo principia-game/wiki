@@ -14,7 +14,7 @@ local my_entity = world:get_entity(entity_id)
 ## `world:raycast()`
 Added in **1.4**
 
-Raycasts from start to end. Returns nil if nothing was hit, otherwise returns the entity, ptx, pty, norx, nory.
+Raycasts from start to end. Returns nil if nothing was hit, otherwise returns `entity`, `ptx`, `pty`, `norx`, `nory`.
 
 ```lua
 local entity, ptx, pty, norx, nory = world:raycast(startx, starty, endx, endy, layer)

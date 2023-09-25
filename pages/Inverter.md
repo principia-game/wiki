@@ -11,12 +11,12 @@ Essentially, it can be used to turn an 1.0 binary signal into 0.0 and vice versa
 
 Examples:
 ```lua
-0.0 -> 1.0 
+0.0 -> 1.0
 1.0 -> 0.0
 0.3 -> 0.7
 0.5 -> 0.5   -- 0.5 stays the same
 ```
 
-## Socket information:
+## Socket information
 - **`IN0`**: Input signal
 - **`OUT0`**: Inverted **`IN0`**

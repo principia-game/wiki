@@ -11,6 +11,6 @@ Combined multiply and add. Useful for scaling the signal window to a specific fl
 
 Set **`a`** and **`b`** using the on-screen sliders.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Input signal
 - **`OUT0`**: Resulting output value

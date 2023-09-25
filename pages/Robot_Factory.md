@@ -7,7 +7,7 @@
 
 A factory object that can produce robots.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Add to queue
 - **`IN1`**: What to build
 - **`IN2`**: Absorb items without interaction

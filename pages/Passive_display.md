@@ -11,7 +11,7 @@ Prior to 1.4 the passive display was known as the Digital display.
 
 Symbols can be customized by clicking the configuration button.
 
-## Socket information:
+## Socket information
 - **`IN0`**: ON/OFF (default ON)
 - **`IN1`**: Increment symbol pointer
 - **`IN2`**: Decrement symbol pointer

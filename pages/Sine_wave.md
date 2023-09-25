@@ -11,5 +11,5 @@ An electronic device that outputs a smooth repetitive oscillation, forming sine 
 - **Frequency Hz**: Determines how fast the signal oscillates.
 - **Phase**: Determines where in the sine wave it begins.
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Outputs the current value of the oscillation

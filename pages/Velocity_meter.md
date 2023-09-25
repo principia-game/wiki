@@ -7,6 +7,6 @@
 
 Reports the velocity if itself as an angle and a speed fraction.
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Angle
 - **`OUT1`**: Speed fraction

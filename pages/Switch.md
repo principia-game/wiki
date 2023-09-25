@@ -9,7 +9,7 @@ The input signal (**`IN0`**) is sent to any of the 5 outputs. Initially, the sig
 
 A [[Sparsifier]] can help filter out abundant data.
 
-## Socket information:
+## Socket information
 - **`IN0`** Input signal to send through the switch
 - **`IN1`** Switch to lower output
 - **`IN2`** Switch to higher output

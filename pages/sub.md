@@ -7,6 +7,6 @@
 
 Subtract a constant value given from the on-screen slider from **`IN0`** and output the result to **`OUT0`**.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Input signal
 - **`OUT0`**: Resulting output value

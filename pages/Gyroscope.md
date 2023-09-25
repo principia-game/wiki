@@ -9,5 +9,5 @@ Continuously signals the absolute angle of the gyroscope as a value from 0 to 1 
 
 Also see the [[Tiltmeter]] for measuring angular displacement.
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Angle of the gyroscope as A/360 where A is its angle in degrees

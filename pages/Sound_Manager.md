@@ -7,6 +7,6 @@
 
 Can be used to adjust the volume of a sound or e.g replace it with a different sound using a synthesizer.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Volume
 - **`OUT0`**: Outputs a signal when the selected sound type is played

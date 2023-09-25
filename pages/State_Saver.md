@@ -7,5 +7,5 @@
 
 Save the current state of the level. It can be later returned by the player in the Play section of the main menu.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Activate

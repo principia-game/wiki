@@ -9,5 +9,5 @@ Mechanical re-usable button, as compared to [[Button]] which is one-time use onl
 
 You can use a [[Sparsifier+]] device to output 1 for a single tick each time the button is pressed, regardless of its state.
 
-## Socket information:
+## Socket information
 - **`IN0`**: Button state output

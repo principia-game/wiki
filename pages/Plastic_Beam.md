@@ -5,7 +5,7 @@
 	"sublayer_width": 6,
 }) }}
 
-A plastic beam with customizable color.
+A plastic beam with customisable colour.
 
 **Material:** Plastic, slightly bouncy, low friction.
 

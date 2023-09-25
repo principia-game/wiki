@@ -7,10 +7,10 @@
 
 Controls or outputs information about the selected robot.
 
-## Socket information:
-- **`IN0`**: Godmode ON/OFF.
+## Socket information
+- **`IN0`**: God mode ON/OFF.
 - **`IN1`**: Speed modifier (0.0-1.0). Only enabled if the cable is plugged in. A value of 0.0 means the robot is unable to walk.
-- **`IN2`**: Disable action (useful for disabling box mode until certain powerup is enabled).
+- **`IN2`**: Disable action (useful for disabling box mode until certain power up is enabled).
 - **`IN3`**: Jump strength multiplier.
 - **`IN4`**: HP increase (heal), value * 10
 - **`IN5`**: HP decrease (damage), value * 10
@@ -47,6 +47,6 @@ Controls or outputs information about the selected robot.
 - **`OUT13`**: Movement right feedback (adventure robot only)
 - **`OUT14`**: jump feedback (adventure robot only)
 - **`OUT15`**: aim feedback (adventure robot only)
-- **`OUT16`**: layerup feedback (adventure robot only)
-- **`OUT17`**: layerdown feedback (adventure robot only)
+- **`OUT16`**: layer up feedback (adventure robot only)
+- **`OUT17`**: layer down feedback (adventure robot only)
 - **`OUT18`**: action feedback (adventure robot only)

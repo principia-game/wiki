@@ -9,5 +9,5 @@ When an impact occurs, for example an object collided with the sensor, a value i
 
 Use the Threshold slider to set the maximum impact value. This will be the value corresponding to 1.0 through **`OUT0`**.
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Impact value between 0.0 and 1.0

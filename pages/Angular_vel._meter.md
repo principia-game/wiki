@@ -7,6 +7,6 @@
 
 This device reports the current angular velocity of itself.
 
-## Socket information:
+## Socket information
 - **`OUT0`**: Counter-clockwise angular velocity
 - **`OUT1`**: Clockwise angular velocity

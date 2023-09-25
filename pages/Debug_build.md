@@ -1,7 +1,7 @@
 This page details a number of differences that exist in a debug build of Principia.
 
 ## How to detect a debug build
-At the bottom of the main menu, it should suffix the version number with `[Debug]`. The titlebar will also permanently show the current FPS of the game.
+At the bottom of the main menu, it should suffix the version number with `[Debug]`. The title bar will also permanently show the current FPS of the game.
 
 ## Debug keybinds
 
