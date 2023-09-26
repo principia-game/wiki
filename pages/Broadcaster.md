@@ -2,7 +2,7 @@
 	"id": 125,
 	"name": "Broadcaster",
 	"category": "Electronics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Broadcast a signal over a range of frequencies.

@@ -2,7 +2,7 @@
 	"id": 193,
 	"name": "Active display",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Displays a matrix of 5x7 lights forming configurable symbols. By default, the display contains 36 symbols, 0-9 followed by A-Z.

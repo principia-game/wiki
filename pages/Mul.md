@@ -2,7 +2,7 @@
 	"id": 136,
 	"name": "Mul",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Output the product of its two inputs.

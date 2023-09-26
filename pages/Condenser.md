@@ -2,7 +2,7 @@
 	"id": 134,
 	"name": "Condenser",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Stores an internal value of the sum of all previous values read from IN0, minus all previous values read from IN1. The internal value is then divided by the maximum value and written to **`OUT0`** as a fraction.

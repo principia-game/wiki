@@ -2,7 +2,7 @@
 	"id": 116,
 	"name": "Sum",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Output the sum of its two inputs.

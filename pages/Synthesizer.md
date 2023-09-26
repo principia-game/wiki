@@ -2,7 +2,7 @@
 	"id": 175,
 	"name": "Synthesizer",
 	"category": "Tools/effects",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 An electronic device which creates sounds based on its settings and electronic inputs.

@@ -2,7 +2,7 @@
 	"id": 156,
 	"name": "Event Listener",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Listens to the event specified with the config menu and outputs a 1 to **`OUT0`** whenever the event occurred.

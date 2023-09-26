@@ -2,7 +2,7 @@
 	"id": 24,
 	"name": "CT Mini",
 	"category": "Robotics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 This controller controls the speed and direction of a motor.

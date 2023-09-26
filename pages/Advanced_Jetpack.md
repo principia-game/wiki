@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 14,
 	"name": "Advanced Jetpack",
-	"type": "Back equipment",
+	"type": "Back equipment"
 }) }}
 
 Advanced jetpack with even more fuel.

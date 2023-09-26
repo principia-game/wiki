@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 53,
 	"name": "Dummy head",
-	"type": "Head",
+	"type": "Head"
 }) }}
 
 Dummy head, nothing much else.

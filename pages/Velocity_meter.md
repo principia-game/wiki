@@ -2,7 +2,7 @@
 	"id": 153,
 	"name": "Velocity meter",
 	"category": "Robotics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Reports the velocity if itself as an angle and a speed fraction.

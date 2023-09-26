@@ -2,7 +2,7 @@
 	"id": 50,
 	"name": "Sparsifier",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 One of the most important devices to understand!

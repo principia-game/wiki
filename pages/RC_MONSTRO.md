@@ -2,7 +2,7 @@
 	"id": 29,
 	"name": "RC MONSTRO",
 	"category": "Robotics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Control panel with support for 8 widgets, capable of overriding signals and receiving feedback from external electronics.

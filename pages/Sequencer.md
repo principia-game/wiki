@@ -2,7 +2,7 @@
 	"id": 179,
 	"name": "Sequencer",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Traverses over its given sequence at the given speed, outputting the value to **`OUT0`**.

@@ -2,7 +2,7 @@
 	"id": 176,
 	"name": "Var getter",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Retrieve a value associated with the specified name. These variables are persistent between playthroughs and stored in a cache file associated with the level. Use the config dialog to set the variable name, or to reset the variable's value.

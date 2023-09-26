@@ -2,7 +2,7 @@
 	"id": 53,
 	"name": "Clamp",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Clamp the input signal to a given minimum and maximum value, inclusive.

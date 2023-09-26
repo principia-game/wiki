@@ -2,7 +2,7 @@
 	"id": 109,
 	"name": "Interactive ball",
 	"category": "Interaction",
-	"sublayer_width": 6,
+	"sublayer_width": 6
 }) }}
 
 An interactive version of the [[Ball]].

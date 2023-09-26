@@ -2,7 +2,7 @@
 	"id": 188,
 	"name": "Factory",
 	"category": "Game",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 This is where the adventure robot can create things in game. When the Factory is clicked, a menu pops up where you can select what objects to build.

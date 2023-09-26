@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 21,
 	"name": "Plasma Gun",
-	"type": "Weapon",
+	"type": "Weapon"
 }) }}
 
 A fast shooting weapon.

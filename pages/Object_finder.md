@@ -2,7 +2,7 @@
 	"id": 98,
 	"name": "Object finder",
 	"category": "Robotics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 The object finder locates a specific object. Use the crosshair button to select which object the object finder is tracking.

@@ -2,7 +2,7 @@
 	"id": 54,
 	"name": "Toggler",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Whenever a bit of 1 is read from **`IN0`**, the output stream is toggled.

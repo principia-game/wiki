@@ -2,7 +2,7 @@
 	"id": 113,
 	"name": "Pointer",
 	"category": "Signal-misc",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Shows a small arrow pointing in the direction of the input angle.

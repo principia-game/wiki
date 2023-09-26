@@ -2,7 +2,7 @@
 	"id": 66,
 	"name": "Game Manager",
 	"category": "Game",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Various I/O to control the level score and level completion.

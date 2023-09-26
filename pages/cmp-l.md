@@ -2,7 +2,7 @@
 	"id": 172,
 	"name": "cmp-l",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Short for "Compare lesser" Outputs 1 if the **`IN0`** input value is less than the **`IN1`** input value, otherwise output 0.

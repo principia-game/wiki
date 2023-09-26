@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 46,
 	"name": "Circuit of Regeneration",
-	"type": "Upgrades",
+	"type": "Upgrades"
 }) }}
 
 Regenerates HP over time.

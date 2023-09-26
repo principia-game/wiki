@@ -2,7 +2,7 @@
 	"id": 44,
 	"name": "AND gate",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Outputs 1 when both of its inputs are 1.

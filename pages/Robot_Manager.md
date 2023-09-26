@@ -2,7 +2,7 @@
 	"id": 196,
 	"name": "Robot Manager",
 	"category": "Game",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Controls or outputs information about the selected robot.

@@ -2,7 +2,7 @@
 	"id": 198,
 	"name": "Suction Cup",
 	"category": "Game",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Uses suction force to attach itself to objects.

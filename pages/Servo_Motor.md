@@ -2,7 +2,7 @@
 	"id": 21,
 	"name": "Servo Motor",
 	"category": "Robotics",
-	"sublayer_width": 7,
+	"sublayer_width": 7
 }) }}
 
 A motor that is good for precise angle control or abrupt speed control. Power this motor by connecting it to a controller (CT) using an [[Interface Cable]] (blue cable).

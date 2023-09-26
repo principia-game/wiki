@@ -2,7 +2,7 @@
 	"id": 144,
 	"name": "Impact sensor",
 	"category": "Robotics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 When an impact occurs, for example an object collided with the sensor, a value is sent through **`OUT0`**.

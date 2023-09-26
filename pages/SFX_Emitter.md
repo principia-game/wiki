@@ -2,7 +2,7 @@
 	"id": 174,
 	"name": "SFX Emitter",
 	"category": "Tools/effects",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Plays one of the preset sound effects.

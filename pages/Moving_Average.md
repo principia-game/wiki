@@ -2,7 +2,7 @@
 	"id": 56,
 	"name": "Moving Average",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Linearly interpolates the signal.

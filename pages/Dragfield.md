@@ -2,7 +2,7 @@
 	"id": 82,
 	"name": "Dragfield",
 	"category": "Interaction",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Used to make interactive objects within the specified radius moveable by the player. It glows if there is an interactive object within the radius. 

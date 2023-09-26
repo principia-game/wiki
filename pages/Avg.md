@@ -2,7 +2,7 @@
 	"id": 118,
 	"name": "Avg",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Outputs the average value of the two inputs.

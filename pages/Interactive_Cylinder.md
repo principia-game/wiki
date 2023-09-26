@@ -2,7 +2,7 @@
 	"id": 81,
 	"name": "Interactive Cylinder",
 	"category": "Interaction",
-	"sublayer_width": 6,
+	"sublayer_width": 6
 }) }}
 
 An interactive version of the [[Cylinder]].

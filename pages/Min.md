@@ -2,7 +2,7 @@
 	"id": 127,
 	"name": "Min",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Output the unmodified smallest value of **`IN0`** or **`IN1`** to **`OUT0`**.

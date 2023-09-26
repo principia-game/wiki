@@ -2,7 +2,7 @@
 	"id": 83,
 	"name": "Emitter",
 	"category": "Tools/effects",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 The emitter will emit copies of a selected object. Copies will be emitted as long as 1.0 is received through **`IN0`**, or if **`IN0`** is unplugged. For every time an object is emitted, 1.0 is written to **`OUT0`**.

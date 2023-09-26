@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 66,
 	"name": "Hard hat",
-	"type": "Head equipment",
+	"type": "Head equipment"
 }) }}
 
 Protect your head while down mining.

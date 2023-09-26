@@ -2,7 +2,7 @@
 	"id": 159,
 	"name": "RC Activator",
 	"category": "Interaction",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Remotely activate an RC. Use the crosshair button to select the target RC.

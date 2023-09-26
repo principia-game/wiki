@@ -2,7 +2,7 @@
 	"id": 23,
 	"name": "Linear Servo",
 	"category": "Robotics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Linear motor with precise position control and active force application to hold its position. Power the motor by connecting it to a controller (CT) using an [[Interface Cable]] (blue cable).

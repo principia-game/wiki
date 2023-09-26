@@ -2,7 +2,7 @@
 	"id": 19,
 	"name": "Damper",
 	"category": "Mechanics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Damper/shock absorber. Both ends can be attached to other objects, either in the same layer as the damper or to objects in neighbouring layers.

@@ -2,7 +2,7 @@
 	"id": 40,
 	"name": "Gyroscope",
 	"category": "Robotics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Continuously signals the absolute angle of the gyroscope as a value from 0 to 1 where the output value is A/360 where A is the absolute angle in degrees.

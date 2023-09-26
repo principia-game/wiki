@@ -2,7 +2,7 @@
 	"id": 45,
 	"name": "NAND gate",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Same as the AND gate, but the output value is inverted.

@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 48,
 	"name": "Police Hat",
-	"type": "Head equipment",
+	"type": "Head equipment"
 }) }}
 
 Such authority.

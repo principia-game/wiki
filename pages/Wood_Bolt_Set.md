@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 40,
 	"name": "Wood Bolt Set",
-	"type": "Bolt set",
+	"type": "Bolt set"
 }) }}
 
 Weak bolt set.

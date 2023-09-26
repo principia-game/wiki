@@ -2,7 +2,7 @@
 	"id": 57,
 	"name": "0-Reset M. Avg",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Identical to [[Moving Average]], but immediately resets itself when an input signal of exactly 0 is received:

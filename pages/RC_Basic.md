@@ -2,7 +2,7 @@
 	"id": 27,
 	"name": "RC Basic",
 	"category": "Robotics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Basic control panel with support for 4 output signals.

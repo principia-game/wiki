@@ -2,7 +2,7 @@
 	"id": 150,
 	"name": "Angular vel. meter",
 	"category": "Robotics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 This device reports the current angular velocity of itself.

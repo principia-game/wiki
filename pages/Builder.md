@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 1,
 	"name": "Builder",
-	"type": "Tool",
+	"type": "Tool"
 }) }}
 
 This tool allows you to move and attach objects. The adventure robot has this item by default.

@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 26,
 	"name": "Heisenberg's Hat",
-	"type": "Head equipment",
+	"type": "Head equipment"
 }) }}
 
 Stylish top hat.

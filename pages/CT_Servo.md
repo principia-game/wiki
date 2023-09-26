@@ -2,7 +2,7 @@
 	"id": 25,
 	"name": "CT Servo",
 	"category": "Robotics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 This controller allows you to control the state (translation or angle) of any kind of motor. The controller outputs feedback data through **`OUT1`** and **`OUT2`**.

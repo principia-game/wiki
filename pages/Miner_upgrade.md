@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 9,
 	"name": "Miner upgrade",
-	"type": "Misc",
+	"type": "Misc"
 }) }}
 
 Item with the model of an Oil upgrade item, but tinted blue. Can be absorbed by the robot by putting it close with the builder, but does nothing.

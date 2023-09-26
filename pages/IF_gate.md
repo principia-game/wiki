@@ -2,7 +2,7 @@
 	"id": 79,
 	"name": "IF gate",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 If binary value of **`IN1`** is 1.0, out the unmodified value of **`IN0`** to **`OUT0`**.

@@ -2,7 +2,7 @@
 	"id": 207,
 	"name": "Guard point",
 	"category": "Game",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Intended to make roaming robots of the specified faction guard the object.

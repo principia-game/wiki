@@ -2,7 +2,7 @@
 	"id": 208,
 	"name": "Target setter",
 	"category": "Robotics",
-	"sublayer_width": 6,
+	"sublayer_width": 6
 }) }}
 
 Changes the target of a robot within the detection field.

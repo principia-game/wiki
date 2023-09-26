@@ -2,7 +2,7 @@
 	"id": 22,
 	"name": "Linear Motor",
 	"category": "Robotics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 A linear motor attempts to move its pivot to the target end of the motor. Power the motor by connecting it to a controller (CT) using an [[Interface Cable]] (blue cable).

@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 29,
 	"name": "Feet",
-	"type": "Feet",
+	"type": "Feet"
 }) }}
 
 Robot feet.

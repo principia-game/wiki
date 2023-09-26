@@ -2,7 +2,7 @@
 	"id": 211,
 	"name": "Vendor",
 	"category": "Interaction",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Click the target button to set what resource the vendor accepts.

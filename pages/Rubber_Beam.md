@@ -2,7 +2,7 @@
 	"id": 68,
 	"name": "Rubber Beam",
 	"category": "Basic",
-	"sublayer_width": 6,
+	"sublayer_width": 6
 }) }}
 
 A black rubber beam with very high friction, medium-low bounciness and medium density.

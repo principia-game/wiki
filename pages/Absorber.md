@@ -2,7 +2,7 @@
 	"id": 86,
 	"name": "Absorber",
 	"category": "Tools/effects",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 The absorber absorb absorbable objects. The object cannot have any connections, or it will not be absorbed.

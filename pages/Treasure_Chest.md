@@ -2,7 +2,7 @@
 	"id": 221,
 	"name": "Treasure Chest",
 	"category": "Interaction",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Treasure chest with randomized loot.

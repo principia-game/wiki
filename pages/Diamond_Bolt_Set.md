@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 43,
 	"name": "Diamond Bolt Set",
-	"type": "Bolt set",
+	"type": "Bolt set"
 }) }}
 
 Very strong bolt set.

@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 12,
 	"name": "Jetpack",
-	"type": "Back equipment",
+	"type": "Back equipment"
 }) }}
 
 Normal jetpack. Low fuel.

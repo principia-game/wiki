@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 56,
 	"name": "Witch Hat",
-	"type": "Head equipment",
+	"type": "Head equipment"
 }) }}
 
 Snazzy witch hat.

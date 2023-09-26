@@ -2,7 +2,7 @@
 	"id": 43,
 	"name": "OR gate",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Outputs 1 when at least one of its input is 0.

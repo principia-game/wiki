@@ -2,7 +2,7 @@
 	"id": 92,
 	"name": "Plastic Beam",
 	"category": "Basic",
-	"sublayer_width": 6,
+	"sublayer_width": 6
 }) }}
 
 A plastic beam with customisable colour.

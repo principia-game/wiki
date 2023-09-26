@@ -2,7 +2,7 @@
 	"id": 104,
 	"name": "Gravity manager",
 	"category": "Tools/effects",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Manages the global gravity. Use **`IN0`** and **`IN1`** to set the gravity based on angle and force. Modify the gravity multiplier with IN2.

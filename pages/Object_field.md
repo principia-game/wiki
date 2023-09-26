@@ -2,7 +2,7 @@
 	"id": 115,
 	"name": "Object field",
 	"category": "Robotics",
-	"sublayer_width": 6,
+	"sublayer_width": 6
 }) }}
 
 Detects an object of a specific type. All objects of the target type will be detected by the field. When an object of the target type enters the field, 1.0 is reported through **`OUT0`**, otherwise 0.0 is reported.

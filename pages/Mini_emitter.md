@@ -2,7 +2,7 @@
 	"id": 88,
 	"name": "Mini emitter",
 	"category": "Tools/effects",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Small emitter that can be attached to objects.

@@ -2,7 +2,7 @@
 	"id": 87,
 	"name": "Timer",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 A timer ticks a value of 1.0 at a a defined interval, for a specified number of times. Click the configuration button to set how many times and at what interval the timer should tick.

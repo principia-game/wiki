@@ -2,7 +2,7 @@
 	"id": 213,
 	"name": "Animal",
 	"category": "Game",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Robot animals. Possible animal types are Cow, Pig and Ostrich.

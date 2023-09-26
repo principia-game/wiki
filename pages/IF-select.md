@@ -2,7 +2,7 @@
 	"id": 218,
 	"name": "IF-select",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Like a ternary operator, outputs the value of **`IN1`** if `IN2 >= 0.5`, else output the value of **`IN0`**

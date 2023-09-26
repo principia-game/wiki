@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 30,
 	"name": "Miniwheels",
-	"type": "Feet",
+	"type": "Feet"
 }) }}
 
 Four small wheels.

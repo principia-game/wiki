@@ -2,7 +2,7 @@
 	"id": 108,
 	"name": "Interactive Box",
 	"category": "Interaction",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 An interactive version of the [[Box]].

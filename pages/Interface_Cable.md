@@ -2,7 +2,7 @@
 	"id": 35,
 	"name": "Interface Cable",
 	"category": "Electronics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Blue cable used for communication between motors and controllers (CT family).

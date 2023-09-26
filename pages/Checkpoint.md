@@ -2,7 +2,7 @@
 	"id": 140,
 	"name": "Checkpoint",
 	"category": "Game",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 An adventure mode object. If the **`IN0`** receives a signal above 0.5, this checkpoint is activated. This means if and when the Adventure robot is killed, this is the Checkpoint on which the robot will respawn. The checkpoint can also be activated by having the Adventure robot stepping on it.

@@ -2,7 +2,7 @@
 	"id": 145,
 	"name": "Lobber",
 	"category": "Game",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Enemy bot that throws [[Bomb]] objects which explode after some seconds. Watch out!

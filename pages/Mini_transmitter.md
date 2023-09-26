@@ -2,7 +2,7 @@
 	"id": 139,
 	"name": "Mini transmitter",
 	"category": "Electronics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 A miniature version of the Transmitter, that is only able to transmit signals over a single frequency.

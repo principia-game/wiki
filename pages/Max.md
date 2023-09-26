@@ -2,7 +2,7 @@
 	"id": 128,
 	"name": "Max",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Output the unmodified biggest value of **`IN0`** or **`IN1`** to **`OUT0`**.

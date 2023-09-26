@@ -3,7 +3,7 @@
 	"name": "Block",
 	"category": "Basic",
 	"sublayer_width": 15,
-	"stationary": "Yes",
+	"stationary": "Yes"
 }) }}
 
 A piece of block used for terrain or zappable ores. Acts like a [[Pixel]], but textured.

@@ -2,7 +2,7 @@
 	"id": 100,
 	"name": "sincos",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Converts an angle via **`IN0`** to one positive y-value, one positive x-value, one negative y-value, and one negative x-value;

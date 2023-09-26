@@ -2,7 +2,7 @@
 	"id": 182,
 	"name": "Limit",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 An electronic device that can be used to limit how many ticks of 1 can be passed through it.

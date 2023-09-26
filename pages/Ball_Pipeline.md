@@ -2,7 +2,7 @@
 	"id": 17,
 	"name": "Ball Pipeline",
 	"category": "Basic",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Special object that allows a ball, either wood or iron, to transition from one layer to another. The pipeline can be rotated to decide whether the ball is moved one layer inwards or one layer outwards.

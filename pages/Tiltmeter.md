@@ -2,7 +2,7 @@
 	"id": 72,
 	"name": "Tiltmeter",
 	"category": "Robotics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Output the angular displacement of the Tiltmeter relative to its standing position.

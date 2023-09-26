@@ -2,7 +2,7 @@
 	"id": 89,
 	"name": "Mini absorber",
 	"category": "Tools/effects",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Small absorber that can be attached to objects.

@@ -2,7 +2,7 @@
 	"id": 129,
 	"name": "Backpack",
 	"category": "Game",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Adventure robots can connect to the backpack by walking close to it and clicking on it.

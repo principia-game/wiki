@@ -2,7 +2,7 @@
 	"id": 183,
 	"name": "Cursor field",
 	"category": "Interaction",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Triggered by cursors or finger inside its field. Great for in-game buttons.

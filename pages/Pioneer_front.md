@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 68,
 	"name": "Pioneer front",
-	"type": "Front equipment",
+	"type": "Front equipment"
 }) }}
 
 Decked out and sturdy robot front.

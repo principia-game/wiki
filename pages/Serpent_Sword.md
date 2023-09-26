@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 67,
 	"name": "Serpent Sword",
-	"type": "Weapon",
+	"type": "Weapon"
 }) }}
 
 Swirly sword.

@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 52,
 	"name": "King's crown",
-	"type": "Head equipment",
+	"type": "Head equipment"
 }) }}
 
 Pretty snazzy crown.

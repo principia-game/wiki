@@ -2,7 +2,7 @@
 	"id": 135,
 	"name": "FX Emitter",
 	"category": "Tools/effects",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Display special effects depending on the values specified in its configuration menu. The FX Emitter can display four effects simultaneously.

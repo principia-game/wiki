@@ -2,7 +2,7 @@
 	"id": 123,
 	"name": "Receiver",
 	"category": "Electronics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Listens for a signal on the given frequency.

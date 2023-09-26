@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 17,
 	"name": "Cow head",
-	"type": "Head",
+	"type": "Head"
 }) }}
 
 Cow head. Moo.

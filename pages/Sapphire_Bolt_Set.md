@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 42,
 	"name": "Sapphire Bolt Set",
-	"type": "Bolt set",
+	"type": "Bolt set"
 }) }}
 
 Stronger bolt set.

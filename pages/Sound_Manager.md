@@ -2,7 +2,7 @@
 	"id": 199,
 	"name": "Sound Manager",
 	"category": "Game",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Can be used to adjust the volume of a sound or e.g replace it with a different sound using a synthesizer.

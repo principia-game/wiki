@@ -2,7 +2,7 @@
 	"id": 106,
 	"name": "Sawtooth",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 An electronic device that outputs a sawtooth signal. A sawtooth signal ramps up from 0 to 1 and then abruptly drops to 0 and repeats again, creating a pattern similar to teeth on a saw.

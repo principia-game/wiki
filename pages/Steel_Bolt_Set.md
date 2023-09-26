@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 41,
 	"name": "Steel Bolt Set",
-	"type": "Bolt set",
+	"type": "Bolt set"
 }) }}
 
 Normal/strong bolt set.

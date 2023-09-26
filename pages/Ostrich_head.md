@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 45,
 	"name": "Ostrich head",
-	"type": "Head",
+	"type": "Head"
 }) }}
 
 Head of an ostrich.

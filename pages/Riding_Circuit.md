@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 35,
 	"name": "Riding Circuit",
-	"type": "Upgrades",
+	"type": "Upgrades"
 }) }}
 
 Circuit used for riding animals.

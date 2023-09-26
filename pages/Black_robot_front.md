@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 34,
 	"name": "Black robot front",
-	"type": "Front equipment",
+	"type": "Front equipment"
 }) }}
 
 Weights less than normal robot front.

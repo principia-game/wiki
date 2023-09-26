@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 51,
 	"name": "Compressor",
-	"type": "Tool",
+	"type": "Tool"
 }) }}
 
 A tool that uses vacuum to suck in, compress and store an item. The adventure robot has this item by default.

@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 49,
 	"name": "Black robot back",
-	"type": "Back equipment",
+	"type": "Back equipment"
 }) }}
 
 Weights less than normal robot back.

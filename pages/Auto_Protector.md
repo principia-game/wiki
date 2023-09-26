@@ -2,7 +2,7 @@
 	"id": 192,
 	"name": "Auto Protector",
 	"category": "Tools/effects",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Connect this object to a group of objects to prevent the adventure robot from interacting with that group.

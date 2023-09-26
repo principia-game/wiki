@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 32,
 	"name": "Quadruped",
-	"type": "Feet",
+	"type": "Feet"
 }) }}
 
 Four legs.

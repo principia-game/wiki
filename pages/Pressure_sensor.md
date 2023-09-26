@@ -2,7 +2,7 @@
 	"id": 99,
 	"name": "Pressure sensor",
 	"category": "Robotics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Outputs a total of all objects pushing/pressing on the sensor.

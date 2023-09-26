@@ -2,7 +2,7 @@
 	"id": 223,
 	"name": "8-splitter",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Like the [[Y-splitter]] but with 8 outputs.

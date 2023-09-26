@@ -2,7 +2,7 @@
 	"id": 132,
 	"name": "Pkg Status",
 	"category": "Game",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Get the status details for a level in the current package. Use the configuration button to specify which level to query info about. The level index of a level is position of the level in the list of levels in the package, level index 0 being the first level.

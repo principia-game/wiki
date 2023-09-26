@@ -2,7 +2,7 @@
 	"id": 219,
 	"name": "Cam Rotator",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Rotate the camera to the angle of **`IN1`** if **`IN0`** is above 0.5.

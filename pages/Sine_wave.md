@@ -2,7 +2,7 @@
 	"id": 101,
 	"name": "Sine wave",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 An electronic device that outputs a smooth repetitive oscillation, forming sine waves.

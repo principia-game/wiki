@@ -2,7 +2,7 @@
 	"id": 184,
 	"name": "LuaScript",
 	"category": "Tools/effects",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Lua Script object, write Lua programs that can interact with and control the level.

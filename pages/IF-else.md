@@ -2,7 +2,7 @@
 	"id": 170,
 	"name": "IF-else",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 If binary value of **`IN1`** is 1.0, out the unmodified value of **`IN0`** to **`OUT1`**, else out it to **`OUT0`**.

@@ -2,7 +2,7 @@
 	"id": 36,
 	"name": "Magnetic plug",
 	"category": "Electronics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 The Magnetic Plug is an object that can attract [[Magnetic socket]] objects. When two magnetic objects are connected, the plug can also transfer signals to the socket.

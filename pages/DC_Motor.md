@@ -2,7 +2,7 @@
 	"id": 20,
 	"name": "DC Motor",
 	"category": "Robotics",
-	"sublayer_width": 7,
+	"sublayer_width": 7
 }) }}
 
 It is a DC motor. Power this motor by connecting it to a controller (CT) using an [[Interface Cable]] (blue cable). For more information on how to use motors, see the [[CT Mini]]. Any side of the motor can be attached to nearby objects.

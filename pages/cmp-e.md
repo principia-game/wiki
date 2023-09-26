@@ -2,7 +2,7 @@
 	"id": 171,
 	"name": "cmp-e",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Short for "Compare equal". Outputs 1 if the two inputs are equal, otherwise output 0.

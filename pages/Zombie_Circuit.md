@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 47,
 	"name": "Zombie Circuit",
-	"type": "Upgrades",
+	"type": "Upgrades"
 }) }}
 
 Keeps the robot alive after death.

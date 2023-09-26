@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 50,
 	"name": "Top Hat",
-	"type": "Head equipment",
+	"type": "Head equipment"
 }) }}
 
 Large top hat.

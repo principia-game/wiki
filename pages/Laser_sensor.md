@@ -2,7 +2,7 @@
 	"id": 152,
 	"name": "Laser sensor",
 	"category": "Robotics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Detects laser beams.

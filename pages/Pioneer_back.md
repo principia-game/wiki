@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 69,
 	"name": "Pioneer back",
-	"type": "Back equipment",
+	"type": "Back equipment"
 }) }}
 
 Decked out and sturdy robot back.

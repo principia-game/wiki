@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 38,
 	"name": "Robot back",
-	"type": "Back equipment",
+	"type": "Back equipment"
 }) }}
 
 Normal robot back.

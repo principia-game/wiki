@@ -2,7 +2,7 @@
 	"id": 26,
 	"name": "CT Feedback",
 	"category": "Robotics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 The CT Feedback is an extended version of [[CT Mini]] with 3 output feedback slots. CT Feedback supports any kind of motor.

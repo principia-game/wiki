@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 19,
 	"name": "Robot front",
-	"type": "Front equipment",
+	"type": "Front equipment"
 }) }}
 
 Normal robot front.

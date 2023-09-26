@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 54,
 	"name": "Jester hat",
-	"type": "Head equipment",
+	"type": "Head equipment"
 }) }}
 
 Ooh, Jester hat!

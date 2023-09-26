@@ -2,7 +2,7 @@
 	"id": 189,
 	"name": "Crane",
 	"category": "Game",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 **NOTE: This is a beta object, please be careful when using it as it can have unintended behaviour.**

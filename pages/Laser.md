@@ -2,7 +2,7 @@
 	"id": 71,
 	"name": "Laser",
 	"category": "Robotics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 A device that emits light at the given wavelength. If the wavelength is set above 0, it will damage robots with an increasing damage amount depending on the wavelength.

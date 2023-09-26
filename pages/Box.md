@@ -2,7 +2,7 @@
 	"id": 93,
 	"name": "Box",
 	"category": "Basic",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 A wooden box. Can be attached to objects in adjacent layers.

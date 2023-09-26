@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 33,
 	"name": "Ninja Helmet",
-	"type": "Head equipment",
+	"type": "Head equipment"
 }) }}
 
 Become the ninja you've always wanted to be. Combine with black robot parts and a [[Somersault Circuit]] for pure ninja mode.

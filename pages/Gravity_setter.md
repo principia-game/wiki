@@ -2,7 +2,7 @@
 	"id": 105,
 	"name": "Gravity setter",
 	"category": "Tools/effects",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Use the on-screen sliders to specify what the gravity should be set to. Only one gravity setter should be active at the same time, otherwise the gravity will be undefined.

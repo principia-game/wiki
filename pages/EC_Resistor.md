@@ -2,7 +2,7 @@
 	"id": 94,
 	"name": "EC Resistor",
 	"category": "Electronics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Electronically controlled resistor. Use **`IN1`** to control the resistance.

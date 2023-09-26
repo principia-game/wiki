@@ -2,7 +2,7 @@
 	"id": 28,
 	"name": "RC IO-3",
 	"category": "Robotics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Smaller version of the [[RC MONSTRO]], with only three control widgets.

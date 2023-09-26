@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 23,
 	"name": "Shotgun pellet",
-	"type": "Misc",
+	"type": "Misc"
 }) }}
 
 Pellet used by the [[Shotgun]].

@@ -2,7 +2,7 @@
 	"id": 146,
 	"name": "HP Control",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Controls the HP of a robot.

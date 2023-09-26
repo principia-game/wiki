@@ -2,7 +2,7 @@
 	"id": 102,
 	"name": "Random",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Outputs a random value between 0.0 and 1.0 to **`OUT0`**.

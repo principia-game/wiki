@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 64,
 	"name": "War axe",
-	"type": "Weapon",
+	"type": "Weapon"
 }) }}
 
 A war axe with sharp blade and elegant design.

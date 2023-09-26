@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 18,
 	"name": "Pig head",
-	"type": "Head",
+	"type": "Head"
 }) }}
 
 Pig head. Cute, isn't he?

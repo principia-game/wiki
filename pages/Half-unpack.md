@@ -2,7 +2,7 @@
 	"id": 110,
 	"name": "Half-unpack",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Invert a half pack.

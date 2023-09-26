@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 31,
 	"name": "Monowheel",
-	"type": "Feet",
+	"type": "Feet"
 }) }}
 
 One wheel.

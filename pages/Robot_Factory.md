@@ -2,7 +2,7 @@
 	"id": 200,
 	"name": "Robot Factory",
 	"category": "Game",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 A factory object that can produce robots.

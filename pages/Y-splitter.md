@@ -2,7 +2,7 @@
 	"id": 76,
 	"name": "Y-splitter",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Forwards the value from its input port to both its output ports.

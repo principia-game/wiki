@@ -2,7 +2,7 @@
 	"id": 124,
 	"name": "Transmitter",
 	"category": "Electronics",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Transmit a signal over a frequency.

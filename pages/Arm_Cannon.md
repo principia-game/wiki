@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 0,
 	"name": "Arm Cannon",
-	"type": "Weapon",
+	"type": "Weapon"
 }) }}
 
 The original and favourite weapon for robots.

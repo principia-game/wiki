@@ -2,7 +2,7 @@
 	"id": 158,
 	"name": "Ceil",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 If the input value is anything other than exactly 0, output 1.

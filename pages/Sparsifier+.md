@@ -2,7 +2,7 @@
 	"id": 51,
 	"name": "Sparsifier+",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Output 1 if **`IN0`** is not equal to the last value of **`IN0`**. Essentially, bit noise is smoothed out and coherent signal streams are turned into sparse noise whenever it changes.

@@ -2,7 +2,7 @@
 	"id": 180,
 	"name": "Shape Extruder",
 	"category": "Tools/effects",
-	"sublayer_width": 1,
+	"sublayer_width": 1
 }) }}
 
 **NOTE: This is a beta object, please be careful when using it as it can have unintended behaviour.**

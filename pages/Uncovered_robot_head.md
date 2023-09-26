@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 39,
 	"name": "Uncovered robot head",
-	"type": "Head",
+	"type": "Head"
 }) }}
 
 Naked robot head. Don't laugh.

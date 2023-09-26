@@ -2,7 +2,7 @@
 	"id": 34,
 	"name": "Signal Cable",
 	"category": "Electronics",
-	"sublayer_width": 15,
+	"sublayer_width": 15
 }) }}
 
 Cable used for signaling. Signals can be any value between 0 and 1. Many signals are either 0 (off) or 1 (on), and are then called binary signals. When a signal is any other fraction between 0 and 1, such as 0.5, then the signal is referred to as a "raw" signal.

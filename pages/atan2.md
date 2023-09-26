@@ -2,7 +2,7 @@
 	"id": 112,
 	"name": "atan2",
 	"category": "Signal-misc",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Converts one positive y-value, one positive x-value, one negative y-value, and one negative x-value to an angle which is output to **`OUT0`**.

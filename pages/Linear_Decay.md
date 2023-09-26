@@ -2,7 +2,7 @@
 	"id": 181,
 	"name": "Linear Decay",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Adds any non-zero input value to its internal value. Each tick its internal value is subtracted by the amount given in the on-screen slider.

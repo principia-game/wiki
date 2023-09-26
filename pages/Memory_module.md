@@ -2,7 +2,7 @@
 	"id": 103,
 	"name": "Memory module",
 	"category": "Signal-i2o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Stores a value in its buffer which is output to **`OUT0`**. The value is read from **`IN1`**, and a signal from **`IN0`** sets the buffer value to the value read from **`IN0`**.

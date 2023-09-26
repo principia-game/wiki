@@ -2,7 +2,7 @@
 	"id": 46,
 	"name": "Inverter",
 	"category": "Signal-i1o1",
-	"sublayer_width": 14,
+	"sublayer_width": 14
 }) }}
 
 Inverts **`IN0`** and outputs it to **`OUT0`**. If the input signal is raw, 1 - **`IN0`** is written to **`OUT0`**.
