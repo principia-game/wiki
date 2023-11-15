@@ -56,7 +56,7 @@ Principia's installer writes an URL handler to the Windows registry. This will u
 ```
 
 ### Linux
-The `build-linux/` folder contains the [`principia-url-handler.desktop`](https://github.com/Bithack/principia/blob/master/build-linux/principia-url-handler.desktop) file which implements the URL handler for a packaged Principia. You should install this file into the `applications` folder when packaging.
+The `packaging/` folder contains the [`principia-url-handler.desktop`](https://github.com/Bithack/principia/blob/master/packaging/principia-url-handler.desktop) file which implements the URL handler for a packaged Principia. You should install this file into the `applications` folder when packaging.
 
 If you do not want to install Principia to your root filesystem, you can put the URL handler .desktop file inside of `~/.local/share/applications/` and change the `Exec` line to point to where your Principia is located.
 
