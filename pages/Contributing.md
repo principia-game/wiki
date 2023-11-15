@@ -1,6 +1,8 @@
-The source code for pages on the Principia Wiki is now versioned and hosted in a Git repository on GitHub, available [here](https://github.com/principia-game/wiki). The reason for this is
+The source code for pages on the Principia Wiki is now version controlled and hosted in a Git repository on GitHub, available [here](https://github.com/principia-game/wiki). The reason for this is to simplify maintenance of the Wiki and to make the Wiki content more readily accessible.
 
-To contribute to the Wiki, simply fork the repository, make an edit and open a pull request. If you aren't experienced with Git, you may choose to use the GitHub web interface or the embedded Visual Studio Code editor (press `.` on your keyboard while on the repository page).
+To contribute to the Wiki, simply fork the repository, make an edit and open a pull request. If you aren't experienced with Git, you may choose to use the GitHub web interface or the embedded Visual Studio Code editor.
+
+Simply press `.` on your keyboard while on the repository page to open an embedded version of Visual Studio Code. Make your edits, make a commit for the changes and push. It will automatically create a branch in your fork of the repository which you can submit a pull request for.
 
 If you would like to suggest or discuss any changes or additions, feel free to drop by the `#wiki` channel on Discord or [open an issue on GitHub](https://github.com/principia-game/wiki/issues).
 
