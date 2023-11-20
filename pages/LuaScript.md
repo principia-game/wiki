@@ -11,10 +11,10 @@ For more information about Lua scripting in Principia, see [[Principia Lua Scrip
 
 # Libraries
 The following built-in libraries are available in the Principia Lua environment:
-- `math`
-- `string` (older versions require a flag to be enabled)
-- `table` (older versions require a flag to be enabled)
-- `bitop32` ^(1.5.2+)^
+- **[`math`](https://www.lua.org/manual/5.2/manual.html#6.6)**
+- **[`string`](https://www.lua.org/manual/5.2/manual.html#6.4)** (older versions require a flag to be enabled)
+- **[`table`](https://www.lua.org/manual/5.2/manual.html#6.5)** (older versions require a flag to be enabled)
+- **[`bitop32`](https://www.lua.org/manual/5.2/manual.html#6.7)** ^(1.5.2+)^
 
 # Classes
 The API is divided up into several classes:
