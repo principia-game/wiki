@@ -1,6 +1,6 @@
 A reference to a Principia creature.
 
-**NOTE:** Most entity-functions also work on creature, see creature as an extension to entity.
+**NOTE:** Most entity-functions also work on creature, see creature as an extension to [`entity`](/wiki/LuaScript/entity).
 
 ## `creature:get_hp()`
 Added in **1.5**
