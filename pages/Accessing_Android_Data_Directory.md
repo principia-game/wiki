@@ -11,23 +11,23 @@ In addition, if you have old saves you will need to move it manually from `Princ
 
 Navigate to `Internal shared storage > Android > data`. Press on the folder named `-> Installed apps`.
 
-![/storage/emulated/0/Android/data/](images/android_data_1.png)
+![/storage/emulated/0/Android/data/](images/android_data_1.webp)
 
 It will prompt you to grant Total Commander access to this folder. Simply press "Yes".
 
-![total commander prompt yadda yadda](images/android_data_2.png)
+![total commander prompt yadda yadda](images/android_data_2.webp)
 
 It will take you to a screen that looks something like this. **Do not navigate into the Principia folder or any other one**, simply press the "Use this folder" button at the bottom.
 
-![don't get too excited!](images/android_data_3.png)
+![don't get too excited!](images/android_data_3.webp)
 
 If you get a confirmation prompt, just press the allow button.
 
-![allow total commander to access all ur filez](images/android_data_4.png)
+![allow total commander to access all ur filez](images/android_data_4.webp)
 
 You should be brought to the `/Android/data` directory listing in Total Commander now. Find the `com.bithack.principia` folder and go inside the `files` folder, which is where the game's files now reside.
 
-![success](images/android_data_5.png)
+![success](images/android_data_5.webp)
 
 Now, you may copy over your old data and levels to this location if you want.
 

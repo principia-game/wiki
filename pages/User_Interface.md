@@ -1,4 +1,4 @@
-![](images/principia_ui.jpg)
+![](images/principia_ui.webp)
 
 [toc]
 
