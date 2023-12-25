@@ -12,11 +12,12 @@ This page contains the changelog for Principia. For versions prior to the open s
 - Previously unused objects now available in the sandbox menu ([[Angular Damper]], [[Gear]], [[Magnet]], [[Electromagnet]] and [[Separator]])
   - These objects are partially unfinished and may have bugs or cause crashes. Be careful with them.
 - Separator colour can now be configured through config menu
-- Sticky note limit has been raised to 32 (TODO)
-- Limit of fluid particles has been increased (TODO)
+- Sticky note limit has been raised to 32
+- Limit of fluid particles has been increased (~16384)
 - Items no longer need to be unlocked through the adventure mode
 - Opening the object or item help takes you to the Wiki now
-- Less risk of the game crashing when changing strength of connections.
+- Less risk of the game crashing when changing strength of connections
+- Switch to CMake for building (excluding Android)
 - 64-bit builds available
 - **Lua:**
   - `string` and `table` classes are enabled by default, alongside listening on input
@@ -27,11 +28,14 @@ This page contains the changelog for Principia. For versions prior to the open s
   - Add `world:set_gravity`
   - Add `entity:set_angle`
 - **Desktop:**
+  - Upgrade dialog toolkit library to GTK3
   - Window can now be resized
   - Add ability to toggle GUI with F2
   - Add ability to toggle object lock with N
 - **Windows:**
   - Installer improvements
+  - Link against UCRT
+  - Add portable build (saves user data next to executable, a helper script for running community levels is provided)
 - **Android:**
   - Dialog UI update (Holo -> Material)
   - Removed Facebook analytics (yuck)
