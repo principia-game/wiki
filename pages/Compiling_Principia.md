@@ -9,3 +9,24 @@ Principia works fine on a Raspberry Pi (tested by ROllerozxa on a Pi 4B running 
 
 ### Chrome OS
 If your Chromebook is relatively recent, it supports running Linux inside of a container. Principia should run fine inside of this container, obtain it like you would with any other Linux system. (tested by ROllerozxa on an ASUS C213N Chromebook with an Arch Linux container)
+
+### Haiku
+An initial port to Haiku is available under the [haiku-port](https://github.com/Bithack/principia/tree/haiku-port) branch. To build Principia on Haiku clone the repository and checkout this branch.
+
+Install dependencies:
+
+```bash
+pkgman install cmake ninja curl_devel freetype_devel glew_devel gtk3_devel libjpeg_turbo_devel libpng16_devel libsdl2_devel sdl2_image_devel sdl2_mixer_devel sdl2_ttf_devel
+```
+
+Then build using CMake like usual:
+
+```
+mkdir build; cd build
+cmake .. -G Ninja
+ninja
+```
+
+An executable `principia` should be produced once finished which you use to run the game.
+
+While most of the game should work fine as it uses SDL2 and other cross-platform libraries, some platform-specific plumbing such as the URL protocol handler and piping is not implemented on Haiku yet. As a workaround, you can play community levels on Haiku by launching Principia with the URL used by the level's "Play" button link as the first argument (see [[Principia Protocol]]).
