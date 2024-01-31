@@ -1,4 +1,6 @@
-The portable Windows release is distributed in a .zip archive as an alternative to the installer and can be extracted to be played anywhere and everywhere, without requiring the game to be installed.
+The portable Windows release is distributed in a .7z archive as an alternative to the installer and can be extracted to be played anywhere and everywhere, without requiring the game to be installed.
+
+In Windows 11 Explorer has built-in support for opening .7z archives. Otherwise you should install [7-zip](https://7-zip.org/) in order to open the archive (other archiving programs should also be able to open .7z archives).
 
 While the installer is to be preferred, the portable version is useful if you want to play Principia on a computer where you lack administrator rights, or to put Principia on a thumbdrive and be stored self-contained within a folder.
 
