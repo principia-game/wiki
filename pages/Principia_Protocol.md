@@ -35,14 +35,14 @@ This table shows a comparison of what values get set in the level file by the cl
 | `parent_revision` | `0x0`  | `0xB`     | Internal level revision of the parent level        |
 
 ## Platform implementation
-For desktop platforms, you can always send a Principia protocol link directly to the game executable. This is useful if you are building from source and haven't installed the game. Right click on a play button on principia-web and paste it into a command prompt or terminal when calling the game.
+For desktop platforms, you can always send a Principia protocol link directly to the game executable. This is useful if you are building from source and haven't set up the URL handler but need to quickly play a community level for testing, or are on an in-development platform. Right click on a play button on principia-web and paste it into a command prompt or terminal when calling the game.
 
 ```
-principia.exe principia://play/lvl/db/11
+./principia principia://play/lvl/db/11
 ```
 
 ### Windows
-Principia's installer writes an URL handler to the Windows registry. This will use the current location Principia is installed in, this will break if you move the game afterwards. An example of the registry export can be seen here:
+Principia's installer writes an URL handler to the Windows registry. This will use the current location Principia is installed in, but this will break if you for whatever reason were to move the game afterwards without reinstalling. An example of the registry export can be seen here:
 
 ```
 [HKEY_CLASSES_ROOT\principia]
@@ -55,14 +55,29 @@ Principia's installer writes an URL handler to the Windows registry. This will u
 @="\"C:\\Program Files\\Principia\\principia.exe\" %1"
 ```
 
-### Linux
-The `packaging/` folder contains the [`principia-url-handler.desktop`](https://github.com/Bithack/principia/blob/master/packaging/principia-url-handler.desktop) file which implements the URL handler for a packaged Principia. You should install this file into the `applications` folder when packaging.
+For portable Windows builds no modifications to the registry are made, and as such the URL handler is not registered. You can use the provided `play_community_level.bat` Batch script which will call the executable for you to play a community level with the inputted ID, or create registry keys manually if you are able to do system modifications. See [Windows Portable#Playing community levels](/wiki/Windows_Portable#playing-community-levels) for more info.
 
-If you do not want to install Principia to your root filesystem, you can put the URL handler .desktop file inside of `~/.local/share/applications/` and change the `Exec` line to point to where your Principia is located.
+### Linux
+The `packaging/` folder contains the [`principia-url-handler.desktop`](https://github.com/Bithack/principia/blob/master/packaging/principia-url-handler.desktop) file which implements the URL handler for a packaged Principia. You should install this file into the `applications` folder when packaging, and package managers such as `pacman` will automatically update the MIME database.
+
+If you do not want to install Principia to your root filesystem, you can copy the URL handler .desktop file to `~/.local/share/applications/` (or the equivalent if `$XDG_DATA_HOME` is defined as something else) and change the `Exec` line to point to where your Principia binary is located, e.g:
 
 ```
 Exec=/home/rollerozxa/games/principia/principia %u
 ```
 
+Then to set up the MIME scheme handler association, run the following command in the terminal:
+
+```bash
+xdg-mime default principia-url-handler.desktop x-scheme-handler/principia
+```
+
+Now when you go into a web browser and press on a level's play button, it should ask you if you want to launch the game.
+
+![](images/principia_protocol.png)
+
+### Haiku OS
+The Principia Haiku port currently does not have any system integration available, so in order to play community levels you will need to call the executable directly. The Haiku port also doesn't have a Principia pipe implemented so it will launch a new game window every time. Contributions by people familiar with Haiku internals are welcome.
+
 ### Android
-An URL handler is registered by the Android system from the APK's manifest.
+An URL handler is registered by the Android system from the APK's manifest, which should always be available as long as the app is installed.
