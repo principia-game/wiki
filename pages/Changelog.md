@@ -1,24 +1,17 @@
-This page contains the changelog for Principia. For versions prior to the open sourcing, please see [the source tree](https://github.com/Bithack/principia/tree/master/doc/changes).
+This page contains the changelog for Principia.
 
-## 1.5.2 (unreleased)
-*This is the changelog for an upcoming version. The list of changes is subject to change during development. See the [1.5.2 roadmap](https://github.com/Bithack/principia/issues/64) for more information.*
+For versions prior to the source code release, please see [[Old Changelog]].
 
-- First open source release!
-  - Removed DEMO mode, LITE mode and license verification, now completely free and open source.
-- New default community site! (principia-web)
-  - Communicates with the community site over HTTPS now
-  - The game can now play levels from any domain (e.g. the official community site archive)
-- Linux support!
-- Previously unused objects now available in the sandbox menu ([[Angular Damper]], [[Gear]], [[Magnet]], [[Electromagnet]] and [[Separator]])
-  - These objects are partially unfinished and may have bugs or cause crashes. Be careful with them.
-- Separator colour can now be configured through config menu
+[toc]
+
+## 2024.XX.XX (upcoming release)
+TODO
+
+## 2023.12.26 (1.5.2 Beta 2023-12-26)
 - Sticky note limit has been raised to 32
-- Limit of fluid particles has been increased (~16384)
-- Items no longer need to be unlocked through the adventure mode
-- Opening the object or item help takes you to the Wiki now
+- Limit of fluid particles has been increased
 - Less risk of the game crashing when changing strength of connections
-- Switch to CMake for building (excluding Android)
-- 64-bit builds available
+- Switch to CMake for the build system
 - **Lua:**
   - `string` and `table` classes are enabled by default, alongside listening on input
   - `bit32` is now available
@@ -28,17 +21,37 @@ This page contains the changelog for Principia. For versions prior to the open s
   - Add `world:set_gravity`
   - Add `entity:set_angle`
 - **Desktop:**
-  - Upgrade dialog toolkit library to GTK3
+  - Upgrade to GTK3
+- **Windows:**
+  - Builds are now linked against UCRT
+  - Add portable build (saves user data next to executable, a helper script for running community levels is provided)
+
+## 2023.03.10 (1.5.2 Beta 2023-03-10)
+- Add ability to toggle GUI with F2
+- Use in-game ui::message instead of system toasts on Android (fixes failing game:message)
+- Fix various bugs and freezes on Windows (Ball pipeline not working, Level chunk freeze...)
+- Add ability to toggle object lock on N
+- Removed object and item help texts, it will now open the Wiki instead
+
+## 2022.12.31 (1.5.2 Beta 2022-12-31)
+- First open source release!
+  - Removed DEMO mode, LITE mode and license verification, now completely free and open source.
+- New default community site! (principia-web)
+  - Communicates with the community site over HTTPS now
+  - The game can now play levels from any domain (e.g. the official community site archive)
+- Linux support!
+- Previously unused objects now available in the sandbox menu ([[Angular Damper]], [[Gear]], [[Magnet]], [[Electromagnet]] and [[Separator]])
+  - These objects are partially unfinished and may have bugs or cause crashes. Be careful with them.
+- Separator colour can now be configured through config menu
+- Items no longer need to be unlocked through the adventure mode
+- Object and item help text updates
+- 64-bit builds available
+- **Desktop:**
   - Window can now be resized
-  - Add ability to toggle GUI with F2
-  - Add ability to toggle object lock with N
 - **Windows:**
   - Installer improvements
-  - Link against UCRT
-  - Add portable build (saves user data next to executable, a helper script for running community levels is provided)
 - **Android:**
   - Dialog UI update (Holo -> Material)
   - Removed Facebook analytics (yuck)
-  - Use in-game ui::message instead of native toasts (fixes toasts that don't show up)
   - App data now stored in scoped app storage (new API/Google Play requirement)
   - Fixed SFX Emitter dialog
