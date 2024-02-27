@@ -4,8 +4,18 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2024.XX.XX (upcoming release)
-TODO
+## 2024.02.29 (upcoming release)
+- New version code 35
+- Give the Full health command pad a unique texture
+- Revamp networking protocol
+- Higher quality sandbox menu icons
+- Misc. code cleanups and unused code removal
+- **Android:**
+  - Fix x86_64 builds crashing (an x86_64 native library is now also provided)
+- **Linux:**
+  - AppImage builds
+  - Fix touchscreen input to work like on Windows (hopefully?)
+  - Fix Quickadd dialog messing up on some DEs
 
 ## 2023.12.26 (1.5.2 Beta 2023-12-26)
 - Sticky note limit has been raised to 32
