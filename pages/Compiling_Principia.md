@@ -10,13 +10,13 @@ Principia works fine on a Raspberry Pi (tested by ROllerozxa on a Pi 4B running 
 ### Chrome OS
 If your Chromebook is relatively recent, it supports running Linux inside of a container. Principia should run fine inside of this container, obtain it like you would with any other Linux system. (tested by ROllerozxa on an ASUS C213N Chromebook with an Arch Linux container)
 
-### Haiku
-An initial port to Haiku is available under the [haiku-port](https://github.com/Bithack/principia/tree/haiku-port) branch. To build Principia on Haiku clone the repository and checkout this branch.
+### Haiku OS
+An initial port to Haiku OS is available and has now been merged into master. To build Principia on Haiku simply clone the repository and proceed with the build instructions.
 
 Install dependencies:
 
 ```bash
-pkgman install cmake ninja curl_devel freetype_devel glew_devel gtk3_devel libjpeg_turbo_devel libpng16_devel libsdl2_devel sdl2_image_devel sdl2_mixer_devel sdl2_ttf_devel
+pkgman install cmake ninja curl_devel freetype_devel glew_devel gtk3_devel libjpeg_turbo_devel libpng16_devel libsdl2_devel
 ```
 
 Then build using CMake like usual:
