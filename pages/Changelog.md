@@ -4,20 +4,29 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2024.02.29 (upcoming release)
-- New version code 35
+## 2024.XX.XX (upcoming release)
+- Nothing yet!
+
+## 2024.02.29
+**[News article](https://principia-web.se/news/13)** - **[Release](https://github.com/Bithack/principia/releases/tag/2024.02.29)**
+
 - Give the Full health command pad a unique texture
 - Revamp networking protocol
 - Higher quality sandbox menu icons
 - Misc. code cleanups and unused code removal
 - **Android:**
-  - Fix x86_64 builds crashing (an x86_64 native library is now also provided)
+  - Fix x86_64 builds crashing
+  - An x86_64 native library is now also provided
 - **Linux:**
   - AppImage builds
   - Fix touchscreen input to work like on Windows (hopefully?)
   - Fix Quickadd dialog messing up on some DEs
+- **Haiku:**
+  - Initial port merged and is available to compile in the source tree
 
 ## 2023.12.26 (1.5.2 Beta 2023-12-26)
+**[News article](https://principia-web.se/news/12)**
+
 - Sticky note limit has been raised to 32
 - Limit of fluid particles has been increased
 - Less risk of the game crashing when changing strength of connections
@@ -37,6 +46,8 @@ For versions prior to the source code release, please see [[Old Changelog]].
   - Add portable build (saves user data next to executable, a helper script for running community levels is provided)
 
 ## 2023.03.10 (1.5.2 Beta 2023-03-10)
+**[News article](https://principia-web.se/news/9)**
+
 - Add ability to toggle GUI with F2
 - Use in-game ui::message instead of system toasts on Android (fixes failing game:message)
 - Fix various bugs and freezes on Windows (Ball pipeline not working, Level chunk freeze...)
@@ -44,6 +55,8 @@ For versions prior to the source code release, please see [[Old Changelog]].
 - Removed object and item help texts, it will now open the Wiki instead
 
 ## 2022.12.31 (1.5.2 Beta 2022-12-31)
+**[News article](https://principia-web.se/news/8)**
+
 - First open source release!
   - Removed DEMO mode, LITE mode and license verification, now completely free and open source.
 - New default community site! (principia-web)
