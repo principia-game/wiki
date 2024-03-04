@@ -2,34 +2,60 @@ This page details notes for releasing a new Principia 1.5.2 beta build.
 
 [toc]
 
-## Binaries
-First of all, make sure that Principia runs on the three major supported platforms, with focus on Windows and Android. Linux users primarily compile from source, either with provided buildscripts or manually from source, and build out-of-band from other platforms. As most development is also done on Linux it is of lesser importance to test it when making a release (it is usually the most tested platform during development). It is however assumed that all of them successfully build, as the CI will test this for every commit.
+## Preparation
+First of all, make sure that Principia runs on the three major supported platforms first: Windows, Linux and Android. It is assumed that all of them successfully build as the CI will test this for every commit, but be sure to test them on real hardware so that no breaking bugs or regressions have cropped up. Download the latest CI artifacts on the master branch for each platform and make sure that they work well.
 
-Windows and Android binaries are provided for each release. The CI now produces artifacts at an acceptable quality to distribute these. Look at the commit on master that you would want to release on and download the CI artifacts (requires being logged into GitHub).
+- **Windows**: Be sure to test the installer binary on Windows 10. Run through the installer, see such that it runs, can make connections to principia-web (i.e. cURL and encryption works), and does not crash when opening GTK3 dialogs.
+- **Linux**: Test the AppImage on a couple different distro branches, old and new.
+- **Android**: Test that it runs, play some level and such.
+
+Also update the changelog on the wiki beforehand so that it is up to date with the changes in the new release.
+
+## Incrementing version & tagging
+To increment the version, the script `set_version.lua` found in the `utils/` folder in the source tree should be used. It will update the version across the entire codebase at once reducing human error. Simply run it with `luajit ./utils/set_version.lua` and input the new version code and version name. When done, review the changes it has done and commit it.
+
+When pushed, go onto the Github repository and [draft a new release](https://github.com/Bithack/principia/releases/new). Input the new version's name and accompanying tag name, and create the tag pointing to master which is where the version update commit should have been pushed.
+
+Template for release description (you can guess the news ID it will have):
+
+```md
+### [News article](https://principia-web.se/news/<NEWSID>) - [Changelog](https://principia-web.se/wiki/Changelog#<RELEASE NAME WITH DASHES>)
+
+To download Principia see the [Download](https://principia-web.se/download) page. You can also download the binaries associated with this version below:
+```
+
+Once the release is created and tagged the CI should begin to make builds.
+
+## Binaries
+Windows, Linux and Android binaries are officially provided for each release. The CI now produces artifacts at an acceptable quality to distribute these. Look at the CI job for the abovementioned release tag and download the CI artifacts once they're finished (requires being logged into GitHub) and extract the .zip archives they are contained within.
 
 ### Windows
-The Windows action generates an x64 NSIS Windows installer as the artifact. Download it and extract the .zip archive it is contained within. The binary should be renamed `principia_1.5.2_beta_YYYY-MM-DD.exe`. The "for Windows" is implied with the file extension.
+The Windows action generates an x64 NSIS Windows installer artifact as well as a portable build distributed as a .7z archive.
 
-Be sure to test the installer binary on Windows 10. Run through the installer, see such that it runs, can make connections to principia-web (i.e. cURL and encryption works), and does not crash when opening GTK3 dialogs.
+The installer should be renamed to `principia_YYYY.MM.DD_win64.exe` and the portable should be renamed to `principia_YYYY.MM.DD_win64.7z`.
+
+### Linux
+The Linux action generates an x64 AppImage as an artifact. It should be renamed to `principia_YYYY.MM.DD_x86_64.AppImage`.
 
 ### Android
-The Android action generates an APK as an artifact, containing armeabi-v7a and arm64 native libraries currently. Download it and extract the .zip archive it is contained within. The APK should be renamed `principia_1.5.2_beta_YYYY-MM-DD.apk`. The "for Android" is implied with the file extension.
+The Android action generates an APK as an artifact, containing armeabi-v7a, arm64 and x86_64 native libraries currently. The CI generates unsigned APK files such that they can be signed locally by a signing key. Currently ROllerozxa holds the Android signing key for builds. To sign:
 
-The CI generates unsigned APK files such that they can be signed locally by a signing key. Currently ROllerozxa holds the Android signing key for 1.5.2 beta builds.
+```
+apksigner sign --ks ~/key.jks --ks-pass pass:<PASSWORD> --key-pass pass:<PASSWORD> --out principia-release-signed.apk principia-release-unsigned.apk
+```
 
-Be sure to test the APK on a real phone. Install it, start it and wander around to see that everything works.
+After being signed the APK should be renamed to `principia_YYYY.MM.DD.apk`.
 
-## Uploading and updating downloads
-Currently 1.5.2 beta builds are hosted by ROllerozxa on `grejer.voxelmanip.se`, but may be moved onto GitHub releases to offload bandwidth and to allow tagging beta builds. This is to be decided.
+## Uploading builds and updating downloads
+Builds are now hosted on Github and should be uploaded to the respective release. After having prepared them locally per the steps above, go to edit the release and upload the files to it.
 
-Implying `grejer.voxelmanip.se` is still being used for hosting, upload the binaries to `/srv/grejer/principia/` via rsync. Old binaries can be kept on the server for a while unless there is a good reason to remove them.
+The principia-web download page source is in the site's Git repository at `templates/download.twig`. Update the `version` variable and URLs should automatically update on the page.
 
-The principia-web download page source is in the site's Git repository at `templates/download.twig`. Update the download links referenced on there.
+## Let people know
+Make a news post on principia-web. It should link to the download page as well as the changelog. The release description should also link to this news article.
 
-Principia is also listed on [itch.io](https://rollerozxa.itch.io/principia), and directly links to downloads hosted on `grejer.voxelmanip.se`. These should also be updated.
+Update the Principia version code on principia-web available in `internal/version-code.php` to reflect the new version code. This will make the client begin to start prompting players to update to be sure to have things finished before this.
 
-## Community
-- Write a changelog detailing what has changed in this build from the previous one.
-- Make a news post on principia-web.
-- Make an announcement on the Discord server, linking to the principia-web news article.
-- Make a post on the Mastodon account, linking to the principia-web news article.
+Then make an announcement on the Discord server linking to the principia-web news article. It can be brief but just let people know it's a thing.
+
+Make a post on the Mastodon account (run by ROllerozxa) writing a bit about the new release and link to the news article at the end. Be sure to find some nice level to use as a screenshot.
