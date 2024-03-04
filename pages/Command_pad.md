@@ -24,7 +24,7 @@ The [[Goal]] object acts similar to a Command pad, and wins the game if a robot 
 - **`Increase speed`**: Commands the robot to increase its speed depending on the slider value.
 - **`Decrease speed`**: Commands the robot to decrease its speed depending on the slider value.
 - **`Set speed`**: Sets the robots speed depending on the slider value.
-- **`Full health`**: Gives the robot full health. Has the same texture as the Goal object, which might make the player confuse it with a [[Goal]] object.
+- **`Full health`**: Gives the robot full health.
 
 ## Socket information
 - **`IN0`** Activate (by default on)
