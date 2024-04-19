@@ -4,8 +4,20 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2024.XX.XX (upcoming release)
-- Nothing yet!
+## 2024.XX.XX (future release)
+- Merge sound data directories across platforms (makes sounds stereo on Android and fixes some missing sound files)
+- Fix crash when attempting to save the state of a level with a LuaScript in it
+- Code cleanups
+- **Desktop:**
+  - Revert to old colour picker (makes it easier to select Pixel alpha)
+- **Windows:**
+  - Fix installer installing duplicate data-shared folder
+  - Fix segfault on very old unsupported OpenGL versions (it gives a more friendly error instead)
+- **Linux:**
+  - Don't use Debian's broken SDL2 library for AppImage (TODO)
+- **Android:**
+  - Switch to CMake
+  - Drop support for Android KitKat (5.0 Lollipop is now minimum)
 
 ## 2024.02.29
 **[News article](https://principia-web.se/news/13)** - **[Release](https://github.com/Bithack/principia/releases/tag/2024.02.29)**
