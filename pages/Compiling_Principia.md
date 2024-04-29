@@ -172,3 +172,23 @@ Principia works fine on a Raspberry Pi, just follow the regular compilation step
 
 ### Chrome OS
 If your Chromebook is relatively recent, it supports running Linux inside of a container in Chrome OS with [Crostini](https://chromeos.dev/en/linux). Principia should run fine inside of this container, obtain it like you would with any other Linux system. If your Chromebook is x86_64 based then the AppImage should work, otherwise then follow the build steps for the distribution you're using in the container.
+
+### Cross-compile for Windows on Linux
+You can compile Principia for Windows on a Linux distro that uses pacman by adding MSYS2's UCRT64 repository which provides all the dependencies Principia needs, and then running their GCC compiler build under Wine. While the packages are all mostly self-contained to `/ucrt64/` and ROllerozxa has had success building Principia like this without destroying his system in the process, this is almost definitively not supported by either MSYS2 or your Linux distro and caution is advised when doing this.
+
+Install the latest `msys2-keyring` package from [the MSYS2 mirror repo](https://repo.msys2.org/msys/x86_64/) and install it. Then go into your `/etc/pacman.conf` and add the following lines to add the `ucrt64` repository:
+
+```conf
+[ucrt64]
+Server = https://mirror.msys2.org/mingw/$repo/
+```
+
+Run `sudo pacman -Syu` to update the database and then proceed to install all dependencies like seen in the Windows instructions.
+
+Clone the repository and create a build folder. Then navigate into the build folder with a terminal and run `wine cmd` to start a Wine command prompt. Add the binaries provided by MSYS2 to the path:
+
+```batch
+set PATH=Z:\ucrt64\bin\;%PATH%
+```
+
+Then within this command prompt, run `cmake` to generate build files and then run `ninja` to begin the build.
