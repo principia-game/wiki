@@ -5,7 +5,7 @@
 	"sublayer_width": 14
 }) }}
 
-Like a ternary operator, outputs the value of **`IN1`** if `IN2 >= 0.5`, else output the value of **`IN0`**
+Like a ternary operator, outputs the value of **`IN1`** if **`IN2`** &ge;0.5, else output the value of **`IN0`**
 
 ## Socket information
 - **`IN0`**: Value

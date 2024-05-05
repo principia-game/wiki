@@ -7,7 +7,7 @@
 
 Outputs 1 when both of its inputs are 1.
 
-The AND gate is a binary device. If both **`IN0`** and **`IN1`** is 1, output 1. Otherwise output 0. Since this is a binary device, the input value is rounded so any value above 0.5 is equal to 1.
+The AND gate is a binary device. If both **`IN0`** and **`IN1`** is 1, output 1. Otherwise output 0. Since this is a binary device, the input value is rounded so any value &ge;0.5 is equal to 1.
 
 ## Truth table
 

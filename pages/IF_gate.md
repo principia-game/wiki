@@ -5,11 +5,12 @@
 	"sublayer_width": 14
 }) }}
 
-If binary value of **`IN1`** is 1.0, out the unmodified value of **`IN0`** to **`OUT0`**.
+If binary value of **`IN1`** is 1.0, output the unmodified value of **`IN0`** to **`OUT0`**.
 
-The input **`IN1`** is binary, its value is rounded so any value above 0.5 is equal to 1.
+The input **`IN1`** is binary, its value is rounded so any value &ge;0.5 is equal to 1.
 
 ## Lua implementation
+
 ```lua
 local in0 = this:read(0)
 if in0 >= 0.5 then
@@ -22,4 +23,4 @@ end
 ## Socket information
 - **`IN0`**: Value
 - **`IN1`**: Condition
-- **`OUT0`**: `IF IN1 THEN IN0 ELSE 0`
+- **`OUT0`**: `if IN1 then IN0 else 0`

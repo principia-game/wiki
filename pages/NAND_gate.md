@@ -7,7 +7,7 @@
 
 Same as the AND gate, but the output value is inverted.
 
-The NAND gate is a binary device. Given two inputs, **`IN0`** and **`IN1`**, **`OUT0`** will output 1 if at most one of **`IN0`** and **`IN1`** are 1. Since this is a binary device, the input value is rounded so any value above 0.5 is equal to 1.
+The NAND gate is a binary device. Given two inputs, **`IN0`** and **`IN1`**, **`OUT0`** will output 1 if at most one of **`IN0`** and **`IN1`** are 1. Since this is a binary device, the input value is rounded so any value &ge;0.5 is equal to 1.
 
 ## Truth table
 

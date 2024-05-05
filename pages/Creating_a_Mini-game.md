@@ -3,7 +3,7 @@ This page contains various information and tips on how to create your own Mini-g
 First, make sure you create a new Custom level. A custom level is completed when any of the following conditions is met:
 
 * The final score is reached (unless the final score is 0).
-* A value greater than 0.5 is sent to a [[Game Manager]]'s WIN-input socket.
+* A value &ge;0.5 is sent to a [[Game Manager]]'s WIN-input socket.
 
 To set up your own rules, all you need to do is connect your electronics to the WIN-input on a game manager and define when the game is won.
 

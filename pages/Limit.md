@@ -9,7 +9,7 @@ An electronic device that can be used to limit how many ticks of 1 can be passed
 
 Useful for limiting how many times things like a [[Prompt]] can be activated.
 
-Since this is a binary device, the input value is rounded so any value above 0.5 is equal to 1.
+Since this is a binary device, the input value is rounded so any value &ge;0.5 is equal to 1.
 
 ## Socket information
 - **`IN0`**: Input signal

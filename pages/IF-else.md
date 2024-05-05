@@ -5,11 +5,12 @@
 	"sublayer_width": 14
 }) }}
 
-If binary value of **`IN1`** is 1.0, out the unmodified value of **`IN0`** to **`OUT1`**, else out it to **`OUT0`**.
+If binary value of **`IN1`** is 1.0, output the unmodified value of **`IN0`** to **`OUT1`**. else output it to **`OUT0`**.
 
-The input **`IN1`** is binary, its value is rounded so any value above 0.5 is equal to 1.
+The input **`IN1`** is binary, its value is rounded so any value &ge;0.5 is equal to 1.
 
 ## Lua implementation
+
 ```lua
 local in0 = this:read(0)
 local in1 = this:read(1)
