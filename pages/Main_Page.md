@@ -10,16 +10,19 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing]] 
 
 ## General
 - [[FAQ]]
+- [[Changelog]]
 
 ## Playing
 - [[PC Controls]]
 - [[Adventure]]
 - [[Settings]]
+- [[Troubleshoot Playing Levels]]
 
 ## Creating
 - **[[Tutorials]]**
 - [[User Interface]]
 - [[Objects]]
+	- [[Objects (by ID)]]
 - [[Items]]
 - [[Principia Lua Scripting]]
 - [[Level Properties]]
@@ -27,8 +30,10 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing]] 
 
 ## Technical
 - [[Compiling Principia]]
-- [[Changelog]]
 - [[User Data Directory]]
 - [[Level Format]]
 - [[Packages]]
 - [[Principia Protocol]]
+- [[Making a Release]]
+- [[Screenshot Build]]
+- [[Source Repositories]]
