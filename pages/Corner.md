@@ -5,4 +5,4 @@
 	"sublayer_width": 6
 }) }}
 
-Wooden corner piece for thick planks.
+Wooden triangular corner piece with the height of a [[Thick Plank]].
