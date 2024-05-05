@@ -11,6 +11,15 @@ The OR gate is a binary device. If any input is 1, output 1. Otherwise output 0.
 
 Essentially, it acts as a reverse [[Y-splitter]] and can combine two inputs into one.
 
+## Truth table
+
+| IN0 | IN1 | OUT0 |
+|:---:|:---:|:----:|
+| 0   | 0   | 0    |
+| 1   | 0   | 1    |
+| 0   | 1   | 1    |
+| 1   | 1   | 1    |
+
 ## Lua implementation
 ```lua
 local in0 = this:read(0)
