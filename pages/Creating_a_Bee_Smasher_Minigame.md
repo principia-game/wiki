@@ -5,19 +5,20 @@ This mini game spawns yellow, blue and red bees that the player can smash by cli
 
 ## Objects Used in this Tutorial
 Before we begin, let's look at an overview of the objects we will use in this tutorial:
-* [[Pixel]] to design the game's layout
-* [[Plastic Box]] to design and color the bees
-* [[Multi-emitter]] to spawn copies of the bees
-* [[Game Manager]] to increase the score and finish the game
-* [[Cam Targeter]] and [[Cam Zoomer]] to position the camera
-* [[Prompt]] to display a message at start
-* [[SFX Emitter]] for sound effects
-* [[Timer]] to add a time limit to the game
-* [[Proximity sensor]] to sense when the bee hits a wall
-* [[Thruster]] to make the bee able to fly
-* [[Cursor field]] to sense when player clicks on a bee
-* [[Auto Absorber]] to remove the bee
-* [[Stabilizer]] to add some stabilization to the bee
+
+- [[Pixel]] to design the game's layout
+- [[Plastic Box]] to design and color the bees
+- [[Multi-emitter]] to spawn copies of the bees
+- [[Game Manager]] to increase the score and finish the game
+- [[Cam Targeter]] and [[Cam Zoomer]] to position the camera
+- [[Prompt]] to display a message at start
+- [[SFX Emitter]] for sound effects
+- [[Timer]] to add a time limit to the game
+- [[Proximity sensor]] to sense when the bee hits a wall
+- [[Thruster]] to make the bee able to fly
+- [[Cursor field]] to sense when player clicks on a bee
+- [[Auto Absorber]] to remove the bee
+- [[Stabilizer]] to add some stabilization to the bee
 
 ## Creating the game
 First create a new custom level. Go to level properties, change the background to outdoor, and set gravity Y either to 0 or a bit below 0 to add some weight to the bees. For this tutorial we'll set it to -5 but you can fine tune these settings later. Go to the gameplay tab and check Display Score, Disable Zoom, Disable cam movement and Hide beam connections.

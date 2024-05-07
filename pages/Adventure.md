@@ -4,9 +4,10 @@ An Adventure level is a level where you control the robot. This page will give y
 
 ## Tools
 These are the common tools the robot can wield:
-* **Builder** - Grab, move and connect objects to each other, create cables between objects.
-* **Zapper** - Mine terrain to gather materials (see [Mining](#mining))
-* **Compressor** - Allows you to easily pick up equipments to equip them later in a repair station. Hold down to drop the last picked up equipment, stand on a repair station and drop an item, then enter the repair station to equip it.
+
+- **Builder** - Grab, move and connect objects to each other, create cables between objects.
+- **Zapper** - Mine terrain to gather materials (see [Mining](#mining))
+- **Compressor** - Allows you to easily pick up equipments to equip them later in a repair station. Hold down to drop the last picked up equipment, stand on a repair station and drop an item, then enter the repair station to equip it.
 
 Please see the Primary Adventure Tools video for more information about how to use the tools:
 

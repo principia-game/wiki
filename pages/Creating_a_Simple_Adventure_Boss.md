@@ -118,9 +118,9 @@ For more advanced HP displays, see [this tutorial](Creating_A_Transforming_Adven
 You have now created a fully function boss in Principia. Feel free to make any upgrades to it, create an adventure level around it and publish it to share it with other players on the website.
 
 Other objects that can be useful in levels like this:
-* **Checkpoint** - player respawn
-* **SFX Emitter** - for sound effects
-* **HP Control** - player healing
+- **[[Checkpoint]]** - player respawn
+- **[[SFX Emitter]]** - for sound effects
+- **[[HP Control]]** - player healing
 
 Below is an example of what you can do with a simple boss level.
 

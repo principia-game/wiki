@@ -18,10 +18,10 @@ The following built-in libraries are available in the Principia Lua environment:
 
 ## API reference
 
-* **[`this`](/wiki/LuaScript/this)**: Reference to the unique LuaScript object itself, with methods that relate to the current LuaScript object.
-* **[`game`](/wiki/LuaScript/game)**: Global object containing *game* related methods.
-* **[`cam`](/wiki/LuaScript/cam)**: Global object containing *camera* related methods.
-* **[`world`](/wiki/LuaScript/world)**: Global object containing *world* related methods.
-* **[`entity`](/wiki/LuaScript/entity)**: Reference to a Principia game object, which can be retrieved using `world:get_entity()`.
-  * **[`creature`](/wiki/LuaScript/creature)**: Extension of the `entity` class for living objects such as robots.
-* **[Callbacks](/wiki/LuaScript/Callbacks)**: List of callbacks.
+- **[`this`](/wiki/LuaScript/this)**: Reference to the unique LuaScript object itself, with methods that relate to the current LuaScript object.
+- **[`game`](/wiki/LuaScript/game)**: Global object containing *game* related methods.
+- **[`cam`](/wiki/LuaScript/cam)**: Global object containing *camera* related methods.
+- **[`world`](/wiki/LuaScript/world)**: Global object containing *world* related methods.
+- **[`entity`](/wiki/LuaScript/entity)**: Reference to a Principia game object, which can be retrieved using `world:get_entity()`.
+  - **[`creature`](/wiki/LuaScript/creature)**: Extension of the `entity` class for living objects such as robots.
+- **[Callbacks](/wiki/LuaScript/Callbacks)**: List of callbacks.

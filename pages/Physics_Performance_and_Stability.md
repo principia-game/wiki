@@ -3,11 +3,11 @@ The default behaviour of the physics engine is not always optimal. That's why th
 The options can be found under the World tab in the Level Properties dialog. These settings are level-specific.
 
 First, let us see some definitions:
-* Joint - A connection/fastening of two objects
-* Object/Entity - Anything in the simulation, like a ball or a robot
-* Tick - When the simulation runs one time and solves physics for 8 milliseconds. Every second the simulation does 125 ticks.
-* Prismatic Joint - A joint that restricts two objects along a line, like a Linear Servo, or a damper.
-* Pivot Joint - A joint that allows two objects to rotate around a single point, like a DC Motor, wall pivot, or seesaw base.
+- Joint - A connection/fastening of two objects
+- Object/Entity - Anything in the simulation, like a ball or a robot
+- Tick - When the simulation runs one time and solves physics for 8 milliseconds. Every second the simulation does 125 ticks.
+- Prismatic Joint - A joint that restricts two objects along a line, like a Linear Servo, or a damper.
+- Pivot Joint - A joint that allows two objects to rotate around a single point, like a DC Motor, wall pivot, or seesaw base.
 
 ## Basic Tuning
 When you build something mechanically advanced and notice instability/wobbliness, begin tuning by increasing Prismatic and Pivot Error Tolerance very slightly (not too much). From there, proceed with increasing Velocity Iterations to 20, 40, 60 or even higher if needed.

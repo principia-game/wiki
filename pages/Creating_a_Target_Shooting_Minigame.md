@@ -4,20 +4,20 @@ In this tutorial you will learn how to create a simple target shooting mini game
 
 ## Objects Used in this Tutorial
 Before we begin, let's look at an overview of the objects we will use in this tutorial:
-* [[Linear Servo]] for the moving targets and the shooter
-* [[Power Supply]] to power the motors
-* [[CT Servo]] to control the states of the Linear Servos
-* [[SFX Emitter]] for sound effects
-* [[Pixel]] to design the game's layout
-* [[Mini transmitter]] and Receiver for wireless communication
-* [[Mini emitter]] to shoot Land mine at the targets
-* [[Plastic Beam]] to color the targets
-* [[Game Manager]] to increase and decrease the score and finish the game
-* [[Cam Targeter]] and Cam Zoomer to position the camera
-* [[Sine wave]] for the target motions
-* [[Impact sensor]] to detect when a target is hit
-* [[RC Basic]] for on-screen controls
-* [[Prompt]] to display a message if the game is lost
+- [[Linear Servo]] for the moving targets and the shooter
+- [[Power Supply]] to power the motors
+- [[CT Servo]] to control the states of the Linear Servos
+- [[SFX Emitter]] for sound effects
+- [[Pixel]] to design the game's layout
+- [[Mini transmitter]] and Receiver for wireless communication
+- [[Mini emitter]] to shoot Land mine at the targets
+- [[Plastic Beam]] to color the targets
+- [[Game Manager]] to increase and decrease the score and finish the game
+- [[Cam Targeter]] and Cam Zoomer to position the camera
+- [[Sine wave]] for the target motions
+- [[Impact sensor]] to detect when a target is hit
+- [[RC Basic]] for on-screen controls
+- [[Prompt]] to display a message if the game is lost
 
 ## Creating the Game
 First, create a new custom level, then go to level properties in the top right corner. Click the World tab, and remove all borders by changing the background to space, then set Gravity X and Y to 0 to prevent the land mines from falling back down midair after using the shooter. Click the Gameplay tab, set the Final score to 10000 and check the Disable Zoom and Disable Cam Movement checkboxes since moving the camera isn't a part of this mini game.
