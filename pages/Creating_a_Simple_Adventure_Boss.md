@@ -29,11 +29,12 @@ The reason why we put some objects on the side and use a wireless connections fo
 ![](/wiki/images/imgur/UspJJPY.webp)
 
 Now we will make the boss move towards and follow the player robot but keep a small distance so that there are some space for shooting. To do that, we will connect the sincos to the following objects:
-* **Ceil**
-* **Max**
-* **Mul** x2
-* **cmp-l** x2
-* **Y-splitter**
+
+- **[[Ceil]]**
+- **[[Max]]**
+- **[[Mul]]** x2
+- **[[cmp-l]]** x2
+- **[[Y-splitter]]**
 
 Add these objects, then connect the **sincos** from OUT1 (positive X angle) to the **Max** object, and connect OUT3 (negative X angle) to the **Y-splitter**, then from the **Y-splitter** to a **Ceil** and the other input on the **Max**, as shown on the screenshot.
 

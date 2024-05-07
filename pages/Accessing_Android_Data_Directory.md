@@ -36,13 +36,16 @@ You can access the scoped storage through ADB, a debugging tool part of the [And
 
 ADB is primarily a command-line tool, and you usually would want to use the `adb pull` and `adb push` commands similar to working with something like SCP. ADB also supports tab auto-completion on the remote side, so you can look at the directory structure on your phone while typing out a command. Some example commands:
 
-* **Backing up your entire Principia user data to your computer:**
-  `adb pull /storage/emulated/0/Android/data/com.bithack.principia/files/ principia_backup/`
+- **Backing up your entire Principia user data to your computer:**
 
-* *Alternatively if you're migrating from the old location:*
-  `adb pull /storage/emulated/0/Principia/ principia_backup`
+	`adb pull /storage/emulated/0/Android/data/com.bithack.principia/files/ principia_backup/`
 
-* **Restore from a backup:**
-  `adb push principia_backup/* /storage/emulated/0/Android/data/com.bithack.principia/files/`
+- *Alternatively if you're migrating from the old location:*
+
+	`adb pull /storage/emulated/0/Principia/ principia_backup`
+
+- **Restore from a backup:**
+
+	`adb push principia_backup/* /storage/emulated/0/Android/data/com.bithack.principia/files/`
 
 The adb shell command is also available allowing you to launch a shell on your phone, use `cd /storage/emulated/0/Android/data/com.bithack.principia/files/Principia` to navigate into the user data and manage it with regular Linux terminal commands.

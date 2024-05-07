@@ -7,9 +7,7 @@ Principia uses Lua version 5.2, so any generic tutorials for Lua 5.2 should appl
 **Some resources specific to Principia and its Lua API:**
 
 - [[LuaScript]] wiki page (API reference)
-
 - [[Learning Lua Scripting with Principia]] by zardOz
-
 - [Principia Lua image converter](/image-to-lua/)
 
 ---
