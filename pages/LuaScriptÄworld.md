@@ -74,6 +74,15 @@ Converts a global screen point to a world point.
 local wx, wy = world:get_world_point(gsx, gsy)
 ```
 
+## `world:get_screen_point(x, y)`
+Added in **1.5**
+
+Converts a global screen point to a local point.
+
+```lua
+local sx, sy = world:get_screen_point(gsx, gsy)
+```
+
 ## `world:set_bg_color()`
 Added in **1.5**
 

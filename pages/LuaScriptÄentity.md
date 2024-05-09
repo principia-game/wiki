@@ -111,7 +111,7 @@ entity:highlight()
 ## `entity:damage()`
 Added in **1.5**
 
-Only works on destructible objects or creatures.
+Only works on creatures or destructible objects (if Interactive Destruction is enabled).
 
 **NOTE:** Entering a negative amount will heal the object or creature.
 
@@ -274,12 +274,21 @@ local restitution = entity:get_restitution()
 ## `entity:set_color()`
 Added in **1.5**
 
-Sets the color of the given entity, if possible. Does not work will all entities.
+Sets the color of the given entity, if possible. Does not work with all entities.
 
 **NOTE:** This function should be used sparingly due to its performance cost, especially when used on pixels.
 
 ```lua
 entity:set_color(r, g, b)
+```
+
+## `entity:get_color()`
+Added in **1.5**
+
+Gets the color of the given entity, if possible. Does not work with all entities.
+
+```lua
+local r, g, b, a = entity:get_color()
 ```
 
 ## `entity:disconnect_all()`

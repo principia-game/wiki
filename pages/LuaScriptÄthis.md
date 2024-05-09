@@ -29,7 +29,6 @@ Returns true if the given IN-socket has a plug attached to it.
 local b = this:has_plug(socket_id)
 ```
 
-
 ## `this:write_frequency()`
 Added in **1.3.0.2**
 
@@ -82,7 +81,7 @@ local wx, wy = this:get_position()
 ```
 
 ## `this:get_id()`
-Added in **1.4**
+Added in **1.5**
 
 Returns the unique ID of the LuaScript object.
 
@@ -91,7 +90,7 @@ local id = this:get_id()
 ```
 
 ## `this:get_resolution()`
-Added in **1.4**
+Added in **1.5**
 
 Returns the resolution Principia is currently running at.
 
@@ -100,7 +99,7 @@ local width, height = this:get_resolution()
 ```
 
 ## `this:get_ratio()`
-Added in **1.4**
+Added in **1.5**
 
 Returns the current screen ratio as a fraction (`window_width / window_height`).
 
@@ -152,7 +151,7 @@ this:clear_texels(clear_value)
 ## `this:set_draw_tint()`
 Added in **1.4**
 
-Sets the color for future sprite draws. (`this:set_sprite_tint` in 1.3.0.2)
+Sets the color for future sprite draws. (was `this:set_sprite_tint` in 1.3.0.2)
 
 ```lua
 this:set_draw_tint(r, g, b, a)
@@ -236,10 +235,11 @@ local r, g, b, a = this:get_sprite_texel(x, y)
 ## `this:init_draw()`
 Added in **1.5**
 
-Initialized the drawing functionality for the current LuaScript object with the width and height specified.
+Initializes the drawing functionality for the current LuaScript object with the width and height specified.
+
 - Minimum width or height: 1
 - Maximum width or height: 1024
-- Width and height MUST be a power-of-two.
+- Width and height MUST be a power-of-two. (i.e. 1, 2, 4, ..., 32, 64, 128, 256, 512, 1024)
 
 ```lua
 this:init_draw(width, height)
