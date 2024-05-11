@@ -163,6 +163,12 @@ cmake .. -DCMAKE_EXE_LINKER_FLAGS="-L/usr/local/lib/"
 
 If you have Homebrew installed anywhere else than `/usr/local/` (see [Homebrew's docs](https://docs.brew.sh/FAQ#why-should-i-install-homebrew-in-the-default-location)) then change the above commands to point to where it is.
 
+Apply a patch to the GLEW header (same advice above about the Homebrew path applies):
+
+```bash
+patch /usr/local/include/GL/glew.h < ../packaging/glew_macos_fix.patch
+```
+
 Build:
 
 ```bash
