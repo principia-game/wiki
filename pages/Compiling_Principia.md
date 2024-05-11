@@ -144,25 +144,35 @@ To make a release build run `./gradlew assemblerelease`. The release build will 
 
 
 ## macOS
-*(Note: macOS support is very experimental and likely will not work. Contributions are welcome.)*
+**Note**: macOS support is very experimental and will likely have issues or not work at all. Contributions are welcome, and let us know how well it works.
 
 First of all install [Homebrew](https://brew.sh). Then in the terminal install dependencies:
 
 ```sh
-brew install cmake ninja curl glew libpng libjpeg-turbo freetype sdl2 gtk+3
+brew install cmake ninja glew libpng libjpeg-turbo freetype sdl2 gtk+3
 ```
 
-Then go into the cloned Principia source directory and build:
+Then go into the cloned Principia source directory and generate build files:
 
 ```bash
 mkdir build; cd build
 cmake .. -G Ninja
+cmake .. -DGLEW_LIBRARY_RELEASE=/usr/local/lib/libGLEW.dylib
+cmake .. -DCMAKE_EXE_LINKER_FLAGS="-L/usr/local/lib/"
+```
+
+If you have Homebrew installed anywhere else than `/usr/local/` (see [Homebrew's docs](https://docs.brew.sh/FAQ#why-should-i-install-homebrew-in-the-default-location)) then change the above commands to point to where it is.
+
+Build:
+
+```bash
 ninja
 ```
 
-If you get an error about GLEW library not being found then you may need to explicitly point to the library installed by Homebrew: `cmake .. -DGLEW_LIBRARY_RELEASE=/usr/local/lib/libGLEW.dylib`
-
 When compilation finishes an executable `principia` should be produced once finished which you can run from the terminal.
+
+### Packaging for macOS
+The build system can create a macOS app bundle. Simply run `ninja package` in the build directory and a .zip file should be produced with an app bundle inside.
 
 
 ## Haiku OS
