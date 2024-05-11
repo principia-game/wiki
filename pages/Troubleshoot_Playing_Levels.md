@@ -14,6 +14,9 @@ Otherwise if you have built Principia from source and haven't installed or packa
 ## Android
 As long as the Principia app for Android is installed, it should be able to handle `principia://` links. [Have you downloaded it yet?](/download)
 
+## macOS/Haiku OS
+There is no system integration available for these platforms to automatically handle `principia://` links at the moment, see the below section for playing levels through the terminal.
+
 ## If all else fails
 You can send `principia://` URLs directly to the Principia executable which it will parse and act upon. So you can copy the link of a level button and paste it into a terminal to pass as an argument to the Principia executable, like such:
 
@@ -21,5 +24,5 @@ You can send `principia://` URLs directly to the Principia executable which it w
 ./principia principia://play/lvl/db/11
 ```
 
-## I'm on macOS/iOS/the Wii/a toaster/(any other unsupported platform)!
+## I'm on iOS/the Wii/a toaster/(any other unsupported platform)!
 Principia is not a browser game, and it requires the game to be downloaded on a supported platform to work. If you are on an unsupported platform and try to play a level then obviously nothing will happen.
