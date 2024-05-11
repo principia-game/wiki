@@ -7,9 +7,12 @@ For versions prior to the source code release, please see [[Old Changelog]].
 ## 2024.XX.XX (future release)
 - Merge sound data directories across platforms (makes sounds stereo on Android and fixes some missing sound files)
 - Fix crash when attempting to save the state of a level with a LuaScript in it
+- Revert to old colour picker on desktop (makes it easier to select Pixel alpha)
 - Code cleanups
-- **Desktop:**
-  - Revert to old colour picker (makes it easier to select Pixel alpha)
+- **Lua:**
+  - Add `entity:set_fixed_rotation`
+  - Add `entity:is_fixed_rotation`
+  - Add `entity:apply_force`
 - **Windows:**
   - Fix installer installing duplicate data-shared folder
   - Fix segfault on very old unsupported OpenGL versions (it gives a more friendly error instead)
@@ -18,6 +21,8 @@ For versions prior to the source code release, please see [[Old Changelog]].
 - **Android:**
   - Switch to CMake
   - Drop support for Android KitKat (5.0 Lollipop is now minimum)
+- **macOS:**
+  - Experimental port to macOS now available!
 
 ## 2024.02.29
 **[News article](https://principia-web.se/news/13)** - **[Release](https://github.com/Bithack/principia/releases/tag/2024.02.29)**
