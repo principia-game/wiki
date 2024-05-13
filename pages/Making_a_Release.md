@@ -46,6 +46,8 @@ apksigner sign --ks ~/key.jks --ks-pass pass:<PASSWORD> --key-pass pass:<PASSWOR
 
 After being signed the APK should be renamed to `principia_YYYY.MM.DD.apk`.
 
+Also tag the commit that the [Android native dependencies](https://github.com/principia-game/principia-android-deps) were built with to associate it with the version, so F-Droid maintainers know which commit to build them from for the F-Droid Android version.
+
 ## Uploading builds and updating downloads
 Builds are now hosted on Github and should be uploaded to the respective release. After having prepared them locally per the steps above, go to edit the release and upload the files to it.
 
