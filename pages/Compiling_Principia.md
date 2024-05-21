@@ -64,9 +64,9 @@ When doing `ninja install`, the data folders will be installed to `share/princip
 
 
 ## Windows
-The game engine behind Principia (TMS) is written in the C99 standard of C. Unfortunately, the Visual Studio C compiler does not support the C99 standard. Principia must therefore be compiled using MinGW-w64 toolchain.
+Principia can only be built with a MinGW-based Windows compiler, whether it uses GCC or LLVM. MSVC is not supported at the moment and it is unknown if Principia can be compiled with it as MSVC has historically lacked support for C99 which Principia's engine TMS is written in.
 
-The following Windows build instructions use MSYS2 which is a development environment for Windows including MinGW and other tools. Please [download the latest version of the MSYS2 installer here](https://www.msys2.org) and install it.
+The following Windows build instructions use [MSYS2](https://www.msys2.org) which is a development environment for Windows that includes MinGW-w64, libraries and other tools. Please [download the latest version of the MSYS2 installer here](https://www.msys2.org) and install it.
 
 After installation, a terminal opens. Run the following command to update the environment:
 
