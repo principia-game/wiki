@@ -14,25 +14,33 @@ It's the "official" Principia Discord server, an invite can be found in the foot
 Yes, sdac came back and released the source code in August 2022. It is available on GitHub, and is continuing development as an open source project.
 
 ## When is Principia coming onto Google Play?
-Principia will be republished onto Google Play by Bithack sometime in the future.
+No current plans at the moment. However, the Android version of Principia [is available for F-Droid](https://f-droid.org/en/packages/com.bithack.principia/), an alternative app store focusing on free and open source software.
 
 ## What about Steam?
-Potentially... ;)
+Potentially.
 
 ## What about iOS?
-See [#85](https://github.com/Bithack/principia/issues/85).
+Unlikely to happen anytime in the future. See [#85](https://github.com/Bithack/principia/issues/85).
 
 ## What about macOS?
-See [#144](https://github.com/Bithack/principia/issues/144).
+An experimental port is available for macOS, see [the download page](/download#macos). It is very incomplete and needs testing and other assistance from someone who has Apple hardware. Contributions are very welcome.
 
-## What about [Insert platform/Linux distro here]?
+## What about [Insert platform]?
 Pull requests welcome.
+
+## What about [Linux distribution]?
+Packaging Principia for your favourite Linux distribution is very welcome. Let us know when you've done it so the package can be added to the downloads page.
+
+## Why does my Antivirus/Windows say Principia is malicious?
+Because we do not have the money for a signing certificate (which costs a lot of $$$, recurring per year). Principia is not malware, and the builds available on the [download page](/download) are built from source by [Github Workflows](https://github.com/Bithack/principia/actions).
+
+The Windows installer is generally more likely to throw false positives than the portable version. If you are paranoid then you can download the portable version, extract it and scan the extracted game executable `principia.exe` which should give no results. The portable version can then be configured to become the exact same as an installed version of the game if you wish. See the [[Windows Portable]] page for more information.
 
 ## Where are my old levels?
 They are available in the [Community Site Archive](https://archive.principia-web.se). Keep in mind in order to play levels you need a recent build of open source Principia.
 
 ## Who is ROllerozxa?
-He is the current Principia project maintainer, he also runs this community site and the Principia Discord server. Prior to the open sourcing he has also done various archival efforts of Principia such as archiving old game versions or old community levels. Despite his nationality and seemingly endless knowledge, he is not or has been part of Bithack, but is a community member going back to the 2013 days.
+He is the current Principia project maintainer, he also runs this community site and the Principia Discord server. Prior to the open sourcing he has also done various archival efforts of Principia such as archiving old game versions or old community levels. Despite his nationality and seemingly endless knowledge, he is not or has been part of Bithack, but is a community member going back to the 2013 days. You can read more about him [on his website](https://voxelmanip.se/about/).
 
 ---
 
