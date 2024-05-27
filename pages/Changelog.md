@@ -8,11 +8,15 @@ For versions prior to the source code release, please see [[Old Changelog]].
 - Merge sound data directories across platforms (makes sounds stereo on Android and fixes some missing sound files)
 - Fix crash when attempting to save the state of a level with a LuaScript in it
 - Revert to old colour picker on desktop (makes it easier to select Pixel alpha)
-- Code cleanups
+- Allow changing the community site domain at runtime
+- Various code cleanups
 - **Lua:**
   - Add `entity:set_fixed_rotation`
   - Add `entity:is_fixed_rotation`
   - Add `entity:apply_force`
+- **Desktop:**
+  - Allow storing user data portably on all desktop platforms (not just Windows)
+  - Show an error message when a segfault crash happens
 - **Windows:**
   - Fix installer installing duplicate data-shared folder
   - Fix segfault on very old unsupported OpenGL versions (it gives a more friendly error instead)
@@ -32,6 +36,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
 - Higher quality sandbox menu icons
 - Misc. code cleanups and unused code removal
 - **Android:**
+  - Now available on F-Droid!
   - Fix x86_64 builds crashing
   - An x86_64 native library is now also provided
 - **Linux:**
