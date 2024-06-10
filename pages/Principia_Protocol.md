@@ -74,7 +74,7 @@ xdg-mime default principia-url-handler.desktop x-scheme-handler/principia
 
 Now when you go into a web browser and press on a level's play button, it should ask you if you want to launch the game.
 
-![](images/principia_protocol.png)
+![](images/principia_protocol.webp)
 
 ### Haiku OS
 The Principia Haiku port currently does not have any system integration available, so in order to play community levels you will need to call the executable directly. The Haiku port also doesn't have a Principia pipe implemented so it will launch a new game window every time. Contributions by people familiar with Haiku internals are welcome.
