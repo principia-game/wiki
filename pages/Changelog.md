@@ -9,6 +9,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
 - Fix crash when attempting to save the state of a level with a LuaScript in it
 - Revert to old colour picker on desktop (makes it easier to select Pixel alpha)
 - Allow changing the community site domain at runtime
+- Fix building with GCC 14
 - Various code cleanups
 - **Lua:**
   - Add `entity:set_fixed_rotation`
@@ -21,7 +22,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
   - Fix installer installing duplicate data-shared folder
   - Fix segfault on very old unsupported OpenGL versions (it gives a more friendly error instead)
 - **Linux:**
-  - Don't use Debian's broken SDL2 library for AppImage (TODO)
+  - Don't use Debian's broken SDL2 library for AppImage
 - **Android:**
   - Switch to CMake
   - Drop support for Android KitKat (5.0 Lollipop is now minimum)
