@@ -1,5 +1,7 @@
 `this` is a reference to the unique LuaScript object itself. `this` is a **global** object.
 
+[toc]
+
 ## `this:write()`
 Added in **1.3**
 

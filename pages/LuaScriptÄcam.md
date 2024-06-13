@@ -1,5 +1,7 @@
 Controls the player's camera. cam is a **global** object.
 
+[toc]
+
 ## `cam:get_position()`
 Added in **1.3**
 

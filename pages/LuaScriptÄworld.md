@@ -1,5 +1,7 @@
 World functions. world is a **global** object.
 
+[toc]
+
 ## `world:get_entity()`
 Added in **1.3**, Latest update **1.5**.
 

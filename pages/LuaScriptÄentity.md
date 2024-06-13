@@ -1,5 +1,7 @@
 A reference to a Principia object.
 
+[toc]
+
 ## `entity:get_id()`
 Added in **1.3**
 

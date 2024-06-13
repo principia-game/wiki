@@ -1,5 +1,7 @@
 A global object containing various *game*-stuff. game is a **global** object.
 
+[toc]
+
 ## `game:show_numfeed()`
 Added in **1.3**, Latest update **1.3.0.3**
 
