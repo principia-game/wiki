@@ -23,8 +23,11 @@ For versions prior to the source code release, please see [[Old Changelog]].
   - Fix segfault on very old unsupported OpenGL versions (it gives a more friendly error instead)
 - **Linux:**
   - Don't use Debian's broken SDL2 library for AppImage
+  - Allow enabling OpenGL ES at compiletime (`USE_GLES`)
 - **Android:**
+  - Update SDL2 to latest 2.30.3
   - Switch to CMake
+  - Fix crash when opening puzzle levels
   - Drop support for Android KitKat (5.0 Lollipop is now minimum)
 - **macOS:**
   - Experimental port to macOS now available!
