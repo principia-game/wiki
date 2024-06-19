@@ -1,13 +1,15 @@
-Starting with the open source version of Principia, the Android version now stores its user data in its scoped app storage at `/storage/emulated/0/Android/data/com.bithack.principia/files/`. This is caused by a restriction of recent Android API levels and Google Play policies and it is unfortunately impossible to store it in the old more accessible `/storage/emulated/0/Principia/` location.
+Starting with the open source version of Principia, the Android version now stores its user data in its scoped app storage at `/storage/emulated/0/Android/data/com.bithack.principia/files/`. This is caused by Google further restricting how and what Android apps are allowed full access to the external storage, and replaces the old `/storage/emulated/0/Principia/` location that was used in the proprietary version of the game.
 
-This storage area can tend to be fragile and will be deleted when you uninstall the Principia app, so it is recommended to frequently back up this location to keep your locally saved levels safe.
+This storage area will be deleted when you uninstall the Principia app, so if you uninstall the app to switch between differently signed versions of the game you should back up your data first to keep your locally saved levels safe.
 
 In addition, if you have old saves you will need to move it manually from `Principia/` to `Android/data/com.bithack.principia/files/` to be able to access it. Follow one of these methods and then move the data from the old location to the new location.
 
 [toc]
 
-## Total Commander Workaround (Android 12 and below)
-[Total Commander](https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander) (and possibly other file managers) has a method to workaround the restrictions put in place by Google, by taking advantage of a bug in Android 12 and below that allows file managers to be given permission to `Android/data/`.
+## Total Commander Workaround (Android 12 and below*)
+[Total Commander](https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander) (and possibly other file managers) has a method to workaround the restrictions put in place by Google, by taking advantage of a bug in Android 12 and below* that allows file managers to be given permission to `Android/data/`.
+
+\* Some vendor ROMs based on Android 13 and above may still have this bug present, while phones closely based on stock Android likely have it fixed.
 
 Navigate to `Internal shared storage > Android > data`. Press on the folder named `-> Installed apps`.
 
