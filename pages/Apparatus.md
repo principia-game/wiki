@@ -11,7 +11,7 @@ Apparatus is a game developed by Bithack in 2011 and released for Android. It wa
 
 Apparatus received widespread critical acclaim and news coverage from Android news outlets and beyond, topped the list of both best selling and top rated game in Android Market at its peak, and was handpicked as "Editor's Choice" by Google for several months.
 
-In late 2011 the development of a sequel to Apparatus was announced, Apparatus 2: Principia. It was later rebranded to just Principia and released on Android in late 2013, later releasing a Windows version in early 2014.
+In late 2011 the development of a sequel to Apparatus was announced, Apparatus 2: Principia. It was later rebranded to just Principia and released on Android in late 2013, later releasing a Windows version in early 2014. For Apparatus players wanting to try out Principia, [[Principia for Apparatus Players]] 
 
 Both the full version and the LITE version of Apparatus was taken down from Google Play along with the rest of Bithack's games at an unknown point in time. The official community site at apparatusgame.com was shut down sometime in early 2018 along with the official Principia community site.
 
