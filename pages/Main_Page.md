@@ -6,7 +6,9 @@
 
 Welcome to the new Principia Wiki. This aims to be a complete resource for all things Principia, including descriptions for all objects and items in the game and tutorials to get started. All relevant content from the old wiki has been incorporated and is still available here.
 
-If you would like to contribute to the Principia Wiki, see the [[Contributing]] page for how to do so.
+Principia is a physics-based sandbox building game originally developed by Bithack AB in 2013-2014 and later released as open source in 2022. It is available for Windows, Linux, Android, as well as experimental ports to Haiku OS and macOS. Principia is the spiritual successor to [[Apparatus]] released for Android in 2011.
+
+If you would like to contribute to the Principia Wiki, see the [[Contributing to the Wiki]] page.
 
 ## General
 - [[FAQ]]
