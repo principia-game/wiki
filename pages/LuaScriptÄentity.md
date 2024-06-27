@@ -39,7 +39,7 @@ local angle = entity:get_angle()
 ```
 
 ## `entity:set_angle()`
-Added in **1.5.2** (2023-04-21)
+Added in **2023.12.26** (2023-04-21)
 
 Sets the angle of the entity, in radians. Only works on entities that are either completely free or attached to a hinge.
 
@@ -214,7 +214,7 @@ entity:hide()
 ```
 
 ## `entity:is_hidden()`
-Added in **1.5.2** (2023-04-19)
+Added in **2023.12.26** (2023-04-19)
 
 Returns whether the entity is currently hidden or not.
 

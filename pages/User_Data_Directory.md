@@ -4,8 +4,8 @@ Principia uses a directory to store settings and levels. Sometimes you would wan
 - **Windows**: `C:\Users\[username]\Principia\`
 - **Linux**, **Haiku OS**, **macOS**: `~/.principia/`
 - **Android**:
-    - **1.5.1 and prior**: `/sdcard/Principia/`
-    - **1.5.2+**: `/storage/emulated/0/Android/data/com.bithack.principia/files/` (see [[Accessing Android Data Directory]])
+    - **Old**: `/sdcard/Principia/`
+    - **New**: `/storage/emulated/0/Android/data/com.bithack.principia/files/` (see [[Accessing Android Data Directory]])
 
 The user data can be stored portably on desktop platforms if the file `portable.txt` is present next to the Principia executable. In this case the user data will be stored in a folder called `userdata` next to the executable.
 

@@ -37,7 +37,7 @@ Because we do not have the money for a signing certificate (which costs a lot of
 The Windows installer is generally more likely to throw false positives than the portable version. If you are paranoid then you can download the portable version, extract it and scan the extracted game executable `principia.exe` which should give no results. The portable version can then be configured to become the exact same as an installed version of the game if you wish. See the [[Windows Portable]] page for more information.
 
 ## Where are my old levels?
-They are available in the [Community Site Archive](https://archive.principia-web.se). Keep in mind in order to play levels you need a recent build of open source Principia.
+They are available in the [Community Site Archive](https://archive.principia-web.se).
 
 ## Who is ROllerozxa?
 He is the current Principia project maintainer, he also runs this community site and the Principia Discord server. Prior to the open sourcing he has also done various archival efforts of Principia such as archiving old game versions or old community levels. Despite his nationality and seemingly endless knowledge, he is not or has been part of Bithack, but is a community member going back to the 2013 days. You can read more about him [on his website](https://voxelmanip.se/about/).
@@ -50,6 +50,4 @@ He is the current Principia project maintainer, he also runs this community site
 Please get into contact with [ROllerozxa](/user/1) and he will generate and send you a password reset link. In the future, there will be email-based password resets using the email address you specified during registration.
 
 ## How are level screenshots/thumbnails taken?
-Every level has one thumbnail, which is taken at the camera location at publish. As of now, thumbnails are semi-automatically taken by a screenshotting script manually run by [ROllerozxa](/user/1) on his computer every so often. This may cause a significant delay between upload time and when the thumbnail gets taken.
-
-The official community site worked by having a special build of Principia on the server that would take a screenshot at every Cam Marker. Originally when principia-web launched we did not have this special build, but now that the source code is available we do have access to it. It has yet to be implemented to work with principia-web however.
+Currently every level has one thumbnail, which is taken at the first [[Cam Marker]] (or the last camera position) at publish. The screenshots should be taken automatically on level upload after at most a minute or two.

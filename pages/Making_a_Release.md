@@ -1,4 +1,4 @@
-This page details notes for releasing a new Principia 1.5.2 beta build.
+This page details notes for releasing a new Principia version.
 
 [toc]
 

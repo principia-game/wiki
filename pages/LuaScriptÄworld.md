@@ -41,7 +41,7 @@ local x, y = world:get_gravity()
 ```
 
 ## `world:set_gravity()`
-Added in **1.5.2** (2023-04-19)
+Added in **2023.12.26** (2023-04-19)
 
 Set the gravity of the world.
 

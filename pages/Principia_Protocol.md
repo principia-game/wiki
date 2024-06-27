@@ -7,7 +7,7 @@ The Principia protocol contains several arguments separated by slashes.
 
 **`principia://[domain/]action/action_args`**
 
-As of 1.5.2, if the first argument is not a valid action it is treated as a domain and the game will fetch remote levels from that domain.
+As of the open source version, if the first argument is not a valid action it is treated as a domain and the game will fetch remote levels from that domain.
 
 There are three actions, `play`, `edit` and `sandbox`.
 

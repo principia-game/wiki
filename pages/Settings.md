@@ -54,7 +54,7 @@ TODO
 
 - **Autosave screen size**
 
-	Automatically save the current resized window size. ^(Added in 1.5.2)^
+	Automatically save the current resized window size.
 
 - **Display object ID**
 

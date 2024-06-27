@@ -11,6 +11,7 @@ For more information about Lua scripting in Principia, see [[Principia Lua Scrip
 
 ## Libraries
 The following built-in libraries are available in the Principia Lua environment:
+
 - **[`math`](https://www.lua.org/manual/5.2/manual.html#6.6)**
 - **[`string`](https://www.lua.org/manual/5.2/manual.html#6.4)** (older versions require a flag to be enabled)
 - **[`table`](https://www.lua.org/manual/5.2/manual.html#6.5)** (older versions require a flag to be enabled)

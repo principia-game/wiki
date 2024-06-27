@@ -7,9 +7,10 @@ This page will help you get started knowing the controls on the PC version of Pr
 - **ESC** - Close open dialogs or information texts
 - **`<ctrl>`-Q** - Quit game
 - **Secondary Mouse button** - Open menu
+- **F11** - Toggle fullscreen mode
 
 ### Technical
-- **F2** - Toggle GUI ^(added in 1.5.2)^
+- **F2** - Toggle GUI
 - **`<Shift>`-F2** - Toggle FPS display (Off/Simple/Mean graph/Real FPS graph)
 
 ## Adventure
@@ -53,7 +54,7 @@ The robot is controlled using typical WASD controls. To bring up an info window 
 - **F,G,H,J,K** - Connect two objects as highlighted
 - **`<Shift>`-Q** or **T** - Disconnect all connections of selected object
 - **`<Shift>`-H** - Open socket selector on selected object
-- **N** - Toggle object lock ^(Added in 1.5.2)^
+- **N** - Toggle object lock
 - **Y** - Open configuration dialog for selected object
 - **I** - Open info dialog for selected object
 - **Z** - Move selected object back one layer
