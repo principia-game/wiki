@@ -4,11 +4,13 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2024.XX.XX (future release)
+## 2024.06.28 (future release, preliminary version number)
 - Merge sound data directories across platforms (makes sounds stereo on Android and fixes some missing sound files)
 - Fix crash when attempting to save the state of a level with a LuaScript in it
 - Revert to old colour picker on desktop (makes it easier to select Pixel alpha)
 - Allow changing the community site domain at runtime
+- Fix issue when playing from different community hosts during same gameplay session
+- Fix some (not all) issues when window is resized
 - Fix building with GCC 14
 - Various code cleanups
 - **Lua:**
@@ -18,6 +20,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
 - **Desktop:**
   - Allow storing user data portably on all desktop platforms (not just Windows)
   - Show an error message when a segfault crash happens
+  - Allow toggling fullscreen with F11
 - **Windows:**
   - Fix installer installing duplicate data-shared folder
   - Fix segfault on very old unsupported OpenGL versions (it gives a more friendly error instead)
