@@ -54,14 +54,7 @@ When finished a `principia` executable will be produced, which can then be run.
 While the game works fine when being run from out of the source tree, additional setup is required for the URL handler to work in order to play community levels. See [this page on the Wiki](https://principia-web.se/wiki/Principia_Protocol#linux) for more details.
 
 ### Packaging for Linux
-On Linux Principia will attempt to load data from the following directories:
-
-1. `./` (data directories are next to the executable)
-2. `../` (data directories are one directory up relative to the executable)
-3. `./share/principia/` (for an installed build)
-
-When doing `ninja install`, the data folders will be installed to `share/principia`. For packaging, you would want to pass `-DCMAKE_INSTALL_PREFIX=/usr` to CMake which when installed will put data where it can get loaded from.
-
+See [[Information for Downstream Packagers]].
 
 ## Windows
 Principia can only be built with a MinGW-based Windows compiler, whether it uses GCC or LLVM. MSVC is not supported at the moment and it is unknown if Principia can be compiled with it as MSVC has historically lacked support for C99 which Principia's engine TMS is written in.
