@@ -46,7 +46,12 @@ apksigner sign --ks ~/key.jks --ks-pass pass:<PASSWORD> --key-pass pass:<PASSWOR
 
 After being signed the APK should be renamed to `principia_YYYY.MM.DD.apk`.
 
-Also tag the commit that the [Android native dependencies](https://github.com/principia-game/principia-android-deps) were built with to associate it with the version, so F-Droid maintainers know which commit to build them from for the F-Droid Android version.
+Also tag the commit that the [Android native dependencies](https://github.com/principia-game/principia-android-deps) were built with to associate it with the version, so F-Droid maintainers know which commit to build them from for the F-Droid Android version:
+
+```bash
+git tag 20XX.XX.XX
+git push --tags
+```
 
 ## Uploading builds and updating downloads
 Builds are now hosted on Github and should be uploaded to the respective release. After having prepared them locally per the steps above, go to edit the release and upload the files to it.
@@ -61,3 +66,10 @@ Update the Principia version code on principia-web available in `internal/versio
 Then make an announcement on the Discord server linking to the principia-web news article. It can be brief but just let people know it's a thing.
 
 Make a post on the Mastodon account (run by ROllerozxa) writing a bit about the new release and link to the news article at the end. Be sure to find some nice level to use as a screenshot.
+
+### More...
+Update the [Principia itch.io listing](https://rollerozxa.itch.io/principia), copy the download links on the principia-web download page and update the URLs on itch.io as well as the version numbers.
+
+Update the [Libregamewiki page](https://libregamewiki.org/Principia), update the version number and link to the release's news announcement.
+
+Check in on downstream packagers for Principia, such as F-Droid and various Linux distributions. Some automatically check for tags on the Git repository while some rely on word of mouth to learn about the new update.
