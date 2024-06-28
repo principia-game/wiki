@@ -4,7 +4,9 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2024.06.28 (future release, preliminary version number)
+## 2024.06.28
+**[News article](https://principia-web.se/news/15)** - **[Release](https://github.com/Bithack/principia/releases/tag/2024.06.28)**
+
 - Merge sound data directories across platforms (makes sounds stereo on Android and fixes some missing sound files)
 - Fix crash when attempting to save the state of a level with a LuaScript in it
 - Revert to old colour picker on desktop (makes it easier to select Pixel alpha)
@@ -33,7 +35,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
   - Fix crash when opening puzzle levels
   - Drop support for Android KitKat (5.0 Lollipop is now minimum)
 - **macOS:**
-  - Experimental port to macOS now available!
+  - Experimental port to macOS now available
 
 ## 2024.02.29
 **[News article](https://principia-web.se/news/13)** - **[Release](https://github.com/Bithack/principia/releases/tag/2024.02.29)**
