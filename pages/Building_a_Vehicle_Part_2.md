@@ -7,7 +7,7 @@ First let's increase the length of our vehicle a bit so we have more room for ne
 
 ![](/wiki/images/imgur/JCmSCBF.webp)
 
-Now attach the **DC motor** on the plank again, and then the **wheel**.
+Attach the **DC motor** on the plank again, and then the **wheel**.
 
 *Tip: If you hold shift (PC) or with another finger on the screen (Mobile) while rotating or moving an object it will snap itself to a grid.*
 
@@ -21,7 +21,7 @@ So add a Linear Motor and **Rubber Beam** to the level and then reduce the size 
 
 ![](/wiki/images/imgur/trJmFrL.webp)
 
-Now we'll add a small plank on layer 2 of the vehicle to put the brake on. It's best if you rotate the plank a little bit before you attach it so that the Rubber Beam points directly toward the wheel, like on the screenshot. Switch the layer of the Linear Motor and then attach it to the small plank.
+We'll add a small plank on layer 2 of the vehicle to put the brake on. It's best if you rotate the plank a little bit before you attach it so that the Rubber Beam points directly toward the wheel, like on the screenshot. Switch the layer of the Linear Motor and then attach it to the small plank.
 
 ![](/wiki/images/imgur/GNEku6n.webp)
 
@@ -29,7 +29,7 @@ You can increase the force of the brake by clicking the Linear Motor and adjusti
 
 ![](/wiki/images/imgur/YYUMVQU.webp)
 
-Now we need a controller for the brake to work so let's add another [[CT Mini]] to the vehicle. Double click the CT Mini to drag an interface cable to the Linear Motor. Then double click the Power Supply to add a power cable to the CT Mini.
+We need a controller for the brake to work so let's add another [[CT Mini]] to the vehicle. Double click the CT Mini to drag an interface cable to the Linear Motor. Then double click the Power Supply to add a power cable to the CT Mini.
 
 ![](/wiki/images/imgur/59Q31uh.webp)
 

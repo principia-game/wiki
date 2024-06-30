@@ -50,13 +50,13 @@ For maximum sized field, use these values:
 
 ![](/wiki/images/imgur/2zpPBL1.webp)
 
-Now click the Visibility Mode button so that we can attach the necessary objects under the bee.
+Click the Visibility Mode button so that we can attach the necessary objects under the bee.
 
 The first object we will add is a [[Thruster]]. This is a small rocket that will make the bee fly by itself. You can attach it to a small [[Plastic Beam]] and then attach the beam somewhere under the bee (change visibility again to attach). You might have to increase the Thrust slider a bit depending on the size and weight of your bee. Since this is a yellow bee it should not be set too high. You can fine tune the speed of all the bees later.
 
 ![](/wiki/images/imgur/ujlPZve.webp)
 
-Now add a [[Proximity sensor]] at the front of the bee. This object will sense when the bee is about to hit a wall or another bee, then a signal will be sent to an [[Auto Absorber]] which will remove the bee. This is to prevent having too many bees up on the screen at the same time. Add the Auto Absorber under the proximity sensor but don't connect them yet.
+Add a [[Proximity sensor]] at the front of the bee. This object will sense when the bee is about to hit a wall or another bee, then a signal will be sent to an [[Auto Absorber]] which will remove the bee. This is to prevent having too many bees up on the screen at the same time. Add the Auto Absorber under the proximity sensor but don't connect them yet.
 
 Adjust the Proximity sensor's length slider to about 3.00 and the range to 0.30
 
@@ -72,7 +72,7 @@ Finally add a [[Stabilizer]] to the bee to make it fly straight. Increase the An
 
 Now we will add a [[Mini transmitter]] to send a wireless signal to a [[Game Manager]]. You can leave the frequency as default (1) for the yellow bee. Attach the Mini transmitter to the empty Y-splitter output.
 
-Add a Game Manager somewhere behind the pixel wall of the mini game layout. To play a sound when a bee is smashed, add a [[SFX Emitter]] and connect it to a Y-splitter.
+Put a Game Manager somewhere behind the pixel wall of the mini game layout. To play a sound when a bee is smashed, add a [[SFX Emitter]] and connect it to a Y-splitter.
 
 Add a [[Receiver]] to receive the signal from the Mini transmitter and attach the receiver to the Y-splitter, then connect the Y-splitter to the correct input socket of the Game Manager (`IN3` in this case). Click the info button to see what they do. `IN3` gives +50 score.
 
@@ -94,7 +94,7 @@ Name it e.g. Yellowbee1, then import a new copy of it by clicking somewhere on t
 
 Deselect multi-select by pressing esc on PC or click the button with an M under the play button.
 
-To make this a blue bee, click the configuration button on one of the yellow [[Plastic Box]]es, type in blue then OK. Now do the same for all the other yellow plastic boxes. The color should save itself so you don't have to type it in every time.
+To make this a blue bee, click the configuration button on one of the yellow [[Plastic Box]]es, type in blue then OK. Do the same for all the other yellow plastic boxes. The color should save itself so you don't have to type it in every time.
 
 Make sure to change the frequency of the mini transmitter to 2 since this bee will give a different score. And also increase the thrust a bit on the thruster to make it fly faster.
 
@@ -106,7 +106,7 @@ You can remove all the bees from the sandbox since we have already exported and 
 
 ![](/wiki/images/imgur/O1mvvT9.webp)
 
-Now add a [[Receiver]] with frequency 2 and 3. Attach them to the [[Y-splitter]]s before connecting them to the [[Game Manager]] and [[SFX Emitter]]s. Connect the blue bee (frequency 2) to `IN4` of the Game Manager, and the red bee (frequency 3) to `IN11`.
+Add a [[Receiver]] with frequency 2 and 3. Attach them to the [[Y-splitter]]s before connecting them to the [[Game Manager]] and [[SFX Emitter]]s. Connect the blue bee (frequency 2) to `IN4` of the Game Manager, and the red bee (frequency 3) to `IN11`.
 
 ![](/wiki/images/imgur/GsrQjPH.webp)
 
@@ -134,7 +134,7 @@ Add it where the Game Manager is, click the configuration button to type a messa
 
 To add a time limit to the mini game we can use a [[Timer]]. Click the configuration button and set it to e.g. 60 seconds. Connect the Timer to the IN0 socket of the Game Manager.
 
-Now add a [[Cam Zoomer]] and a [[Cam Targeter]]. We will use these two objects to set the camera to a fixed position in the middle. If you click the Cam Targeter and then the crosshair button you can select which object it should focus on.
+Add a [[Cam Zoomer]] and a [[Cam Targeter]]. We will use these two objects to set the camera to a fixed position in the middle. If you click the Cam Targeter and then the crosshair button you can select which object it should focus on.
 
 For this game we have no object in the middle that can be targeted but we can add a Plastic box with an Auto Absorber and then use a wireless connection (Mini transmitter + Receiver) from the [[Prompt]] object and set the camera to the Plastic box. This will then be removed by the Auto Absorber after clicking OK on the startup message. Adjust the [[Cam Zoomer]] so that only the mini game layout is visible when starting the game.
 

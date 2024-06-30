@@ -11,11 +11,11 @@ For the cannon we will use a [[Mini emitter]] that shoots stuff. Add an object t
 
 ![](/wiki/images/imgur/8UTv0On.webp)
 
-Now create a simple cannon or a "pipe" with the Mini emitter attached to it. All parts of the cannon, including the emitter, must be added to **layer 2** so it can be attached to the Servo Motor.
+Create a simple cannon or a "pipe" with the Mini emitter attached to it. All parts of the cannon, including the emitter, must be added to **layer 2** so it can be attached to the Servo Motor.
 
 ![](/wiki/images/imgur/VBZj1e9.webp)
 
-Now attach it to the motor and then add a plank under it that stops the cannon from pointing down towards the vehicle.
+Attach it to the motor and then add a plank under it that stops the cannon from pointing down towards the vehicle.
 
 ![](/wiki/images/imgur/osXNaL6.webp)
 
@@ -39,7 +39,7 @@ If you think the cannon moves too slowly you can change it by clicking the Servo
 
 ![](/wiki/images/imgur/mLUaOAF.webp)
 
-Now we'll add a button for switching between the two RC Basic controllers. To do that, we will add two [[RC Activator]]s and connect one to each RC Basic with a cable, then open up the configuration window and drag out a button. For example the down ('S') button placed at the bottom left side. Now click the target button for each RC Activator and connect them to the opposite RC Basic. For example, the one that has a cable attached to RC 1 should be set so it activates RC 2 when used.
+We'll add a button for switching between the two RC Basic controllers. To do that, we will add two [[RC Activator]]s and connect one to each RC Basic with a cable, then open up the configuration window and drag out a button. For example the down ('S') button placed at the bottom left side. Click the target button for each RC Activator and connect them to the opposite RC Basic. For example, the one that has a cable attached to RC 1 should be set so it activates RC 2 when used.
 
 You can also add a [[Cam Targeter]] to set a fixed camera position, this will prevent the camera from moving every time you switch the controllers. Just click the target button and select an object in the middle of the vehicle.
 

@@ -7,7 +7,7 @@ Add a [[Plastic Beam]], click the configuration button to choose whatever color 
 
 ![](/wiki/images/imgur/7xOcOmI.webp)
 
-Now add a [[Thruster]] attached to each motor and a [[Tiltmeter]] in the middle of the Plastic Beam. The Tiltmeter outputs the angular displacement relative to its standing position. This will be used together with a gyroscope to prevent the hovercraft from falling over to the sides. Add a cable from OUT1 to the left Thruster and from OUT2 to the right one.
+Add a [[Thruster]] attached to each motor and a [[Tiltmeter]] in the middle of the Plastic Beam. The Tiltmeter outputs the angular displacement relative to its standing position. This will be used together with a gyroscope to prevent the hovercraft from falling over to the sides. Add a cable from OUT1 to the left Thruster and from OUT2 to the right one.
 
 You can change to Orthographic Mode (under play button) to easier see where you place your objects.
 
@@ -23,7 +23,7 @@ Instead of cables we will use a wireless connection by adding a [[Mini transmitt
 
 ![](/wiki/images/imgur/95ynZKg.webp)
 
-Now add a [[Power Supply]], two [[CT Servo]]s for the motors and a [[RC Basic]] for buttons so we can control the hovercraft.
+Add a [[Power Supply]], two [[CT Servo]]s for the motors and a [[RC Basic]] for buttons so we can control the hovercraft.
 
 ![](/wiki/images/imgur/cUlmyso.webp)
 
@@ -31,7 +31,7 @@ Click the configuration button for the RC Basic and drag out a button for left, 
 
 ![](/wiki/images/imgur/fiH2pFx.webp)
 
-Now add two thruster for the up button, one for left and one for right. Then add a Mini transmitter with different frequency for each button on the RC Basic. Add a receiver with the same frequency as the Mini transmitter for that specific button and then attach them to the thrusters.
+Add two thrusters for the up button, one for left and one for right. Then add a Mini transmitter with different frequency for each button on the RC Basic. Add a receiver with the same frequency as the Mini transmitter for that specific button and then attach them to the thrusters.
 
 ![](/wiki/images/imgur/P4r5oKa.webp)
 
@@ -43,7 +43,7 @@ Connect the Gyroscope to the Inverter and then use a [[Y-splitter]] object to co
 
 To stop the hovercraft from wobbling we can use a [[Stabilizer]] object. This object is useful when you have a group of objects that need some sort of stabilization. You can adjust the sliders for how much stabilization is needed. No more than 0.05 should be needed for this hovercraft.
 
-Now add an [[RC Activator]] to the hovercraft so the RC is automatically activated at start. Click the RC Activator, then the target button and select the RC Basic.
+Add an [[RC Activator]] to the hovercraft so the RC is automatically activated at start. Click the RC Activator, then the target button and select the RC Basic.
 
 ![](/wiki/images/imgur/LPyj3EV.webp)
 

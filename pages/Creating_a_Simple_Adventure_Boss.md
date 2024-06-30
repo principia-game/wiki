@@ -11,7 +11,7 @@ First let's create a lower body for the boss. Add two inverted [[Wheel]]s with a
 
 ![](/wiki/images/imgur/f9qXLcX.webp)
 
-Now continue on creating the upper body with Impact sensors and put a large sized [[Linear Servo]] in the middle. This is where the cannon will be placed later.
+Continue on creating the upper body with Impact sensors and put a large sized [[Linear Servo]] in the middle. This is where the cannon will be placed later.
 
 ![](/wiki/images/imgur/Nm3hTob.webp)
 
@@ -19,7 +19,7 @@ Add a [[Power Supply]], a [[CT Servo]] for the Linear Servo and a [[CT Mini]] fo
 
 ![](/wiki/images/imgur/N2X9AB6.webp)
 
-Now add an [[Object finder]] in the middle under the Linear Servo. This object will be used to find the angle of the player so the boss can follow them. Click the target button and then select the player robot. Add a [[sincos]] on a platform somewhere on the side or anywhere on the level and then connect the Object finder to it with a wireless connection.
+Add an [[Object finder]] in the middle under the Linear Servo. This object will be used to find the angle of the player so the boss can follow them. Click the target button and then select the player robot. Add a [[sincos]] on a platform somewhere on the side or anywhere on the level and then connect the Object finder to it with a wireless connection.
 
 You can create a wireless connection by using a [[Mini transmitter]] and a [[Receiver]] and then set the frequency used by clicking the configuration button. Use the default frequency (1) for now. The sincos is used to convert an angle via `IN0` to one positive y-value, one positive x-value, one negative y-value, and one negative x-value. This will make it easy to check if the player robot is on the left or right side of the boss.
 
@@ -27,7 +27,7 @@ You can create a wireless connection by using a [[Mini transmitter]] and a [[Rec
 
 The reason why we put some objects on the side and use a wireless connection for them is so that we don't have too many objects attached to the boss. This is especially useful in more advanced creations where we don't want to weigh down or clutter the boss with too many objects.
 
-Now we will make the boss move towards and follow the player robot but keep a small distance so that there is some space for shooting. To do that, we will connect the sincos to the following objects:
+We will make the boss move towards and follow the player robot but keep a small distance so that there is some space for shooting. To do that, we will connect the sincos to the following objects:
 
 - **[[Ceil]]**
 - **[[Max]]**
@@ -49,7 +49,7 @@ To find a good value for the distance you can connect the Object finder to a [[G
 
 The Grapher displays a value from 0 to 1, so as you can see the robot distance shown on the screenshot is about 0.75 which is what we're going to use for this example.
 
-Now go back to the objects we added earlier. Connect the two Mul objects to the Ceil and Max.
+Now go back to the objects we added earlier and connect the two Mul objects to the Ceil and Max.
 
 ![](/wiki/images/imgur/EuPx6Xa.webp)
 
@@ -61,13 +61,13 @@ The cmp-l outputs 1 if `IN0` is LESS than `IN1`, then the Mul will multiply that
 
 Now you can add a wireless connection (Mini transmitters and Receivers) to the CT Mini (the one connected to the Ceil should be connected to `IN2` ~reverse and the other to `IN1`). Make sure you're using a different frequency. You can adjust the speed of the boss by moving the sliders of the Servo Motor we used for the CT Mini.
 
-Now let's create a cannon that aims at the player. We're going to attach it to the Linear Servo we added earlier.
+Let's create a cannon that aims at the player. We're going to attach it to the Linear Servo we added earlier.
 
 First, attach a [[Mini emitter]] to a plank, plastic beam or rubber beam. Make sure the Servo Motor is made flat (see screenshot) so that all three objects are on layer 3. Also make sure to align the pink rotary icon with the cannon pointing downwards.
 
 ![](/wiki/images/imgur/7s1g9D9.webp)
 
-Now attach the cannon to the Linear Servo on the boss and connect it to a new CT Servo. Make sure to add a power cable to it.
+Attach the cannon to the Linear Servo on the boss and connect it to a new CT Servo. Make sure to add a power cable to it.
 
 ![](/wiki/images/imgur/nt8Fa3C.webp)
 
@@ -77,7 +77,7 @@ To make the cannon move to the left/right side depending on the player angle, ad
 
 ![](/wiki/images/imgur/5yoWmZK.webp)
 
-Now whenever the player is on the right side the Ceil will output 1 to the CT Servo and when they're on the left side it outputs 0 and the Linear Servo is reset to the left side.
+Whenever the player is on the right side the Ceil will output 1 to the CT Servo and when they're on the left side it outputs 0 and the Linear Servo is reset to the left side.
 
 To make it smoother you can decrease the speed of the Linear Servo to minimum speed/max force (0.40) and decrease the voltage of the Power Supply.
 

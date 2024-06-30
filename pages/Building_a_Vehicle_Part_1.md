@@ -11,15 +11,15 @@ The*DC Motor is powered by being connected to a controller (CT), so lets add tha
 
 This controller controls the speed and direction of a motor. You can attach it to the middle of the plank or wherever you like.
 
-Now we will have to add an interface cable between the DC Motor and CT Mini so that they can communicate. To do that, simply double click the CT Mini, drag the mouse to the motor and release.
+We will have to add an interface cable between the DC Motor and CT Mini so that they can communicate. To do that, simply double click the CT Mini, drag the mouse to the motor and release.
 
 ![](/wiki/images/imgur/xqMyxBM.webp)
 
-Now let's add two [[Wheel]]s to the vehicle. Before we can attach the wheels we need to move them to layer 2. To do that, click the layer button on the bottom of the screen or press the 'X' button on your keyboard if you're on a PC. Also, when you attach the wheel to the plank you need to make it able to rotate (see screenshot).
+Let's add two [[Wheel]]s to the vehicle. Before we can attach the wheels we need to move them to layer 2. To do that, click the layer button on the bottom of the screen or press the 'X' button on your keyboard if you're on a PC. Also, when you attach the wheel to the plank you need to make it able to rotate (see screenshot).
 
 ![](/wiki/images/imgur/XGq0Ib0.webp)
 
-Now we need to add a power source to our vehicle. For this tutorial we will use a [[Battery (3V)]] but you can also use a [[Power Supply]] for greater speed or more advanced creations. Select your power source and attach it to the plank on the car. Double click it and drag to add a power cable between the CT Mini and the power source (a Battery in our case).
+We need to add a power source to our vehicle. For this tutorial we will use a [[Battery (3V)]] but you can also use a [[Power Supply]] for greater speed or more advanced creations. Select your power source and attach it to the plank on the car. Double click it and drag to add a power cable between the CT Mini and the power source (a Battery in our case).
 
 ![](/wiki/images/imgur/W7zyept.webp)
 

@@ -23,9 +23,9 @@ Add a Power Supply and a CT Servo on top of the Platform. The CT Servo is a cont
 
 Attach a cable between the Power Supply and the CT Servo and then a cable between the motor and controller.
 
-Now add a Button somewhere and drag a cable to the CT Servo (IN1 socket).
+Add a Button somewhere and drag a cable to the CT Servo (IN1 socket).
 
-Now when the player presses the button by shooting or touching it the door should open.
+When the player presses the button by shooting or touching it the door should open.
 
 ![](/wiki/images/imgur/EvW8tlX.webp)
 
@@ -43,9 +43,9 @@ This door is closed until the player uses the Builder tool to place an object of
 
 Attach a Linear Servo to a platform, increase its size and toggle the axis rotation. Connect it to a CT Servo and then connect the CT Servo to a Power Supply.
 
-Now add an Object field somewhere. Click it and use the crosshair button to select an object, for example the box. You can put some other objects beside it so that the player is forced to try them out to see which one is correct. Connect the Object field to the CT Servo.
+Add an Object field somewhere. Click it and use the crosshair button to select an object, for example the box. You can put some other objects beside it so that the player is forced to try them out to see which one is correct. Connect the Object field to the CT Servo.
 
-Add an Item found in the Game category, then click its configuration button and choose Builder. That's an object the player must pick up before they can move the box.
+Add an Item found in the Game category, then click its configuration button and choose Builder. That's an item the player must pick up before they can move the box.
 
 ![](/wiki/images/imgur/aswC6nI.webp)
 
@@ -130,9 +130,9 @@ Attach the laser to a small sized cylinder, then attach the cylinder to a Servo 
 
 Add the RC Micro somewhere that the player can use. Click the configuration button and drag out a round button. Connect the RC micro to the CT Servo.
 
-Now place a Laser bouncer and a Laser sensor somewhere. The laser beam from the controlled laser should be pointed by the player toward the Laser bouncer and then bounced to the Laser sensor, see screenshot for example. You might need to change the layer.
+Place a Laser bouncer and a Laser sensor somewhere. The laser beam from the controlled laser should be pointed by the player toward the Laser bouncer and then bounced to the Laser sensor, see screenshot for example. You might need to change the layer.
 
-Now connect the Laser sensor to an Inverter. The Inverter is then connected to the Mini emitters so that they shoot by default and are inactivated when the Laser sensor detects a laser beam, but since the Inverter only have one output socket and we're using two Mini emitters we will have to first connect it to a Y-splitter.
+Connect the Laser sensor to an Inverter. The Inverter is then connected to the Mini emitters so that they shoot by default and are inactivated when the Laser sensor detects a laser beam, but since the Inverter only have one output socket and we're using two Mini emitters we will have to first connect it to a Y-splitter.
 
 ![](/wiki/images/imgur/5y64iWY.webp)
 
