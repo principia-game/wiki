@@ -52,7 +52,7 @@ Add an Item found in the Game category, then click its configuration button and 
 ## Traps
 
 ### Hidden spike trap
-The player is instantly killed by spikes if he walks under this hidden trap (See trap example 1).
+The player is instantly killed by spikes if they walk under this hidden trap (See trap example 1).
 
 **Objects used:**
 - **[[Linear Motor]]**
@@ -76,7 +76,7 @@ Add 2x maximum sized pixels on layer 2 in front of the trap to cover it. Then on
 ![](/wiki/images/imgur/Ag2VMUq.webp)
 
 ### Laser trap
-The player must jump between platforms on different layers or he will be killed by laser (See trap example 2).
+The player must jump between platforms on different layers or they will be killed by lasers (See trap example 2).
 
 **Objects used:**
 - **[[Laser]]** x6

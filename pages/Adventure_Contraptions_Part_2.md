@@ -40,7 +40,7 @@ The Condenser stores an internal value of the sum of all previous values read fr
 - **[[Wheel]]s**
 - **[[Plastic Beam]]s**
 
-This elevator uses thrusters instead of a motor. The thrusters are activated when a player enters the elevator and is seen by an object field on layer 2. If he switches layer the thrusters will stop and the elevator will go down. The stabilizer keeps the elevator from wobbling or falling too fast.
+This elevator uses thrusters instead of a motor. The thrusters are activated when a player enters the elevator and is seen by an object field on layer 2. If they switch layer the thrusters will stop and the elevator will go down. The stabilizer keeps the elevator from wobbling or falling too fast.
 
 ## Moving platforms
 ![](/wiki/images/imgur/dErVzQs.webp)

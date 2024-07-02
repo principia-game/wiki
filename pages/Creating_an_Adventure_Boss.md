@@ -10,7 +10,7 @@ The condenser can be used as HP for the boss. A condenser has two inputs, IN0 an
 The condenser has a user-defined max value that can be larger than the 1.0.
 
 ### [[Checkpoint]]
-A checkpoint is where the player will respawn when he dies. You can set a checkpoint to be the active checkpoint by either stepping on it using robot or by sending a value of 1.0 to its input socket.
+A checkpoint is where the player will respawn when they die. You can set a checkpoint to be the active checkpoint by either stepping on it using robot or by sending a value of 1.0 to its input socket.
 
 The checkpoint also has an output socket that will be written to when the player respawns at the checkpoint. So, for example, you could heal the adventure boss every time the player respawns.
 
@@ -18,7 +18,7 @@ The checkpoint also has an output socket that will be written to when the player
 You can send a value of 1.0 to the WIN-port when the boss HP reaches 0 (which can be detected by wiring OUT0 of a condenser through a ceil component). Use transmitters and receives to communicate with the Game Manager without having wires across the level.
 
 ### [[FX Emitter]]
-Emit effects like explosions or highlight the boss when he is hit.
+Emit effects like explosions or highlight the boss when they are hit.
 
 The "Destroy Connections" effect will only affect connections that are destructible, you can make connections destructible by entering connection edit mode in the sandbox (hammer icon below the play button) and lowering their max force slightly. The FX emitter will only affect connections that are "reachable" from the FX emitter by following connections between objects it itself is attached to.
 
