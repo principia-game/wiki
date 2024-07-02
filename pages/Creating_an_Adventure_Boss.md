@@ -5,7 +5,7 @@ This page will give you some tips to create an Adventure Mode boss for others to
 ## Essential Objects
 
 ### [[Condenser]]
-The condenser can be used as HP for the boss. A condenser has two inputs, IN0 and IN1. IN0 will "fill" the condenser. Send 0.1 to it and it increments its internal value by 0.1, for example. IN1 decrements the condenser. The output, OUT0, is the percentage of how filled the condenser is. If you read 1.0 from OUT0, it means it is full, and 0.0 means it is empty.
+The condenser can be used as HP for the boss. A condenser has two inputs, **`IN0`** and **`IN1`**. **`IN0`** will "fill" the condenser. Send 0.1 to it and it increments its internal value by 0.1, for example. **`IN1`** decrements the condenser. The output, **`OUT0`**, is the percentage of how filled the condenser is. If you read 1.0 from **`OUT0`**, it means it is full, and 0.0 means it is empty.
 
 The condenser has a user-defined max value that can be larger than the 1.0.
 
@@ -15,7 +15,7 @@ A checkpoint is where the player will respawn when they die. You can set a check
 The checkpoint also has an output socket that will be written to when the player respawns at the checkpoint. So, for example, you could heal the adventure boss every time the player respawns.
 
 ### [[Game Manager]]
-You can send a value of 1.0 to the WIN-port when the boss HP reaches 0 (which can be detected by wiring OUT0 of a condenser through a ceil component). Use transmitters and receives to communicate with the Game Manager without having wires across the level.
+You can send a value of 1.0 to the WIN-port when the boss HP reaches 0 (which can be detected by wiring **`OUT0`** of a condenser through a ceil component). Use transmitters and receives to communicate with the Game Manager without having wires across the level.
 
 ### [[FX Emitter]]
 Emit effects like explosions or highlight the boss when they are hit.

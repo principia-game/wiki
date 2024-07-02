@@ -21,7 +21,7 @@ Add a [[Power Supply]], a [[CT Servo]] for the Linear Servo and a [[CT Mini]] fo
 
 Add an [[Object finder]] in the middle under the Linear Servo. This object will be used to find the angle of the player so the boss can follow them. Click the target button and then select the player robot. Add a [[sincos]] on a platform somewhere on the side or anywhere on the level and then connect the Object finder to it with a wireless connection.
 
-You can create a wireless connection by using a [[Mini transmitter]] and a [[Receiver]] and then set the frequency used by clicking the configuration button. Use the default frequency (1) for now. The sincos is used to convert an angle via `IN0` to one positive y-value, one positive x-value, one negative y-value, and one negative x-value. This will make it easy to check if the player robot is on the left or right side of the boss.
+You can create a wireless connection by using a [[Mini transmitter]] and a [[Receiver]] and then set the frequency used by clicking the configuration button. Use the default frequency (1) for now. The sincos is used to convert an angle via **`IN0`** to one positive y-value, one positive x-value, one negative y-value, and one negative x-value. This will make it easy to check if the player robot is on the left or right side of the boss.
 
 ![](/wiki/images/imgur/UspJJPY.webp)
 
@@ -35,11 +35,11 @@ We will make the boss move towards and follow the player robot but keep a small 
 - **[[cmp-l]]** x2
 - **[[Y-splitter]]**
 
-Add these objects, then connect the sincos from `OUT1` (positive X angle) to the Max object, and connect `OUT3` (negative X angle) to the Y-splitter, then from the Y-splitter to a Ceil and the other input on the Max, as shown on the screenshot.
+Add these objects, then connect the sincos from **`OUT1`** (positive X angle) to the Max object, and connect **`OUT3`** (negative X angle) to the Y-splitter, then from the Y-splitter to a Ceil and the other input on the Max, as shown on the screenshot.
 
 ![](/wiki/images/imgur/s2rGAkp.webp)
 
-This setup is enough to make the boss follow the player if you connect Max to `IN1` of the CT Mini we added earlier, and the Ceil to `IN2` (~reverse), but since we want the boss to keep a small distance we're going to need some more objects before adding cables to the CT Mini.
+This setup is enough to make the boss follow the player if you connect Max to **`IN1`** of the CT Mini we added earlier, and the Ceil to **`IN2`** (~reverse), but since we want the boss to keep a small distance we're going to need some more objects before adding cables to the CT Mini.
 
 First, add a Mini transmitter and add it to the Object finder on the boss. Just make sure the frequency is set to something different than what you used for the angle input. You can set it to 2. Also lower the sensitivity of the Object finder to about 0.10.
 
@@ -53,13 +53,13 @@ Now go back to the objects we added earlier and connect the two Mul objects to t
 
 ![](/wiki/images/imgur/EuPx6Xa.webp)
 
-Connect the two cmp-l objects to the Mul objects and use a Jumper set to value 0.75 (or whatever distance you want to use) for `IN0` of each cmp-l, and add two Receivers to `IN1`. Set the frequency to the frequency you used for the Object finder distance output (`OUT1`).
+Connect the two cmp-l objects to the Mul objects and use a Jumper set to value 0.75 (or whatever distance you want to use) for **`IN0`** of each cmp-l, and add two Receivers to **`IN1`**. Set the frequency to the frequency you used for the Object finder distance output (**`OUT1`**).
 
 ![](/wiki/images/imgur/P0C7uHk.webp)
 
-The cmp-l outputs 1 if `IN0` is LESS than `IN1`, then the Mul will multiply that signal with speed/reverse. That means the speed is multiplied by 0 if the player is within the distance used so the boss stops.
+The cmp-l outputs 1 if **`IN0`** is LESS than **`IN1`**, then the Mul will multiply that signal with speed/reverse. That means the speed is multiplied by 0 if the player is within the distance used so the boss stops.
 
-Now you can add a wireless connection (Mini transmitters and Receivers) to the CT Mini (the one connected to the Ceil should be connected to `IN2` ~reverse and the other to `IN1`). Make sure you're using a different frequency. You can adjust the speed of the boss by moving the sliders of the Servo Motor we used for the CT Mini.
+Now you can add a wireless connection (Mini transmitters and Receivers) to the CT Mini (the one connected to the Ceil should be connected to **`IN2`** ~reverse and the other to **`IN1`**). Make sure you're using a different frequency. You can adjust the speed of the boss by moving the sliders of the Servo Motor we used for the CT Mini.
 
 Let's create a cannon that aims at the player. We're going to attach it to the Linear Servo we added earlier.
 
@@ -73,7 +73,7 @@ Attach the cannon to the Linear Servo on the boss and connect it to a new CT Ser
 
 To make the cannon rotate and point at the player, add a Receiver with the same frequency as the Object finder angle output (1) to the CT Servo we just added.
 
-To make the cannon move to the left/right side depending on the player angle, add a new [[sincos]] and a Ceil. Add a Receiver from Object finder angle (frequency 1) to the sincos and connect the Ceil to `OUT1`. Then add a Mini transmitter/receiver to the CT Servo that is connected to the Linear Servo.
+To make the cannon move to the left/right side depending on the player angle, add a new [[sincos]] and a Ceil. Add a Receiver from Object finder angle (frequency 1) to the sincos and connect the Ceil to **`OUT1`**. Then add a Mini transmitter/receiver to the CT Servo that is connected to the Linear Servo.
 
 ![](/wiki/images/imgur/5yoWmZK.webp)
 
@@ -91,9 +91,9 @@ First, add Mini transmitters with the same frequency (10 for example) for every 
 
 To calculate the HP we will use the [[Condenser]] object.
 
-Add it somewhere the side, set the condenser's "Initial fraction" to 1 and "Max value" to 1. To decrease the Fraction we will use a Sub object. Add a Receiver with the same frequency as the impact sensors (10) to the sub. Then connect the sub to `IN1` (decrease) of the Condenser. When an Impact Sensor is hit it will output 1 to the sub and be subtracted by a predefined value before the signal is sent to the Condenser. If you set sub's value to 0.90 that means the boss can take about 10 hits before the Condenser is empty. We'll set it to 0.95 for this example.
+Add it somewhere the side, set the condenser's "Initial fraction" to 1 and "Max value" to 1. To decrease the Fraction we will use a Sub object. Add a Receiver with the same frequency as the impact sensors (10) to the sub. Then connect the sub to **`IN1`** (decrease) of the Condenser. When an Impact Sensor is hit it will output 1 to the sub and be subtracted by a predefined value before the signal is sent to the Condenser. If you set sub's value to 0.90 that means the boss can take about 10 hits before the Condenser is empty. We'll set it to 0.95 for this example.
 
-Connect the Condenser to a Ceil and then connect the ceil to an Inverter. This means the Condenser will only output 1 when its completely empty. You can then connect the Inverter to a [[Game Manager]] (`IN0`) to complete the game when the boss is dead.
+Connect the Condenser to a Ceil and then connect the ceil to an Inverter. This means the Condenser will only output 1 when its completely empty. You can then connect the Inverter to a [[Game Manager]] (**`IN0`**) to complete the game when the boss is dead.
 
 ![](/wiki/images/imgur/dmfKKul.webp)
 

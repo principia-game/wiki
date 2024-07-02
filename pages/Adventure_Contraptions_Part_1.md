@@ -23,7 +23,7 @@ Add a Power Supply and a CT Servo on top of the Platform. The CT Servo is a cont
 
 Attach a cable between the Power Supply and the CT Servo and then a cable between the motor and controller.
 
-Add a Button somewhere and drag a cable to the CT Servo (IN1 socket).
+Add a Button somewhere and drag a cable to the CT Servo (**`IN1`** socket).
 
 When the player presses the button by shooting or touching it the door should open.
 
@@ -67,7 +67,7 @@ Add a Linear Motor, increase its size, flip it over and attach it to a platform.
 
 Connect the Linear Motor to the CT Mini and connect the CT Mini to a Power Supply. The CT Mini is a controller that controls the speed and direction of a motor. It will be set so that the trap is in a reversed state by default and then pushed down when the player walks under it.
 
-Attach an Object field to the platform and point it downwards, adjust the length to cover the whole trap and the sensor height all the way down to the ground as shown on the screenshot, then connect it to the CT Mini (`IN2` - reverse socket).
+Attach an Object field to the platform and point it downwards, adjust the length to cover the whole trap and the sensor height all the way down to the ground as shown on the screenshot, then connect it to the CT Mini (**`IN2`** - reverse socket).
 
 Add 2x maximum sized pixels on layer 2 in front of the trap to cover it. Then one maximum sized pixel for each layer below the trap, the one under the trap should be colored red as a warning (layer 1 in this case).
 

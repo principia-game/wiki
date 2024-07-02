@@ -29,9 +29,9 @@ Open up the configuration window of the RC Basic and drag out the two buttons sh
 
 ![](/wiki/images/imgur/z1YVd3Y.webp)
 
-Close the configuration window, double click the RC Basic and connect it to the CT Servo from OUT0.
+Close the configuration window, double click the RC Basic and connect it to the CT Servo from **`OUT0`**.
 
-Instead of having a cable hanging from the emitter we can use a [[Mini transmitter]] and a [[Receiver]] for a wireless connection. Add those two objects. If you click the configuration button you can change the used frequency, which is useful when using many different wireless connections on the same level but we only need one frequency for this level. Attach the Mini transmitter to OUT1 of the RC Basic and the Receiver to the Mini emitter. And finally, a power cable from the Power Supply must be attached to the CT Servo.
+Instead of having a cable hanging from the emitter we can use a [[Mini transmitter]] and a [[Receiver]] for a wireless connection. Add those two objects. If you click the configuration button you can change the used frequency, which is useful when using many different wireless connections on the same level but we only need one frequency for this level. Attach the Mini transmitter to **`OUT1`** of the RC Basic and the Receiver to the Mini emitter. And finally, a power cable from the Power Supply must be attached to the CT Servo.
 
 Now we have a fully functional cannon!
 

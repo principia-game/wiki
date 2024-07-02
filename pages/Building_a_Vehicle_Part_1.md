@@ -29,9 +29,9 @@ To control the vehicle we will need to add a control panel. Select an [[RC Basic
 
 ![](/wiki/images/imgur/7h8WuJq.webp)
 
-Here we can add widgets and buttons to control our vehicle which will appear on the screen later when we start the level and click on the RC. Each widget will be connected to an output socket, the first widget you place will be connected to OUT0, the second to OUT1, and so on.
+Here we can add widgets and buttons to control our vehicle which will appear on the screen later when we start the level and click on the RC. Each widget will be connected to an output socket, the first widget you place will be connected to **`OUT0`**, the second to **`OUT1`**, and so on.
 
-In this example we will use the buttons shown in the screenshot. The slider button will adjust the speed of the vehicle and the small button with an 'F' will put the motor in reverse. But first we need to add signal cables between the CT Mini and RC Basic connected to the correct output socket. Double click the CT Mini, drag it to the RC and then click `OUT0` and then `IN1` (this is for the speed adjustment button as you can see on the screenshot). Now a cable for reverse mode. Double click the CT again, drag it to the RC and click OUT1.
+In this example we will use the buttons shown in the screenshot. The slider button will adjust the speed of the vehicle and the small button with an 'F' will put the motor in reverse. But first we need to add signal cables between the CT Mini and RC Basic connected to the correct output socket. Double click the CT Mini, drag it to the RC and then click **`OUT0`** and then **`IN1`** (this is for the speed adjustment button as you can see on the screenshot). Now a cable for reverse mode. Double click the CT again, drag it to the RC and click **`OUT1`**.
 
 ![](/wiki/images/imgur/PNzhagg.webp)
 

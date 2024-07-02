@@ -24,7 +24,7 @@ Build a frame for the elevator using plastic beams. Attach it to one of the Line
 
 When the player uses one of the RC buttons a signal is sent through a Sparsifier, then to a Condenser, and finally to an Inverter.
 
-The Condenser stores an internal value of the sum of all previous values read from IN0, minus all previous values read from IN1. The internal value is then divided by the maximum value and written to OUT0 as a fraction.
+The Condenser stores an internal value of the sum of all previous values read from **`IN0`**, minus all previous values read from **`IN1`**. The internal value is then divided by the maximum value and written to **`OUT0`** as a fraction.
 
 ![](/wiki/images/imgur/0bDvlo1.webp)
 

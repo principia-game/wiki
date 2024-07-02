@@ -25,7 +25,7 @@ Principia has a significantly larger selection of objects available at your disp
 
 ### Interactive/Game
 - Interactive red cylinder: can be recreated with interactive Principia objects, but keep in mind they have different behaviour.
-- Marble goal: Can be recreated with the [[Plastic Cup]] or [[Plastic Beam]]s, with an [[Object finder]] connected to a [[Game Manager]]'s IN0 socket to make it win the level when a ball rolls into it.
+- Marble goal: Can be recreated with the [[Plastic Cup]] or [[Plastic Beam]]s, with an [[Object finder]] connected to a [[Game Manager]]'s **`IN0`** socket to make it win the level when a ball rolls into it.
 - Marble: Any kind of ball object, see Marble goal.
 
 ### Misc.

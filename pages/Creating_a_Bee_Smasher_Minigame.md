@@ -64,7 +64,7 @@ Adjust the Proximity sensor's length slider to about 3.00 and the range to 0.30
 
 The [[Auto Absorber]] will also be used to remove the bee after being smashed (clicked on). To connect it to both the [[Cursor field]] and [[Proximity sensor]] we need to use an [[OR gate]]. We will also add an [[Y-splitter]] for an extra output socket which will be used for signaling a Game Manager to increase the score.
 
-Connect OUT0 of the Cursor field (OUT0) to the Y-splitter, then connect the Y-splitter to one of the OR gate inputs, and connect the Proximity sensor to the other input of the OR gate. Then connect the OR gate to the Auto Absorber.
+Connect **`OUT0`** of the Cursor field (**`OUT0`**) to the Y-splitter, then connect the Y-splitter to one of the OR gate inputs, and connect the Proximity sensor to the other input of the OR gate. Then connect the OR gate to the Auto Absorber.
 
 Finally add a [[Stabilizer]] to the bee to make it fly straight. Increase the Angular Damping just a bit, you can change it later when fine tuning the bees.
 
@@ -74,7 +74,7 @@ Now we will add a [[Mini transmitter]] to send a wireless signal to a [[Game Man
 
 Put a Game Manager somewhere behind the pixel wall of the mini game layout. To play a sound when a bee is smashed, add a [[SFX Emitter]] and connect it to a Y-splitter.
 
-Add a [[Receiver]] to receive the signal from the Mini transmitter and attach the receiver to the Y-splitter, then connect the Y-splitter to the correct input socket of the Game Manager (`IN3` in this case). Click the info button to see what they do. `IN3` gives +50 score.
+Add a [[Receiver]] to receive the signal from the Mini transmitter and attach the receiver to the Y-splitter, then connect the Y-splitter to the correct input socket of the Game Manager (**`IN3`** in this case). Click the info button to see what they do. **`IN3`** gives +50 score.
 
 Add two more SFX emitters and two Y-splitters. These will be used for the blue and red bees later. Click the configuration button to change to the preferred sound. For this tutorial we'll use the "Absorb" sound for the yellow and blue bee and the "Weird" sound for the red bee. Also, click the checkmark for Global sound.
 
@@ -106,7 +106,7 @@ You can remove all the bees from the sandbox since we have already exported and 
 
 ![](/wiki/images/imgur/O1mvvT9.webp)
 
-Add a [[Receiver]] with frequency 2 and 3. Attach them to the [[Y-splitter]]s before connecting them to the [[Game Manager]] and [[SFX Emitter]]s. Connect the blue bee (frequency 2) to `IN4` of the Game Manager, and the red bee (frequency 3) to `IN11`.
+Add a [[Receiver]] with frequency 2 and 3. Attach them to the [[Y-splitter]]s before connecting them to the [[Game Manager]] and [[SFX Emitter]]s. Connect the blue bee (frequency 2) to **`IN4`** of the Game Manager, and the red bee (frequency 3) to **`IN11`**.
 
 ![](/wiki/images/imgur/GsrQjPH.webp)
 
@@ -132,7 +132,7 @@ To add a message at start of the game that shows game instructions we can use th
 
 Add it where the Game Manager is, click the configuration button to type a message, then add a [[Jumper]] to its input socket to activate it at start.
 
-To add a time limit to the mini game we can use a [[Timer]]. Click the configuration button and set it to e.g. 60 seconds. Connect the Timer to the IN0 socket of the Game Manager.
+To add a time limit to the mini game we can use a [[Timer]]. Click the configuration button and set it to e.g. 60 seconds. Connect the Timer to the **`IN0`** socket of the Game Manager.
 
 Add a [[Cam Zoomer]] and a [[Cam Targeter]]. We will use these two objects to set the camera to a fixed position in the middle. If you click the Cam Targeter and then the crosshair button you can select which object it should focus on.
 

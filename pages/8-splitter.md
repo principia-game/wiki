@@ -11,4 +11,4 @@ Forwards the value from its input port to all its output ports.
 
 ## Socket information
 - **`IN0`**: Value
-- **`OUT0-7`**: Unmodified value of IN0
+- **`OUT0-7`**: Unmodified value of **`IN0`**

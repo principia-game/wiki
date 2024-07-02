@@ -11,5 +11,5 @@ If you want to split into more than two then you can either use a series of Y-sp
 
 ## Socket information
 - **`IN0`**: Value
-- **`OUT0`**: Unmodified value of IN0
-- **`OUT1`**: Unmodified value of IN0
+- **`OUT0`**: Unmodified value of **`IN0`**
+- **`OUT1`**: Unmodified value of **`IN0`**

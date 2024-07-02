@@ -7,7 +7,7 @@ Add a [[Plastic Beam]], click the configuration button to choose whatever color 
 
 ![](/wiki/images/imgur/7xOcOmI.webp)
 
-Add a [[Thruster]] attached to each motor and a [[Tiltmeter]] in the middle of the Plastic Beam. The Tiltmeter outputs the angular displacement relative to its standing position. This will be used together with a gyroscope to prevent the hovercraft from falling over to the sides. Add a cable from OUT1 to the left Thruster and from OUT2 to the right one.
+Add a [[Thruster]] attached to each motor and a [[Tiltmeter]] in the middle of the Plastic Beam. The Tiltmeter outputs the angular displacement relative to its standing position. This will be used together with a gyroscope to prevent the hovercraft from falling over to the sides. Add a cable from **`OUT1`** to the left Thruster and from **`OUT2`** to the right one.
 
 You can change to Orthographic Mode (under play button) to easier see where you place your objects.
 

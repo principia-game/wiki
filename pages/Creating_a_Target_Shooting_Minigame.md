@@ -42,7 +42,7 @@ Add an RC Basic beside the Power Supply. Then open up the configuration window f
 
 ![](/wiki/images/imgur/JGD15Y7.webp)
 
-Drag a cable from the RC Basic to the CT Servo controller. For the shooter we will use a wireless connection instead of a cable. Add a Mini transmitter and a Receiver. You can click the configuration button to change the frequency used but just leave them as default for this. Attach the Mini transmitter to the RC Basic (`OUT1`) and attach the Receiver to the Mini emitter, first click the layer button (or 'X' button if you're on a PC) to put it in layer 2.
+Drag a cable from the RC Basic to the CT Servo controller. For the shooter we will use a wireless connection instead of a cable. Add a Mini transmitter and a Receiver. You can click the configuration button to change the frequency used but just leave them as default for this. Attach the Mini transmitter to the RC Basic (**`OUT1`**) and attach the Receiver to the Mini emitter, first click the layer button (or 'X' button if you're on a PC) to put it in layer 2.
 
 We have now two working buttons for the shooter but in order to shoot stuff we first need to select what to shoot. We will use a Land mine for this tutorial, so grab a Land mine, click the Mini emitter and then use the crosshair button to select the Land mine as its used object. After that you can delete the Land mine object.
 
@@ -56,7 +56,7 @@ We will use a different frequency Hz for each Sine wave so that the mini game ta
 
 ![](/wiki/images/imgur/xxmiVL0.webp)
 
-Attach a power cable from the Power Supply to each CT servo (to `IN0`).
+Attach a power cable from the Power Supply to each CT servo (to **`IN0`**).
 
 Add 3 plastic beams. They should have different sizes, different colors and be attached to each Linear Servo. The first one should be large and easy to hit, the second one a bit smaller and the last one should be smallest and hardest to hit but will give highest score. Pick any color you like, put them in layer 2 and attach them to the motors.
 
@@ -64,7 +64,7 @@ Add 3 plastic beams. They should have different sizes, different colors and be a
 
 If you click the play button you can see that they now move back and forth.
 
-In order to set a different score for each target we need a way to know when the target has been hit. We can use an Impact sensor for that, just attach one below each Plastic beam. The Impact sensor must have the same size as the plastic beam. When an object (the Land mine) collides with the Impact sensor, a value is sent through `OUT0` which will be connected to a Game Manager object that adds a specific score from that target.
+In order to set a different score for each target we need a way to know when the target has been hit. We can use an Impact sensor for that, just attach one below each Plastic beam. The Impact sensor must have the same size as the plastic beam. When an object (the Land mine) collides with the Impact sensor, a value is sent through **`OUT0`** which will be connected to a Game Manager object that adds a specific score from that target.
 
 After you've attached an Impact sensor to the plastic beams, add 3x SFX Emitters to the level, one for each target. Open up the configuration window for the SFX Emitters and change the sound to "Ding" and check the "Global sound" checkbox. These objects will now make a Ding sound every time a target is hit and the score is increased.
 
@@ -92,7 +92,7 @@ When the player reaches 10000 score points the level is completed. We can add so
 
 Add a Timer and click its configuration button. choose a number you prefer for your level (mine is 60 seconds), leave the tick at 0 and click OK.
 
-To have a popup message after the game has ended we can use a Prompt object. Just connect it to a Y-splitter before it's connected to `IN1` in the Game Manager for ending the game. Open up the configuration window of the Prompt object and write some message.
+To have a popup message after the game has ended we can use a Prompt object. Just connect it to a Y-splitter before it's connected to **`IN1`** in the Game Manager for ending the game. Open up the configuration window of the Prompt object and write some message.
 
 ![](/wiki/images/imgur/ZnQYq4P.webp)
 

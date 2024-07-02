@@ -37,7 +37,7 @@ Now there's only one thing left to do: Add a button to control the brake. To do 
 
 ![](/wiki/images/imgur/gsxsNvU.webp)
 
-Then double click the RC Basic to drag a signal cable to the CT Mini, choose IN2 (~reverse) as the input socket and OUT2 as the output socket. This will put the motor's pivot in its activated state by default when not used, so that the brake (Rubber Beam) is automatically reversed after being used.
+Then double click the RC Basic to drag a signal cable to the CT Mini, choose **`IN2`** (~reverse) as the input socket and **`OUT2`** as the output socket. This will put the motor's pivot in its activated state by default when not used, so that the brake (Rubber Beam) is automatically reversed after being used.
 
 ![](/wiki/images/imgur/QyUz784.webp)
 
