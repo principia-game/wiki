@@ -50,7 +50,7 @@ Principia makes connections to principia-web by default. Inform the user of this
 
 Do **not** patch out any of the game's network connectivity, a large part of the game is the community site where you can play and upload levels.
 
-If you are still required to disable network connectivity due to ill informed packaging guidelines for your distribution, then please only replace the default community domain located in the top of `populate_community_host()` in `src/src/main.cc` with `localhost` or something else. This makes the player still able to play levels from level servers in their web browser and reactivate full network connectivity by putting a domain (e.g. `principia-web.se`) in `community_host.txt` in their Principia user folder.
+If you are still required to disable the network connectivity that happens by default, then please only replace the default community domain located in the top of `populate_community_host()` in `src/src/main.cc` with `localhost` or something else. This makes the player still able to play levels from level servers in their web browser and reactivate full network connectivity by putting a domain (e.g. `principia-web.se`) in `community_host.txt` in their Principia user folder.
 
 Do **not** remove the update check. Principia does not automatically update, it simply shows a toast message on the main menu that a new version is available. The player deserves to be able to know if the packaged Principia they have installed is outdated, as it may make it impossible to play new levels made with newer versions when new features are added and the level version is increased.
 
