@@ -4,6 +4,12 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
+## 2024.XX.XX (future release)
+- Fix VSync being disabled on Android (oh no)
+- Fix GLEW crashing the game when running the game with SDL2's Wayland video driver
+- Fix orphaned prompts crashing the game when trying to close them
+- Fix building Principia on Alpine-based Linux distributions
+
 ## 2024.06.28
 **[News article](https://principia-web.se/news/15)** - **[Release](https://github.com/Bithack/principia/releases/tag/2024.06.28)**
 
