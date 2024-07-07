@@ -6,6 +6,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 ## 2024.XX.XX (future release)
 - Fix VSync being disabled on Android (oh no)
+- Fix not being able to play levels from the browser on Android
 - Fix GLEW crashing the game when running the game with SDL2's Wayland video driver
 - Fix orphaned prompts crashing the game when trying to close them
 - Fix building Principia on Alpine-based Linux distributions
