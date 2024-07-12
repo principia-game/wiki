@@ -4,7 +4,9 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2024.XX.XX (future release)
+## 2024.07.12
+**[News article](https://principia-web.se/news/16)** - **[Release](https://github.com/Bithack/principia/releases/tag/2024.06.12)**
+
 - Fix VSync being disabled on Android (oh no)
 - Fix not being able to play levels from the browser on Android
 - Fix GLEW crashing the game when running the game with SDL2's Wayland video driver
