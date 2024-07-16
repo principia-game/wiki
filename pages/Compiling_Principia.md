@@ -13,25 +13,25 @@ First of all install the dependency packages for your respective distro branch.
 **Debian-based distros:**
 
 ```bash
-sudo apt install --no-install-recommends g++ cmake ninja-build libgtk-3-dev libgl-dev libglew-dev libcurl4-openssl-dev libpng-dev libjpeg-dev libfreetype6-dev libsdl2-dev
+apt install --no-install-recommends g++ cmake ninja-build libcurl4-openssl-dev libfreetype6-dev libgl-dev libglew-dev libgtk-3-dev libjpeg-dev libpng-dev libsdl2-dev
 ```
 
 **For Arch-based distros:**
 
 ```bash
-sudo pacman -S --needed cmake ninja glew gtk3 curl freetype2 libpng libjpeg sdl2
+pacman -S --needed gcc cmake ninja curl freetype2 glew gtk3 libjpeg libpng sdl2
 ```
 
 **For Fedora:**
 
 ```bash
-sudo dnf install @development-tools cmake ninja gcc-c++ freetype-devel libcurl-devel libpng-devel libjpeg-turbo-devel gtk3-devel SDL2-devel libXxf86vm-devel glew-devel mesa-libGLU-devel alsa-lib-devel systemd-devel
+dnf install gcc-c++ cmake ninja-build libcurl-devel freetype-devel glew-devel gtk3-devel libjpeg-turbo-devel libpng-devel SDL2-devel 
 ```
 
 **For Alpine:**
 
 ```bash
-doas apk add build-base cmake ninja mesa-dev glew-dev gtk+3.0-dev libpng-dev jpeg-dev curl-dev freetype-dev zlib-dev sdl2-dev
+apk add g++ cmake ninja curl-dev freetype-dev glew-dev gtk+3.0-dev jpeg-dev libpng-dev sdl2-dev
 ```
 
 Navigate somewhere you want to clone the Principia source code to and clone the source repository using Git (install the `git` package for your distro if you somehow haven't already):
