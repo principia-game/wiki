@@ -13,7 +13,7 @@ First of all install the dependency packages for your respective distro branch.
 **Debian-based distros:**
 
 ```bash
-sudo apt install --no-install-recommends cmake ninja-build libgtk-3-dev libgl-dev libglew-dev libcurl4-openssl-dev libpng-dev libjpeg-dev libfreetype6-dev libsdl2-dev
+sudo apt install --no-install-recommends g++ cmake ninja-build libgtk-3-dev libgl-dev libglew-dev libcurl4-openssl-dev libpng-dev libjpeg-dev libfreetype6-dev libsdl2-dev
 ```
 
 **For Arch-based distros:**
