@@ -1,7 +1,7 @@
 # Principia Wiki
 This repository contains the content for the Principia Wiki, which is available at https://principia-web.se/wiki/.
 
-Contributing to the Wiki is now done via GitHub. Simply fork, make an edit and open a pull request for it. For more info about contributing see [Contributing](https://principia-web.se/wiki/Contributing)
+Contributing to the Wiki is now done via GitHub. Simply fork, make an edit and open a pull request for it. For more info about contributing see [Contributing to the Wiki](https://principia-web.se/wiki/Contributing_to_the_Wiki).
 
 To keep the Wiki's content locally, simply clone the repository or download it as a .zip (`<> Code` -> `Download ZIP`). The files are in a Markdown format with certain extensions, but should work fine to be read in any Markdown-compatible document viewer or as plaintext in a simple text editor.
 
