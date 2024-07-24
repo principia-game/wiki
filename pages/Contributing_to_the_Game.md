@@ -13,7 +13,7 @@ The canonical source repository for the game is on [Github](https://github.com/B
 
 When it comes to more real-time communication for the game's development we have the `#development` channel in the [Principia Discord server](https://principia-web.se/discord). Please stop by if you want to discuss any things related to development or have other questions relating to development. Most of the active community members reside in Europe so if you write something when it is past midnight there please be patient for a response.
 
-We are aware both of these platforms are operated by corporations that act in the opposite interest of Free software, and you do not need to remind us. We would like to bridge our chat to Matrix, we used to have a Matrix space but was shut down due to the Matrix bridge service we used being broken most of the time leaving it in an unusable state, and we do not have the resources to host our own. If you would be willing to host a bridge for us then this would be very appreciated.
+We are aware both of these platforms are operated by corporations that act in the opposite interest of Free software, and you do not need to remind us. We would like to bridge our chat to Matrix, we used to have a Matrix space but was shut down due to the Matrix bridge service we used being broken most of the time leaving it in an unusable state, and we do not have the resources to host our own. If you would be willing to host a bridge for Principia then this would be very appreciated.
 
 ## Compiling and developing
 Compiling the game should be simple on Linux, and shouldn't be very difficult on Windows either. See [[Compiling Principia]] for instructions for the particular platform.
