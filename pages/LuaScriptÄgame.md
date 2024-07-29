@@ -7,7 +7,7 @@ Added in **1.3**, Latest update **1.3.0.3**
 
 Shows the given number on the screen for debugging.
 
-From **1.3.0.3** and onward, it can take a `num_decimals` argument which specifies with what precision the number should be printed.
+From **1.3.0.3** and onward, it can take an optional `num_decimals` argument which specifies with what precision the number should be printed. Default value is `2` if the argument is omitted, `6` is the highest amount of decimals that can be shown.
 
 ```lua
 local x, y = game:show_numfeed(number, num_decimals)
@@ -165,7 +165,7 @@ Added in **1.5.1**
 
 Opens a [[Prompt]] with the given parameters.
 
-Returns the ID of the prompt dialog that was created, which can be used for verification purposes. Returns nil if no prompt was created.To get the response, implement the following function:
+Returns the ID of the prompt dialog that was created, which can be used for verification purposes. Returns nil if no prompt was created. To get the response, implement the following function:
 
 ```lua
 function on_response(response, prompt_id)

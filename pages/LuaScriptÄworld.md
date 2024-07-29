@@ -76,7 +76,7 @@ Converts a global screen point to a world point.
 local wx, wy = world:get_world_point(gsx, gsy)
 ```
 
-## `world:get_screen_point(x, y)`
+## `world:get_screen_point()`
 Added in **1.5**
 
 Converts a global screen point to a local point.
@@ -99,7 +99,9 @@ world:set_bg_color(r, g, b)
 ## `world:set_ambient_light()`
 Added in **1.5**
 
-Sets the ambient light of the world to the given value.
+~~Sets the ambient light of the world to the given value.~~
+
+Since 1.5.1 this method is broken and won't change anything.
 
 ```lua
 world:set_ambient_light(intensity)
@@ -108,7 +110,9 @@ world:set_ambient_light(intensity)
 ## `world:set_diffuse_light()`
 Added in **1.5**
 
-Sets the diffuse light of the world to the given value.
+~~Sets the diffuse light of the world to the given value.~~
+
+Since 1.5.1 this method is broken and won't change anything.
 
 ```lua
 world:set_diffuse_light(intensity)

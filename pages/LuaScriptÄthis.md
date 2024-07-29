@@ -144,7 +144,7 @@ this:set_sprite_texel(x, y, r, g, b, a)
 ## `this:clear_texels()`
 Added in **1.4**, latest update **1.5**
 
-Clears all texels. From 1.5 it can now take a clear value. (0-255)
+Clears all texels. From 1.5 it can now take a clear value. (0-1 decimal)
 
 ```lua
 this:clear_texels(clear_value)

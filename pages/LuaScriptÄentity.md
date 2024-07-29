@@ -47,7 +47,7 @@ Sets the angle of the entity, in radians. Only works on entities that are either
 entity:set_angle(angle)
 ```
 
-## `entity:set_fixed_rotation(bool)`
+## `entity:set_fixed_rotation()`
 Added in **2024.06.28** (2024-05-10)
 
 Set whether the object should have its rotation fixed. When true the object will keep its angle no matter what other objects around it do.
@@ -56,7 +56,7 @@ Set whether the object should have its rotation fixed. When true the object will
 entity:set_fixed_rotation(bool)
 ```
 
-## `entity:is_fixed_rotation(bool)`
+## `entity:is_fixed_rotation()`
 Added in **2024.06.28** (2024-05-10)
 
 Set whether the object should have its rotation fixed. When true the object will keep its angle no matter what other objects around it do.
@@ -168,7 +168,7 @@ Apply torque to the entity.
 entity:apply_torque(torque)
 ```
 
-## `entity:apply_force(x, y)`
+## `entity:apply_force()`
 Added in **2024.06.28** (2024-05-10)
 
 Apply force to the entity. The force will be applied in the center of mass.
