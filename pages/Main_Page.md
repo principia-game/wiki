@@ -26,7 +26,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[Objects]]
 	- [[Objects (by ID)]]
 - [[Items]]
-- [[Principia Lua Scripting]]
+- [[LuaScript]]
 - [[Level Properties]]
 - [[Principia for Apparatus Players]]
 

@@ -19,4 +19,4 @@
 - [[Creating a Mini-game]]
 - [[Creating an Adventure Boss]]
 - [[Physics Performance and Stability]]
-- [[Principia Lua Scripting]]
+- [[Learning Lua Scripting with Principia]] by zardOz

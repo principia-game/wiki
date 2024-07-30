@@ -5,9 +5,13 @@
 	"sublayer_width": 14
 }) }}
 
-Lua Script object, write Lua programs that can interact with and control the level.
+Scriptable object, write your own Lua programs that can interact with and control the level. This allows for more complex creations and games, being able to draw arbitrary graphics and more.
 
-For more information about Lua scripting in Principia, see [[Principia Lua Scripting]].
+Lua is a small programming language that focuses on being easily embeddable within other programs. You may have stumbled upon it being used somewhere else. Every program implements its own API on top of the Lua standard library, including Principia. Don't expect any non-standard Lua standard library extensions provided in other programs to necessarily exist in Principia.
+
+Principia uses Lua version 5.2, so any generic tutorials for Lua 5.2 should apply to Principia as well. For general information about the programming language see the [Lua 5.2 Reference Manual](https://www.lua.org/manual/5.2/).
+
+For help with Lua you can ask either in the `#lua` channel in the Principia Discord or in the [Lua](/forum/forum?id=4) forum.
 
 ## Libraries
 The following built-in libraries are available in the Principia Lua environment:
@@ -26,3 +30,8 @@ The following built-in libraries are available in the Principia Lua environment:
 - **[`entity`](/wiki/LuaScript/entity)**: Reference to a Principia game object, which can be retrieved using `world:get_entity()`.
   - **[`creature`](/wiki/LuaScript/creature)**: Extension of the `entity` class for living objects such as robots.
 - **[Callbacks](/wiki/LuaScript/Callbacks)**: List of callbacks.
+
+## Other resources
+- [[Learning Lua Scripting with Principia]] by zardOz
+- [Principia Lua image converter](/image-to-lua/)
+- [Principia LuaScript API cheatsheet](https://rollerozxa.itch.io/principia-luascript-api-cheatsheet) - Printable overview of the API
