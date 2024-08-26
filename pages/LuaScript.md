@@ -22,6 +22,7 @@ The following built-in libraries are available in the Principia Lua environment:
 - **[`bitop32`](https://www.lua.org/manual/5.2/manual.html#6.7)** ^(1.5.2+)^
 
 ## API reference
+In addition to the reference, you can see [[LuaScript/Examples]] for small complete examples that use the API.
 
 - **[`this`](/wiki/LuaScript/this)**: Reference to the unique LuaScript object itself, with methods that relate to the current LuaScript object.
 - **[`game`](/wiki/LuaScript/game)**: Global object containing *game* related methods.
@@ -32,6 +33,7 @@ The following built-in libraries are available in the Principia Lua environment:
 - **[Callbacks](/wiki/LuaScript/Callbacks)**: List of callbacks.
 
 ## Other resources
+- [[LuaScript/Examples]] - Small examples of using the LuaScript API
 - [[Learning Lua Scripting with Principia]] by zardOz
 - [Principia Lua image converter](/image-to-lua/)
 - [Principia LuaScript API cheatsheet](https://rollerozxa.itch.io/principia-luascript-api-cheatsheet) - Printable overview of the API
