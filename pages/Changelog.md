@@ -4,6 +4,16 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
+## 202X.XX.XX (future release)
+- Increase maximum Max value of Condenser to 32
+- Increase maximum Weight multiplier to 2.5
+- Fix Sqrt gate outputting NaN from out-of-bounds values
+- Fix Linear decay output value not being clamped
+- Fix plastic density being incorrectly applied on Android
+- Update dependency library versions
+
+*(reminder: version code needs to be bumped twice for next release due to 2024.07.12-fdroid)
+
 ## 2024.07.12
 **[News article](https://principia-web.se/news/16)** - **[Release](https://github.com/Bithack/principia/releases/tag/2024.07.12)**
 
