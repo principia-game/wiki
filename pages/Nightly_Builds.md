@@ -32,4 +32,6 @@ As the name implies the APK file is unsigned, and you will need to sign it with 
 If you are on Linux you might also want to [build from source](/wiki/Compiling_Principia#linux) yourself from the latest master.
 
 ## Distinguishing nightly builds
-As the version number is not incremented until a new release is made, the nightly builds will show up as the same version as the latest stable release. As a slight distinguishing mark if you click on the version number in the bottom right corner of the main menu a toast will appear with the date and time on which the build was made. This can then be used to determine what commit it was built from.
+As the version number is not incremented until a new release is made, the nightly builds will show up as the same version as the latest stable release.
+
+As a slight distinguishing mark if you click on the version number in the bottom right corner of the main menu a toast will appear with the commit hash the build was made from. Searching it on GitHub should bring up the particular commit.
