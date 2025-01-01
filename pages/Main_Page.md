@@ -13,6 +13,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 ## General
 - [[FAQ]]
 - [[Changelog]]
+- [[User Data Directory]]
 
 ## Playing
 - [[PC Controls]]
@@ -32,7 +33,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 
 ## Technical
 - [[Compiling Principia]]
-- [[User Data Directory]]
+- [[Contributing to the Game]]
 - [[Level Format]]
 - [[Packages]]
 - [[Principia Protocol]]
