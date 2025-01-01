@@ -16,7 +16,7 @@ When it comes to more real-time communication for the game's development we have
 ## Compiling and developing
 Compiling the game should be simple on Linux, and shouldn't be very difficult on Windows either. See [[Compiling Principia]] for instructions for the particular platform.
 
-For inspiration on setting up a development environment, [ROllerozxa has written a blog post about his C/C++ setup in VSCode](https://voxelmanip.se/2024/12/28/my-c-c++-setup-with-visual-studio-code/) (and related editors), using `clangd` for language support and `lldb` for debugging. This should be possible to set up both on Linux as well as on Windows, but if you have any other setup for C/C++ development that does not use MSVC it should work well for Principia.
+For inspiration on setting up a development environment, [ROllerozxa has written a blog post about his C/C++ setup in VSCode](https://voxelmanip.se/2024/12/28/my-c-c++-setup-with-visual-studio-code/) (and related editors such as VSCodium and Code - OSS), using `clangd` for language support and `lldb` for debugging. This should be possible to set up both on Linux as well as on Windows, but if you have any other setup for C/C++ development that does not use MSVC it should work well for Principia.
 
 As we also support Android, it would be nice to also test that things work on Android too. The compilation guide shows a way to build Principia for Android using just the command-line tools without using Android Studio and then install it onto an Android device you hopefully may have.
 
