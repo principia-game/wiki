@@ -11,16 +11,14 @@ This page is far from exhaustive but hopes to give a brief overview of what you 
 ## Communication
 The canonical source repository for the game is on [Github](https://github.com/Bithack/principia/), where the issue tracker is and where you can submit pull requests. Not all issues are properly labelled but there are always a lot of bug reports to sift through.
 
-When it comes to more real-time communication for the game's development we have the `#development` channel in the [Principia Discord server](https://principia-web.se/discord). Please stop by if you want to discuss any things related to development or have other questions relating to development. Most of the active community members reside in Europe so if you write something when it is past midnight there please be patient for a response.
-
-We are aware both of these platforms are operated by corporations that act in the opposite interest of Free software, and you do not need to remind us. We would like to bridge our chat to Matrix, we used to have a Matrix space but was shut down due to the Matrix bridge service we used being broken most of the time leaving it in an unusable state, and we do not have the resources to host our own. If you would be willing to host a bridge for Principia then this would be very appreciated.
+When it comes to more real-time communication for the game's development we have the `#development` channel in the [Principia Discord server](/discord) (also available in the [Principia Matrix space](/matrix) as a bridged room). Please stop by if you want to discuss any things related to development or have other questions relating to development. Most of the active community members reside in Europe so if you write something when it is past midnight there please be patient for a response.
 
 ## Compiling and developing
 Compiling the game should be simple on Linux, and shouldn't be very difficult on Windows either. See [[Compiling Principia]] for instructions for the particular platform.
 
-For inspiration on setting up a development environment, ROllerozxa uses [VSCodium](https://vscodium.com/) (actually Code - OSS) along with the [clangd](https://open-vsx.org/extension/llvm-vs-code-extensions/vscode-clangd) extension for general C/C++ language features and [CodeLLDB](https://open-vsx.org/extension/vadimcn/vscode-lldb) for running the game in a debugger. This should be possible to set up both on Linux as well as on Windows, but if you have any other setup for C/C++ development that does not use MSVC it should work well for Principia.
+For inspiration on setting up a development environment, [ROllerozxa has written a blog post about his C/C++ setup in VSCode](https://voxelmanip.se/2024/12/28/my-c-c++-setup-with-visual-studio-code/) (and related editors), using `clangd` for language support and `lldb` for debugging. This should be possible to set up both on Linux as well as on Windows, but if you have any other setup for C/C++ development that does not use MSVC it should work well for Principia.
 
-As we also support Android, it would be nice to also test that things work on Android too. The compilation guide shows a way to build Principia for Android using just the command-line tools without using Android Studio and install it onto an Android device you hopefully may have.
+As we also support Android, it would be nice to also test that things work on Android too. The compilation guide shows a way to build Principia for Android using just the command-line tools without using Android Studio and then install it onto an Android device you hopefully may have.
 
 ## Technologies
 The Principia game codebase is written in C++ while the backing (in-house) game engine TMS is written in C. But even then, if you look into the C++ Principia codebase you may see that it is at times written in a very "C-y" way, so to speak.
