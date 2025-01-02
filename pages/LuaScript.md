@@ -11,7 +11,7 @@ Lua is a small programming language that focuses on being easily embeddable with
 
 Principia uses Lua version 5.2, so any generic tutorials for Lua 5.2 should apply to Principia as well. For general information about the programming language see the [Lua 5.2 Reference Manual](https://www.lua.org/manual/5.2/).
 
-For help with Lua you can ask either in the `#lua` channel in the Principia Discord or in the [Lua](/forum/forum?id=4) forum.
+For help with Lua you can ask either in the `#lua` channel on [Discord](/discord) (also available on [Matrix](/matrix)) or in the [Lua](/forum/forum?id=4) forum.
 
 ## Libraries
 The following built-in libraries are available in the Principia Lua environment:
