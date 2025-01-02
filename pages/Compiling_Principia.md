@@ -1,6 +1,6 @@
 Below are instructions to build Principia from source on all supported platforms, as well as notes for getting Principia to run on certain hardware.
 
-If you have issues building Principia, then please ask in the `#development` channel on Discord.
+If you have issues building Principia, then please ask in the `#development` channel on [Discord](/discord) (also available on [Matrix](/matrix)).
 
 [toc]
 
