@@ -6,7 +6,7 @@ If you are familiar with Git and contemporary Git forges like Github then contri
 
 If you are unfamiliar with Git or only need to make minor changes then you can use the Edit link in the bottom right corner of every wiki page, which will take you to Github's web interface. It will instruct you to fork the repository, then give you the ability to edit the page's source contents. Once done, commit the changes and Github will point you towards opening a pull request for the changes, at which point a wiki maintainer can review your changes and merge it if it all sounds reasonable.
 
-If you would like to suggest or discuss any changes or additions to the wiki, feel free to drop by the `#wiki` channel on Discord or [open an issue on GitHub](https://github.com/principia-game/wiki/issues).
+If you would like to suggest or discuss any changes or additions to the wiki, feel free to drop by the `#wiki` channel on [Discord](/discord) (also available on [Matrix](/matrix)) or [open an issue on GitHub](https://github.com/principia-game/wiki/issues).
 
 ## Formatting
 The wiki uses regular Markdown syntax but with some extensions. There is a lot of documentation about Markdown on the Internet, for the basics see this [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for example. In addition to this there are some custom extensions to the syntax.
