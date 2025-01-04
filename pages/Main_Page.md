@@ -34,6 +34,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 ## Technical
 - [[Compiling Principia]]
 - [[Contributing to the Game]]
+- [[Meetings]]
 - [[Level Format]]
 - [[Packages]]
 - [[Principia Protocol]]
