@@ -40,7 +40,7 @@ Principia has a significantly larger selection of objects available at your disp
 ## Notes/Pitfalls
 
 ### Level size
-The level size is very configurable in Principia, as compared to Apparatus where the level is limited to a certain size. Objects can fall out of bounds in Apparatus, while with most backgrounds in Principia there are wooden walls to keep everything inside. To simulate an Apparatus-like level size you could increase the size to e.g. 300 in each direction to get.
+The level size is very configurable in Principia, as compared to Apparatus where the level is limited to a certain size. Objects can fall out of bounds in Apparatus, while with most backgrounds in Principia there are wooden walls to keep everything inside. To simulate an Apparatus-like level size you could increase the size to e.g. 300 in each direction to get a reasonably large level size.
 
 ### Building in the sandbox
 Principia comes with a great deal of quality-of-life improvements when it comes to building levels. This includes a dedicated "construction"/"orthographic" mode which can be toggled to get a fine-grained grid control over the placement and rotation of your objects. If you are on a touchscreen then the two-finger salute to align against a hidden grid from Apparatus still exists however (Desktop players can hold down the Shift key to get a similar behaviour).
