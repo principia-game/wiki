@@ -47,7 +47,15 @@ He is the current Principia project maintainer, he also runs this community site
 # principia-web
 
 ## I forgot my password.
-Please get into contact with [ROllerozxa](/user/1) and he will generate and send you a password reset link. In the future, there will be email-based password resets using the email address you specified during registration.
+Please see the [Forgot password](https://principia-web.se/forgotpassword) page. Currently the process of requesting a password reset by email is manual as we don't currently have a way of automatically sending emails from the server, but requests are aimed to be responded to as quickly as possible.
+
+## How are passwords stored?
+Passwords are stored salted and hashed using the industry standard [bcrypt](https://en.wikipedia.org/wiki/Bcrypt) hashing algorithm. It is a one-way hash algorithm and the hash that is stored in the database cannot be easily reversed, only compared against when you input the password again when logging in.
+
+## Why is there a maximum password length limit?
+The maximum length of input for the bcrypt hashing algorithm is 72 bytes, and anything beyond that is truncated. The current maximum limit of 64 characters is slightly below that just to be safe.
+
+Generally speaking, bcrypt is an algorithm that is designed to be expensive enough to calculate that brute force attacks against the hash directly are slowed down significantly. If you have a randomly generated alphanumeric password of any sizable length, it should be practically be uncrackable within your lifetime.
 
 ## How are level screenshots/thumbnails taken?
-Currently every level has one thumbnail, which is taken at the first [[Cam Marker]] (or the last camera position) at publish. The screenshots should be taken automatically on level upload after at most a minute or two.
+Currently every level has one thumbnail, which is taken at the first [[Cam Marker]] (or the last camera position) at publish. The screenshots should be taken automatically on level upload after at most a minute or two. If something goes wrong with the automatic screenshotter please contact ROllerozxa.
