@@ -1,17 +1,21 @@
-This page contains various frequently asked questions...
+This page contains various frequently asked questions about the game Principia, or the community site (sometimes referred to as principia-web).
 
 [toc]
 
-# General
-
 ## What is principia-web?
-Back in late 2020, ROllerozxa launched a new unofficial community site called principia-web, making it possible to easily share your levels again. It's later expanded into including a forum and this wiki. With the open sourcing principia-web is considered to be the primary community site, with the old community site being provided as an archive playable for those with a recent version of open source Principia.
+Back in late 2020, ROllerozxa launched a new unofficial community site called principia-web, making it possible to easily share your levels again after the official community site had shut down. It's later expanded into including a forum and this wiki. It is now considered to be the primary community site with the open source release, with the levels from the old community site provided as an archive.
+
+In January of 2025, ROllerozxa [wrote a blog post](https://voxelmanip.se/2025/01/09/the-story-of-principia-web/) going over the story of how principia-web came to be and what it has turned into, in a lot greater detail.
 
 ## What is Principia Discord?
-It's the "official" Principia Discord server, an invite can be found in the footer of this site. It was originally started sometime 2017 as an unofficial server, but quickly turned into the main community hub after the official community site shut down. It was originally run by uni(valence) but has been taken over by ROllerozxa after a while of administering it. It is now the primary place for Principia-related chit chat, with even sdac joining it alongside the source code release.
+It's the "official" Principia Discord server, [principia-web.se/discord](/discord) serves as a permalink to the invite for it. It was originally started sometime 2017 as an unofficial server, but quickly turned into the main community hub after the official community site shut down. It was originally run by uni(valence) but has been taken over by ROllerozxa after a while of administering it. It is now the primary place for Principia-related chit chat, with even sdac joining it alongside the source code release.
+
+The main channels of the Discord server are also bridged to the [Principia Matrix space](/matrix), for those who wish to not use Discord as a platform.
 
 ## So Principia is open source now?
-Yes, sdac came back and released the source code in August 2022. It is available on GitHub, and is continuing development as an open source project.
+Yes, sdac came back and released the source code in August 2022. It is [available on GitHub](https://github.com/Bithack/principia/), and is continuing development as an open source project.
+
+Being licensed under the BSD 3-Clause license, it is both open source and Free in that you have the freedom to use, modify and share the game and its source code.
 
 ## When is Principia coming onto Google Play?
 No current plans at the moment. However, the Android version of Principia [is available for F-Droid](https://f-droid.org/en/packages/com.bithack.principia/), an alternative app store focusing on free and open source software.
@@ -26,10 +30,12 @@ Unlikely to happen anytime in the future. See [#85](https://github.com/Bithack/p
 An experimental port is available for macOS, see [the download page](/download#macos). It is very incomplete and needs testing and other assistance from someone who has Apple hardware. Contributions are very welcome.
 
 ## What about [Insert platform]?
-Pull requests welcome.
+Seeing Principia on a new platform is always interesting, no matter how niche or esoteric it may be. Unless the port requires serious amount of changes to the codebase that disrupts other platforms, upstreaming support is also welcome. For prospective contributors wishing to port Principia to a new platform, you can see the [[Porting Principia]] page.
 
 ## What about [Linux distribution]?
-Packaging Principia for your favourite Linux distribution is very welcome. Let us know when you've done it so the package can be added to the downloads page.
+Packaging Principia for your favourite Linux distribution or package method is very welcome, details on how to package Principia can be seen on the [[Information for Downstream Packagers]] page which should make the packaging process straightforward.
+
+Let us know when you've done it so the package can be added to the downloads page.
 
 ## Why does my Antivirus/Windows say Principia is malicious?
 Because we do not have the money for a signing certificate (which costs a lot of $$$, recurring per year). Principia is not malware, and the builds available on the [download page](/download) are built from source by [Github Workflows](https://github.com/Bithack/principia/actions).
@@ -41,10 +47,6 @@ They are available in the [Community Site Archive](https://archive.principia-web
 
 ## Who is ROllerozxa?
 He is the current Principia project maintainer, he also runs this community site and the Principia Discord server. Prior to the open sourcing he has also done various archival efforts of Principia such as archiving old game versions or old community levels. Despite his nationality and seemingly endless knowledge, he is not or has been part of Bithack, but is a community member going back to the 2013 days. You can read more about him [on his website](https://voxelmanip.se/about/).
-
----
-
-# principia-web
 
 ## I forgot my password.
 Please see the [Forgot password](https://principia-web.se/forgotpassword) page. Currently the process of requesting a password reset by email is manual as we don't currently have a way of automatically sending emails from the server, but requests are aimed to be responded to as quickly as possible.
