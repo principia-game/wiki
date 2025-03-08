@@ -5,4 +5,10 @@
 	"sublayer_width": 14
 }) }}
 
-The level manager object was broken in 1.5.1, and is currently useless.
+Set the light intensity of your level.
+
+## Socket information
+- **`IN0`**: Set ambient to value of IN1
+- **`IN1`**: Ambient value
+- **`IN2`**: Set diffuse to value of IN3
+- **`IN3`**: Diffuse value
