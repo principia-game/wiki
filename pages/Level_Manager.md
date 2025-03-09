@@ -7,6 +7,8 @@
 
 Set the light intensity of your level.
 
+These values can also be changed in [[LuaScript]] using the `world:set_ambient_light` and `world:set_diffuse_light` functions, passing the given intensity to each.
+
 ## Socket information
 - **`IN0`**: Set ambient to value of IN1
 - **`IN1`**: Ambient value
