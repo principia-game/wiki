@@ -99,9 +99,7 @@ world:set_bg_color(r, g, b)
 ## `world:set_ambient_light()`
 Added in **1.5**
 
-~~Sets the ambient light of the world to the given value.~~
-
-Since 1.5.1 this method is broken and won't change anything.
+Sets the ambient light of the world to the given value.
 
 ```lua
 world:set_ambient_light(intensity)
@@ -110,9 +108,7 @@ world:set_ambient_light(intensity)
 ## `world:set_diffuse_light()`
 Added in **1.5**
 
-~~Sets the diffuse light of the world to the given value.~~
-
-Since 1.5.1 this method is broken and won't change anything.
+Sets the diffuse light of the world to the given value.
 
 ```lua
 world:set_diffuse_light(intensity)
