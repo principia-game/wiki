@@ -195,6 +195,24 @@ An executable `principia` should be produced once finished which you use to run 
 
 While most of the game should work fine as it uses SDL2 and other cross-platform libraries, some platform-specific plumbing such as the URL protocol handler and piping is not implemented on Haiku yet (see [#146](https://github.com/Bithack/principia/issues/146) for a TODO). As a workaround, you can play community levels on Haiku by launching Principia with the URL used by the level's "Play" button link as the first argument (see [[Principia Protocol]]).
 
+## Web
+**Note**: Web support is very experimental and has a lot of issues that still haven't been resolved. Contributions are welcome, and let us know how well it works.
+
+You will need to install [Emscripten](https://emscripten.org/) to compile Principia for the web.
+
+Then invoke CMake through Emscripten's `emcmake` wrapper and compile the game:
+
+```bash
+mkdir build; cd build
+emcmake .. -G Ninja
+ninja
+```
+
+The resulting output can be quickly tested in your browser with Emscripten's built-in web server using `emrun`:
+
+```bash
+emrun principia.html
+```
 
 ## Notes
 
