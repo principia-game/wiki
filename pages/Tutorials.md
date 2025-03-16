@@ -18,5 +18,6 @@
 ## Specific topics and advice
 - [[Creating a Mini-game]]
 - [[Creating an Adventure Boss]]
+- [[Making Pixel Art]]
 - [[Physics Performance and Stability]]
 - [[Learning Lua Scripting with Principia]] by zardOz
