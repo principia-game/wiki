@@ -31,6 +31,11 @@ As the name implies the APK file is unsigned, and you will need to sign it with 
 
 If you are on Linux you might also want to [build from source](/wiki/Compiling_Principia#linux) yourself from the latest master.
 
+### macOS
+- [macOS app bundle, probably ARM64](https://nightly.link/Bithack/principia/workflows/macos/master/principia-macos.zip)
+
+The macOS port is still experimental and needs someone who has a Mac to complete it. The builds that are produced by CI are completely untested and we have no idea if they work.
+
 ## Distinguishing nightly builds
 As the version number is not incremented until a new release is made, the nightly builds will show up as the same version as the latest stable release.
 
