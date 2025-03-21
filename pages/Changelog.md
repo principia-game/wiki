@@ -5,21 +5,26 @@ For versions prior to the source code release, please see [[Old Changelog]].
 [toc]
 
 ## 202X.XX.XX (future release)
+- Reintroduce puzzles as a level type that can be created in the sandbox! (WIP)
 - The Level Manager object now works again!
 - Optimise initial model loading on Android
 - Enable HTTPS certificate validation on desktop
 - Increase maximum Max value of Condenser to 32
 - Increase maximum Weight multiplier to 2.5
-- Fix RC widget screen breaking on resize
-- Fix Sqrt gate outputting NaN from out-of-bounds values
-- Fix Linear decay output value not being clamped
-- Fix a lot of other signaling objects lacking proper clamping
-- Fix plastic density being incorrectly applied on Android
-- Merge data folders into one
-- Distinguish builds by Git commit rather than build time
-- Source tree cleanups, some things have moved or been renamed when building from source
-- Improvements for the experimental web port
-- Update dependency library versions
+- **Bugfixes**:
+  - Fix RC widget screen breaking on resize
+  - Fix crash when reloading graphics with rubber objects in a level
+  - Fix crash when deleting a selected cable object
+  - Fix Sqrt gate outputting NaN from out-of-bounds values
+  - Fix Linear decay output value not being clamped
+  - Fix a lot of other signaling objects lacking proper clamping
+  - Fix plastic density being incorrectly applied on Android
+- **Technical**:
+  - Merge data folders into one
+  - Distinguish builds by Git commit rather than build time
+  - Source tree cleanups, some things have moved or been renamed when building from source
+  - Improvements for the experimental web port
+  - Update dependency library versions
 
 *(reminder: version code needs to be bumped twice for next release due to 2024.07.12-fdroid)
 
