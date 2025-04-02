@@ -4,9 +4,8 @@ If you have issues building Principia, then please ask in the `#development` cha
 
 [toc]
 
-
 ## Linux
-If you just want to play Principia on Linux, there is an AppImage build available as well as packages for various Linux distributions. If these don't work or you want to build from source for emotional reasons then follow along.
+If you just want to play Principia on Linux, there is an AppImage build available as well as packages for various Linux distributions available [on the download page](/download). If these don't work or you want to build from source for emotional reasons then follow along.
 
 First of all install the dependency packages for your respective distro branch.
 
@@ -25,7 +24,7 @@ pacman -S --needed gcc cmake ninja curl freetype2 glew gtk3 libjpeg libpng sdl2
 **For Fedora:**
 
 ```bash
-dnf install gcc-c++ cmake ninja-build libcurl-devel freetype-devel glew-devel gtk3-devel libjpeg-turbo-devel libpng-devel SDL2-devel 
+dnf install gcc-c++ cmake ninja-build libcurl-devel freetype-devel glew-devel gtk3-devel libjpeg-turbo-devel libpng-devel SDL2-devel
 ```
 
 **For Alpine:**
@@ -56,6 +55,7 @@ While the game works fine when being run from out of the source tree, additional
 ### Packaging for Linux
 See [[Information for Downstream Packagers]].
 
+
 ## Windows
 Principia can only be built with a MinGW-based Windows compiler, whether it uses GCC or LLVM. MSVC is not supported at the moment and it is unknown if Principia can be compiled with it as MSVC has historically lacked support for C99 which Principia's engine TMS is written in.
 
@@ -67,10 +67,10 @@ After installation, a terminal opens. Run the following command to update the en
 pacman -Syu
 ```
 
-The terminal will then ask you to shut down the MSYS2 runtime to the finish the update. Proceed with doing so, and then go to the start menu and start the "MSYS2 UCRT64" environment (icon with gold background) again. Run the following command to install the necessary dependencies:
+The terminal will then ask you to shut down the MSYS2 runtime to the finish the update. Proceed with doing so, and then go to the start menu and start the "MSYS2 CLANG64" environment (icon with orange background). Run the following command to install the necessary dependencies:
 
 ```bash
-pacman -S git mingw-w64-ucrt-x86_64-{gcc,cmake,ninja,curl-winssl,gtk3,glew,libpng,libjpeg-turbo,freetype,SDL2}
+pacman -S git mingw-w64-clang-x86_64-{clang,cmake,ninja,curl-winssl,gtk3,glew,libpng,libjpeg-turbo,freetype,SDL2}
 ```
 
 Navigate somewhere you want to clone the Principia source code to, such as on your desktop:
@@ -89,13 +89,15 @@ cmake .. -G Ninja
 ninja
 ```
 
-When finished there will be a `principia.exe` file in the build folder. Keep in mind that the built executable can only be run inside of the MSYS2 terminal, to package up the game and make it runnable outside see the below section.
+When finished there will be a `principia.exe` file in the build folder. Keep in mind that the built executable can only be run inside of the MSYS2 terminal, unless you package it up.
+
+While the game works fine when being run from out of the source tree, additional setup is required for the URL handler to work in order to play community levels. See [this page on the Wiki](https://principia-web.se/wiki/Principia_Protocol#windows) for more details.
 
 ### Packaging for Windows
 The Windows installer uses NSIS, which must be installed first before building:
 
 ```bash
-pacman -S mingw-w64-ucrt-x86_64-nsis
+pacman -S mingw-w64-clang-x86_64-nsis
 ```
 
 For making Windows release builds you would run the `packaging/windows_release.sh` script, which will bundle necessary DLLs and other files to make the game run, and builds the installer. The `packaging/windows_portable.sh` script can be used to generate a portable release, which depends on the installer script being run first to work.
