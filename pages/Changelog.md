@@ -4,22 +4,31 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 202X.XX.XX (future release)
-- Reintroduce puzzles as a level type that can be created in the sandbox! (WIP)
+## 2025.XX.XX (future release)
+- Reintroduce puzzles as a level type that can be created in the sandbox!
 - The Level Manager object now works again!
+- Rework the play menu in the main menu
 - Optimise initial model loading on Android
-- Enable HTTPS certificate validation on desktop
+- Move some unimportant files that the game saves into a new cache location
 - Increase maximum Max value of Condenser to 32
 - Increase maximum Weight multiplier to 2.5
+- Increase chunk render limit (means less likelihood of seeing chunk gaps)
+- Hopefully make GTK dialogs less likely to appear under the main window
+- Make window no longer resizable by default (can be enabled again in settings)
 - **Bugfixes**:
   - Fix RC widget screen breaking on resize
+  - Fix various other GUI elements not adjusting to window resize
   - Fix crash when reloading graphics with rubber objects in a level
   - Fix crash when deleting a selected cable object
+  - Fix crash when destroying a dead robot's bomb
+  - Fix textured pixel not copying properties when using copying command
+  - Fix not being able to open older levels in the sandbox
   - Fix Sqrt gate outputting NaN from out-of-bounds values
   - Fix Linear decay output value not being clamped
   - Fix a lot of other signaling objects lacking proper clamping
   - Fix plastic density being incorrectly applied on Android
 - **Technical**:
+  - Switch to Clang for Windows and Linux builds (fixes some graphical glitches, otherwise should be unnoticeable)
   - Merge data folders into one
   - Distinguish builds by Git commit rather than build time
   - Source tree cleanups, some things have moved or been renamed when building from source
