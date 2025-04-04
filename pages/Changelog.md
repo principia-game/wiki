@@ -4,7 +4,9 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2025.XX.XX (future release)
+## 2025.04.05 (upcoming release)
+<!--**[News article](https://principia-web.se/news/19)** - **[Release](https://github.com/Bithack/principia/releases/tag/2025.04.05)**-->
+
 - Reintroduce puzzles as a level type that can be created in the sandbox!
 - The Level Manager object now works again!
 - Rework the play menu in the main menu
@@ -34,8 +36,6 @@ For versions prior to the source code release, please see [[Old Changelog]].
   - Source tree cleanups, some things have moved or been renamed when building from source
   - Improvements for the experimental web port
   - Update dependency library versions
-
-*(reminder: version code needs to be bumped twice for next release due to 2024.07.12-fdroid)
 
 ## 2024.07.12
 **[News article](https://principia-web.se/news/16)** - **[Release](https://github.com/Bithack/principia/releases/tag/2024.07.12)**
