@@ -9,7 +9,7 @@ First of all, make sure that Principia runs on the three major supported platfor
 - **Linux**: Test the AppImage on a couple different distro branches, old and new.
 - **Android**: Test that it runs, play some level and such.
 
-Also update the changelog on the wiki beforehand so that it is up to date with the changes in the new release.
+Also update the changelog on the wiki beforehand so that it is up to date with the changes in the new release, and write a Fastlane changelog metadata for the F-Droid version (you need to do this before tagging a release!).
 
 ## Incrementing version & tagging
 To increment the version, the script `set_version.lua` found in the `utils/` folder in the source tree should be used. It will update the version across the entire codebase at once reducing human error. Simply run it with `luajit ./utils/set_version.lua` and input the new version code and version name. When done, review the changes it has done and commit it.
@@ -27,34 +27,14 @@ To download Principia see the [Download](https://principia-web.se/download) page
 Once the release is created and tagged the CI should begin to make builds.
 
 ## Binaries
-Windows, Linux and Android binaries are officially provided for each release. The CI now produces artifacts at an acceptable quality to distribute these. Look at the CI job for the abovementioned release tag and download the CI artifacts once they're finished (requires being logged into GitHub) and extract the .zip archives they are contained within.
-
-### Windows
-The Windows action generates an x64 NSIS Windows installer artifact as well as a portable build distributed as a .7z archive.
-
-The installer should be renamed to `principia_YYYY.MM.DD_win64.exe` and the portable should be renamed to `principia_YYYY.MM.DD_win64.7z`.
-
-### Linux
-The Linux action generates an x64 AppImage as an artifact. It should be renamed to `principia_YYYY.MM.DD_x86_64.AppImage`.
-
-### Android
-The Android action generates an APK as an artifact, containing armeabi-v7a, arm64 and x86_64 native libraries currently. The CI generates unsigned APK files such that they can be signed locally by a signing key. Currently ROllerozxa holds the Android signing key for builds. To sign:
-
-```
-apksigner sign --ks ~/key.jks --ks-pass pass:<PASSWORD> --key-pass pass:<PASSWORD> --out principia-release-signed.apk principia-release-unsigned.apk
-```
-
-After being signed the APK should be renamed to `principia_YYYY.MM.DD.apk`.
-
-Also tag the commit that the [Android native dependencies](https://github.com/principia-game/principia-android-deps) were built with to associate it with the version, so F-Droid maintainers know which commit to build them from for the F-Droid Android version:
+Windows, Linux and Android binaries are officially provided for each release. The CI now produces artifacts at an acceptable quality to distribute these. Look at the CI job for the abovementioned release tag and wait until all the jobs have completed and have artifacts available. Then run the `prepare_release_builds.sh` script which will download and prepare the artifacts to be uploaded to the release:
 
 ```bash
-git tag 20XX.XX.XX
-git push --tags
+_ANDROID_KEY="(signing key)" ./utils/prepare_release_builds.sh
 ```
 
 ## Uploading builds and updating downloads
-Builds are now hosted on Github and should be uploaded to the respective release. After having prepared them locally per the steps above, go to edit the release and upload the files to it.
+Builds are now hosted on GitHub and should be uploaded to the respective release. After having prepared them locally per the steps above, go to edit the release and upload the files to it.
 
 The principia-web download page source is in the site's Git repository at `templates/download.twig`. Update the `version` variable and URLs should automatically update on the page.
 
