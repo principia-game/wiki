@@ -4,8 +4,8 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2025.04.05 (upcoming release)
-<!--**[News article](https://principia-web.se/news/19)** - **[Release](https://github.com/Bithack/principia/releases/tag/2025.04.05)**-->
+## 2025.04.05
+**[News article](https://principia-web.se/news/19)** - **[Release](https://github.com/Bithack/principia/releases/tag/2025.04.05)**
 
 - Reintroduce puzzles as a level type that can be created in the sandbox!
 - The Level Manager object now works again!
