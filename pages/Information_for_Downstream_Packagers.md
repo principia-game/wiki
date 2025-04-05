@@ -11,6 +11,8 @@ Some other metadata information can be found in the Principia metainfo file at `
 ## Dependencies
 We use CMake for our build system which you would want to add as a buildtime dependency. Our documentation uses Ninja but using the regular CMake Makefile generator is fine too.
 
+GCC's optimisations are prone to causing various bugs with the game, and while we have managed to resolve some of them, building with Clang is highly recommended for stability. However GCC is still supported if necessary and we are welcome to fixes that improve the situation when building with GCC.
+
 Principia relies on the following runtime dependencies:
 
 - cURL

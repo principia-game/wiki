@@ -9,6 +9,10 @@ If you just want to play Principia on Linux, there is an AppImage build availabl
 
 First of all install the dependency packages for your respective distro branch.
 
+> **Important note:**
+>
+> We generally recommend building Principia with Clang, as GCC's optimisations are prone to causing bugs with the game. However the game still generally works when building with GCC, as the current compilation instructions will give you. The instructions will be updated to build with Clang instead sometime in the future.
+
 **Debian-based distros:**
 
 ```bash
