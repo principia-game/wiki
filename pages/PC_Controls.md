@@ -25,7 +25,7 @@ The robot is controlled using typical WASD controls. To bring up an info window 
 - **S** - Move robot one layer front, or climb ladder down
 - **A** - Walk left
 - **D** - Walk right
-- **C** - Recenter camera to adventure robot
+- **C** - Recenter camera to the adventure robot
 - **K** - Self-destruct
 - **Space** - Jump
 - **1**, **2**, etc - Equip a weapon
