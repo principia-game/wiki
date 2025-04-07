@@ -1,0 +1,2 @@
+# Treat Markdown as a code language for Github language detection
+*.md linguist-detectable
