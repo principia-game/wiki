@@ -18,10 +18,10 @@ Yes, sdac came back and released the source code in August 2022. It is [availabl
 Being licensed under the BSD 3-Clause license, it is both open source and Free in that you have the freedom to use, modify and share the game and its source code.
 
 ## When is Principia coming onto Google Play?
-No current plans at the moment. However, the Android version of Principia [is available for F-Droid](https://f-droid.org/en/packages/com.bithack.principia/), an alternative app store focusing on free and open source software.
+Unlikely to happen anytime in the future. However, the Android version of Principia [is available for F-Droid](https://f-droid.org/en/packages/com.bithack.principia/), an alternative app store focusing on free and open source software.
 
 ## What about Steam?
-Potentially.
+Unlikely to happen anytime in the future. While Principia was accepted onto Steam through Steam Greenlight in 2014, it happened right when the game was abandoned and the game never ended up being released onto Steam. Steam Greenlight has since stopped existing many years ago and the Steam product page for Principia is gone, so it's not as simple as just uploading a copy of the game.
 
 ## What about iOS?
 Unlikely to happen anytime in the future. See [#85](https://github.com/Bithack/principia/issues/85).
