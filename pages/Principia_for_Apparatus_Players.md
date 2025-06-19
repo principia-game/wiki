@@ -1,6 +1,13 @@
-Principia is the spiritual successor to Apparatus. There are a lot of similarities between them, but Principia is also significantly more advanced than Apparatus and behaves differently in some ways. This page contains information that would be useful for Apparatus players wanting to try out Principia.
+Principia is the spiritual successor to [Apparatus](https://apparatus.voxelmanip.se), being originally referred to as "Apparatus 2: Principia". There are a lot of similarities between the two, but Principia is significantly more advanced than Apparatus and behaves differently in some ways. In general it is a lot more stable and has less bugs that used to plague Apparatus.
+
+This page contains information that would be useful for Apparatus players wanting to try out Principia.
 
 [toc]
+
+## Level types
+When selecting the level type in the sandbox, Principia's custom level type is the equivalent to the Apparatus level type, and the puzzle level type is equivalent to the Puzzle level type.
+
+The puzzle level type allows you to come up with whatever win condition you choose, which can be but is not limited to the classic ball-in-basket goal of Apparatus. See [Notes/Puzzles](#puzzles) for more information.
 
 ## Principia equivalents to Apparatus objects
 Principia has a significantly larger selection of objects available at your disposal, including advanced signal circuiting and even Lua scripting. However, the objects that existed in Apparatus still exist in Principia in some form.
@@ -57,3 +64,6 @@ In Principia, you can customise RC widgets as compared to in Apparatus where the
 
 ### Interactive objects
 Interactive objects in Principia behave differently to how they do in Apparatus. The red cylinder in Apparatus is able to apply seemingly infinite force to follow the finger, while interactive objects in Principia may be dropped if it can't follow the cursor. By default interactive objects need be within range of a [[Dragfield]] or the unlimited interactive level property enabled.
+
+### Puzzles
+The win condition for puzzles in Principia can be all sorts of things, as you can control when and how the player wins the level. For an Apparatus Challenge-style level, you may want to use a [[Ball]] or a [[Metal Ball]] combined with an [[Object field]] to detect it, wired up to a [[Game Manager]]'s IN0 slot to win the level. An example can be found in [this Principia recreation of Apparatus level 34](https://principia-web.se/level/1181).
