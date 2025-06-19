@@ -17,14 +17,16 @@ The game is claimed to have originally been paid, but was later made free. It wa
 Tesla Plushies works by creating gravitational pulls on walls in order to affect how the round plushies move. The objective is to safely transport the plushies to the goal by doing this while avoiding obstacles. Some plushies have different colours that need to be transported to their respective goals, and there are angry plushies which give a score reduction if they end up in the goal.
 
 ## Download
-The versions of Tesla Plushies that have currently been found are available in the [Bithack Game Archive](https://docs.google.com/spreadsheets/d/1G2YX0BV9_FSrIOvbCQtgYLE1XirCr8UaAfXUzuxjefE/htmlview#). The latest version, 1.0.3, can be [downloaded from here](https://archive.org/download/tesla-plushies-android-game-archive/TeslaPlushies_1.0.3.apk).
+The last version of Tesla Plushies, 1.0.3, can be [downloaded from here](https://archive.org/download/tesla-plushies-android-game-archive/TeslaPlushies_1.0.3.apk).
+
+It requires Android 1.6+ and an ARM device that supports 32-bit binaries. The menu button is used in-game to exit from a level, which you will need a button remapper to access on Android 10+.
 
 ## Notes
 Tesla Plushies was written in Java and developed with libGDX, the same framework later used by Apparatus. Tesla Plushies shares some code with Apparatus such as some UI primitives and to a certain extent the way the level format is structured.
 
-Tesla Plushies was originally developed from an unreleased game by the name of Super Slime Blob. Some unused code for objects intended for this game remain in the game among other references to a `com.bithack.superslimeblob` package anme.
+Tesla Plushies was originally developed from an unreleased game by the name of Super Slime Blob. Some unused code for objects intended for this game remain in the game among other references to a `com.bithack.superslimeblob` package name.
 
-The music soundtrack for the game is Democracy by Daniel Hjerth. The version found in the game is in mono with a low bitrate, but a higher quality stereo edition has surfaced which is available on [Youtube](https://www.youtube.com/watch?v=7vWOY3nhRlk). (TODO: Upload the raw music to archive.org)
+The music soundtrack for the game is Democracy by Daniel Hjerth. The version found in the game is in mono with a low bitrate, but a higher quality stereo edition has surfaced which is available on [Youtube](https://www.youtube.com/watch?v=7vWOY3nhRlk) and [archive.org](https://archive.org/details/daniel-hjerth-democracy).
 
 ### Editor
 A level editor was discovered ([video](https://www.youtube.com/watch?v=BRzALsEIMEs)) hidden in the code, which can be activated by changing the switch statement in `LoadingScreen::render()` to open the editor rather than the regular level select. A modded version of the game is available that exposes the editor, which [is available for download here](https://archive.org/download/teslap_editor_signed/teslap_editor_signed.apk).
