@@ -8,7 +8,7 @@ We have custom builds for the following dependencies:
 - cURL: Unnecessary components disabled to reduce final package size
 - Freetype: Unnecessary components disabled to reduce final package size
 
-The buildscripts are available in [principia-game/windows-deps](https://github.com/principia-game/windows-deps). Currently these are built manually and then deployed onto grejer.voxelmanip.se for the Principia CI to download, but should be more automated in the future.
+The buildscripts are available in [principia-game/windows-deps](https://github.com/principia-game/windows-deps). These are built by CI on each commit to the dependency repository and uploaded to a Github release that the Principia CI then downloads.
 
 ## Linux
 The official AppImage builds are built in a Debian container in the CI, so libraries from Debian's repositories end up bundled in the AppImage where it is not assumed that they exist on the target system (e.g. Freetype and cURL are stable enough and should exist on the target system).
