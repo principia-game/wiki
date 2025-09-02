@@ -1,7 +1,7 @@
 {{ infobox_game({
 	"title": "Apparatus",
 	"image": "apparatus.webp",
-	"developer": "Bithack",
+	"developer": "<a href=/wiki/Bithack>Bithack</a>",
 	"initial_release": "May 11, 2011",
 	"last_release": "Jan 17, 2014",
 	"platform": "Android"

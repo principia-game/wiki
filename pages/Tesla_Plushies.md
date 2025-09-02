@@ -1,13 +1,13 @@
 {{ infobox_game({
 	"title": "Tesla Plushies",
 	"image": "tesla_plushies.webp",
-	"developer": "Bithack",
+	"developer": "<a href=/wiki/Bithack>Bithack</a>",
 	"initial_release": "March 3, 2011",
 	"last_release": "March 30, 2011",
 	"platform": "Android"
 }) }}
 
-Tesla Plushies is a game developed by Bithack in 2011 and released for Android. It was the first mobile game published by Bithack, some months before the first version of Apparatus was released.
+Tesla Plushies is a game developed by [[Bithack]] in 2011 and released for Android. It was the first mobile game published by Bithack, some months before the first version of Apparatus was released.
 
 The game is claimed to have originally been paid, but was later made free. It was taken down from Google Play along with the rest of Bithack's games at an unknown point in time.
 
