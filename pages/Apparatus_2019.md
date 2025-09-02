@@ -1,0 +1,5 @@
+*Apparatus 2019* was a planned successor to Principia and the third game in the Apparatus series of games. Originally announced as a [Kickstarter project](https://www.kickstarter.com/projects/emilromanus/apparatus-0/description) on the 2nd of April 2019, it was intended to raise 500 000 Swedish krona in order to fund the development of the game. The fundraiser goal was not reached in the end and the project was later put on hold with no further updates about the game.
+
+The game would have been based on the Principia codebase, and was planned to be released as open source. There would be a larger focus on puzzles just like in the original Apparatus, and the game would be monetised through purchasing packs of officially created puzzle levels.
+
+In 2022, the final source code for Principia ended up being released and subsequently picked up by the community to further develop and maintain it. Commonly referred to as the [[Principia Open Source Project]], it can be considered a replacement for the cancelled Apparatus 2019.
