@@ -53,4 +53,4 @@ Congrats! You have now built a working hovercraft.
 
 ![](/wiki/images/imgur/tLL8MSJ.webp)
 
-## [Example level](https://archive.principia-web.se/level/6109)
+## [Example level](https://principia-web.se/archive/level/6109)

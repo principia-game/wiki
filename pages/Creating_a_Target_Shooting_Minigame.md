@@ -100,4 +100,4 @@ Congrats! Your target shooting mini game is now finished!
 
 ![](/wiki/images/imgur/zJiYAN8.webp)
 
-## [Example Level](https://archive.principia-web.se/level/5600)
+## [Example Level](https://principia-web.se/archive/level/5600)

@@ -120,4 +120,4 @@ Other objects that can be useful in levels like this:
 
 Below is an example of what you can do with a simple boss level.
 
-## [Example level](https://archive.principia-web.se/level/7923)
+## [Example level](https://principia-web.se/archive/level/7923)

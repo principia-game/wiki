@@ -62,4 +62,4 @@ If the walking still is unstable you can try changing the frequency Hz and/or ph
 
 Feel free to make any additional upgrades to your walker. For example an upper body, a cannon or add two more legs to make it a four legged walker! If you're happy with it you can publish it and share it with the community!
 
-## [Example Level](https://archive.principia-web.se/level/6585)
+## [Example Level](https://principia-web.se/archive/level/6585)

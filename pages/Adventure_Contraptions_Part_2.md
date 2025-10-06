@@ -1,6 +1,6 @@
 In this part of the adventure tutorial you will learn how to create an elevator, moving platforms, laser puzzle and more.
 
-**[Example level with all contraptions included](https://archive.principia-web.se/level/6025)**
+**[Example level with all contraptions included](https://principia-web.se/archive/level/6025)**
 
 ![](/wiki/images/imgur/wf8JAHv.webp)
 

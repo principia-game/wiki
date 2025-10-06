@@ -1,6 +1,6 @@
 Principia features the [[Pixel]] object, which is a static box which you can change the colour of. It has many uses, one of which is the creation of so-called [pixel art](https://en.wikipedia.org/wiki/Pixel_art) within Principia. The process of creating pixel art in Principia can be likened to the process of piecing together pixel art using [fuse beads](https://en.wikipedia.org/wiki/Fuse_beads) and is generally a very satisfying experience.
 
-There are plenty of examples of pixel art other players have created and uploaded to the community site, and [a search](https://archive.principia-web.se/search?query=%22pixel%20art%22&page=1&boolean=1) will turn up a lot of varyingly elaborate pixel art.
+There are plenty of examples of pixel art other players have created and uploaded to the community site, and [a search](https://principia-web.se/search?query=pixel+art&search_in=archive) will turn up a lot of varyingly elaborate pixel art.
 
 This wiki tutorial focuses mainly on the construction of pixel art from a fixed square grid, though more elaborate pixel art may want to use subpixel precision for more detail.
 
@@ -42,7 +42,7 @@ It is useful to have a palette of pixel colours that you can copy from when draw
 If you have an existing pixel art image that you want to create a palette from, or to reduce the amount of colours needed, you can open it in GIMP and select *Image -> Mode -> Indexed*. The dialog will allow you to select the maximum amount of colours it will put in the palette, and optionally dither the image if the colour depth is reduced. The resulting palette can be found in the "Palette" panel.
 
 ## Drawing the pixel art
-Using the palette you have created, you can then begin to "paint" the pixel art by selecting a pixel for the colour and then pressing the Comma (`,`) key on your keyboard, pointing your mouse at where it should paint. 
+Using the palette you have created, you can then begin to "paint" the pixel art by selecting a pixel for the colour and then pressing the Comma (`,`) key on your keyboard, pointing your mouse at where it should paint.
 
 Generally it is a good idea to start with the outline, as it gives you a guideline for filling out the details within.
 

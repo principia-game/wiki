@@ -1,6 +1,6 @@
 On this page you'll find different examples of doors and traps that you can use or modify for your own adventure level. Each example has a list of used objects. Use the quickadd button to add these objects (space button on PC) or drag them from the box on the right side of the screen. To attach cables between objects, double click them and drag.
 
-**[Example level with all contraptions included](https://archive.principia-web.se/level/5757)**
+**[Example level with all contraptions included](https://principia-web.se/archive/level/5757)**
 
 [toc]
 

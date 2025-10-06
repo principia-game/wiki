@@ -1,6 +1,6 @@
 In this tutorial we will continue to build on our vehicle from the previous tutorials and this time add an angled cannon using a Servo Motor.
 
-First, let's open up the vehicle from [[Building a Vehicle Part 2]]. If you didn't save yours, use [this](https://archive.principia-web.se/level/5383) example level. You can also find the finished example level for this part of the tutorial at the bottom of the page.
+First, let's open up the vehicle from [[Building a Vehicle Part 2]]. If you didn't save yours, use [this](https://principia-web.se/archive/level/5383) example level. You can also find the finished example level for this part of the tutorial at the bottom of the page.
 
 ## Adding a cannon on the Vehicle
 We will begin by creating a small "turret" with two planks where the cannon can be placed, then attach a [[Servo Motor]] to it. A Servo Motor has low maximum speed, high torque and is good for precise angle control or abrupt speed control.
@@ -47,4 +47,4 @@ You can also add a [[Cam Targeter]] to set a fixed camera position, this will pr
 
 Your vehicle is now finished!
 
-## [Example Level](https://archive.principia-web.se/level/5523)
+## [Example Level](https://principia-web.se/archive/level/5523)
