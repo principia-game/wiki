@@ -15,4 +15,4 @@ A simple motor that is good for simple electronics. Power this motor by connecti
 
 ## Socket information
 - **`IN0`**: Voltage
-- **`OUT0`**: Speed control
+- **`IN1`**: Speed control
