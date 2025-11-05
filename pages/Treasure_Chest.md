@@ -5,6 +5,6 @@
 	"sublayer_width": 15
 }) }}
 
-Treasure chest with randomized loot.
+Treasure chest that can be opened by players in adventure mode to receive loot. By default it will drop a random assortment of resources and items appropriate for the adventure mode.
 
-Click the configuration button to set a custom loot. ^(PC only)^
+You can also set a custom loot by clicking the configuration button. ^(PC only)^
