@@ -12,6 +12,9 @@
 - [[Creating a Target Shooting Minigame]]
 - [[Creating a Bee Smasher Minigame]]
 
+## Advanced Tutorials
+- [[Creating a Transforming Adventure Boss]]
+
 ## Misc.
 - [[ZardOz's Tutorials]]
 

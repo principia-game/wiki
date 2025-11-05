@@ -107,7 +107,7 @@ And for the FX Emitter with an explosion effect you can add a [[Y-splitter]] wit
 
 ![](/wiki/images/imgur/pmwyzqP.webp)
 
-For a simple HP display, you can add a [[Grapher]] somewhere on the boss and add a Receiver from the condenser used for HP calculation. For more advanced HP displays, see [[Create A Transforming Adventure Boss]].
+For a simple HP display, you can add a [[Grapher]] somewhere on the boss and add a Receiver from the condenser used for HP calculation. For more advanced HP displays, see [[Creating a Transforming Adventure Boss]].
 
 ![](/wiki/images/imgur/FLVulei.webp)
 
