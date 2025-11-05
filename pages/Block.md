@@ -9,6 +9,7 @@
 A piece of block used for terrain or zappable ores. Acts like a [[Pixel]], but textured.
 
 The material slider controls the type of material or ore. The following types exist:
+
 - Grass
 - Dirt
 - Stone

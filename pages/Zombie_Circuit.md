@@ -6,4 +6,4 @@
 
 Keeps the robot alive after death.
 
-Bring this item to a repair station to equip it.
+In adventure mode, bring this item to a [[Repair Station]] to equip it.

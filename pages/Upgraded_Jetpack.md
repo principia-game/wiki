@@ -6,4 +6,4 @@
 
 Upgraded jetpack with more fuel.
 
-In-game, bring this item to a [[Repair Station]] to equip it.
+In adventure mode, bring this item to a [[Repair Station]] to equip it.

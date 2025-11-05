@@ -6,4 +6,4 @@
 
 Do somersaults while jumping by immediately boxing/unboxing in the air after a jump.
 
-In-game, bring this item to a [[Repair Station]] to equip it.
+In adventure mode, bring this item to a [[Repair Station]] to equip it.

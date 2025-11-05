@@ -6,4 +6,4 @@
 
 Regular robot head all robots have by default, unless it breaks off!
 
-In-game, bring this item to a [[Repair Station]] to equip it.
+In adventure mode, bring this item to a [[Repair Station]] to equip it.
