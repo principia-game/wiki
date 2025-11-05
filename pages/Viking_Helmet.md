@@ -1,7 +1,7 @@
 {{ infobox_item({
 	"id": 70,
 	"name": "Viking Helmet",
-	"type": "Head"
+	"type": "Head equipment"
 }) }}
 
 Stylish Swedish headgear.

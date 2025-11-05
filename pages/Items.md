@@ -41,6 +41,7 @@ This is a list of items categorised by their types.
 - [[Jester hat]]
 - [[Witch Hat]]
 - [[Hard hat]]
+- [[Viking Helmet]]
 
 ## Head
 - [[Robot head]]
@@ -49,7 +50,6 @@ This is a list of items categorised by their types.
 - [[Uncovered robot head]]
 - [[Ostrich head]]
 - [[Dummy head]]
-- [[Viking Helmet]]
 
 ## Back equipment
 - [[Robot back]]
