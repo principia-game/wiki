@@ -4,6 +4,6 @@
 	"type": "Upgrades"
 }) }}
 
-Circuit used for riding animals.
+Circuit which allows for riding animals. When equipped, you can attach to an animal by clicking on the circle that appears when you are near it.
 
 In adventure mode, bring this item to a [[Repair Station]] to equip it.
