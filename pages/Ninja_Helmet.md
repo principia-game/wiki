@@ -4,5 +4,6 @@
 	"type": "Head equipment"
 }) }}
 
-Become the ninja you've always wanted to be. Combine with black robot parts and a [[Somersault Circuit]] for pure ninja mode.
+Become the ninja you've always wanted to be. Best combined with the [[Black robot front]], the [[Black robot back]] and a [[Somersault Circuit]] for true ninja mode.
+
 In adventure mode, bring this item to a [[Repair Station]] to equip it.
