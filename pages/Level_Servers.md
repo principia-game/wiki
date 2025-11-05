@@ -18,4 +18,11 @@ These only have the bare minimum implemented to support being able to play and/o
 
 | Domain                   | Description                                                     |
 | ------------------------ | --------------------------------------------------------------- |
-| archive.principia-web.se | An archive of levels from the official Principia community site |
+| N/A | N/A |
+
+## Defunct servers
+These servers have shut down or are otherwise no longer functional.
+
+| Domain                   | Description |
+| ------------------------ | ----------- |
+| archive.principia-web.se | Archive of levels from the official Principia community site. Merged into principia-web.se |
