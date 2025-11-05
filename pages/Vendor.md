@@ -5,9 +5,9 @@
 	"sublayer_width": 14
 }) }}
 
-Click the target button to set what resource the vendor accepts.
+Allows players to buy items in exchange for resources in the adventure mode. Click the target button to set what resource the vendor accepts.
 
-The builder tool can be used to drag a resource to the blue antenna.
+The [[Builder]] tool can be used to drag a resource to the blue antenna.
 
 ## Socket information
 - **`IN0`**: Activate
