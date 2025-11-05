@@ -7,4 +7,4 @@
 
 Procedurally generated tree that grows around the objects that are nearby.
 
-Can be mined by a robot for wood.
+Can be mined with the [[Zapper]] to get wood.

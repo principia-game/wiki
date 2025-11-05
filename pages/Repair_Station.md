@@ -9,10 +9,10 @@
 
 Used to repair or reconfigure robots with different components.
 
-Objects can be dragged to the antenna using the builder tool.
+Objects can be dragged to the antenna using the [[Builder]] tool.
 
 ## Adventure Usage
-Choose an item you want to replace or equip. Lets say you want to equip a [[Circuit of Regeneration]] and replace the robot head with a [[Cow head]]. Simply use the builder tool to drag the items to the blue antenna.
+Choose an item you want to replace or equip. Let us say you want to equip a [[Circuit of Regeneration]] and replace the robot head with a [[Cow head]]. Simply use the [[Builder]] tool to drag the items to the blue antenna.
 
 ![](/wiki/images/imgur/n5AmTNM.jpg)
 
@@ -28,6 +28,6 @@ Done. Your robot have been equipped with the new robot parts.
 
 ![](/wiki/images/imgur/Lk2K7FG.jpg)
 
-If you want to replace robot parts of another robot, climb the ladder while the the non-player robot is in front of the repair station, then activate the monitor on top the repair station. The same window will appear.
+If you want to replace robot parts of another robot, climb the ladder while the non-player robot is in front of the repair station, then activate the monitor on top the repair station. The same window will appear.
 
 ![](/wiki/images/imgur/isbyETK.jpg)

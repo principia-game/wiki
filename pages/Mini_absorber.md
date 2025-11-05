@@ -8,9 +8,9 @@
 Small absorber that can be attached to objects.
 
 Objects that can be absorbed:
-Ball, metal ball, corner, land mine, bomb, interactive ball.
 
-The mini absorber can also absorb Interactive Box and the wooden box, but only if the box's size is set to the smallest.
+- [[Ball]], [[Metal ball]], [[Corner]], [[Land mine]], [[Bomb]] and [[Interactive ball]]
+- [[Interactive Box]] and [[Box]] (only at smallest box size)
 
 ## Socket information
 - **`IN0`**: Absorb signal

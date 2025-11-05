@@ -6,7 +6,7 @@
 	"stationary": "Yes"
 }) }}
 
-Trampoline fixed to the wall. Can optionally be wired to a power source for extra feedback.
+A trampoline fixed to the wall. It can optionally be wired to a power source for extra strength.
 
 Sublayer depth: 4
 

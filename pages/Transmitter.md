@@ -5,7 +5,7 @@
 	"sublayer_width": 14
 }) }}
 
-Transmit a signal over a frequency.
+Transmit a signal over a wireless frequency.
 
 If **`IN1`** is used, the used frequency is shifted by + **`IN1`** * 10 rounded to the nearest whole value.
 
