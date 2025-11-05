@@ -4,7 +4,9 @@
 	"type": "Tool"
 }) }}
 
-This tool allows you to move and attach objects. The adventure robot has this item by default.
+This tool allows you to move and attach objects.
+
+The adventure robot has this item by default.
 
 Can be used to:
 - Drag an object

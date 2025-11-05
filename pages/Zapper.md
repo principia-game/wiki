@@ -4,7 +4,9 @@
 	"type": "Tool"
 }) }}
 
-Useful tool used for mining and various other things. The adventure robot has this item by default.
+The Zapper emits a beam that can destroy certain objects when activated. Useful tool used for mining and various other things.
+
+The adventure robot has this item by default.
 
 Can be used on:
 - Terrain to explore and create caves
