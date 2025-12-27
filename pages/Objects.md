@@ -261,5 +261,6 @@ These are unused objects that have been found inside of the game. Most are usabl
 - [[Background]]
 - [[Electromagnet]]
 - [[Gear]]
+- [[Laser Duplicate]]
 - [[Magnet]]
 - [[Separator]]

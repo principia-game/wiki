@@ -149,7 +149,7 @@ This is a list of objects by their object ID.
 |      144 |       90 | [[Impact sensor]]        |
 |      145 |       91 | [[Lobber]]               |
 |      146 |       92 | [[HP Control]]           |
-|      147 |       93 | [[Laser]] (Duplicate)    |
+|      147 |       93 | [[Laser Duplicate]]*     |
 |      148 |       94 | [[Multi-emitter]]        |
 |      149 |       95 | [[Simple Motor]]         |
 |      150 |       96 | [[Angular vel. meter]]   |
