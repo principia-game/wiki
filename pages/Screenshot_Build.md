@@ -7,7 +7,6 @@ The screenshot build is more minimal than a regular build, due to not requiring 
 
 - cURL (No network communication is necessary, levels need to be provided locally)
 - GTK3 (No dialogs are shown)
-- GLEW
 - SDL2_mixer (No sound)
 
 ## Usage
@@ -17,8 +16,7 @@ Once you have an environment simply run the `principia` executable. The data dir
 
 ```
 - /principia/         (this folder can be anywhere and called anything)
-  - data-pc/          Data folder (PC-only)
-  - data-shared/      Data folder (shared)
+  - data/             Data folder
   - storage/          User data directory
   - principia         Screenshot build executable
   - principia.state   The state the screenshotter is in (e.g. in progress or resting)
