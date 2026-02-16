@@ -20,7 +20,7 @@ This is a list of objects by their object ID.
 |       15 |        F | [[Seesaw base]]          |
 |       16 |       10 | [[Open Pivot]]           |
 |       17 |       11 | [[Ball Pipeline]]        |
-|       18 |       12 | Gearbox                  |
+|       18 |       12 | [[Gearbox]]              |
 |       19 |       13 | [[Damper]]               |
 |       20 |       14 | [[DC Motor]]             |
 |       21 |       15 | [[Servo Motor]]          |
@@ -199,7 +199,7 @@ This is a list of objects by their object ID.
 |      194 |       C2 | [[Plastic Box]]          |
 |      195 |       C3 | [[Boundary]]             |
 |      196 |       C4 | [[Robot Manager]]        |
-|      197 |       C5 | UNDEFINED                |
+|      197 |       C5 | Terrain chunk            |
 |      198 |       C6 | [[Suction Cup]]          |
 |      199 |       C7 | [[Sound Manager]]        |
 |      200 |       C8 | [[Robot Factory]]        |
