@@ -4,20 +4,28 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 202X.XX.XX (upcoming release)
+## 2026.XX.XX (upcoming release)
 - New directory structure for user data
 - Location of user data has been moved on some platforms:
   - Windows: Now in `%APPDATA%\Principia` instead of `C:\Users\<User>\Principia`
   - Linux: Now in `~/.local/share/principia` (or $XDG_DATA_HOME) instead of `~/.principia`
-- Fix navigation bar obscuring the game on Android 15
-- Fix crash when pressing F11 key on Android
-- Fix username being shown in the topleft even if you are not actually logged in
-- Fix game running slowly after logging in on desktop
+- Fix the [[Gearbox]] object to no longer crash (see [this level](https://principia-web.se/level/1523))
 - Set `SDL_HINT_APP_NAME` (used for e.g. Pipewire)
+- Fix username being shown in the topleft even if you are not actually logged in
 - Fix scaling of large ore blocks
 - Improve the appearance of world borders
-- Switch from GLEW to GLAD
-- Web version is now pretty usable (but still experimental)
+- **Android**:
+  - Enable LuaSocket library on Android
+  - Fix navigation bar obscuring the game on Android 15
+  - Fix crash when pressing F11 key on Android
+  - Make links outside of the community site be opened in external browser
+- **Desktop**:
+  - Add button to LuaScript dialog to open external script folder for convenience
+  - Fix game running slowly after logging in on desktop
+  - Fix game changing size during load on Windows with a HiDPI display
+- **Technical**:
+  - Switch from GLEW to GLAD (Principia no longer depends on GLEW)
+  - Web version is now pretty usable (but still experimental)
 
 ## 2025.04.05
 **[News article](https://principia-web.se/news/19)** - **[Release](https://github.com/Bithack/principia/releases/tag/2025.04.05)**
