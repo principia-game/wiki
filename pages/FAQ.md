@@ -42,6 +42,9 @@ Because we do not have the money for a signing certificate (which costs a lot of
 
 The Windows installer is generally more likely to throw false positives than the portable version. If you are paranoid then you can download the portable version, extract it and scan the extracted game executable `principia.exe` which should give no results. The portable version can then be configured to become the exact same as an installed version of the game if you wish. See the [[Windows Portable]] page for more information.
 
+## What is the Badges section on user pages?
+The badges section on user pages is a place where users can be awarded badges for various achievements. See [Badges](/badges) for a list of badges a user could have.
+
 ## Where are my old levels?
 They are available in the [Community Site Archive](https://archive.principia-web.se).
 
