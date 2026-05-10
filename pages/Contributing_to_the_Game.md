@@ -11,7 +11,7 @@ This page is far from exhaustive but hopes to give a brief overview of what you 
 ## Communication
 The canonical source repository for the game is on [Github](https://github.com/Bithack/principia/), where the issue tracker is and where you can submit pull requests. Not all issues are properly labelled but there are always a lot of bug reports to sift through.
 
-When it comes to more real-time communication for the game's development we have the `#development` channel in the [Principia Discord server](/discord) (also available in the [Principia Matrix space](/matrix) as a bridged room). Please stop by if you want to discuss any things related to development or have other questions relating to development. Most of the active community members reside in Europe so if you write something when it is past midnight there please be patient for a response.
+When it comes to more real-time communication for the game's development we have the `#development` channel in the [Principia Discord server](/discord) (also available in the [Principia Fluxer community](/fluxer) as a bridged channel). Please stop by if you want to discuss any things related to development or have other questions relating to development. Most of the active community members reside in Europe so if you write something when it is past midnight there please be patient for a response.
 
 ## Compiling and developing
 Compiling the game should be simple on Linux, and shouldn't be very difficult on Windows either. See [[Compiling Principia]] for instructions for the particular platform.

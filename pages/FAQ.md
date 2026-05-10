@@ -10,7 +10,7 @@ In January of 2025, ROllerozxa [wrote a blog post](https://voxelmanip.se/2025/01
 ## What is Principia Discord?
 It's the "official" Principia Discord server, [principia-web.se/discord](/discord) serves as a permalink to the invite for it. It was originally started sometime 2017 as an unofficial server, but quickly turned into the main community hub after the official community site shut down. It was originally run by uni(valence) but has been taken over by ROllerozxa after a while of administering it. It is now the primary place for Principia-related chit chat, with even sdac joining it alongside the source code release.
 
-The main channels of the Discord server are also bridged to the [Principia Matrix space](/matrix), for those who wish to not use Discord as a platform.
+The main channels of the Discord server are also bridged to the [Principia Fluxer community](/fluxer), for those who wish to not use Discord as a platform.
 
 ## So Principia is open source now?
 Yes, sdac came back and released the source code in August 2022. It is [available on GitHub](https://github.com/Bithack/principia/), and is continuing development as an open source project.
