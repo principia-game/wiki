@@ -45,7 +45,9 @@ this:write_frequency(frequency, value)
 ## `this:listen_on_frequency()`
 Added in **1.4**
 
-Starts listening on the given frequency.**NOTE:** Must be called in the init-function.
+Starts listening on the given frequency.
+
+**NOTE:** Must be called in the init-function.
 
 ```lua
 this:listen_on_frequency(frequency)
