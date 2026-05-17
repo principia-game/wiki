@@ -12,6 +12,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
 - Fix the [[Gearbox]] object to no longer crash (see [this level](https://principia-web.se/level/1523))
 - Set `SDL_HINT_APP_NAME` (used for e.g. Pipewire)
 - Fix username being shown in the topleft even if you are not actually logged in
+- Fix suction cup model being flipped
 - Fix scaling of large ore blocks
 - Improve the appearance of world borders
 - **Android**:
