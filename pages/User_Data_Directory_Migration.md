@@ -1,6 +1,4 @@
-(This page is a draft until the next release.)
-
-In Principia 2026.XX.XX, the user data location was changed on Windows and Linux, and the directory structure was also changed. The game will try to migrate data automatically on first startup, but will leave behind anything that is not directly used by the game for the user to manually clean up if so desired.
+In Principia 2026.06.06, the user data location was changed on Windows and Linux, and the directory structure was also changed. The game will try to migrate data automatically on first startup, but will leave behind anything that is not directly used by the game for the user to manually clean up if so desired.
 
 ## Location of user data directory
 
