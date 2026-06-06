@@ -4,7 +4,9 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2026.XX.XX (upcoming release)
+## 2026.06.06
+**[News article](https://principia-web.se/news/28)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.06.06)**
+
 - New directory structure for user data
 - Location of user data has been moved on some platforms:
   - Windows: Now in `%APPDATA%\Principia` instead of `C:\Users\<User>\Principia`
@@ -15,6 +17,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
 - Fix suction cup model being flipped
 - Fix scaling of large ore blocks
 - Improve the appearance of world borders
+- Switch to latest appimagetool for Linux AppImage builds
 - **Android**:
   - Enable LuaSocket library on Android
   - Fix navigation bar obscuring the game on Android 15
@@ -24,6 +27,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
   - Add button to LuaScript dialog to open external script folder for convenience
   - Fix game running slowly after logging in on desktop
   - Fix game changing size during load on Windows with a HiDPI display
+  - Make Windows installer HiDPI aware
 - **Technical**:
   - Switch from GLEW to GLAD (Principia no longer depends on GLEW)
   - Web version is now pretty usable (but still experimental)
