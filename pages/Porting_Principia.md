@@ -18,19 +18,17 @@ Principia depends on the following libraries for core functionality (in addition
 
 In addition to this Principia has the following dependencies that may be provided:
 
-- cURL, for doing communication with a community site over the internet. If you cannot satisfy this dependency you can stub out any reliance on cURL by undefining `BUILD_CURL` in `src/src/main.cc`.
-- GTK3 for some dialogs. This is a **very big** one, and can likely not be satisfied unless your platform is very desktop-like. We are working on removing this dependency by switching dialogs to using Dear Imgui which is much more portable and will work on anywhere with OpenGL(ES) that Principia uses. As a stop-gap measure, you can make use of the dummy dialog implementation found in `src/src/ui.cc`.
+- cURL, for doing communication with a community site over the internet. If you cannot satisfy this dependency you can stub out any reliance on cURL by undefining `BUILD_CURL` in `src/main.cc`.
+- GTK3 for some dialogs. This is a **very big** one, and can likely not be satisfied unless your platform is very desktop-like. We are working on removing this dependency by switching dialogs to using Dear Imgui which is much more portable and will work on anywhere with OpenGL(ES) that Principia uses. You can use the experimental Dear Imgui dialog backend by compiling with `BACKEND_IMGUI=1`, or you can make use of the dummy dialog implementation found in `src/ui_dummy.cc`.
 
 We also have some vendored libraries in the source tree that may be worth listing:
 
 - Lua 5.2 for the LuaScript object. Should not be an issue.
 - Luasocket for providing networking functionality to LuaScript. Not used a lot by levels and may cause portability issues, `BUILD_LUASOCKET` (`USE_LUASOCKET` in CMake) controls building it if you need to disable it.
 - SDL_image, SDL satellite library vendored to reduce dependencies for our official builds. Should not cause any issues.
-- SDL_mixer, SDL satellite library vendored to reduce dependencies for our official builds. Should not cause any issues, but you can stub out sounds to remove this dependency if necessary. See `ENABLE_SOUND` in `src/src/soundmanager.{cc,hh}`
+- SDL_mixer, SDL satellite library vendored to reduce dependencies for our official builds. Should not cause any issues, but you can stub out sounds to remove this dependency if necessary. See `ENABLE_SOUND` in `src/soundmanager.{cc,hh}`
 
 ## Adding a new platform
 In `CMakeLists.txt` add detection for the new platform to set an appropriate `TMS_BACKEND` preprocessor define in the "Determine platform and backend" section.
-
-In `src/tms/core/backend.h`, add a line for defining `OS_STRING` using the preprocessor define you just added in the CMake code. If you manage to get far enough with the port then this will used for levels uploaded from this platform, so it should be a human readable name for your platform.
 
 After that you are mostly on your own and will need to do your judgement based on the platform you are porting to.
