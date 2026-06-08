@@ -11,7 +11,7 @@ Some other metadata information can be found in the Principia metainfo file at `
 ## Dependencies
 We use CMake for our build system which you would want to add as a buildtime dependency. Our documentation uses Ninja but using the regular CMake Makefile generator is fine too.
 
-GCC's optimisations are prone to causing various bugs with the game, and while we have managed to resolve some of them, building with Clang is highly recommended for stability. However GCC is still supported if necessary and we are welcome to fixes that improve the situation when building with GCC.
+GCC's optimisations are prone to causing various bugs with the game, and while we have managed to resolve some of them, we would recommend building the game with Clang for stability. However GCC is still supported if necessary and we are welcome to fixes if you notice anything wrong when compiling with GCC.
 
 Principia relies on the following runtime dependencies:
 
@@ -28,9 +28,11 @@ None of these libraries are vendored, and the build system uses the versions pro
 In addition to this Principia uses `xdg-open` for opening webpages from the game. Whether it can be assumed to exist on the base system or a dependency on `xdg-utils` should be added is up to you.
 
 ### Vendored libraries
-If you peek in `src/` you may see that there are some more libraries we use that are vendored.
+If you peek in `lib/` you may see that there are some more libraries we use that are vendored.
 
-SDL_image and SDL_mixer are vendored to reduce the amount of libraries that are pulled in for our official Windows and Linux builds, as well as being used for the Android version. Devendoring these libraries should not cause any adverse effects and you are free to do so.
+SDL_image and SDL_mixer are vendored to reduce the amount of libraries that are pulled in for our official Windows and Linux builds, as well as being used for the Android version. Devendoring these libraries should not cause any adverse effects and you are free to do so, though we personally do not consider it beneficial.
+
+There is a work-in-progress Dear Imgui dialog backend, and we have a vendored version of it at `lib/imgui/`. This backend is experimental and behind a compile option that is not enabled by default, and will not get included. The default dialog backend on desktop OSes is the GTK3 one.
 
 Principia has vendored versions of Lua 5.2, Luasocket and Box2D. Do **not** under **any circumstances** devendor these libraries, as they have modifications done to them for use with the game. Even if you manage to replace it with system libraries, the physics simulation will be significantly altered breaking existing levels and you will likely expose dangerous functions in the Lua scripting.
 
@@ -39,7 +41,7 @@ We understand the security concerns with vendoring libraries, and we proactively
 ## Files
 Principia provides the usual metadata files for packaging such as an icon and desktop file, and it should be as easy as doing `ninja install` with `DESTDIR` pointed to your packaging system's package directory. It will install everything including the binary and game data in a way that the game can read data as long as the directory structure is kept, and as long as your distro follows the traditional Linux directory structure that should be all you need.
 
-To be more detailed, Principia attempts to load the data folders `data-pc` and `data-shared` from the following locations:
+To be more detailed, Principia attempts to load the data folder `data` from the following locations:
 
 1. `./` (data directories are next to the executable)
 2. `../` (data directories are one directory up relative to the executable)
@@ -47,12 +49,15 @@ To be more detailed, Principia attempts to load the data folders `data-pc` and `
 
 So while Principia would usually be installed at `/usr/bin/principia` and its data in `/usr/share/principia/`, the binary is relocatable and the prefix could be something completely else than `/usr` such as e.g. `/usr/local` or `/packagesilo/principia`. If your distro doesn't use `/usr` you probably are already aware of this.
 
+### Protocol handler
+Principia registers the `principia://` protocol handler which allows for players to play levels from a community site in their browser, opening the game by pressing a link. The `principia-url-handler.desktop` desktop file should handle this which is copied to the right location by default when running `ninja install`, but make sure this works as intended.
+
 ## Network connections
 Principia makes connections to principia-web by default. Inform the user of this network connectivity in the metadata of the package, if necessary. The source code for the website is available [here](https://github.com/principia-game/principia-web) licensed under the AGPLv3 license, and also see the [Privacy Policy](/privacy).
 
 Do **not** patch out any of the game's network connectivity, a large part of the game is the community site where you can play and upload levels.
 
-If you are still required to disable the network connectivity that happens by default, then please only replace the default community domain located in the top of `populate_community_host()` in `src/src/main.cc` with `localhost` or something else. This makes the player still able to play levels from level servers in their web browser and reactivate full network connectivity by putting a domain (e.g. `principia-web.se`) in `community_host.txt` in their Principia user folder.
+If you are still required to disable the network connectivity that happens by default, then please only replace the default community domain located in the top of `populate_community_host()` in `src/main.cc` with `localhost` or something else. This makes the player still able to play levels from level servers in their web browser and reactivate full network connectivity by putting a domain (e.g. `principia-web.se`) in `community_host.txt` in their Principia user folder.
 
 Do **not** remove the update check. Principia does not automatically update, it simply shows a toast message on the main menu that a new version is available. The player deserves to be able to know if the packaged Principia they have installed is outdated, as it may make it impossible to play new levels made with newer versions when new features are added and the level version is increased.
 
