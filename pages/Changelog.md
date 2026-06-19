@@ -4,6 +4,11 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
+## 2026.06.19
+**[News article](https://principia-web.se/news/29)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.06.19)**
+
+- Fix community site connectivity issues on some platforms
+
 ## 2026.06.06
 **[News article](https://principia-web.se/news/28)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.06.06)**
 
