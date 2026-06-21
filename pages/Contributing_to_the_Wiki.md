@@ -26,3 +26,8 @@ The wiki has a template system for reusable components such as infoboxes. They t
 Titles are taken from the file name. Usually page titles should be Title Cased Whenever Possible, but "small" words like prepositions should not be capitalised. We do not follow any particular handbook in terms of what constitutes as one, but use your best judgement.
 
 Underscores in the file name is converted into spaces for the human readable name, e.g. `Creating_a_Bee_Smasher_Minigame.md` becomes `Creating a Bee Smasher Minigame`. In order to represent slashes in the file name while keeping all files in the same directory, the letter "Ä" is used as a replacement for a slash. For example, `LuaScriptÄthis.md` becomes `LuaScript/this`. This is subject to change.
+
+## LLM usage policy
+It is not allowed to use LLMs to write content for the wiki. LLM-generated writing is often unnecessarily wordy, prone to hallucinations, and overuse or misuse literary devices in a way that makes it jarring for human readers. It would reflect poorly on the wiki and the project as a whole.
+
+Spelling and grammar checkers to help with proofreading are still fine, and there exists plenty of such tools that do not make use of LLMs.
