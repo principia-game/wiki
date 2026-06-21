@@ -11,7 +11,6 @@ This is a list of all "officially" maintained repositories and their Github and 
 | `android-deps`            | Dependency buildscripts for Android     | [principia-game/android-deps](https://github.com/principia-game/android-deps)             | [principia/principia-android-deps](https://codeberg.org/principia/principia-android-deps) |
 | `linux-deps`              | Dependency buildscripts for Linux       | [principia-game/linux-deps](https://github.com/principia-game/linux-deps)                 | N/A                                                                                       |
 | `windows-deps`            | Dependency buildscripts for Windows     | [principia-game/windows-deps](https://github.com/principia-game/windows-deps)             | N/A                                                                                       |
-| `principia-utils`         | Misc. util programs for Principia       | [principia-game/principia-utils](https://github.com/principia-game/principia-utils)       | [principia/principia-utils](https://codeberg.org/principia/principia-utils)               |
 | `screenshotter-container` | Docker container for screenshot build   | [principia-game/screenshotter](https://github.com/principia-game/screenshotter-container) | N/A                                                                                       |
 | `principia-web`           | Source code for principia-web.se        | [principia-game/principia-web](https://github.com/principia-game/principia-web)           | [principia/principia-web](https://codeberg.org/principia/principia-web)                   |
 | `wiki`                    | Content for the Wiki                    | [principia-game/wiki](https://github.com/principia-game/wiki)                             | [principia/wiki](https://codeberg.org/principia/wiki)                                     |
@@ -30,3 +29,6 @@ Git has the ability to push to several URLs for a single remote which can be use
 ```
 
 When making changes and committing locally simply `git push` will push the commits to both remotes automatically. To update the mirror from changes in a PR merged on Github, just `git pull` locally and then `git push` to make new commits propagate to Codeberg.
+
+## Archived repositories
+The [principia-historical](https://github.com/principia-historical) organisation on GitHub contains any repositories that have been merged into another repository or is otherwise no longer relevant. This includes efforts from before the source release that went under the Principia Preservation Project moniker.
