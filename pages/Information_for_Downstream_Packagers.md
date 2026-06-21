@@ -34,7 +34,7 @@ SDL_image and SDL_mixer are vendored to reduce the amount of libraries that are 
 
 There is a work-in-progress Dear Imgui dialog backend, and we have a vendored version of it at `lib/imgui/`. This backend is experimental and behind a compile option that is not enabled by default, and will not get included. The default dialog backend on desktop OSes is the GTK3 one.
 
-Principia has vendored versions of Lua 5.2, Luasocket and Box2D. Do **not** under **any circumstances** devendor these libraries, as they have modifications done to them for use with the game. Even if you manage to replace it with system libraries, the physics simulation will be significantly altered breaking existing levels and you will likely expose dangerous functions in the Lua scripting.
+Principia has vendored versions of Lua 5.2 and Box2D. Do **not** under **any circumstances** devendor these libraries, as they have modifications done to them for use with the game. Even if you manage to replace it with system libraries, the physics simulation will be significantly altered breaking existing levels and you will likely expose dangerous functions in the Lua scripting.
 
 We understand the security concerns with vendoring libraries, and we proactively look out for potential vulnerabilities or other bugs that have been patched in upstream. If you are aware of any issues in the vendored libraries then please let us know.
 

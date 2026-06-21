@@ -24,7 +24,6 @@ In addition to this Principia has the following dependencies that may be provide
 We also have some vendored libraries in the source tree that may be worth listing:
 
 - Lua 5.2 for the LuaScript object. Should not be an issue.
-- Luasocket for providing networking functionality to LuaScript. Not used a lot by levels and may cause portability issues, `BUILD_LUASOCKET` (`USE_LUASOCKET` in CMake) controls building it if you need to disable it.
 - SDL_image, SDL satellite library vendored to reduce dependencies for our official builds. Should not cause any issues.
 - SDL_mixer, SDL satellite library vendored to reduce dependencies for our official builds. Should not cause any issues, but you can stub out sounds to remove this dependency if necessary. See `ENABLE_SOUND` in `src/soundmanager.{cc,hh}`
 
