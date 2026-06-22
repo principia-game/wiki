@@ -9,32 +9,34 @@ If you just want to play Principia on Linux, there is an AppImage build availabl
 
 First of all install the dependency packages for your respective distro branch.
 
-> **Important note:**
+> **Note:**
 >
-> We generally recommend building Principia with Clang, as GCC's optimisations are prone to causing bugs with the game. However the game still generally works when building with GCC, as the current compilation instructions will give you. The instructions will be updated to build with Clang instead sometime in the future.
+> We are currently in the process of migrating the game to SDL3. If you are e.g. on a distribution that does not have SDL3 available in your package repositories yet, you can use `-DUSE_VENDORED_SDL3=ON` when running CMake to download and build a copy of SDL3 from source as part of the build process. See [the SDL wiki](https://wiki.libsdl.org/SDL3/README-linux) for dependencies that SDL3 needs on Linux.
+>
+> The latest stable version of Principia still uses SDL2 as of the time of writing.
 
 **Debian-based distros:**
 
 ```bash
-apt install --no-install-recommends g++ cmake ninja-build libcurl4-openssl-dev libfreetype6-dev libgl-dev libgtk-3-dev libjpeg-dev libpng-dev libsdl2-dev
+apt install --no-install-recommends g++ cmake ninja-build libcurl4-openssl-dev libfreetype6-dev libgl-dev libgtk-3-dev libjpeg-dev libpng-dev libsdl3-dev
 ```
 
 **For Arch-based distros:**
 
 ```bash
-pacman -S --needed gcc cmake ninja curl freetype2 gtk3 libjpeg libpng sdl2
+pacman -S --needed gcc cmake ninja curl freetype2 gtk3 libjpeg libpng sdl3
 ```
 
 **For Fedora:**
 
 ```bash
-dnf install gcc-c++ cmake ninja-build libcurl-devel freetype-devel gtk3-devel libjpeg-turbo-devel libpng-devel SDL2-devel
+dnf install gcc-c++ cmake ninja-build libcurl-devel freetype-devel gtk3-devel libjpeg-turbo-devel libpng-devel SDL3-devel
 ```
 
 **For Alpine:**
 
 ```bash
-apk add g++ cmake ninja curl-dev freetype-dev gtk+3.0-dev jpeg-dev libpng-dev sdl2-dev
+apk add g++ cmake ninja curl-dev freetype-dev gtk+3.0-dev jpeg-dev libpng-dev sdl3-dev
 ```
 
 Navigate somewhere you want to clone the Principia source code to and clone the source repository using Git (install the `git` package for your distro if you somehow haven't already):
@@ -61,9 +63,9 @@ See [[Information for Downstream Packagers]].
 
 
 ## Windows
-Principia can only be built with a MinGW-based Windows compiler, whether it uses GCC or LLVM. MSVC is not supported at the moment and it is unknown if Principia can be compiled with it as MSVC has historically lacked support for C99 which Principia's engine TMS is written in.
+Principia can only be built for Windows with a mingw-w64 toolchain, whether it be using GCC or LLVM. MSVC is not supported at the moment and it is unknown if Principia can be compiled with it as MSVC has historically lacked support for C99 which Principia's engine TMS is written in.
 
-The following Windows build instructions use [MSYS2](https://www.msys2.org) which is a development environment for Windows that includes MinGW-w64, libraries and other tools. Please [download the latest version of the MSYS2 installer here](https://www.msys2.org) and install it.
+The following Windows build instructions use [MSYS2](https://www.msys2.org) which is a development environment for Windows that includes mingw-w64, libraries and other tools. Please [download the latest version of the MSYS2 installer here](https://www.msys2.org) and install it.
 
 After installation, a terminal opens. Run the following command to update the environment:
 
@@ -74,7 +76,7 @@ pacman -Syu
 The terminal will then ask you to shut down the MSYS2 runtime to the finish the update. Proceed with doing so, and then go to the start menu and start the "MSYS2 CLANG64" environment (icon with orange background). Run the following command to install the necessary dependencies:
 
 ```bash
-pacman -S git mingw-w64-clang-x86_64-{clang,cmake,ninja,curl-winssl,gtk3,libpng,libjpeg-turbo,freetype,SDL2}
+pacman -S mingw-w64-clang-x86_64-{clang,cmake,ninja,curl-winssl,git,gtk3,libpng,libjpeg-turbo,freetype,sdl3}
 ```
 
 Navigate somewhere you want to clone the Principia source code to, such as on your desktop:
@@ -148,7 +150,7 @@ To make a release build run `./gradlew assemblerelease`. The release build will 
 First of all install [Homebrew](https://brew.sh). Then in the terminal install dependencies:
 
 ```sh
-brew install cmake ninja libpng libjpeg-turbo freetype sdl2 gtk+3
+brew install cmake ninja libpng libjpeg-turbo freetype sdl3 gtk+3
 ```
 
 Then go into the cloned Principia source directory and generate build files:
@@ -179,7 +181,7 @@ An initial port to Haiku OS is available and has now been merged into master. To
 Install dependencies:
 
 ```bash
-pkgman install cmake ninja curl_devel freetype_devel gtk3_devel libjpeg_turbo_devel libpng16_devel libsdl2_devel
+pkgman install cmake ninja curl_devel freetype_devel gtk3_devel libjpeg_turbo_devel libpng16_devel libsdl3_devel
 ```
 
 Then build using CMake like usual:
@@ -192,7 +194,7 @@ ninja
 
 An executable `principia` should be produced once finished which you use to run the game.
 
-While most of the game should work fine as it uses SDL2 and other cross-platform libraries, some platform-specific plumbing such as the URL protocol handler and piping is not implemented on Haiku yet (see [#146](https://github.com/Bithack/principia/issues/146) for a TODO). As a workaround, you can play community levels on Haiku by launching Principia with the URL used by the level's "Play" button link as the first argument (see [[Principia Protocol]]).
+While most of the game should work fine as it uses SDL3 and other cross-platform libraries, some platform-specific plumbing such as the URL protocol handler and piping is not implemented on Haiku yet (see [#146](https://github.com/Bithack/principia/issues/146) for a TODO). As a workaround, you can play community levels on Haiku by launching Principia with the URL used by the level's "Play" button link as the first argument (see [[Principia Protocol]]).
 
 ## Web
 **Note**: Web support is very experimental and has a lot of issues that still haven't been resolved. Contributions are welcome, and let us know how well it works.
@@ -212,31 +214,3 @@ The resulting output can be quickly tested in your browser with Emscripten's bui
 ```bash
 emrun principia.html
 ```
-
-## Notes
-
-### Raspberry Pi
-Principia works fine on a Raspberry Pi, just follow the regular compilation steps for the Linux distro branch of your choosing.
-
-### Chrome OS
-If your Chromebook is relatively recent, it supports running Linux inside of a container in Chrome OS with [Crostini](https://chromeos.dev/en/linux). Principia should run fine inside of this container, obtain it like you would with any other Linux system. If your Chromebook is x86_64 based then the AppImage should work, otherwise then follow the build steps for the distribution you're using in the container.
-
-### Cross-compile for Windows on Linux
-You can compile Principia for Windows on a Linux distro that uses pacman by adding MSYS2's UCRT64 repository which provides all the dependencies Principia needs, and then running their GCC compiler build under Wine. While the packages are all mostly self-contained to `/ucrt64/` and ROllerozxa has had success building Principia like this without destroying his system in the process, this is almost definitively not supported by either MSYS2 or your Linux distro and caution is advised when doing this.
-
-Install the latest `msys2-keyring` package from [the MSYS2 mirror repo](https://repo.msys2.org/msys/x86_64/) and install it. Then go into your `/etc/pacman.conf` and add the following lines to add the `ucrt64` repository:
-
-```conf
-[ucrt64]
-Server = https://mirror.msys2.org/mingw/$repo/
-```
-
-Run `sudo pacman -Syu` to update the database and then proceed to install all dependencies like seen in the Windows instructions.
-
-Clone the repository and create a build folder. Then navigate into the build folder with a terminal and run `wine cmd` to start a Wine command prompt. Add the binaries provided by MSYS2 to the path:
-
-```batch
-set PATH=Z:\ucrt64\bin\;%PATH%
-```
-
-Then within this command prompt, run `cmake` to generate build files and then run `ninja` to begin the build.
