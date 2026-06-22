@@ -5,7 +5,7 @@ The Principia codebase as a whole is written in a mix of C and C++. The C code r
 
 Principia only supports little endian architecture targets. Big endian is completely untested and it is very likely that some parts of the code will break on a big endian target. Upstream contributions to improve big endian compatibility are appreciated.
 
-Principia uses SDL2 which takes care of most platform-dependent behaviour. If the platform you are porting to already has support in SDL2 then things should go very smoothly. If not then you may consider using or contributing to an SDL port for your platform, if it is not available in mainline SDL it may be unofficially maintained in a fork somewhere.
+Principia uses SDL3 which takes care of most platform-dependent behaviour. If the platform you are porting to already has support in SDL3 then things should go very smoothly. If not then you may consider using or contributing to an SDL port for your platform, if it is not available in mainline SDL it may be unofficially maintained in a fork somewhere.
 
 The current graphics code for Principia needs OpenGL 2.1 or higher. OpenGL ES 2.0 is also available which is used on Android as well as on niche Linux builds, see `TMS_USE_GLES`. In a pinch, software rendering using Mesa's software renderer may be acceptable for porting if it exists on your platform.
 

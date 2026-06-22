@@ -25,7 +25,7 @@ The Principia game codebase is written in C++ while the backing (in-house) game 
 
 For graphics rendering we use OpenGL (2.1) as well as being able to use OpenGL ES 2.0 for platforms where OpenGL is not available.
 
-We use SDL2 to abstract away most platform-specific aspects of the game, but we have some platform-specific codepaths where SDL2 falls short. Other than that the core of Principia is very portable, see [[Porting Principia]] for more information.
+We use SDL to abstract away most platform-specific aspects of the game, but we have some platform-specific codepaths where SDL falls short. Other than that the core of Principia is very portable, see [[Porting Principia]] for more information.
 
 ## Documentation
 There is not a lot of written down documentation, the code is mostly the documentation. Some parts of the codebase are better commented than other, but you will likely have to do a lot of exploration on your own.

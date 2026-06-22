@@ -13,11 +13,7 @@ The buildscripts are available in [principia-game/windows-deps](https://github.c
 ## Linux
 The official AppImage builds are built in a Debian container in the CI, so libraries from Debian's repositories end up bundled in the AppImage where it is not assumed that they exist on the target system (e.g. Freetype and cURL are stable enough and should exist on the target system).
 
-We have custom builds for the following dependencies:
-
-- SDL2: Debian's SDL2 package is built with bad compile options, so we build our own from the latest SDL2 upstream
-
-The buildscripts are available in [principia-game/linux-deps](https://github.com/principia-game/linux-deps). These are built by CI on each commit to the dependency repository and uploaded to a Github release that the Principia CI then downloads.
+We build our own version of SDL3 as part of the build process (`-DUSE_VENDORED_SDL3=ON`) to ensure that we get the latest version of SDL3 with the game, as the version of Debian we build on does not even include SDL3 in its repositories.
 
 ## Android
 For Android we manage all our dependencies, and buildscripts are available in [principia-game/android-deps](https://github.com/principia-game/android-deps). These are built by CI on each commit to the dependency repository and uploaded to a Github release that the Principia CI then downloads.

@@ -20,7 +20,7 @@ Principia relies on the following runtime dependencies:
 - GTK3
 - libpng
 - libjpeg(-turbo)
-- SDL2
+- SDL2 (soon SDL3)
 - zlib
 
 None of these libraries are vendored, and the build system uses the versions provided by the system when building. You are welcome! :)

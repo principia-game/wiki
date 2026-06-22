@@ -7,7 +7,7 @@ The screenshot build is more minimal than a regular build, due to not requiring 
 
 - cURL (No network communication is necessary, levels need to be provided locally)
 - GTK3 (No dialogs are shown)
-- SDL2_mixer (No sound)
+- SDL_mixer (No sound)
 
 ## Usage
 To run the screenshot build, you need some way of rendering graphics. This may sound obvious, but the screenshot build is generally meant to be run on a headless server. For this, you will need to install Xvfb which allows you to start an X server running in a virtual framebuffer without needing a monitor, as well as the Mesa3D software driver for rendering OpenGL.
