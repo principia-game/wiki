@@ -22,6 +22,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[Troubleshoot Playing Levels]]
 
 ## Creating
+- [[Getting Started]]
 - **[[Tutorials]]**
 - [[User Interface]]
 - [[Objects]]
