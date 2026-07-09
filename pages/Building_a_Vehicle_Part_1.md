@@ -7,7 +7,7 @@ We will begin by adding a [[DC Motor]] attached to a [[Plank]], which will be th
 
 ![](/wiki/images/imgur/DSZmXJr.webp)
 
-The*DC Motor is powered by being connected to a controller (CT), so lets add that. Select a [[CT Mini]] from the Robotics category.
+The DC Motor is powered by being connected to a controller (CT), so let's add that. Select a [[CT Mini]] from the Robotics category.
 
 This controller controls the speed and direction of a motor. You can attach it to the middle of the plank or wherever you like.
 
