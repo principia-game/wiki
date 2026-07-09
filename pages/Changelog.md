@@ -4,11 +4,14 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2026.07.XX (upcoming release)
+## 2026.07.09
+**[News article](https://principia-web.se/news/30)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.07.09)**
+
 - Update the game to use SDL3!
   - Mostly a technical change, though some things may work slightly better than before.
   - When building from source, you can use `USE_VENDORED_SDL3` to download and build SDL3, if you're e.g. on a Linux distro that doesn't have it in their package manager yet.
 - Improvements for playing the game with a touchscreen on non-Android platforms (e.g. mobile Linux)
+- Adjust the UI scale automatically based on the display density (previously only on Android)
 - Allow switching the game to use OpenGL ES based on `use_gles` setting (most useful on Linux platforms without OpenGL available)
 - Use Dear Imgui for the following dialogs on desktop:
   - Sandbox (hamburger) menu popup
@@ -19,7 +22,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
 - Fix some more issues that occur when the window is resized (but it's still not perfect)
 - Remove Luasocket library
 - Windows: New redesigned installer!
-- Windows: Replace `play_community_level.bat` in portable release with new
+- Windows: Replace `play_community_level.bat` in portable release with new `register-protocol-handler.exe` program
 - Android: Fix level solutions for built-in puzzle package
 
 ## 2026.06.19
