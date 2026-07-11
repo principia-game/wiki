@@ -11,9 +11,7 @@ First of all install the dependency packages for your respective distro branch.
 
 > **Note:**
 >
-> We are currently in the process of migrating the game to SDL3. If you are e.g. on a distribution that does not have SDL3 available in your package repositories yet, you can use `-DUSE_VENDORED_SDL3=ON` when running CMake to download and build a copy of SDL3 from source as part of the build process. See [the SDL wiki](https://wiki.libsdl.org/SDL3/README-linux) for dependencies that SDL3 needs on Linux.
->
-> The latest stable version of Principia still uses SDL2 as of the time of writing.
+> Principia has upgraded from SDL2 to SDL3. If you are e.g. on a distribution that does not have SDL3 available in your package repositories yet, you can use `-DUSE_VENDORED_SDL3=ON` when running CMake to download and build a copy of SDL3 from source as part of the build process. See [the SDL wiki](https://wiki.libsdl.org/SDL3/README-linux) for dependencies that SDL3 needs on Linux.
 
 **Debian-based distros:**
 
