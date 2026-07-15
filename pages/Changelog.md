@@ -4,6 +4,18 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
+## 2026.07.15
+**[News article](https://principia-web.se/news/31)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.07.15)**
+
+- Fix new Imgui-based play menu popup not showing up
+- Revert to using X11 (using XWayland if on Wayland), fixes crashes on GNOME
+- Use Imgui for the "New level" dialog on desktop
+- Adjust font size in Imgui dialogs (should be more in line with the medium font size in the rest of the UI)
+- Fix plastic polygon being editable while playing a level
+- Fix crash in Imgui code when hiding the GUI
+- Make sandbox menu appear when ESC key is pressed rather than released
+- Remove redundant tooltip for timer objects
+
 ## 2026.07.09
 **[News article](https://principia-web.se/news/30)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.07.09)**
 
