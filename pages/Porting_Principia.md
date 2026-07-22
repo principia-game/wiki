@@ -19,7 +19,6 @@ Principia depends on the following libraries for core functionality (in addition
 In addition to this Principia has the following dependencies that may be provided:
 
 - cURL, for doing communication with a community site over the internet. If you cannot satisfy this dependency you can stub out any reliance on cURL by undefining `BUILD_CURL` in `src/main.cc`.
-- GTK3 for some dialogs. This is a **very big** one, and can likely not be satisfied unless your platform is very desktop-like. We are working on removing this dependency by switching dialogs to using Dear Imgui which is much more portable and will work on anywhere with OpenGL(ES) that Principia uses. You can use the experimental Dear Imgui dialog backend by compiling with `BACKEND_IMGUI=1`, or you can make use of the dummy dialog implementation found in `src/ui_dummy.cc`.
 
 We also have some vendored libraries in the source tree that may be worth listing:
 

@@ -16,25 +16,25 @@ First of all install the dependency packages for your respective distro branch.
 **Debian-based distros:**
 
 ```bash
-apt install --no-install-recommends g++ cmake ninja-build libcurl4-openssl-dev libfreetype6-dev libgl-dev libgtk-3-dev libjpeg-dev libpng-dev libsdl3-dev
+apt install --no-install-recommends g++ cmake ninja-build libcurl4-openssl-dev libfreetype6-dev libgl-dev libjpeg-dev libpng-dev libsdl3-dev
 ```
 
 **For Arch-based distros:**
 
 ```bash
-pacman -S --needed gcc cmake ninja curl freetype2 gtk3 libjpeg libpng sdl3
+pacman -S --needed gcc cmake ninja curl freetype2 libjpeg libpng sdl3
 ```
 
 **For Fedora:**
 
 ```bash
-dnf install gcc-c++ cmake ninja-build libcurl-devel freetype-devel gtk3-devel libjpeg-turbo-devel libpng-devel SDL3-devel
+dnf install gcc-c++ cmake ninja-build libcurl-devel freetype-devel libjpeg-turbo-devel libpng-devel SDL3-devel
 ```
 
 **For Alpine:**
 
 ```bash
-apk add g++ cmake ninja curl-dev freetype-dev gtk+3.0-dev jpeg-dev libpng-dev sdl3-dev
+apk add g++ cmake ninja curl-dev freetype-dev jpeg-dev libpng-dev sdl3-dev
 ```
 
 Navigate somewhere you want to clone the Principia source code to and clone the source repository using Git (install the `git` package for your distro if you somehow haven't already):
@@ -74,7 +74,7 @@ pacman -Syu
 The terminal will then ask you to shut down the MSYS2 runtime to the finish the update. Proceed with doing so, and then go to the start menu and start the "MSYS2 CLANG64" environment (icon with orange background). Run the following command to install the necessary dependencies:
 
 ```bash
-pacman -S mingw-w64-clang-x86_64-{clang,cmake,ninja,curl-winssl,git,gtk3,libpng,libjpeg-turbo,freetype,sdl3}
+pacman -S mingw-w64-clang-x86_64-{clang,cmake,ninja,curl-winssl,git,libpng,libjpeg-turbo,freetype,sdl3}
 ```
 
 Navigate somewhere you want to clone the Principia source code to, such as on your desktop:
@@ -148,7 +148,7 @@ To make a release build run `./gradlew assemblerelease`. The release build will 
 First of all install [Homebrew](https://brew.sh). Then in the terminal install dependencies:
 
 ```sh
-brew install cmake ninja libpng libjpeg-turbo freetype sdl3 gtk+3
+brew install cmake ninja libpng libjpeg-turbo freetype sdl3
 ```
 
 Then go into the cloned Principia source directory and generate build files:
@@ -179,7 +179,7 @@ An initial port to Haiku OS is available and has now been merged into master. To
 Install dependencies:
 
 ```bash
-pkgman install cmake ninja curl_devel freetype_devel gtk3_devel libjpeg_turbo_devel libpng16_devel libsdl3_devel
+pkgman install cmake ninja curl_devel freetype_devel libjpeg_turbo_devel libpng16_devel libsdl3_devel
 ```
 
 Then build using CMake like usual:

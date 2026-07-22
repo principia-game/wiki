@@ -5,7 +5,7 @@ This page details notes for releasing a new Principia version.
 ## Preparation
 First of all, make sure that Principia runs on the three major supported platforms first: Windows, Linux and Android. It is assumed that all of them successfully build as the CI will test this for every commit, but be sure to test them on real hardware so that no breaking bugs or regressions have cropped up. Download the latest CI artifacts on the master branch for each platform and make sure that they work well.
 
-- **Windows**: Be sure to test the installer binary on Windows 10. Run through the installer, see such that it runs, can make connections to principia-web (i.e. cURL and encryption works), and does not crash when opening GTK3 dialogs.
+- **Windows**: Be sure to test the installer binary on Windows 10. Run through the installer, see such that it runs, can make connections to principia-web (i.e. cURL and encryption works), and does not crash when opening Dear Imgui dialogs.
 - **Linux**: Test the AppImage on a couple different distro branches, old and new.
 - **Android**: Test that it runs, play some level and such.
 
