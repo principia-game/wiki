@@ -57,13 +57,14 @@
 	TODO
 
 ## Gameplay
+
 - **Final Score**
 
 	What score the player has to reach to win a level.
 
 - **Level Version**
 
-	The version the level uses which may affect the features that are available or how physics behaves.
+	The version the level uses, which may affect the features that are available or how physics behaves. See [[Level Versions]] for more information about each version.
 
 - **Pause on win**
 
