@@ -30,6 +30,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[Items]]
 - [[LuaScript]]
 - [[Level Properties]]
+- [[Connections]]
 - [[Principia for Apparatus Players]]
 
 ## Technical
