@@ -5,7 +5,11 @@
 	"sublayer_width": 15
 }) }}
 
-The Gearbox is an unused object in the game. It is very unfinished and has many bugs, and is not available in the sandbox menu.
+The Gearbox is a very unfinished object in the game from early in the game's development. In 2026.06.06 the gearbox was fixed up to the point where it no longer crashes the game when placed down, but is still not available in the sandbox menu. You can find the gearbox object in [this level](https://principia-web.se/level/1523).
+
+Below is the original object help description that was written for it:
+
+---
 
 The gearbox allows you to construct gearing mechanics. It has three axles, one input and two outputs. The first output (top) turns the incoming rotation backwards. Both of the two outputs are connected to the same output joint.
 
