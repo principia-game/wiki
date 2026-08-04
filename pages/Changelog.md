@@ -4,6 +4,20 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
+## 2026.XX.XX (upcoming release)
+- Replace all GTK dialogs with new Dear Imgui-based dialogs on desktop
+  - GTK3 is now no longer a dependency of Principia
+  - Fixes various issues where the game window loses focus or otherwise plays poorly with GTK dialogs which appear as their own window
+  - The game now runs on Wayland again where available
+  - Window no longer flickers in fullscreen mode on Windows
+- Fix Checkpoint behaving weirdly outside of Adventure mode
+- Improvements to the postprocessing pipeline
+- Make bloom and gamma correction work on OpenGL ES (still not enabled on Android)
+- Fix Android version crashing when no WebView provider is available
+- Fix building and running on Haiku OS
+- Fix building with SDL 3.2.X
+- Initial Nintendo Switch homebrew port
+
 ## 2026.07.15
 **[News article](https://principia-web.se/news/31)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.07.15)**
 
