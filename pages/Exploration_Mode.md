@@ -4,6 +4,8 @@ It was a remnant of the attempt to pivot Principia into a story-based adventure 
 
 In the open source version of Principia, the mode was renamed to Exploration mode in order to more accurately reflect its current state of rather aimless exploration, and its position in the play menu was downgraded putting the classic puzzle package at the top. It was later removed in 2025.04.05 in a rework of the play menu due to it reflecting poorly on the game for new players.
 
+The procedural terrain generation used in Exploration mode is still available in the sandbox by creating a "Procedural Adventure" level, see [[Procedural Terrain]].
+
 ## Gameplay
 The level you would spawn in was an entirely normal procedural adventure level, exactly like those that can be created in the sandbox. The terrain generation is the exact same given the same seed.
 

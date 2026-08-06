@@ -32,6 +32,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[Level Properties]]
 - [[Connections]]
 - [[Multiselect]]
+- [[Procedural Terrain]]
 - [[Principia for Apparatus Players]]
 
 ## Technical
