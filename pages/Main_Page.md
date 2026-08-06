@@ -32,6 +32,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[Level Properties]]
 - [[Connections]]
 - [[Multiselect]]
+- [[Terrain Paint]]
 - [[Procedural Terrain]]
 - [[Principia for Apparatus Players]]
 
