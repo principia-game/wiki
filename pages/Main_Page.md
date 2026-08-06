@@ -31,6 +31,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[LuaScript]]
 - [[Level Properties]]
 - [[Connections]]
+- [[Multiselect]]
 - [[Principia for Apparatus Players]]
 
 ## Technical
