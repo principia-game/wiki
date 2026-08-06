@@ -1,3 +1,5 @@
+This wiki page describes an overview of the user interface of the Principia sandbox, available when you press Create in the main menu.
+
 ![](images/principia_ui.webp)
 
 [toc]
@@ -10,73 +12,48 @@ While in the default building mode the view will be in 3D and objects can be pla
 ### Orthographic Mode
 This mode switches the view while building to 2D and more importantly it switches to Orthographic (straight line) Mode also called Gridlock Mode, this will snap the single object you are moving to exact places on a world grid, marked in the width of a small box, 0.5 world size.
 
-### Angle Lock
+### Gridlock Mode
 Gridlock Mode also provides the ability to rotate objects and lock them to one of the 16 primary directions, North, North North-east, Northeast, East North-east East etc.
 
-## Layer Visibility Mode
-
-### Invisible Layers
+### Layer Visibility Mode
 This mode allows you to look through the top layers of objects to see and move the parts underneath. Tap/click the button once to make the third layer invisible, tap/click again to make the second layer invisible and tap/click a third time to return to normal view.
 
 You will then be able to change settings and make changes to the hidden objects without accidentally grabbing an upper layer part.
 
-## Connection Edit Mode
-By activating connection edit mode you will bring up a circular icon representing every nail and pivot in your creation. Each connection can be selected and it's strength can be increased or decreased. If you plan on weakening connections, it is recommended to do it before the build is extremely cramped, it can be difficult to find the connection you are looking for in a group with many nails and pivots.
+### Advanced Modes
+When the advanced options are shown, pressing the cogwheel will bring up a dropdown with the following modes:
 
-### Destroy Connections Feature
-By decreasing the strength of a connection you can create groups of objects which can be destroyed by force or by using the "Destroy Connections" setting on an [[FX Emitter]]. Connect the emitter to the grouping with weakened connections, when the emitter is activated the entire group will shake and weaker connections will snap and crumble.
-
-## Multi-select Mode
-### Saving Objects For Export
-Multi-select Mode is used to create copies of entire groups of objects and will save you more time than any other feature. When saved, all objects in the group will maintain their settings, layer positions, positions relative to each other and rotational orientation. Objects affixed to the background like [[Platform]]s cannot be saved.
-
-First decide which group of objects you want to copy, we'll use a ten minute [[Digital display]] timer as an example. Set all connections and object settings and orient the object in the same way as you would want it to load in as. Make sure any extra wires and nails leading to other things are removed temporarily.
-
-Activate Multi-select mode, a white dot will appear on screen. Now tap the object group(timer) you wish to export, it should highlight and a new symbol will appear in the bottom left corner with a "down" load arrow(note: The two-part objects [[Damper]]s, [[Rubberband]]s and [[Open Pivot]]s are currently not exporting well, we suggest you remove them and reattach after importing)
-
-Tap the new Download icon and it will bring up a save prompt, name the object so you understand what it is, you will have a big list eventually. We name it "10mintimer". The object is now saved and can be imported and emitted from a [[Multi-emitter]]
-
-### Importing Saved Objects
-Activate Multi-select mode, a white dot will appear on screen. Tap the location you wish your imported object group to appear, the white dot should move to that position and a new icon will appear in the bottom left corner with an "up" load arrow. Tap the Upload icon and it will bring up a list of all objects you have previously saved. Select the item you want and it will load in at the position desired... if there is not enough room it will load in all mixed up with any other parts which are in it's way, be careful.
-
-Like the list of levels, you can hold down on one of the choices on the list to delete it from the list of saved objects. [[LuaScript]] boxes and customized [[Digital display]]s are the only thing you will be likely save by themselves.
-
-### Using the Multi-emitter
-The [[Multi-emitter]] requires you to save objects to the list before they can be chosen as an emittable object. The [[Multi-emitter]] size will increase depending on how large the selected imported object is. Like the normal [[Emitter]] no part of the [[Multi-emitter]] may be blocked or nothing will appear.
+- [[Multiselect]]
+- Connection edit: See [[Connections]]
+- [[Terrain Paint]]
 
 ## Building Tools
-### Rotate Object
-When an object is selected it's rotate pad icon will appear, grab ahold and drag it in a circle to rotate the object in place. The further you move your mouse or finger from center the slower it will rotate. Rotating groups of objects can become messy very quickly and they will rarely cooperate(see: The Builders Helper section above)
+When an object is selected a rotation icon will appear by it, which can be dragged to rotate the object. The further you move your mouse or finger from center the slower it will rotate. Rotating groups of objects can become messy very quickly and they will rarely cooperate
 
-### Object Info Button
-This button brings up the Wiki page for the selected object.
+When an object is selected, typically the following buttons will appear in the bottom left corner of the screen:
 
-### Change Layer Button
-All but a few parts in the game can be set on one of three different layers, when you have an object selected tapping this icon will change its layer orientation. Switching from layer three back to one will break some wiring connections as the two ends of any wire cannot be connected to objects two layers apart.
+- Object help: This button brings up the Wiki page for the selected object or item.
+- Change object layer: Most parts in the game can be set on one of three different layers, when you have an object selected tapping this icon will change its layer orientation. Switching from layer three back to one will break some wiring connections as the two ends of any wire cannot be connected to objects two layers apart.
+- Toggle lock: Lock the selected object, making it not move or rotate if objects intersect with it. This only applies in the paused sandbox state.
+- Disconnect from other objects: Removes all nail and multilayered pivot connections for the selected object.
+- Unplug cable: Remove a cable (or [[Jumper]], [[Receiver]], or [[Mini transmitter]]) from the selected object. If there are multiple cables connected a selection will appear to choose which socket to unplug.
+- Toggle moveable: Puzzle only, toggles whether an object can be moved by the player during puzzle gameplay.
+- Remove object: Deletes the selected object.
 
-### Remove Connections Button
-If this button is pressed while an object is selected all nail connection and multilayered pivot connections for that object will be undone.
+## Sandbox object menu
+The menu to the right contains all the objects available in the game. The objects are grouped into categories which can be selected by tapping the top of the menu. The menu can be scrolled up and down to view all the objects in the category.
 
-### Remove Cable Plugs Button
-This button will bring up small circles associated with each wire, [[Jumper]], [[Receiver]], or [[Mini transmitter]] that is connected to the object, tap one of the circle to separate the connection it is associated with.
+Hold the long bar on the edge of the parts menu to pull out and widen the menu. Tap the long bar to snap close the menu or drag it back closed.
 
-### Toggle Puzzle Interaction Button
-While building in Puzzle Mode objects will have an additional hand icon. If the icon is selected for a particular object the player will be able to manipulate that object during Puzzle gameplay.
+By highlighting an object already on the board and dragging out a new part of the same type, the new object will have identical settings, level orientation, size and rotation as the selected object.
 
-### Remove Object Button
-This will quite simply delete the object that is highlighted. Take care not to erase things accidentally.
+The bottom of the parts menu will show the most recent objects you have added to the level, allowing you to quickly add them again.
 
-## Pull-out Parts Menu
-Hold the long bar on the edge of the parts menu to pull out and widen the menu. Tap the long bar to snap close the menu or drag it back closed. By highlighting an object already on the board and dragging out a new part of the same type, the new object will have identical settings, level orientation, size and rotation as the selected object.
+### Quickadd
+In addition to the sandbox object menu, there is also a quickadd feature to quickly add objects, items and decorations if you know the name of them.
 
-### Select Category
-By tapping the top of the parts menu a list of categories will appear, select the desired category and the parts on the pull out menu will change.
-
-### Recently Used
-The bottom of the parts menu will show the last few items you have added to the board for easy access to more of that type.
-
-### Quickadd Button
-The quickadd icon will bring up a prompt allowing you to type in a few letters to find an object. You can then add that type of part to the center of the board.
+- On desktop: Press Space and the quickadd popup will appear, type in a few letters to filter the object list and press Enter to add the selected object to the center of the board. The object will be added at the cursor's current location.
+- On mobile: Tap the quickadd button below the hamburger menu in the top right corner to open the quickadd dialog. The object will be added at the center of the screen.
 
 ### Default Layer
 By highlighting nothing (tap/clicking the background) the icon in the bottom left will allow you to change the default layer of all new objects you bring into play.
