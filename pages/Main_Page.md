@@ -34,6 +34,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[Multiselect]]
 - [[Terrain Paint]]
 - [[Procedural Terrain]]
+- [[Wireless Connectivity]]
 - [[Principia for Apparatus Players]]
 
 ## Technical
