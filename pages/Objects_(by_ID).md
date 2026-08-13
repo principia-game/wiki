@@ -38,10 +38,10 @@ This is a list of objects by their object ID.
 |       33 |       21 | [[Power Cable]]          |
 |       34 |       22 | [[Signal Cable]]         |
 |       35 |       23 | [[Interface Cable]]      |
-|       36 |       24 | [[Magnetic plug]]        |
-|       37 |       25 | [[Magnetic socket]]      |
+|       36 |       24 | [[Magnetic Plug]]        |
+|       37 |       25 | [[Magnetic Socket]]      |
 |       38 |       26 | [[Switch]]               |
-|       39 |       27 | [[Interface clip]]       |
+|       39 |       27 | [[Interface Clip]]       |
 |       40 |       28 | [[Gyroscope]]            |
 |       41 |       29 | [[Button]]               |
 |       42 |       2A | [[XOR gate]]             |
@@ -119,7 +119,7 @@ This is a list of objects by their object ID.
 |      114 |       72 | [[Spikes]]               |
 |      115 |       73 | [[Object field]]         |
 |      116 |       74 | [[Sum]]                  |
-|      117 |       75 | [[Signal clip]]          |
+|      117 |       75 | [[Signal Clip]]          |
 |      118 |       76 | [[Avg]]                  |
 |      119 |       77 | [[muladd]]               |
 |      120 |       78 | [[Gear]]                 |

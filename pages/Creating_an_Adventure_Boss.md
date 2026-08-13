@@ -28,7 +28,7 @@ Object Finder can help the boss find the player. Wire the angle output to a sinc
 ## Other useful objects
 - [[Impact sensor]] if you want impacts to decrement the boss HP.
 - [[Object field]] can detect a specific kind of object that the boss is weak against.
-- [[Magnetic socket]] and [[Magnetic plug]] can be used for some cool effects like connecting a small piece to a larger piece.
+- [[Magnetic Socket]] and [[Magnetic Plug]] can be used for some cool effects like connecting a small piece to a larger piece.
 - [[Event Listener]] has a *Player die* event that can be useful to e.g. recharge the boss HP.
 
 ## Tips

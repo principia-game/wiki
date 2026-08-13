@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 117,
-	"name": "Signal clip",
+	"name": "Signal Clip",
 	"category": "Electronics",
 	"sublayer_width": 15
 }) }}

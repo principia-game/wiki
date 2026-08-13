@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 6,
-	"name": "Metal ball",
+	"name": "Metal Ball",
 	"category": "Basic",
 	"sublayer_width": 6
 }) }}
