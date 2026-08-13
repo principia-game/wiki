@@ -8,7 +8,7 @@ This is a list of objects by their object ID.
 |        3 |        3 | [[Cylinder]]             |
 |        4 |        4 | [[Sublayer plank]]       |
 |        5 |        5 | [[Platform]]             |
-|        6 |        6 | [[Metal ball]]           |
+|        6 |        6 | [[Metal Ball]]           |
 |        7 |        7 | [[Rail]]                 |
 |        8 |        8 | [[Rail (up)]]            |
 |        9 |        9 | [[Rail (down)]]          |
@@ -111,7 +111,7 @@ This is a list of objects by their object ID.
 |      106 |       6A | [[Sawtooth]]             |
 |      107 |       6B | [[Jumper]]               |
 |      108 |       6C | [[Interactive Box]]      |
-|      109 |       6D | [[Interactive ball]]     |
+|      109 |       6D | [[Interactive Ball]]     |
 |      110 |       6E | [[Half-unpack]]          |
 |      111 |       6F | [[Half pack]]            |
 |      112 |       70 | [[atan2]]                |
@@ -152,7 +152,7 @@ This is a list of objects by their object ID.
 |      147 |       93 | [[Laser Duplicate]]*     |
 |      148 |       94 | [[Multi-emitter]]        |
 |      149 |       95 | [[Simple Motor]]         |
-|      150 |       96 | [[Angular vel. meter]]   |
+|      150 |       96 | [[Angular Vel. Meter]]   |
 |      151 |       97 | [[Laser bouncer]]        |
 |      152 |       98 | [[Laser sensor]]         |
 |      153 |       99 | [[Velocity meter]]       |
@@ -209,7 +209,7 @@ This is a list of objects by their object ID.
 |      204 |       CC | [[Background]]           |
 |      205 |       CD | [[Oil Mixer]]            |
 |      206 |       CE | [[Repair Station]]       |
-|      207 |       CF | [[Guard point]]          |
+|      207 |       CF | [[Guard Point]]          |
 |      208 |       D0 | [[Target setter]]        |
 |      209 |       D1 | [[Ladder]]               |
 |      210 |       D2 | [[Resource]]             |

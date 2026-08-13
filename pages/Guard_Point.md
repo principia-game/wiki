@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 207,
-	"name": "Guard point",
+	"name": "Guard Point",
 	"category": "Game",
 	"sublayer_width": 15
 }) }}
