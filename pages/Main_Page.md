@@ -14,6 +14,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[FAQ]]
 - [[Changelog]]
 - [[User Data Directory]]
+- [[Principia for Education]]
 
 ## Playing
 - [[PC Controls]]
