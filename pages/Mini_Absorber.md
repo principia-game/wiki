@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 89,
-	"name": "Mini absorber",
+	"name": "Mini Absorber",
 	"category": "Tools/effects",
 	"sublayer_width": 15
 }) }}

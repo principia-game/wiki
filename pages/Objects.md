@@ -192,7 +192,7 @@ Various tools and eye candy.
 - [[Emitter]]
 - [[Mini emitter]]
 - [[Absorber]]
-- [[Mini absorber]]
+- [[Mini Absorber]]
 - [[Multi-emitter]]
 - [[Auto Absorber]]
 - [[Auto Protector]]

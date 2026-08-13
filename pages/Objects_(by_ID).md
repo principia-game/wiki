@@ -91,7 +91,7 @@ This is a list of objects by their object ID.
 |       86 |       56 | [[Absorber]]             |
 |       87 |       57 | [[Timer]]                |
 |       88 |       58 | [[Mini emitter]]         |
-|       89 |       59 | [[Mini absorber]]        |
+|       89 |       59 | [[Mini Absorber]]        |
 |       90 |       5A | [[Conveyor]]             |
 |       91 |       5B | [[Electromagnet]]        |
 |       92 |       5C | [[Plastic Beam]]         |
