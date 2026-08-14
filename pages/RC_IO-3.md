@@ -7,6 +7,8 @@
 
 Smaller version of the [[RC MONSTRO]], with only three control widgets.
 
+See [[Remote Control]] for a detailed description of how remote control panels work.
+
 ## Socket information
 - **`OUT0-2`** Raw signal
 - **`OUT3-5`** Focus signal (0 or 1)

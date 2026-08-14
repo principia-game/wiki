@@ -7,6 +7,8 @@
 
 Control panel with support for 8 widgets, capable of overriding signals and receiving feedback from external electronics.
 
+See [[Remote Control]] for a detailed description of what control panels are capable of.
+
 Each widget is connected to 2 output slots and 3 input slots, i.e. any widget 'x' is connected to **`OUTx`**, **`OUT(x+8)`**, **`INx`**, **`IN(x+8)`** and **`IN(x+16)`**.
 
 - **`OUT0-7`**
