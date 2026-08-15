@@ -14,6 +14,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[FAQ]]
 - [[Changelog]]
 - [[User Data Directory]]
+- [[Nightly Builds]]
 - [[Principia for Education]]
 
 ## Playing
@@ -40,15 +41,4 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[Principia for Apparatus Players]]
 
 ## Technical
-- [[Compiling Principia]]
-- [[Contributing to the Game]]
-- [[Meetings]]
-- [[Level Format]]
-- [[Packages]]
-- [[Principia Protocol]]
-- [[Making a Release]]
-- [[Screenshot Build]]
-- [[Source Repositories]]
-- [[Dependencies for Official Builds]]
-- [[Level Servers]]
-- [[Nightly Builds]]
+See the [[Developer Portal]] for resources for developing and contributing to Principia.
