@@ -38,6 +38,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 - [[Procedural Terrain]]
 - [[Wireless Connectivity]]
 - [[Interface System]]
+- [[Remote Control]]
 - [[Principia for Apparatus Players]]
 
 ## Technical
