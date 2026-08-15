@@ -6,8 +6,10 @@
 	"stationary": "Yes"
 }) }}
 
-Sticky note with custom text, place them on the wall to add hints to other players. Click the configuration button to modify the text on the sticky note.
+Sticky note with custom text, place them on the wall to add hints to other players.
 
-The font used on Sticky notes is called Easy Speech and can be found in the game's files at `data-shared/fonts/easyspeech.ttf`.
+Click the configuration button to modify the text on the sticky note. You can also change the font size and whether the text should be centered on the X or Y axis.
 
-Sticky notes are limited to 7 sticky notes in a level. Adding any more through level hacking will crash the game.
+The font used on Sticky notes is called [Gloria Hallelujah](https://fonts.google.com/specimen/Gloria+Hallelujah) and can be found in the game's files at `data/fonts/GloriaHallelujah-Regular.ttf`.
+
+Sticky notes are limited to 32 sticky notes in a level. Adding any more through level hacking will crash the game.
