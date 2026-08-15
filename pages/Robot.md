@@ -5,7 +5,7 @@
 	"sublayer_width": 15
 }) }}
 
-Light, hollow robot that can step on [[Command pad]] objects to receive commands. For puzzle levels, the level is completed if any robot steps on a [[Goal]]. Can be played in Adventure levels.
+Light, hollow robot that can step on [[Command Pad]] objects to receive commands. For puzzle levels, the level is completed if any robot steps on a [[Goal]]. Can be played in Adventure levels.
 
 It can be configured and customised to give it a different body, head and many different weapons. By default a robot is equipped with the following in the sandbox:
 

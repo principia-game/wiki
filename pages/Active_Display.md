@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 193,
-	"name": "Active display",
+	"name": "Active Display",
 	"category": "Signal-misc",
 	"sublayer_width": 14
 }) }}

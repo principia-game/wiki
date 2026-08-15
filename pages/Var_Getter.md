@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 176,
-	"name": "Var getter",
+	"name": "Var Getter",
 	"category": "Signal-misc",
 	"sublayer_width": 14
 }) }}
@@ -11,7 +11,7 @@ The configuration dialog is used to set the name of the variable used. The dialo
 
 You can also retrieve Principia variables using the `game:get_variable(varname)` method in Lua.
 
-To set a value, see the [[Var setter]].
+To set a value, see the [[Var Setter]].
 
 ## Socket information
 - **`OUT0`**: Value

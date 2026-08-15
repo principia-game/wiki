@@ -37,13 +37,13 @@ This door is closed until the player uses the Builder tool to place an object of
 - **[[Power Supply]]**
 - **[[Linear Servo]]**
 - **[[CT Servo]]**
-- **[[Object field]]**
+- **[[Object Field]]**
 - **[[Box]]**
 - **[[Builder]]**
 
 Attach a Linear Servo to a platform, increase its size and toggle the axis rotation. Connect it to a CT Servo and then connect the CT Servo to a Power Supply.
 
-Add an Object field somewhere. Click it and use the crosshair button to select an object, for example the box. You can put some other objects beside it so that the player is forced to try them out to see which one is correct. Connect the Object field to the CT Servo.
+Add an Object Field somewhere. Click it and use the crosshair button to select an object, for example the box. You can put some other objects beside it so that the player is forced to try them out to see which one is correct. Connect the Object Field to the CT Servo.
 
 Add an Item found in the Game category, then click its configuration button and choose Builder. That's an item the player must pick up before they can move the box.
 
@@ -57,7 +57,7 @@ The player is instantly killed by spikes if they walk under this hidden trap (Se
 **Objects used:**
 - **[[Linear Motor]]**
 - **[[CT Mini]]**
-- **[[Object field]]**
+- **[[Object Field]]**
 - **[[Power Supply]]**
 - **[[Spikes]]**
 - **[[Pixel]]s**
@@ -67,7 +67,7 @@ Add a Linear Motor, increase its size, flip it over and attach it to a platform.
 
 Connect the Linear Motor to the CT Mini and connect the CT Mini to a Power Supply. The CT Mini is a controller that controls the speed and direction of a motor. It will be set so that the trap is in a reversed state by default and then pushed down when the player walks under it.
 
-Attach an Object field to the platform and point it downwards, adjust the length to cover the whole trap and the sensor height all the way down to the ground as shown on the screenshot, then connect it to the CT Mini (**`IN2`** - reverse socket).
+Attach an Object Field to the platform and point it downwards, adjust the length to cover the whole trap and the sensor height all the way down to the ground as shown on the screenshot, then connect it to the CT Mini (**`IN2`** - reverse socket).
 
 Add 2x maximum sized pixels on layer 2 in front of the trap to cover it. Then one maximum sized pixel for each layer below the trap, the one under the trap should be colored red as a warning (layer 1 in this case).
 
@@ -93,17 +93,17 @@ Certain pixel objects disappears if the player walks or jumps over them. (See tr
 
 **Objects used:**
 - **[[Pixel]]s**
-- **[[ID field]]**
-- **[[Mini transmitter]]s**
+- **[[ID Field]]**
+- **[[Mini Transmitter]]s**
 - **[[Spikes]]** (optional)
 
-Attach a bunch of large pixels beside each other. Add platforms above the pixels as shown on the screenshot. Add two ID fields above two of the pixels, adjust the length and height so that the two pixels are covered.
+Attach a bunch of large pixels beside each other. Add platforms above the pixels as shown on the screenshot. Add two ID Fields above two of the pixels, adjust the length and height so that the two pixels are covered.
 
-An ID field reports when a specific object is inside the field. To select the player robot as the target, click the crosshair button when an ID field is selected and then use it on the robot.
+An ID Field reports when a specific object is inside the field. To select the player robot as the target, click the crosshair button when an ID Field is selected and then use it on the robot.
 
-Add two Mini transmitters and click the configuration button to set the used frequency to a random number, 20 for example. Now open the configuration window for the two pixels under the ID fields and set the opacity to the same number as the frequency used for the Mini transmitters.
+Add two Mini Transmitters and click the configuration button to set the used frequency to a random number, 20 for example. Now open the configuration window for the two pixels under the ID Fields and set the opacity to the same number as the frequency used for the Mini Transmitters.
 
-Attach the Mini transmitters to the ID fields and the trap should work. If you want this to be a deadly trap you can put spikes under it (see screenshot).
+Attach the Mini Transmitters to the ID Fields and the trap should work. If you want this to be a deadly trap you can put spikes under it (see screenshot).
 
 ![](/wiki/images/imgur/edTFwdC.webp)
 
@@ -115,24 +115,24 @@ This trap shoots land mines until it's unactivated by a controlled laser beam. (
 - **[[CT Servo]]**
 - **[[Battery (3V)]]**
 - **[[RC Micro]]**
-- **[[Mini emitter]]s**
-- **[[Land mine]]**
+- **[[Mini Emitter]]s**
+- **[[Landmine]]**
 - **[[Laser]]**
-- **[[Laser bouncer]]**
-- **[[Laser sensor]]**
+- **[[Laser Bouncer]]**
+- **[[Laser Sensor]]**
 - **[[Inverter]]**
 - **[[Cylinder]]**
 - **[[Y-splitter]]** (if you want to use two shooters)
 
-Attach two Mini emitters to platforms and point them downwards. Click the Mini emitter's crosshair button to select a Land mine as the used object. Adjust the interval a bit if you want it to shoot faster.
+Attach two Mini Emitters to platforms and point them downwards. Click the Mini Emitter's crosshair button to select a Landmine as the used object. Adjust the interval a bit if you want it to shoot faster.
 
 Attach the laser to a small sized cylinder, then attach the cylinder to a Servo Motor. Add a CT Servo, connect it to a Battery and then connect the Servo Motor to the CT Servo.
 
 Add the RC Micro somewhere that the player can use. Click the configuration button and drag out a round button. Connect the RC micro to the CT Servo.
 
-Place a Laser bouncer and a Laser sensor somewhere. The laser beam from the controlled laser should be pointed by the player toward the Laser bouncer and then bounced to the Laser sensor, see screenshot for example. You might need to change the layer.
+Place a Laser Bouncer and a Laser Sensor somewhere. The laser beam from the controlled laser should be pointed by the player toward the Laser Bouncer and then bounced to the Laser Sensor, see screenshot for example. You might need to change the layer.
 
-Connect the Laser sensor to an Inverter. The Inverter is then connected to the Mini emitters so that they shoot by default and are inactivated when the Laser sensor detects a laser beam, but since the Inverter only have one output socket and we're using two Mini emitters we will have to first connect it to a Y-splitter.
+Connect the Laser Sensor to an Inverter. The Inverter is then connected to the Mini Emitters so that they shoot by default and are inactivated when the Laser Sensor detects a laser beam, but since the Inverter only have one output socket and we're using two Mini Emitters we will have to first connect it to a Y-splitter.
 
 ![](/wiki/images/imgur/5y64iWY.webp)
 

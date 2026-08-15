@@ -33,7 +33,7 @@ Below is a list of changes in behaviour and functionality between level versions
 - Encrypt LuaScript code with XOR cipher (LOL)
 - Improvements to force of explosives
 - Mini absorber can now absorb resources
-- Mini emitter can now emit small plastic boxes and resources
+- Mini Emitter can now emit small plastic boxes and resources
 - Absorber can now absorb resources and items
 - Emitter can now emit items and resources
 - Lots of LuaScript functions... (TODO)
@@ -121,7 +121,7 @@ Nothing?
 (TODO)
 
 ## Beta 1 (Version 1)
-First 
+First
 
 ## "Null" (Version 0)
 This version number was never used. If it's shown the level file is most likely severely corrupted or not a level file at all.

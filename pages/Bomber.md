@@ -9,5 +9,5 @@ Enemy bot that shoots land mines through its mouth. May hurt itself in confusion
 
 Can be configured with the configuration button, but cannot wield weapons.
 
-- **Weapon:** Shoot a [[Land mine]] through its mouth.
+- **Weapon:** Shoot a [[Landmine]] through its mouth.
 - **Special Ability:** None

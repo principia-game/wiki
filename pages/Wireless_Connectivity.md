@@ -8,7 +8,7 @@ The following objects work with the wireless connectivity system:
 - **Transmitters:**
 	- [[Transmitter]]
 	- [[Broadcaster]]
-	- [[Mini transmitter]]
+	- [[Mini Transmitter]]
 - **Receivers:**
 	- [[Receiver]]
 	- [[Pixel]]

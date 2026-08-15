@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 75,
-	"name": "Proximity sensor",
+	"name": "Proximity Sensor",
 	"category": "Robotics",
 	"sublayer_width": 15
 }) }}

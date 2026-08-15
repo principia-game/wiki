@@ -228,10 +228,10 @@ Principia 1.4 "Adventure Update" was released on February 10th, 2014.
 - Bugfix: servo motor had mismatching CCW/CW speeds
 - Bugfix: Robot could layermove through objects once
 - Bugfix: Robot jump was weird sometimes
-- Bugfix: Object/ID field improperly reported dummys and a few other object types
+- Bugfix: Object/ID Field improperly reported dummys and a few other object types
 - New widgets: 3x1 slider, vertical sliders, 3x3 radial
 - Conveyor can now be made dynamic
-- Mini emitters and absorbers can now handle the smallest cylinder
+- Mini Emitters and absorbers can now handle the smallest cylinder
 - Emitters/absorbers can now handle all types of robots
 - Digital Display renamed to Passive Display
 - Added Active Display
@@ -361,7 +361,7 @@ Versions before 1.1.2 did not keep a proper record of the changes.
 ### Changes in 1.1.4
 - Bombs can now be destroyed using lasers.
 - Rope rendering bugfixes.
-- Command pad could not aim left.
+- Command Pad could not aim left.
 - Sparsifier bugfix.
 - Main level bugfixes.
 - Rocket/Thruster sublayer fixes.

@@ -130,7 +130,7 @@ This page documents all the settings in the Principia settings menu as they exis
 
 - **Display wireless frequency**
 
-	Display the frequency of [[Receiver]] and [[Mini transmitter]] when paused and zoomed in.
+	Display the frequency of [[Receiver]] and [[Mini Transmitter]] when paused and zoomed in.
 
 - **Do not confirm quitting sandbox adventure**
 

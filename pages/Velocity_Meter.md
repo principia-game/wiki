@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 153,
-	"name": "Velocity meter",
+	"name": "Velocity Meter",
 	"category": "Robotics",
 	"sublayer_width": 14
 }) }}

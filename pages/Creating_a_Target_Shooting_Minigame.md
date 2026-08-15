@@ -9,13 +9,13 @@ Before we begin, let's look at an overview of the objects we will use in this tu
 - [[CT Servo]] to control the states of the Linear Servos
 - [[SFX Emitter]] for sound effects
 - [[Pixel]] to design the game's layout
-- [[Mini transmitter]] and [[Receiver]] for wireless communication
-- [[Mini emitter]] to shoot [[Land mine]]s at the targets
+- [[Mini Transmitter]] and [[Receiver]] for wireless communication
+- [[Mini Emitter]] to shoot [[Landmine]]s at the targets
 - [[Plastic Beam]] to color the targets
 - [[Game Manager]] to increase and decrease the score and finish the game
 - [[Cam Targeter]] and [[Cam Zoomer]] to position the camera
 - [[Sine wave]] for the target motions
-- [[Impact sensor]] to detect when a target is hit
+- [[Impact Sensor]] to detect when a target is hit
 - [[RC Basic]] for on-screen controls
 - [[Prompt]] to display a message if the game is lost
 
@@ -32,9 +32,9 @@ Now build the rest of the frame with pixels and add two more Linear Servos like 
 
 ![](/wiki/images/imgur/8NxacJx.webp)
 
-We'll create the shooter at the bottom using a Mini emitter. Add it to the level, then rotate it upwards and attach it to the Linear Servo. Adjust the "Emit velocity" to maximum and "Emit interval" to about 0.40. You can change these later.
+We'll create the shooter at the bottom using a Mini Emitter. Add it to the level, then rotate it upwards and attach it to the Linear Servo. Adjust the "Emit velocity" to maximum and "Emit interval" to about 0.40. You can change these later.
 
-Add a Power Supply and a CT Servo to the mini game. The Power Supply gives power to the controllers that we're going to use for all the Linear Servos. Double click and drag to add a cable between the CT Servo and the Mini emitter and then a power cable from the Power Supply to the CT Servo (**`IN0`**). The CT Servo is a controller that allows you to control the precise state or angle of a motor.
+Add a Power Supply and a CT Servo to the mini game. The Power Supply gives power to the controllers that we're going to use for all the Linear Servos. Double click and drag to add a cable between the CT Servo and the Mini Emitter and then a power cable from the Power Supply to the CT Servo (**`IN0`**). The CT Servo is a controller that allows you to control the precise state or angle of a motor.
 
 ![](/wiki/images/imgur/SW6BsTK.webp)
 
@@ -42,9 +42,9 @@ Add an RC Basic beside the Power Supply. Then open up the configuration window f
 
 ![](/wiki/images/imgur/JGD15Y7.webp)
 
-Drag a cable from the RC Basic to the CT Servo controller. For the shooter we will use a wireless connection instead of a cable. Add a Mini transmitter and a Receiver. You can click the configuration button to change the frequency used but just leave them as default for this. Attach the Mini transmitter to the RC Basic (**`OUT1`**) and attach the Receiver to the Mini emitter, first click the layer button (or 'X' button if you're on a PC) to put it in layer 2.
+Drag a cable from the RC Basic to the CT Servo controller. For the shooter we will use a wireless connection instead of a cable. Add a Mini Transmitter and a Receiver. You can click the configuration button to change the frequency used but just leave them as default for this. Attach the Mini Transmitter to the RC Basic (**`OUT1`**) and attach the Receiver to the Mini Emitter, first click the layer button (or 'X' button if you're on a PC) to put it in layer 2.
 
-We have now two working buttons for the shooter but in order to shoot stuff we first need to select what to shoot. We will use a Land mine for this tutorial, so grab a Land mine, click the Mini emitter and then use the crosshair button to select the Land mine as its used object. After that you can delete the Land mine object.
+We have now two working buttons for the shooter but in order to shoot stuff we first need to select what to shoot. We will use a Landmine for this tutorial, so grab a Landmine, click the Mini Emitter and then use the crosshair button to select the Landmine as its used object. After that you can delete the Landmine object.
 
 You can now click the play button to test the shooter. To automatically activate the RC Basic at start we can use an RC activator. Click the target button and select the RC as shown in the screenshot.
 
@@ -64,17 +64,17 @@ Add 3 plastic beams. They should have different sizes, different colors and be a
 
 If you click the play button you can see that they now move back and forth.
 
-In order to set a different score for each target we need a way to know when the target has been hit. We can use an Impact sensor for that, just attach one below each Plastic beam. The Impact sensor must have the same size as the plastic beam. When an object (the Land mine) collides with the Impact sensor, a value is sent through **`OUT0`** which will be connected to a Game Manager object that adds a specific score from that target.
+In order to set a different score for each target we need a way to know when the target has been hit. We can use an Impact Sensor for that, just attach one below each Plastic beam. The Impact Sensor must have the same size as the plastic beam. When an object (the Landmine) collides with the Impact Sensor, a value is sent through **`OUT0`** which will be connected to a Game Manager object that adds a specific score from that target.
 
-After you've attached an Impact sensor to the plastic beams, add 3x SFX Emitters to the level, one for each target. Open up the configuration window for the SFX Emitters and change the sound to "Ding" and check the "Global sound" checkbox. These objects will now make a Ding sound every time a target is hit and the score is increased.
+After you've attached an Impact Sensor to the plastic beams, add 3x SFX Emitters to the level, one for each target. Open up the configuration window for the SFX Emitters and change the sound to "Ding" and check the "Global sound" checkbox. These objects will now make a Ding sound every time a target is hit and the score is increased.
 
 ![](/wiki/images/imgur/pqm5wrw.webp)
 
 Add a Game Manager object at the bottom of the mini game and we will start connecting these objects.
 
-We will use wireless connections for this. You can use cables if you prefer but then you'll need to add a Y-splitter for each SFX Emitter. With a wireless connection we don't need that since we'll have two Receivers for each Mini transmitter.
+We will use wireless connections for this. You can use cables if you prefer but then you'll need to add a Y-splitter for each SFX Emitter. With a wireless connection we don't need that since we'll have two Receivers for each Mini Transmitter.
 
-Add 3x Mini transmitters, one for each Impact sensor. Then add 6x Receivers. Click the info button on the Game Manager to see what sockets you can use. For this example we'll use **`IN3`** (score +50) for the first target, **`IN4`** (score +100) for the second target and **`IN6`** (score +500) for the third target.
+Add 3x Mini Transmitters, one for each Impact Sensor. Then add 6x Receivers. Click the info button on the Game Manager to see what sockets you can use. For this example we'll use **`IN3`** (score +50) for the first target, **`IN4`** (score +100) for the second target and **`IN6`** (score +500) for the third target.
 
 You can use the score number as frequency Hz for the transmitters/receivers to easier keep track of the different connections. See screenshot for example.
 

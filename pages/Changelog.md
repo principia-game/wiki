@@ -180,7 +180,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
 ## 2023.12.26 (1.5.2 Beta 2023-12-26)
 **[News article](https://principia-web.se/news/12)**
 
-- Sticky note limit has been raised to 32
+- Sticky Note limit has been raised to 32
 - Limit of fluid particles has been increased
 - Less risk of the game crashing when changing strength of connections
 - Switch to CMake for the build system

@@ -8,7 +8,7 @@
 Small emitter that can be attached to objects.
 
 Objects that can be emitted:
-- [[Ball]], [[Metal Ball]], [[Corner]], [[Land mine]], [[Bomb]] and [[Interactive Ball]]
+- [[Ball]], [[Metal Ball]], [[Corner]], [[Landmine]], [[Bomb]] and [[Interactive Ball]]
 - [[Interactive Box]] and [[Box]] (only at smallest box size)
 
 ## Socket information

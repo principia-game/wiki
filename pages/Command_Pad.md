@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 64,
-	"name": "Command pad",
+	"name": "Command Pad",
 	"category": "Game",
 	"sublayer_width": 15,
 	"stationary": "Yes"
@@ -8,7 +8,7 @@
 
 When a robot steps on the command pad, it will receive and obey the given message.
 
-The [[Goal]] object acts similar to a Command pad, and wins the game if a robot touches it.
+The [[Goal]] object acts similar to a Command Pad, and wins the game if a robot touches it.
 
 ## Available commands:
 - **`Stop`**: Stops the robot.

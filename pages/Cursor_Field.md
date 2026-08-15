@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 183,
-	"name": "Cursor field",
+	"name": "Cursor Field",
 	"category": "Interaction",
 	"sublayer_width": 14
 }) }}

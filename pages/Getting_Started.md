@@ -16,7 +16,7 @@ Here are some examples of what some objects output:
 - Binary signal: A [[Button]] outputs 0.0 until it is pressed, then it outputs 1.0.
 - Binary signal: An [[OR gate]] will output 1.0 if any of its inputs are 1.0 (actually &ge;0.5), otherwise it will output 0.0.
 - Analog signal: The [[Tiltmeter]] will output a value closer to 1 the more tilted it is. (analog signal)
-- Analog signal: The [[Proximity sensor]] will measure the distance to the nearest object and output the distance as one minus a fraction of its maximum reach.
+- Analog signal: The [[Proximity Sensor]] will measure the distance to the nearest object and output the distance as one minus a fraction of its maximum reach.
 
 You can use a [[Debugger]] or [[Grapher]] to see the signal output of any object.
 
@@ -45,19 +45,19 @@ To set up your own rules, all you need to do is connect your electronics to the 
 ### Detect mouse clicks and get mouse position
 To detect mouse clicks, use the [[Event Listener]] object and choose the Mouse Click or Mouse Release event.
 
-You can not get the absolute mouse position, but you can get the relative position (an angle and a distance) using the [[Cursor finder]] object. Please note that the angle is relative to the [[Cursor finder]] itself.
+You can not get the absolute mouse position, but you can get the relative position (an angle and a distance) using the [[Cursor Finder]] object. Please note that the angle is relative to the [[Cursor Finder]] itself.
 
 ### Detect an object
 
 There are many ways to detect objects. Here are some options:
 
-- [[ID field]] - Detects a specific unique object of your choice.
-- [[Object field]] - Detects any object of a specific type. For example, detect all cylinders, all robots or all wooden balls.
-- [[Proximity sensor]] - Reports the distance to the nearest object (of any type).
-- [[Laser]] + [[Laser sensor]] - Detect when the laser beam is interrupted.
-- [[Pressure sensor]] - Detects if something heavy is lying on the sensor or if the sensor was hit hard.
-- [[Impact sensor]] - Detects direct collisions.
-- [[Object finder]] - Reports the relative angle and distance to another unique object.
+- [[ID Field]] - Detects a specific unique object of your choice.
+- [[Object Field]] - Detects any object of a specific type. For example, detect all cylinders, all robots or all wooden balls.
+- [[Proximity Sensor]] - Reports the distance to the nearest object (of any type).
+- [[Laser]] + [[Laser Sensor]] - Detect when the laser beam is interrupted.
+- [[Pressure Sensor]] - Detects if something heavy is lying on the sensor or if the sensor was hit hard.
+- [[Impact Sensor]] - Detects direct collisions.
+- [[Object Finder]] - Reports the relative angle and distance to another unique object.
 
 ### Build a simple car
 To build a simple car that drives forward automatically, you will need [[Wheel]]s, a few planks, a [[Simple Motor]], a [[Battery (3V)]], and a power cable. Then connect the motor to an RC object (such as [[RC Basic]]) to control it. See [Example: Simple Motor](https://principia-web.se/archive/level/378) for a minimal example of a simple controllable car.

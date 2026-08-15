@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 208,
-	"name": "Target setter",
+	"name": "Target Setter",
 	"category": "Robotics",
 	"sublayer_width": 6
 }) }}

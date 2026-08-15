@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 160,
-	"name": "Cursor finder",
+	"name": "Cursor Finder",
 	"category": "Interaction",
 	"sublayer_width": 14
 }) }}

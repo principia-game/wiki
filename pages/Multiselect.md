@@ -14,7 +14,7 @@ Once selected, you can move around the group of objects assuming it is not attac
 ## Export/Import
 When something is selected you will have the option to export the selection to an object file, which can later be cloned or imported into another level. Once a descriptive name has been given to the object, it will be saved and can later imported.
 
-Exported objects will retain all properties, including their relative positions and rotation. In addition to exporting larger contraptions, this feature can also be useful for exporting individual [[LuaScript]] or [[Digital display]] objects allowing them to be reused in other levels.
+Exported objects will retain all properties, including their relative positions and rotation. In addition to exporting larger contraptions, this feature can also be useful for exporting individual [[LuaScript]] or [[Digital Display]] objects allowing them to be reused in other levels.
 
 When no object is selected, the leftmost button will allow you to import objects from a previously exported selection. Once an object is opened, a box will be made visible to show how large the object is. You can then place it down by double clicking. Do note that if there is not enough room for the object to be placed, it may be jumbled up with other objects.
 

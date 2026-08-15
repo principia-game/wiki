@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 151,
-	"name": "Laser bouncer",
+	"name": "Laser Bouncer",
 	"category": "Robotics",
 	"sublayer_width": 15
 }) }}

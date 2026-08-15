@@ -22,12 +22,12 @@ Emit effects like explosions or highlight the boss when they are hit.
 
 The "Destroy Connections" effect will only affect connections that are destructible, you can make connections destructible by entering connection edit mode in the sandbox (hammer icon below the play button) and lowering their max force slightly. The FX emitter will only affect connections that are "reachable" from the FX emitter by following connections between objects it itself is attached to.
 
-### [[Object finder]] and [[sincos]]
+### [[Object Finder]] and [[sincos]]
 Object Finder can help the boss find the player. Wire the angle output to a sincos component and you will have 4 values - positive X, negative X, positive Y and negative Y.
 
 ## Other useful objects
-- [[Impact sensor]] if you want impacts to decrement the boss HP.
-- [[Object field]] can detect a specific kind of object that the boss is weak against.
+- [[Impact Sensor]] if you want impacts to decrement the boss HP.
+- [[Object Field]] can detect a specific kind of object that the boss is weak against.
 - [[Magnetic Socket]] and [[Magnetic Plug]] can be used for some cool effects like connecting a small piece to a larger piece.
 - [[Event Listener]] has a *Player die* event that can be useful to e.g. recharge the boss HP.
 

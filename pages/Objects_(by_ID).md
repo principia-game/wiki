@@ -17,7 +17,7 @@ This is a list of objects by their object ID.
 |       12 |        C | [[Rope]]                 |
 |       13 |        D | [[Wheel]]                |
 |       14 |        E | [[Magnet]]               |
-|       15 |        F | [[Seesaw base]]          |
+|       15 |        F | [[Seesaw Base]]          |
 |       16 |       10 | [[Open Pivot]]           |
 |       17 |       11 | [[Ball Pipeline]]        |
 |       18 |       12 | [[Gearbox]]              |
@@ -32,7 +32,7 @@ This is a list of objects by their object ID.
 |       27 |       1B | [[RC Basic]]             |
 |       28 |       1C | [[RC IO-3]]              |
 |       29 |       1D | [[RC MONSTRO]]           |
-|       30 |       1E | [[Wall pivot]]           |
+|       30 |       1E | [[Wall Pivot]]           |
 |       31 |       1F | [[Battery (3V)]]         |
 |       32 |       20 | [[Power Supply]]         |
 |       33 |       21 | [[Power Cable]]          |
@@ -62,11 +62,11 @@ This is a list of objects by their object ID.
 |       57 |       39 | [[0-Reset M. Avg]]       |
 |       58 |       3A | [[Debugger]]             |
 |       59 |       3B | [[Robot]]                |
-|       60 |       3C | [[Sticky note]]          |
+|       60 |       3C | [[Sticky Note]]          |
 |       61 |       3D | [[Plastic Cup]]          |
 |       62 |       3E | [[Dummy]]                |
 |       63 |       3F | [[Breadboard]]           |
-|       64 |       40 | [[Command pad]]          |
+|       64 |       40 | [[Command Pad]]          |
 |       65 |       41 | [[Goal]]                 |
 |       66 |       42 | [[Game Manager]]         |
 |       67 |       43 | [[Damper]]*              |
@@ -77,20 +77,20 @@ This is a list of objects by their object ID.
 |       72 |       48 | [[Tiltmeter]]            |
 |       73 |       49 | [[Thruster]]             |
 |       74 |       4A | [[Rocket]]               |
-|       75 |       4B | [[Proximity sensor]]     |
+|       75 |       4B | [[Proximity Sensor]]     |
 |       76 |       4C | [[Y-splitter]]           |
-|       77 |       4D | [[Value shift]]          |
+|       77 |       4D | [[Value Shift]]          |
 |       78 |       4E | [[Toggle Button]]        |
 |       79 |       4F | [[IF gate]]              |
-|       80 |       50 | [[ID field]]             |
+|       80 |       50 | [[ID Field]]             |
 |       81 |       51 | [[Interactive Cylinder]] |
 |       82 |       52 | [[Dragfield]]            |
 |       83 |       53 | [[Emitter]]              |
-|       84 |       54 | [[Land mine]]            |
+|       84 |       54 | [[Landmine]]            |
 |       85 |       55 | [[Bomb]]                 |
 |       86 |       56 | [[Absorber]]             |
 |       87 |       57 | [[Timer]]                |
-|       88 |       58 | [[Mini emitter]]         |
+|       88 |       58 | [[Mini Emitter]]         |
 |       89 |       59 | [[Mini Absorber]]        |
 |       90 |       5A | [[Conveyor]]             |
 |       91 |       5B | [[Electromagnet]]        |
@@ -100,14 +100,14 @@ This is a list of objects by their object ID.
 |       95 |       5F | [[Rubberband]]           |
 |       96 |       60 | [[Rubberband]]*          |
 |       97 |       61 | [[Angular Damper]]       |
-|       98 |       62 | [[Object finder]]        |
-|       99 |       63 | [[Pressure sensor]]      |
+|       98 |       62 | [[Object Finder]]        |
+|       99 |       63 | [[Pressure Sensor]]      |
 |      100 |       64 | [[sincos]]               |
 |      101 |       65 | [[Sine wave]]            |
 |      102 |       66 | [[Random]]               |
 |      103 |       67 | [[Memory module]]        |
-|      104 |       68 | [[Gravity manager]]      |
-|      105 |       69 | [[Gravity setter]]       |
+|      104 |       68 | [[Gravity Manager]]      |
+|      105 |       69 | [[Gravity Setter]]       |
 |      106 |       6A | [[Sawtooth]]             |
 |      107 |       6B | [[Jumper]]               |
 |      108 |       6C | [[Interactive Box]]      |
@@ -117,7 +117,7 @@ This is a list of objects by their object ID.
 |      112 |       70 | [[atan2]]                |
 |      113 |       71 | [[Pointer]]              |
 |      114 |       72 | [[Spikes]]               |
-|      115 |       73 | [[Object field]]         |
+|      115 |       73 | [[Object Field]]         |
 |      116 |       74 | [[Sum]]                  |
 |      117 |       75 | [[Signal Clip]]          |
 |      118 |       76 | [[Avg]]                  |
@@ -141,28 +141,28 @@ This is a list of objects by their object ID.
 |      136 |       88 | [[Mul]]                  |
 |      137 |       89 | [[RC Micro]]             |
 |      138 |       8A | [[sub]]                  |
-|      139 |       8B | [[Mini transmitter]]     |
+|      139 |       8B | [[Mini Transmitter]]     |
 |      140 |       8C | [[Checkpoint]]           |
 |      141 |       8D | [[Spikebot]]             |
 |      142 |       8E | [[Companion]]            |
 |      143 |       8F | [[Bomber]]               |
-|      144 |       90 | [[Impact sensor]]        |
+|      144 |       90 | [[Impact Sensor]]        |
 |      145 |       91 | [[Lobber]]               |
 |      146 |       92 | [[HP Control]]           |
 |      147 |       93 | [[Laser Duplicate]]*     |
 |      148 |       94 | [[Multi-emitter]]        |
 |      149 |       95 | [[Simple Motor]]         |
 |      150 |       96 | [[Angular Vel. Meter]]   |
-|      151 |       97 | [[Laser bouncer]]        |
-|      152 |       98 | [[Laser sensor]]         |
-|      153 |       99 | [[Velocity meter]]       |
+|      151 |       97 | [[Laser Bouncer]]        |
+|      152 |       98 | [[Laser Sensor]]         |
+|      153 |       99 | [[Velocity Meter]]       |
 |      154 |       9A | [[Wrap add]]             |
 |      155 |       9B | [[Wrap sub]]             |
 |      156 |       9C | [[Event Listener]]       |
-|      157 |       9D | [[Passive display]]      |
+|      157 |       9D | [[Passive Display]]      |
 |      158 |       9E | [[Ceil]]                 |
 |      159 |       9F | [[RC Activator]]         |
-|      160 |       A0 | [[Cursor finder]]        |
+|      160 |       A0 | [[Cursor Finder]]        |
 |      161 |       A1 | [[Auto Absorber]]        |
 |      162 |       A2 | [[Wrap distance]]        |
 |      163 |       A3 | [[Weight]]               |
@@ -178,14 +178,14 @@ This is a list of objects by their object ID.
 |      173 |       AD | [[cmp-le]]               |
 |      174 |       AE | [[SFX Emitter]]          |
 |      175 |       AF | [[Synthesizer]]          |
-|      176 |       B0 | [[Var getter]]           |
-|      177 |       B1 | [[Var setter]]           |
+|      176 |       B0 | [[Var Getter]]           |
+|      177 |       B1 | [[Var Setter]]           |
 |      178 |       B2 | [[Snap]]                 |
 |      179 |       B3 | [[Sequencer]]            |
 |      180 |       B4 | [[Shape Extruder]]       |
 |      181 |       B5 | [[Linear Decay]]         |
 |      182 |       B6 | [[Limit]]                |
-|      183 |       B7 | [[Cursor field]]         |
+|      183 |       B7 | [[Cursor Field]]         |
 |      184 |       B8 | [[LuaScript]]            |
 |      185 |       B9 | [[Block]]                |
 |      186 |       BA | [[Item]]                 |
@@ -195,7 +195,7 @@ This is a list of objects by their object ID.
 |      190 |       BE | [[Fluid]]                |
 |      191 |       BF | [[Artificial Gravity]]   |
 |      192 |       C0 | [[Auto Protector]]       |
-|      193 |       C1 | [[Active display]]       |
+|      193 |       C1 | [[Active Display]]       |
 |      194 |       C2 | [[Plastic Box]]          |
 |      195 |       C3 | [[Boundary]]             |
 |      196 |       C4 | [[Robot Manager]]        |
@@ -210,7 +210,7 @@ This is a list of objects by their object ID.
 |      205 |       CD | [[Oil Mixer]]            |
 |      206 |       CE | [[Repair Station]]       |
 |      207 |       CF | [[Guard Point]]          |
-|      208 |       D0 | [[Target setter]]        |
+|      208 |       D0 | [[Target Setter]]        |
 |      209 |       D1 | [[Ladder]]               |
 |      210 |       D2 | [[Resource]]             |
 |      211 |       D3 | [[Vendor]]               |

@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 152,
-	"name": "Laser sensor",
+	"name": "Laser Sensor",
 	"category": "Robotics",
 	"sublayer_width": 15
 }) }}

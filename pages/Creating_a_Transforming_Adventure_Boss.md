@@ -14,7 +14,7 @@ The legs used in this example are the same as in the [Simple Walker](Creating_a_
 To make the player able to shoot off the legs we can use a **FX emitter** to destroy the connections after x amount of damage and make the legs fall off.
 
 Basic objects used for destructible legs:
-* [[Impact sensor]] - To sense when the leg has been hit
+* [[Impact Sensor]] - To sense when the leg has been hit
 * [[Condenser]] - To calculate the damage done to the leg
 * [[FX Emitter]] -  To destroy connections and make explosions
 * [[Auto Absorber]] - Use with timer to remove the legs some time after being destroyed
@@ -23,7 +23,7 @@ Use "Connection Edit" and click a connection you want to make destructible and d
 
 ![](/wiki/images/imgur/pWIeRG5.webp)
 
-To activate the FX emitter after a certain amount of damage we can calculate the health of the legs by using an Impact sensor connected to a Condenser. See Boss HP below for a more detailed example. Make sure to have a separate HP calculation for the legs.
+To activate the FX emitter after a certain amount of damage we can calculate the health of the legs by using an Impact Sensor connected to a Condenser. See Boss HP below for a more detailed example. Make sure to have a separate HP calculation for the legs.
 
 To delete the legs after they fall off you can connect a [[Timer]] to an Auto Absorber. Set the timer to e.g 2 seconds and connect it to the FX emitter output socket.
 
@@ -32,11 +32,11 @@ To make the boss start hovering over the player after the legs have been destroy
 
 * [[Toggler]] - To activate the rockets and used objects after the legs have been destroyed
 * [[Rocket]]
-* [[Proximity sensor]]
+* [[Proximity Sensor]]
 * [[Tiltmeter]]
 * [[Gyroscope]]
 * [[Servo Motor]] - To change angle of some rockets when the boss is tilting
-* [[Object finder]] - To find the player's angle and hover towards it
+* [[Object Finder]] - To find the player's angle and hover towards it
 * [[Stabilizer]]
 
 For a more detailed tutorial for basic hovering, see [this hovercraft tutorial](Building_A_Hovercraft).
@@ -47,7 +47,7 @@ The amount of Rockets that you should use depends on the size and weight of the 
 
 Here's an example of a setup that will make the boss hover:
 
-- Four pointed down **rockets** (two at each side) that are connected to a **Proximity sensor** at the bottom. The **proximity sensor** senses how far the boss is from the ground and powers the rockets according to that.
+- Four pointed down **rockets** (two at each side) that are connected to a **Proximity Sensor** at the bottom. The **proximity sensor** senses how far the boss is from the ground and powers the rockets according to that.
 - Two **rockets** that are activated by the **tiltmeter** and attached to **Servo Motors** that are connected to a **gyroscope**.
 - Four **rockets** that point to left/right and are connected to **proximity sensors** at the sides and/or an **Object Finder** to find the angle of the player. Use together with a **sincos** to convert an angle to positive x/y and negative x/y.
 - Some extra **thrusters** if needed to fine tune the stability
@@ -73,7 +73,7 @@ In this example: After the body is destroyed the head with two eyes will be drop
 ## Boss HP & visible HP bar
 Objects needed:
 
-- [[Impact sensor]]
+- [[Impact Sensor]]
 - [[Condenser]]
 - [[sub]]
 - [[Ceil]]
@@ -81,7 +81,7 @@ Objects needed:
 
 The **condenser** can be used as HP for the boss. A **condenser** has two inputs, IN0 and IN1. IN0 will "fill" the **condenser**. Send 0.1 to it and it increments its internal value by 0.1, for example. IN1 decrements the **condenser**. The output, OUT0, is the percentage of how filled the **condenser** is. If you read 1.0 from OUT0, it means it is full, and 0.0 means it is empty.
 
-You can set the **condenser's** *Initial Fraction* to 1 and *Max Value* to 1. Attach **Impact Sensors** where the boss will take damage. Connect the Impact **Sensors** to a **sub**, set the **sub** to 0.9 for example. Connect the **Sub** to the **condenser**. Now when the **Impact sensors** have been hit a value of 0.10 will be decremented from the **condenser**. Add a **ceil** and **inverter** to only output 1 when the condenser (HP) is empty. Then you can connect it to a **Game Manager** to complete the game or a **toggler** to activate some other features on the boss. So when the boss has been hit about 10 times (this might vary a bit depending on the sensitivity used on the impact sensors). If you want it to have more HP, adjust the values used for the **condenser** and/or **sub**.
+You can set the **condenser's** *Initial Fraction* to 1 and *Max Value* to 1. Attach **Impact Sensors** where the boss will take damage. Connect the Impact **Sensors** to a **sub**, set the **sub** to 0.9 for example. Connect the **Sub** to the **condenser**. Now when the **Impact Sensors** have been hit a value of 0.10 will be decremented from the **condenser**. Add a **ceil** and **inverter** to only output 1 when the condenser (HP) is empty. Then you can connect it to a **Game Manager** to complete the game or a **toggler** to activate some other features on the boss. So when the boss has been hit about 10 times (this might vary a bit depending on the sensitivity used on the impact sensors). If you want it to have more HP, adjust the values used for the **condenser** and/or **sub**.
 
 ![](/wiki/images/imgur/h4mXO6m.webp)
 
@@ -109,7 +109,7 @@ You can place it somewhere on the side or on the boss if there is space.
 ## Other useful tips
 * You can use a [[Time Ctrl]] with a [[Timer]] for a short slow motion effect when the boss transforms or breaks down.
 * Use a [[Game Manager]] to set score or complete/end game
-* [[HP Control]] can be used to change the player HP. You can use it with an [[ID field]] to heal the player when walking near it.
+* [[HP Control]] can be used to change the player HP. You can use it with an [[ID Field]] to heal the player when walking near it.
 * [[Emitter]] or [[Multi-emitter]] can be used to spawn mini adds during the boss fight.
 * [[Event Listener]] can detect when the player dies and then recharge the boss HP for example.
 * [[SFX Emitter]] can be used for different sound effects.

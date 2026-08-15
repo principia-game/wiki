@@ -36,7 +36,7 @@ When an object is selected, typically the following buttons will appear in the b
 - Change object layer: Most parts in the game can be set on one of three different layers, when you have an object selected tapping this icon will change its layer orientation. Switching from layer three back to one will break some wiring connections as the two ends of any wire cannot be connected to objects two layers apart.
 - Toggle lock: Lock the selected object, making it not move or rotate if objects intersect with it. This only applies in the paused sandbox state.
 - Disconnect from other objects: Removes all nail and multilayered pivot connections for the selected object.
-- Unplug cable: Remove a cable (or [[Jumper]], [[Receiver]], or [[Mini transmitter]]) from the selected object. If there are multiple cables connected a selection will appear to choose which socket to unplug.
+- Unplug cable: Remove a cable (or [[Jumper]], [[Receiver]], or [[Mini Transmitter]]) from the selected object. If there are multiple cables connected a selection will appear to choose which socket to unplug.
 - Toggle moveable: Puzzle only, toggles whether an object can be moved by the player during puzzle gameplay.
 - Remove object: Deletes the selected object.
 

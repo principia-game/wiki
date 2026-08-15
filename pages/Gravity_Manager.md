@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 104,
-	"name": "Gravity manager",
+	"name": "Gravity Manager",
 	"category": "Tools/effects",
 	"sublayer_width": 15
 }) }}

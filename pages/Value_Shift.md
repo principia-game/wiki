@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 77,
-	"name": "Value shift",
+	"name": "Value Shift",
 	"category": "Signal-i1o1",
 	"sublayer_width": 14
 }) }}

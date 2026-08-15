@@ -32,7 +32,7 @@ Principia has a significantly larger selection of objects available at your disp
 
 ### Interactive/Game
 - Interactive red cylinder: can be recreated with interactive Principia objects, but keep in mind they have different behaviour.
-- Marble goal: Can be recreated with the [[Plastic Cup]] or [[Plastic Beam]]s, with an [[Object finder]] connected to a [[Game Manager]]'s **`IN0`** socket to make it win the level when a ball rolls into it.
+- Marble goal: Can be recreated with the [[Plastic Cup]] or [[Plastic Beam]]s, with an [[Object Finder]] connected to a [[Game Manager]]'s **`IN0`** socket to make it win the level when a ball rolls into it.
 - Marble: Any kind of ball object, see Marble goal.
 
 ### Misc.
@@ -42,7 +42,7 @@ Principia has a significantly larger selection of objects available at your disp
 - Cable Hub:
   - For boosting motor voltage by combining power supplies, you can boost the [[Power Supply]] voltage much higher in Principia than in Apparatus.
   - For making one panel button control several motors use the [[Y-splitter]].
-- Explosive: [[Land mine]]
+- Explosive: [[Landmine]]
 
 ## Notes/Pitfalls
 
@@ -57,7 +57,7 @@ If you are on a computer then you should read through the Sandbox section of the
 ### Destruction
 Joints and connections are indestructible by default in Principia, as compared to Apparatus where connections always have a risk of breaking. Under the advanced sandbox menu options there's the Connection Edit mode which allows you to change the strength of individual connections, or you can use the Multi-Select configuration menu which can change the connection strength in bulk on a selected group.
 
-Cables cannot be ripped out of their sockets in Principia, and there is no way to change the behaviour to that of Apparatus. To make something more destructible you may choose to replace [[Signal Cable]]s with wireless [[Receiver]]s and [[Mini transmitter]]s.
+Cables cannot be ripped out of their sockets in Principia, and there is no way to change the behaviour to that of Apparatus. To make something more destructible you may choose to replace [[Signal Cable]]s with wireless [[Receiver]]s and [[Mini Transmitter]]s.
 
 ### RC Widgets
 In Principia, you can customise RC widgets as compared to in Apparatus where they are hardcoded depending on the amount of panel sockets. You can choose to recreate the setup of the Apparatus panels, but you might want to create a more unique control scheme anyways.
@@ -66,4 +66,4 @@ In Principia, you can customise RC widgets as compared to in Apparatus where the
 Interactive objects in Principia behave differently to how they do in Apparatus. The red cylinder in Apparatus is able to apply seemingly infinite force to follow the finger, while interactive objects in Principia may be dropped if it can't follow the cursor. By default interactive objects need be within range of a [[Dragfield]] or the unlimited interactive level property enabled.
 
 ### Puzzles
-The win condition for puzzles in Principia can be all sorts of things, as you can control when and how the player wins the level. For an Apparatus Challenge-style level, you may want to use a [[Ball]] or a [[Metal Ball]] combined with an [[Object field]] to detect it, wired up to a [[Game Manager]]'s IN0 slot to win the level. An example can be found in [this Principia recreation of Apparatus level 34](https://principia-web.se/level/1181).
+The win condition for puzzles in Principia can be all sorts of things, as you can control when and how the player wins the level. For an Apparatus Challenge-style level, you may want to use a [[Ball]] or a [[Metal Ball]] combined with an [[Object Field]] to detect it, wired up to a [[Game Manager]]'s IN0 slot to win the level. An example can be found in [this Principia recreation of Apparatus level 34](https://principia-web.se/level/1181).

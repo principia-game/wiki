@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 84,
-	"name": "Land mine",
+	"name": "Landmine",
 	"category": "Mechanics",
 	"sublayer_width": 6
 }) }}

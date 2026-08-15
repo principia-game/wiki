@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 99,
-	"name": "Pressure sensor",
+	"name": "Pressure Sensor",
 	"category": "Robotics",
 	"sublayer_width": 15
 }) }}

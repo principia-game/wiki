@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 144,
-	"name": "Impact sensor",
+	"name": "Impact Sensor",
 	"category": "Robotics",
 	"sublayer_width": 15
 }) }}

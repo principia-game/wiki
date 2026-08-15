@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 115,
-	"name": "Object field",
+	"name": "Object Field",
 	"category": "Robotics",
 	"sublayer_width": 6
 }) }}

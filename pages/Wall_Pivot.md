@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 30,
-	"name": "Wall pivot",
+	"name": "Wall Pivot",
 	"category": "Mechanics",
 	"sublayer_width": 15,
 	"stationary": "Yes"

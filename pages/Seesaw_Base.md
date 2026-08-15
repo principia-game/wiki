@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 15,
-	"name": "Seesaw base",
+	"name": "Seesaw Base",
 	"category": "Mechanics",
 	"sublayer_width": 15
 }) }}

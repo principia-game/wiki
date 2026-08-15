@@ -33,9 +33,9 @@ The Condenser stores an internal value of the sum of all previous values read fr
 
 **Objects used:**
 - **[[Thruster]]s**
-- **[[Object field]]**
+- **[[Object Field]]**
 - **[[Stabilizer]]**
-- **[[Mini transmitter]]**
+- **[[Mini Transmitter]]**
 - **[[Receiver]]s**
 - **[[Wheel]]s**
 - **[[Plastic Beam]]s**

@@ -1,6 +1,6 @@
 {{ infobox_object({
 	"id": 139,
-	"name": "Mini transmitter",
+	"name": "Mini Transmitter",
 	"category": "Electronics",
 	"sublayer_width": 15
 }) }}

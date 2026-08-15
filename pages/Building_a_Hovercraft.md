@@ -17,9 +17,9 @@ When you click the motors its important that the purple line with a square is al
 
 ![](/wiki/images/imgur/mydaF7c.webp)
 
-To keep the hovercraft above the ground we will add a [[Proximity sensor]] and two thrusters below the Plastic Beam. The Proximity Sensor measures the distance to the closest object and activates the thrusters when its near the ground. You can increase the length slider a bit to make it hover higher above the ground.
+To keep the hovercraft above the ground we will add a [[Proximity Sensor]] and two thrusters below the Plastic Beam. The Proximity Sensor measures the distance to the closest object and activates the thrusters when its near the ground. You can increase the length slider a bit to make it hover higher above the ground.
 
-Instead of cables we will use a wireless connection by adding a [[Mini transmitter]] on the Proximity Sensor and two receivers, one on each thruster. You can leave the frequency as default.
+Instead of cables we will use a wireless connection by adding a [[Mini Transmitter]] on the Proximity Sensor and two receivers, one on each thruster. You can leave the frequency as default.
 
 ![](/wiki/images/imgur/95ynZKg.webp)
 
@@ -31,7 +31,7 @@ Click the configuration button for the RC Basic and drag out a button for left, 
 
 ![](/wiki/images/imgur/fiH2pFx.webp)
 
-Add two thrusters for the up button, one for left and one for right. Then add a Mini transmitter with different frequency for each button on the RC Basic. Add a receiver with the same frequency as the Mini transmitter for that specific button and then attach them to the thrusters.
+Add two thrusters for the up button, one for left and one for right. Then add a Mini Transmitter with different frequency for each button on the RC Basic. Add a receiver with the same frequency as the Mini Transmitter for that specific button and then attach them to the thrusters.
 
 ![](/wiki/images/imgur/P4r5oKa.webp)
 

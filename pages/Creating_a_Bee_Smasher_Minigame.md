@@ -15,9 +15,9 @@ Before we begin, let's look at an overview of the objects we will use in this tu
 - [[Prompt]] to display a message at start
 - [[SFX Emitter]] for sound effects
 - [[Timer]] to add a time limit to the game
-- [[Proximity sensor]] to sense when the bee hits a wall
+- [[Proximity Sensor]] to sense when the bee hits a wall
 - [[Thruster]] to make the bee able to fly
-- [[Cursor field]] to sense when player clicks on a bee
+- [[Cursor Field]] to sense when player clicks on a bee
 - [[Auto Absorber]] to remove the bee
 - [[Stabilizer]] to add some stabilization to the bee
 
@@ -40,11 +40,11 @@ Now it's time to design the bees. We will use different colored bees for differe
 
 The bee will be made on layer 2 so that we can attach objects under it. To create the bee we will use [[Plastic Box]]es with different colors. Adjust the size to smallest and begin "painting" your bee by attaching them to each other. Use Orthographic View (under play button) for grid snapping and better view.
 
-Make sure to leave some space for a [[Cursor field]] object. This object will be used to detect when the player clicks on the bee.
+Make sure to leave some space for a [[Cursor Field]] object. This object will be used to detect when the player clicks on the bee.
 
 ![](/wiki/images/imgur/XKCSrke.webp)
 
-Click the configuration button for the [[Cursor field]] and adjust the size of the field to cover the whole bee.
+Click the configuration button for the [[Cursor Field]] and adjust the size of the field to cover the whole bee.
 
 For maximum sized field, use these values:
 
@@ -56,25 +56,25 @@ The first object we will add is a [[Thruster]]. This is a small rocket that will
 
 ![](/wiki/images/imgur/ujlPZve.webp)
 
-Add a [[Proximity sensor]] at the front of the bee. This object will sense when the bee is about to hit a wall or another bee, then a signal will be sent to an [[Auto Absorber]] which will remove the bee. This is to prevent having too many bees up on the screen at the same time. Add the Auto Absorber under the proximity sensor but don't connect them yet.
+Add a [[Proximity Sensor]] at the front of the bee. This object will sense when the bee is about to hit a wall or another bee, then a signal will be sent to an [[Auto Absorber]] which will remove the bee. This is to prevent having too many bees up on the screen at the same time. Add the Auto Absorber under the proximity sensor but don't connect them yet.
 
-Adjust the Proximity sensor's length slider to about 3.00 and the range to 0.30
+Adjust the Proximity Sensor's length slider to about 3.00 and the range to 0.30
 
 ![](/wiki/images/imgur/uW01eCN.webp)
 
-The [[Auto Absorber]] will also be used to remove the bee after being smashed (clicked on). To connect it to both the [[Cursor field]] and [[Proximity sensor]] we need to use an [[OR gate]]. We will also add an [[Y-splitter]] for an extra output socket which will be used for signaling a Game Manager to increase the score.
+The [[Auto Absorber]] will also be used to remove the bee after being smashed (clicked on). To connect it to both the [[Cursor Field]] and [[Proximity Sensor]] we need to use an [[OR gate]]. We will also add an [[Y-splitter]] for an extra output socket which will be used for signaling a Game Manager to increase the score.
 
-Connect **`OUT0`** of the Cursor field (**`OUT0`**) to the Y-splitter, then connect the Y-splitter to one of the OR gate inputs, and connect the Proximity sensor to the other input of the OR gate. Then connect the OR gate to the Auto Absorber.
+Connect **`OUT0`** of the Cursor Field (**`OUT0`**) to the Y-splitter, then connect the Y-splitter to one of the OR gate inputs, and connect the Proximity Sensor to the other input of the OR gate. Then connect the OR gate to the Auto Absorber.
 
 Finally add a [[Stabilizer]] to the bee to make it fly straight. Increase the Angular Damping just a bit, you can change it later when fine tuning the bees.
 
 ![](/wiki/images/imgur/0ugWnXs.webp)
 
-Now we will add a [[Mini transmitter]] to send a wireless signal to a [[Game Manager]]. You can leave the frequency as default (1) for the yellow bee. Attach the Mini transmitter to the empty Y-splitter output.
+Now we will add a [[Mini Transmitter]] to send a wireless signal to a [[Game Manager]]. You can leave the frequency as default (1) for the yellow bee. Attach the Mini Transmitter to the empty Y-splitter output.
 
 Put a Game Manager somewhere behind the pixel wall of the mini game layout. To play a sound when a bee is smashed, add a [[SFX Emitter]] and connect it to a Y-splitter.
 
-Add a [[Receiver]] to receive the signal from the Mini transmitter and attach the receiver to the Y-splitter, then connect the Y-splitter to the correct input socket of the Game Manager (**`IN3`** in this case). Click the info button to see what they do. **`IN3`** gives +50 score.
+Add a [[Receiver]] to receive the signal from the Mini Transmitter and attach the receiver to the Y-splitter, then connect the Y-splitter to the correct input socket of the Game Manager (**`IN3`** in this case). Click the info button to see what they do. **`IN3`** gives +50 score.
 
 Add two more SFX emitters and two Y-splitters. These will be used for the blue and red bees later. Click the configuration button to change to the preferred sound. For this tutorial we'll use the "Absorb" sound for the yellow and blue bee and the "Weird" sound for the red bee. Also, click the checkmark for Global sound.
 
@@ -136,7 +136,7 @@ To add a time limit to the mini game we can use a [[Timer]]. Click the configura
 
 Add a [[Cam Zoomer]] and a [[Cam Targeter]]. We will use these two objects to set the camera to a fixed position in the middle. If you click the Cam Targeter and then the crosshair button you can select which object it should focus on.
 
-For this game we have no object in the middle that can be targeted but we can add a Plastic box with an Auto Absorber and then use a wireless connection (Mini transmitter + Receiver) from the [[Prompt]] object and set the camera to the Plastic box. This will then be removed by the Auto Absorber after clicking OK on the startup message. Adjust the [[Cam Zoomer]] so that only the mini game layout is visible when starting the game.
+For this game we have no object in the middle that can be targeted but we can add a Plastic box with an Auto Absorber and then use a wireless connection (Mini Transmitter + Receiver) from the [[Prompt]] object and set the camera to the Plastic box. This will then be removed by the Auto Absorber after clicking OK on the startup message. Adjust the [[Cam Zoomer]] so that only the mini game layout is visible when starting the game.
 
 ![](/wiki/images/imgur/eopffWo.webp)
 
