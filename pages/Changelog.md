@@ -4,12 +4,16 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2026.XX.XX (upcoming release)
+## 2026.08.16
+**[News article](https://principia-web.se/news/33)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.08.16)**
+
 - Replace all GTK dialogs with new Dear Imgui-based dialogs on desktop
   - GTK3 is now no longer a dependency of Principia
   - Fixes various issues where the game window loses focus or otherwise plays poorly with GTK dialogs which appear as their own window
   - The game now runs on Wayland again where available
   - Window no longer flickers in fullscreen mode on Windows
+- New Sticky Note font, allow more lines of text on a single sticky note
+- Improvements to the main menu
 - Fix Checkpoint behaving weirdly outside of Adventure mode
 - Improvements to the postprocessing pipeline
 - Make bloom and gamma correction work on OpenGL ES (still not enabled on Android)
