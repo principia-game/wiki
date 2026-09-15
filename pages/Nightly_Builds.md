@@ -18,8 +18,10 @@ The following links use nightly.link to provide permalinks for the latest nightl
 All Github Actions artifacts come inside of a zip archive even if there is only one file inside. For artifacts that already are an archive this means there are nested archives.
 
 ### Windows
-- [Windows Installer, 64-bit](https://nightly.link/Bithack/principia/workflows/windows/master/principia-setup.exe.zip)
-- [Windows Portable, 64-bit](https://nightly.link/Bithack/principia/workflows/windows/master/principia-portable.7z.zip)
+- [**Windows Installer, 64-bit**](https://nightly.link/Bithack/principia/workflows/windows/master/principia_win64.exe.zip)
+- [**Windows Portable, 64-bit**](https://nightly.link/Bithack/principia/workflows/windows/master/principia_win64.7z.zip)
+- [Windows Installer, 32-bit](https://nightly.link/Bithack/principia/workflows/windows/master/principia_win32.exe.zip)
+- [Windows Portable, 32-bit](https://nightly.link/Bithack/principia/workflows/windows/master/principia_win32.7z.zip)
 
 ### Android
 - [Android APK, ARM & x86_64 (unsigned!)](https://nightly.link/Bithack/principia/workflows/android/master/principia-release-unsigned.apk.zip)
