@@ -4,6 +4,14 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
+## 2026.XX.XX (upcoming release)
+- New Windows build pipeline (smaller binaries, 32-bit builds...)
+- Fix synthesizer audio being garbled on some platforms
+- Fix robot manager reporting incorrect arm angles with touchscreen controls
+- Fix Imgui prompt dialog not pausing the level
+- Fix main menu logo showing up as a black box on old GLES devices
+- Bundle CA store for HTTPS certificate verification on Android
+
 ## 2026.08.16
 **[News article](https://principia-web.se/news/33)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.08.16)**
 
