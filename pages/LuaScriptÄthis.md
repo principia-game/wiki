@@ -5,7 +5,7 @@
 ## `this:write()`
 Added in **1.3**
 
-Writes the value to the given OUT-socket. Values will be clamped between 0.0 and 1.0.
+Writes the value to the given OUT-socket. Values will be clamped between 0.0 and 1.0, if you wish to wrap the value you can use the modulo operator (`% 1`).
 
 **NOTE:** This should only be called once per step.
 
