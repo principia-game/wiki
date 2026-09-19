@@ -4,12 +4,18 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
-## 2026.XX.XX (upcoming release)
+## 2026.09.19
+**[News article](https://principia-web.se/news/35)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.09.19)**
+
+- A couple of dialogs on Android have been replaced with their Imgui implementations. (Guard Point, Key Listener, Animal, Sandbox mode, Event Listener, New level)
 - New Windows build pipeline (smaller binaries, 32-bit builds...)
+- Add swipe-to-scroll gesture for touch input in Imgui dialogs
 - Fix synthesizer audio being garbled on some platforms
 - Fix robot manager reporting incorrect arm angles with touchscreen controls
 - Fix Imgui prompt dialog not pausing the level
+- Fix Outdoor background not rotating when a Cam Rotator is used
 - Fix main menu logo showing up as a black box on old GLES devices
+- Allow running multiple instances of Principia with `--ignore-pipe`
 - Bundle CA store for HTTPS certificate verification on Android
 
 ## 2026.08.16
