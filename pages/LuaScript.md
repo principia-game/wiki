@@ -34,6 +34,7 @@ In addition to the reference, you can see [[LuaScript/Examples]] for small compl
 
 ## Other resources
 - [[LuaScript/Examples]] - Small examples of using the LuaScript API
+- [[LuaScript/Pre-1.5]] - Information about the old LuaScript execution model in levels created before 1.5
 - [[Learning Lua Scripting with Principia]] by zardOz
 - [Principia Lua image converter](/image-to-lua/)
 - [Principia LuaScript API cheatsheet](/luascript-api-cheatsheet) - Printable overview of the API
