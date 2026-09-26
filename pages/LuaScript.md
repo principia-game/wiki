@@ -38,3 +38,5 @@ In addition to the reference, you can see [[LuaScript/Examples]] for small compl
 - [[Learning Lua Scripting with Principia]] by zardOz
 - [Principia Lua image converter](/image-to-lua/)
 - [Principia LuaScript API cheatsheet](/luascript-api-cheatsheet) - Printable overview of the API
+
+<!-- Dummy wikilinks for creating link associations: [[LuaScript/this]], [[LuaScript/game]], [[LuaScript/cam]], [[LuaScript/world]], [[LuaScript/entity]], [[LuaScript/creature]], [[LuaScript/Callbacks]] -->
