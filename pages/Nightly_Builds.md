@@ -22,6 +22,8 @@ All Github Actions artifacts come inside of a zip archive even if there is only 
 - [**Windows Portable, 64-bit**](https://nightly.link/Bithack/principia/workflows/windows/master/principia_win64.7z.zip)
 - [Windows Installer, 32-bit](https://nightly.link/Bithack/principia/workflows/windows/master/principia_win32.exe.zip)
 - [Windows Portable, 32-bit](https://nightly.link/Bithack/principia/workflows/windows/master/principia_win32.7z.zip)
+- [Windows Installer, ARM64](https://nightly.link/Bithack/principia/workflows/windows/master/principia_winarm64.exe.zip)
+- [Windows Portable, ARM64](https://nightly.link/Bithack/principia/workflows/windows/master/principia_winarm64.7z.zip)
 
 ### Android
 - [Android APK, ARM & x86_64 (unsigned!)](https://nightly.link/Bithack/principia/workflows/android/master/principia-release-unsigned.apk.zip)
@@ -29,7 +31,8 @@ All Github Actions artifacts come inside of a zip archive even if there is only 
 As the name implies the APK file is unsigned, and you will need to sign it with `apksigner` before it can be installed.
 
 ### Linux
-- [Linux AppImage, 64-bit](https://nightly.link/Bithack/principia/workflows/linux/master/Principia-x86_64.AppImage.zip)
+- [Linux AppImage, x86_64](https://nightly.link/Bithack/principia/workflows/linux/master/Principia-x86_64.AppImage.zip)
+- [Linux AppImage, ARM64](https://nightly.link/Bithack/principia/workflows/linux/master/Principia-aarch64.AppImage.zip)
 
 If you are on Linux you might also want to [build from source](/wiki/Compiling_Principia#linux) yourself from the latest master.
 
