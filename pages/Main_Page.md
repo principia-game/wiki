@@ -13,6 +13,7 @@ If you would like to contribute to the Principia Wiki, see the [[Contributing to
 ## General
 - [[FAQ]]
 - [[Changelog]]
+- [[History]]
 - [[User Data Directory]]
 - [[Nightly Builds]]
 - [[Principia for Education]]
