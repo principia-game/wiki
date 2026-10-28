@@ -234,3 +234,30 @@ ninja
 You will have a `principia.nro` which can be run in an emulator or on a real homebrewed Switch.
 
 Note: Since devkitPro's SDL3 currently has no way of reading data files from the ROMFS, you need to put the game's data directory `data` at the root of the SDMC for now.
+
+## iOS
+**Note**: iOS support is very experimental and will likely not work at all. Contributions are welcome.
+
+Install the latest version of [Xcode](https://xcodereleases.com/) your version of macOS supports (requires an Apple ID).
+
+Then after cloning the Principia repository there are buildscripts that will automatically build dependencies and then Principia. It accepts two environment variables to specify which SDK and architecture to target, depending on what you want to build for.
+
+Building for a real iOS device:
+
+```bash
+IOS_SDK=iphoneos IOS_ARCH=arm64 ./packaging/ios/build-ios.sh
+```
+
+Building for iPhone Simulator on Apple Silicon Macs:
+
+```bash
+IOS_SDK=iphonesimulator IOS_ARCH=arm64 ./packaging/ios/build-ios.sh
+```
+
+Building for iPhone Simulator on Intel hardware or in a macOS VM:
+
+```bash
+IOS_SDK=iphonesimulator IOS_ARCH=x86_64 ./packaging/ios/build-ios.sh
+```
+
+The result will be both an extracted `Principia.app` directory in the `build-ios` folder as well as an unsigned `.ipa` in the root of the source tree.
