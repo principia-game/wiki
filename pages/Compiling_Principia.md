@@ -212,3 +212,25 @@ The resulting output can be quickly tested in your browser with Emscripten's bui
 ```bash
 emrun principia.html
 ```
+
+## Nintendo Switch
+**Note**: Nintendo Switch support is very experimental and has a lot of issues that still haven't been resolved. Contributions are welcome, and let us know how well it works.
+
+We use the Switch homebrew toolchain and libraries provided by [devkitpro](https://devkitpro.org/). Follow their [Getting Started](https://devkitpro.org/wiki/Getting_Started) instructions to prepare the development environment.
+
+Once set up, install the necessary toolchain and libraries:
+
+```bash
+pacman -S devkitA64 switch-{cmake,curl,freetype,harfbuzz,libjpeg-turbo,libpng,mesa}
+```
+
+Then configure and build:
+
+```bash
+cmake .. -DCMAKE_TOOLCHAIN_FILE="/opt/devkitpro/cmake/Switch.cmake" -DUSE_VENDORED_SDL3=ON -G Ninja
+ninja
+```
+
+You will have a `principia.nro` which can be run in an emulator or on a real homebrewed Switch.
+
+Note: Since devkitPro's SDL3 currently has no way of reading data files from the ROMFS, you need to put the game's data directory `data` at the root of the SDMC for now.
