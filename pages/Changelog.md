@@ -5,7 +5,7 @@ For versions prior to the source code release, please see [[Old Changelog]].
 [toc]
 
 ## 2026.10.22
-***[News article](https://principia-web.se/news/36)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.10.22)**
+**[News article](https://principia-web.se/news/36)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.10.22)**
 
 - Android: Update bundled CA store to remove roots related to the eMudhra certificate compromise
 - Fix buffer overflow vulnerability in the featured level parser (Credit: Grace / Noxii)
