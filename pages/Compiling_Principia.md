@@ -194,6 +194,38 @@ An executable `principia` should be produced once finished which you use to run 
 
 While most of the game should work fine as it uses SDL3 and other cross-platform libraries, some platform-specific plumbing such as the URL protocol handler and piping is not implemented on Haiku yet (see [#146](https://github.com/Bithack/principia/issues/146) for a TODO). As a workaround, you can play community levels on Haiku by launching Principia with the URL used by the level's "Play" button link as the first argument (see [[Principia Protocol]]).
 
+
+## NetBSD
+Principia supports NetBSD. You will need some OpenGL support on your system, either drivers for a GPU supported by NetBSD, or using the llvmpipe software renderer.
+
+After [setting up `pkgsrc`](https://www.netbsd.org/docs/pkgsrc/using.html#using-pkg), install the dependencies:
+
+```bash
+pkgin install git cmake ninja-build curl freetype libjpeg-turbo png zlib
+```
+
+If you didn't install a compiler toolchain as part of NetBSD, you can install `gcc14` or another compiler package from `pkgsrc`.
+
+Clone the Principia repository and move into it:
+
+```bash
+git clone https://github.com/Bithack/principia
+cd principia
+```
+
+If you want to build the latest stable version of Principia rather than master, you can check out the latest version as listed on the [download page](/download) with `git checkout YYYY.MM.DD`.
+
+Then build:
+
+```bash
+mkdir build; cd build
+cmake .. -DUSE_VENDORED_SDL3=ON -G Ninja
+ninja
+```
+
+When finished a `principia` executable will be produced, which can then be run.
+
+
 ## Web
 **Note**: Web support is very experimental and has a lot of issues that still haven't been resolved. Contributions are welcome, and let us know how well it works.
 
