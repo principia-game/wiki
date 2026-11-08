@@ -11,6 +11,17 @@ First of all, make sure that Principia runs on the three major supported platfor
 
 Also update the changelog on the wiki beforehand so that it is up to date with the changes in the new release, and write a Fastlane changelog metadata for the F-Droid version (you need to do this before tagging a release!).
 
+### Backport release
+A backport release is a release that is made in a separate branch, branched off from the last stable commit. This is usually done to get out important fixes while keeping other things in the main branch that are not ready for release. The branch name should be called `backport-YYYY-MM-DD`, matching the date that will be used for the version name (if the version is planned to be released tomorrow, use tomorrow's date). To create the branch, grab the commit hash of the last stable release and run:
+
+```bash
+git branch backport-<YYYY-MM-DD> <commit hash>
+```
+
+To cherrypick patches from master, you can use `git cherry-pick` with commit hashes. Once all the patches are in, do a release commit that increments the version and make sure to tag the release from this branch!
+
+Once the release has been done, merge the backport branch into master to make sure that the version bump is reflected in the master branch as well.
+
 ## Incrementing version & tagging
 To increment the version, the script `set_version.lua` found in the `utils/` folder in the source tree should be used. It will update the version across the entire codebase at once reducing human error. Simply run it with `luajit ./utils/set_version.lua` and input the new version code and version name. When done, review the changes it has done and commit it.
 
