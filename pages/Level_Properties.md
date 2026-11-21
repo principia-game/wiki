@@ -16,11 +16,11 @@
 ## World
 - **Background**
 
-	Select one of the available backgrounds to use for your level.
+	Select one of the available backgrounds to use for your level (see [[Level Backgrounds]]).
 
-	- **Background colour**
+	- **Background color**
 
-	Colour of background if a coloured background has been used.
+	Color of background if a colored background has been used.
 
 - **Left/Right/Bottom/Top border**
 
