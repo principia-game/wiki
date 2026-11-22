@@ -4,6 +4,17 @@ For versions prior to the source code release, please see [[Old Changelog]].
 
 [toc]
 
+## 2026.XX.XX (upcoming release)
+- Android: Replace a large amount of dialogs with Imgui-based dialogs from other platforms (too many to mention, see [Are we Imgui Yet?](https://principia-web.se/imgui/android) for a full list)
+- Add more options to the play menu dropdown
+- Allow the game's GUI font to scale much larger if needed
+- Add `world:set_bg(id)` LuaScript function
+- Fix postprocessing framebuffer not adjusting to window resize
+- Fix incorrect counting of factory resources
+- Fix obscure hangs on older Android devices
+- Experimental ARM64 builds for Linux and Windows
+- Fix level loader being broken on big endian
+
 ## 2026.10.22
 **[News article](https://principia-web.se/news/36)** - **[Release](https://github.com/Bithack/principia/releases/tag/2026.10.22)**
 
