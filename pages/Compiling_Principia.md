@@ -201,7 +201,7 @@ Principia supports NetBSD. You will need some OpenGL support on your system, eit
 After [setting up `pkgsrc`](https://www.netbsd.org/docs/pkgsrc/using.html#using-pkg), install the dependencies:
 
 ```bash
-pkgin install git cmake ninja-build curl freetype libjpeg-turbo png zlib
+pkgin install git cmake curl freetype2 libjpeg-turbo png zlib
 ```
 
 If you didn't install a compiler toolchain as part of NetBSD, you can install `gcc14` or another compiler package from `pkgsrc`.
@@ -219,8 +219,8 @@ Then build:
 
 ```bash
 mkdir build; cd build
-cmake .. -DUSE_VENDORED_SDL3=ON -G Ninja
-ninja
+cmake .. -DUSE_VENDORED_SDL3=ON
+make -j4
 ```
 
 When finished a `principia` executable will be produced, which can then be run.
